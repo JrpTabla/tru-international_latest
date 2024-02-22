@@ -1,0 +1,314 @@
+.landing-section {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), linear-gradient(0deg, #E7AA2D -1.91%, #1681C2 72.18%);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}  
+
+.landing-img-background {
+
+    min-width: 1920px;
+    top: 125px;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.background-img-left {
+    position: absolute;
+    width: 525px;
+    height: 398px;
+}
+
+.background-img-right {
+    position: absolute;
+    width: 525px;
+    height: 398px;
+    right: -44px;
+}
+
+.lading-section-text-div {
+    margin-top: 165px;
+    max-width: 961px;
+    display: flex;
+    flex-direction: column;
+}
+
+.landing-title,
+.landing-sub-title {
+    color: #fff;
+}
+
+.landing-sub-title {
+    margin-top: 24px;
+}
+
+.landing-title span,
+.landing-sub-title span {
+    color: #E7AA2D;
+}
+
+
+.btn-get-started {
+    z-index: 10;
+    margin-top: 32px;
+    display: inline-flex;
+    padding: 13px 68px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 64px;
+    /*  */
+    color: white;
+    text-align: center;
+    /* font-family: "Articulat CF"; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 166.667% */
+
+    background-image: linear-gradient(90deg, #FFC400 -1.92%, #F17727 63.45%);
+    /* box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75); */
+
+    /* background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19); */
+
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+
+
+
+}
+
+
+.btn-get-started:hover {
+    color: white !important;
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-get-started:focus {
+    outline: none;
+}
+
+/* .btn-get-started:hover {
+    color: white;
+    background: linear-gradient(-180deg, #FFC400 -1.92%, #F17727 63.45%);
+} */
+
+
+.lading-section-card-div {
+    margin-top: 72px;
+    display: flex;
+    flex-direction: column;
+}
+
+.landing-card-title {
+    /* color: var(--white, var(--white, #FFF));
+    text-align: center; */
+    /* H8 */
+    /* font-family: "Articulat CF"; */
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 125% */
+}
+
+
+.landing-card-description {
+
+    /* color: var(--white, var(--white, #FFF));
+    text-align: center; */
+    /* body-text-huge */
+    /* font-family: Bahnschrift; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 133.333% */
+
+}
+
+
+.landing-card:hover .landing-card-description {
+    display: block;
+
+}
+
+.landing-card-description {
+    display: none;
+
+    
+}
+
+.card-div-2 {
+    display: none;
+}
+
+
+.landing-card-sm-1 {
+    width: 350px;
+    height: 218px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    border: 1px solid #9AD9FF;
+    background: #1681C2;
+    padding: 16px;
+    margin: 0 4px;
+
+}
+
+
+.landing-card-sm-2 {
+    width: 350px;
+    height: 218px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    border: 1px solid #E7AA2D;
+    background: #B17B0D;
+    padding: 16px;
+    margin: 0 4px;
+
+}
+
+.landing-card-sm-3 {
+    width: 350px;
+    height: 218px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    border: 1px solid #8ECB86;
+    background: #569E4C;
+    padding: 16px;
+    margin: 0 4px;
+
+}
+
+.landing-card-sm-title {
+    /* font-family: "Articulat CF"; */
+    margin-top: 8px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 150% */
+    color: white;
+}
+
+.landing-card-sm-content {
+    /* font-family: Bahnschrift; */
+    margin-top: 14px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 150% */
+    color: white;
+}
+
+
+
+@media (max-width: 1440px) {
+
+    .lading-section-card-div {
+        max-width: 1024px !important;
+    }
+
+    .landing-card {
+        min-height: 400px !important;
+    }
+
+}
+
+
+@media (max-width: 1024px) {
+
+    .lading-section-text-div {
+        max-width: 768px !important;
+    }
+
+    .lading-section-card-div {
+        max-width: 768px !important;
+    }
+    
+    .landing-img-background {
+
+        min-width: 1700px !important;
+    }
+
+
+    .landing-title {
+        font-size: 56px !important;
+        line-height: 64px !important; /* 114.286% */
+    }
+
+    .landing-sub-title {
+        font-size: 32px !important;
+        line-height: 40px !important; /* 125% */
+    }
+
+    .card-div {
+        display: none;
+    }
+
+    .card-div-2 {
+        display: flex !important;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .lading-section-text-div {
+        max-width: 350px !important;
+        margin-top: 150px !important;
+    }
+
+    .landing-title {
+
+        font-size: 28px !important;
+        line-height: 40px !important; /* 142.857% */
+    }
+
+    .landing-sub-title {
+
+        font-size: 18px !important;
+        line-height: 30px !important; /* 166.667% */
+        margin:auto;
+        max-width: 200px;
+    }
+
+    .lading-section-card-div  {
+        margin-top: 35px;
+    }
+
+
+
+    .landing-card-title {
+        /* font-family: "Articulat CF"; */
+        font-size: 24px !important;
+        line-height: 36px !important; 
+        margin:auto;
+        max-width: 375px;
+    }
+
+    .card-div-2 {
+        margin-bottom: 63px !important;
+    }
+
+    .landing-img-background {
+        min-width: 750px !important;
+        top: 250px !important;
+    }
+
+    .background-img-left,
+    .background-img-right {
+        width: 262.5px;
+        height: 199px;
+    }
+    
+}

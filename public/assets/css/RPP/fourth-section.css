@@ -1,0 +1,88 @@
+.rpp-fourth-section {
+
+    position: relative;
+    margin-bottom: 52px;
+}
+
+.rpp-section-container {
+    max-width: 1440px;
+    height: 100%;
+}
+
+
+.rpp-fourth-section-title {
+    margin-top: 120px;
+    max-width: 678px;
+    color: #131313;
+    text-align: center;
+
+    /* H2 */
+    /* font-family: "Articulat CF"; */
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px; /* 113.889% */
+}
+
+.rpp-fourth-section-card-title {
+    width: 334px;
+    color: #131313;
+    /* H6 */
+    /* font-family: "Articulat CF"; */
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 52px; /* 130% */
+}
+
+.rpp-fourth-section-card-description {
+    margin-top: 18px;
+    color: #131313;
+
+    /* body-text-huge */
+    /* font-family: Bahnschrift; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 133.333% */
+}
+
+
+@media (max-width: 1024px) {
+
+    .rpp-fourth-section-title {
+        margin-top: 32px;
+    }
+
+}
+
+@media (max-width: 599px) {
+
+    .rpp-fourth-section-title {
+        
+        font-size: 32px;
+        line-height: 40px; /* 125% */
+    }
+    
+    .rpp-fourth-section-card-title {
+
+
+        font-size: 24px;
+        line-height: 36px; /* 150% */
+    }
+
+    .rpp-fourth-section-card-description {
+        
+        font-size: 16px;
+        line-height: 24px; /* 150% */
+    }
+
+    .rpp-section-first-content {
+        width: auto !important;
+        height: auto !important;
+    }
+
+}
+
+
+

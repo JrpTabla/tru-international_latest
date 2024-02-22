@@ -1,0 +1,351 @@
+.seventh-section-second-time {
+    margin-top: 20px;
+    display: flex;
+}
+
+.seventh-section-second-time img {
+    width: 19.392px;
+    height: 19.392px;
+}
+
+.seventh-section-second-date {
+    
+    color: #131313;
+    /* font-family: "Articulat CF"; */
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.392px; /* 193.92% */
+    margin-left: 3px;
+}
+
+    
+.seventh-section-second-title {
+    width: 127.701px;
+    margin-top: 10.25px;
+    color: #1681C2;
+    /* font-family: Bahnschrift; */
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19.392px; /* 161.6% */
+}
+
+.seventh-section-second-description {
+    margin-top: 12.37px;
+    color:  #131313;
+    /* font-family: Bahnschrift; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19.392px; /* 138.514% */
+
+}
+
+    
+.seventh-section {
+    /* background: #FFCA5D; */
+    /* background: #131313; */
+    position: relative;
+    padding-bottom: 212px;
+    min-height: 856px !important;
+    
+}
+.seventh-section-container {
+    height: 714px;
+}
+
+.seventh-section-container {
+    max-width: 1414px;
+    
+}
+
+/* First Content */
+
+.seventh-section-first-div {
+    margin-top: -118px;
+    height: auto;
+    padding: 92px;
+    border-radius: 48px;
+    background: #E6E7E7;
+    height: 736px;
+}
+
+.seventh-section-first-content-title {
+    color:  #131313;
+
+    /* H2 */
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px; /* 113.889% */
+}
+
+.seventh-section-first-content-title span {
+    color: #569E4C;
+}
+
+.seventh-section-first-content-description {
+    color:  #131313;
+    /* body-text-huge */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 133.333% */
+    margin-top: 36px;
+    max-width: 578px;
+}
+
+.seventh-section-first-content-button,
+.seventh-section-first-content-button-2 {
+    display: inline-flex;
+    padding: 13px 68px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+    border-radius: 64px;
+    background: #131313;
+
+    color: #FFF;
+    text-align: center;
+    /* font-family: "Articulat CF"; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 166.667% */
+
+    text-decoration: none;
+    margin-top: 48px;
+}
+
+.seventh-section-first-content-button-2 {
+    display: none;
+}
+
+
+/* 2nd Content */
+
+.seventh-section-second-content {
+    position: relative;
+}
+
+
+.seventh-section-second-content-comment {
+    width: 584px;
+    height: 220px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 0px 12px 24px 0px rgba(0, 0, 0, 0.10);
+    padding: 24px;
+
+}
+
+.seventh-section-second-content-profile {
+    margin-right: 18px;
+}
+
+.seventh-section-second-content-profile img {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+}
+
+.seventh-section-second-content-username {
+    color: #1681C2;
+    margin-top: 9px;
+    /* H11 */
+/*                font-family: "Articulat CF";*/
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+}
+
+.seventh-section-second-content-platform {
+    color: #414141;
+
+    /* body-text-small */
+/*                font-family: Bahnschrift;*/
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.seventh-section-second-content-comments {
+    width: 458px;
+    margin-top: 20px;
+    color: #131313;
+
+    /* body-text-normal */
+/*                font-family: Bahnschrift;*/
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 150% */
+
+}
+
+.seventh-section-second-content{
+    max-height: 552px;
+    overflow: hidden;
+}
+
+.seventh-section-second-card-1,
+.seventh-section-second-card-2 {
+    width: 288px;
+    height: 357px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0px 12px 24px 0px rgba(0, 0, 0, 0.10);
+    padding: 26px;
+    margin-bottom: 32px;
+}
+
+.seventh-section-second-card-1 img,
+.seventh-section-second-card-2 img {
+    border-radius: 9.7px;
+}
+
+
+.seventh-section-second-card-div-1 {
+    height: calc(357px * 6);
+    animation: UptoDown 40s infinite linear;
+}
+
+@keyframes UptoDown {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(calc(-389px * 4));
+    }
+}
+
+.seventh-section-second-card-div-2 {
+    animation: DowntoUp 20s infinite linear;
+}
+
+@keyframes DowntoUp {
+    from {
+        transform: translateY(calc(-389px * 4));
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+
+@media (max-width: 1440px) {
+
+    .seventh-section-container {
+        max-width: 1024px;
+        
+    }
+    
+    .seventh-section-first-content-title{
+
+        font-size: 56px;
+        line-height: 64px; /* 114.286% */
+    }
+
+    .seventh-section-second-card-1,
+    .seventh-section-second-card-2 {
+        width: 240px;
+        height: 330px;
+
+    }
+
+    .seventh-section-second-card-main-img {
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 1024px) {
+
+    .seventh-section-container {
+        max-width: 768px;
+        
+    }
+
+    .seventh-section-first-div {
+        margin-top: 0 !important;
+
+        height: 1000px;
+    }
+
+    .seventh-section-first-content {
+
+        margin-bottom: 24px !important;
+    }
+
+    .seventh-section-second-content {
+        height: 470px;
+    }
+
+    .seventh-section {
+
+        padding-bottom: 0px !important;
+        min-height: 1050px !important;
+        
+    }
+    
+}
+
+@media (max-width: 768px) {
+
+
+    .seventh-section-container {
+        max-width: 100%;
+        
+    }
+
+    .seventh-section-first-div {
+        border-radius: 18px;
+        padding: 20px;
+        height: auto !important;
+    }
+
+    .seventh-section-first-content-title {
+
+        /* H8 */
+        font-size: 32px;
+        line-height: 40px; /* 125% */
+    }
+
+    .seventh-section-first-content-description {
+
+        /* body-text-normal */
+        /* font-family: Bahnschrift; */
+        font-size: 16px;
+        line-height: 24px; /* 150% */
+        margin-top: 14px;
+    }
+
+    .seventh-section-first-content-button {
+        display: none;
+    }
+
+    .seventh-section-second-content {
+        margin-top: 20px !important;
+    }
+
+    .seventh-section-second-card-div-2 {
+        
+        position: absolute;
+        right: -100px;
+    }
+    
+    .seventh-section-first-content-button-2 {
+        display: block;
+    }
+
+    .seventh-section {
+        min-height: 850px !important;
+    }
+  
+}

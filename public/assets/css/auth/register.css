@@ -1,0 +1,134 @@
+
+.div-first-content {
+    border-right: 1px solid #414141;
+
+}
+
+.div-content {
+    margin-top: 60px;
+    height: 100%;
+    max-width: 1400px;
+
+}
+
+.div-title {
+    margin-top: 53.5px;
+    color: #FFF;
+    max-width: 572px;
+    /* H2 */
+    /* font-family: "Articulat CF"; */
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px;
+}
+
+.div-title span {
+    color: #9AD9FF;
+}
+
+.div-description {
+    margin-top: 18px;
+    color: #FFF;
+    max-width: 542px;
+    /* body-text-huge */
+    /* font-family: Bahnschrift; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 133.333% */
+}
+
+
+label {
+    color: #E6E7E7;
+    font-family: Bahnschrift;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.form-div {
+    width: 400px;
+}
+
+.form-control {
+    border-radius: 8px;
+    background: #414141;
+    /* width: 400px; */
+    color: #9E9E9E;
+
+    /* body-text-normal */
+    /* font-family: Bahnschrift; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 150% */
+    border: none;
+}
+
+.form-control::placeholder {
+    color: #9E9E9E; /* Your desired color for the placeholder text */
+}
+
+.form-select {
+    border-radius: 8px;
+    background: #414141;
+    color: #9E9E9E;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    border: none;
+
+    /* Use double quotes to wrap the URL and escape single quotes inside the URL */
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%239E9E9E' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e") !important;
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 16px 12px;
+}
+
+
+.input-form {
+    margin-bottom: 16px;
+}
+.terms {
+    max-width: 280px;
+    margin-top: 33px;
+    margin-bottom: 48px;
+
+    color: #E6E7E7;
+    /* font-family: Bahnschrift; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 171.429% */
+}
+
+.btn-login {
+    
+    border-radius: 64px;
+    background: linear-gradient(90deg, #FFC400 -1.92%, #F17727 63.45%);
+    color: #FFF;
+    text-align: center;
+    /* font-family: "Articulat CF"; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 166.667% */
+
+    display: inline-flex;
+    padding: 13px 68px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.btn-login:hover {
+    color: #fff;
+}
+
+
+
+
+

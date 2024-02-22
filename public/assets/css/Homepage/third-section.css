@@ -1,0 +1,256 @@
+
+.third-section {
+    /* background: #9AD9FF; */
+    /* background: #131313; */
+
+    position: relative;
+    overflow-x: hidden;
+    padding-bottom: 212px;
+    /* overflow-x: hidden; */
+}
+
+.third-section-container {
+    max-width: 1444px;
+    
+}
+
+.container-fluid {
+    padding: 0 !important;
+}
+
+/* First Card */
+
+.third-section-first-div {
+    /* margin-top: -118px; */
+    background: #9AD9FF;
+    height: auto;
+    padding: 92px;
+    border-radius: 48px;
+    background: #9AD9FF;
+    height: 534px;
+}
+
+.third-section-first-content-title {
+    color: #131313;
+    /* H2 */
+    /* font-family: "Articulat CF"; */
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px; /* 113.889% */
+    max-width: 578px;
+}
+
+.third-section-first-content-title span {
+    color: #1681C2;
+}
+
+.third-section-first-content-description {
+    color:  #131313;
+    /* body-text-huge */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 133.333% */
+    margin-top: 36px;
+    max-width: 578px;
+}
+
+/* Sencond Card */
+
+.third-section-second-div {
+    background: #1681C2;
+    /* height: 534px; */
+    padding: 64px;
+    border-radius: 48px;
+    height: 794px;
+}
+
+.third-section-first-content-title-2 {
+    color: #FFF;
+
+    /* H5 */
+    /* font-family: "Articulat CF"; */
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    margin: 18px 0px;
+}
+
+.third-section-first-content-title-2 span {
+    color: #9AD9FF;
+}
+
+.third-section-first-content-description-2 {
+    color: #FFF;
+
+    /* body-text-huge */
+    /* font-family: Bahnschrift; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 133.333% */
+}
+
+/* Third Card */
+
+.third-section-third-div-3 {
+    background: #131313;
+    padding: 64px;
+    border-radius: 48px;
+    height: 794px;
+    
+}
+
+.third-section-first-content-title-3 {
+    color: #FFF;
+
+    /* H5 */
+    /* font-family: "Articulat CF"; */
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    margin: 18px 0px;
+}
+
+.third-section-first-content-title-3 span {
+    color: #E7AA2D;
+}
+
+.third-section-first-content-description-3 {
+    color: #FFF;
+
+    /* body-text-huge */
+    /* font-family: Bahnschrift; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 133.333% */
+}
+
+
+@media (max-width: 1440px) {
+
+    .third-section-container {
+        max-width: 1024px;
+        
+    }
+    
+    .third-section-first-content-title{
+
+        font-size: 56px;
+        line-height: 64px; /* 114.286% */
+    }
+
+    .third-section-first-content-title-2 {
+        font-size: 56px;
+        line-height: 64px; /* 114.286% */
+    }
+
+
+    .third-section-second-div,
+    .third-section-third-div-3  {
+        height: 651px;
+    }
+
+
+}
+
+
+@media (max-width: 1024px) {
+
+    .third-section-container {
+        max-width: 768px;
+        
+    }
+
+    .third-section-first-div {
+
+        margin-top: 0 !important;
+        height: auto !important;
+    }
+
+    .third-section-second-div,
+    .third-section-third-div-3  {
+        height: auto;
+    }
+
+    
+
+    .third-section-second-content {
+        margin-top: 14px;
+    }
+
+
+    .third-section {
+        padding-bottom: 0 !important;
+    }
+    
+}
+
+@media (max-width: 768px) {
+
+
+    .third-section-container {
+        max-width: 100%;
+        
+    }
+
+    .third-section-first-div {
+        border-radius: 18px;
+        padding: 20px !important;
+    }
+
+    .third-section-first-content-title {
+
+        /* H8 */
+        font-size: 32px;
+        line-height: 40px; /* 125% */
+    }
+
+    .third-section-first-content-description {
+
+
+        /* body-text-normal */
+        /* font-family: Bahnschrift; */
+        font-size: 16px;
+        line-height: 24px; /* 150% */
+        margin-top: 14px;
+    }
+
+    .third-section-second-content {
+        margin-top: 20px !important;
+    }
+
+    .padding-gap {
+        padding: 20px !important;
+    }
+
+    .third-section-second-div,
+    .third-section-third-div-3 {
+        border-radius: 18px;
+        padding: 24px !important;
+    }
+
+    .third-section-first-content-title-2,
+    .third-section-first-content-title-3 {
+        font-size: 24px !important;
+        line-height: 36px !important; /* 150% */
+    }
+
+    .third-section-first-content-description-2,
+    .third-section-first-content-description-3 {
+        font-size: 16px;
+        line-height: 24px; /* 150% */
+    }
+  
+}
+
+
+
+
+
+
+

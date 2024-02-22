@@ -1,0 +1,66 @@
+.ug-seventh-section {
+
+    position: relative;
+
+    /* min-height: 620px; */
+    /* border-radius: 0px 0px 48px 48px; */
+
+}
+
+.ug-seventh-section-container {
+    max-width: 1440px;
+}
+
+.ug-seventh-section-first-div {
+    padding: 120px 92px 120px 92px !important;
+}
+
+
+.ug-seventh-section-first-content-title {
+    color:  #131313;
+    max-width: 400px;
+
+    /* H2 */
+   /*  font-family: "Articulat CF"; */
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px; /* 128.571% */
+}
+
+.ug-seventh-section-first-content-img {
+    max-width: 577px;
+}
+
+@media (max-width: 1200px) {
+    .ug-seventh-section-first-content-title {
+        margin: auto !important;
+        max-width: 700px;
+    }
+
+    .ug-seventh-section-first-div {
+        padding: 32px 20px 32px 20px !important;
+    }
+
+    .ug-section-Btn-div {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .ug-seventh-section-first-content-img {
+        margin-top: 32px;
+    }
+}
+
+@media (max-width: 400px) {
+    .ug-seventh-section-first-content-title {
+        font-size: 32px;
+        line-height: 40px; /* 125% */
+        max-width: 240px;
+        margin: 0px !important;
+    }
+
+    
+}
+
+

@@ -1,0 +1,268 @@
+ 
+.fourth-section {
+    /* background: #FFCA5D; */
+
+    
+    /* background: #131313; */
+
+    position: relative;
+    padding-bottom: 212px;
+    
+}
+
+.fourth-section-container {
+    max-width: 1444px;
+    
+}
+
+/* First Card */
+
+.fourth-section-first-div {
+    margin-top: -118px;
+    height: auto;
+    padding: 92px;
+    border-radius: 48px;
+    background: #FFCA5D;
+    height: 534px;
+}
+
+.fourth-section-first-content-title {
+    color:  #131313;
+
+    /* H2 */
+    
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px; /* 113.889% */
+}
+
+.fourth-section-first-content-title span {
+    color: #B17B0D;
+}
+
+.fourth-section-first-content-description {
+    color:  #131313;
+    /* body-text-huge */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 133.333% */
+    margin-top: 36px;
+    max-width: 578px;
+}
+
+/* Sencond Card */
+
+.fourth-section-second-div {
+    background: #131313;
+    /* height: 534px; */
+    padding: 64px;
+    border-radius: 48px;
+    height: 794px;
+}
+
+.fourth-section-first-content-title-2 {
+    color: #FFF;
+
+    /* H5 */
+    /* font-family: "Articulat CF"; */
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    margin: 18px 0px;
+}
+
+.fourth-section-first-content-title-2 span {
+    color: #9E9E9E;
+}
+
+.fourth-section-first-content-description-2 {
+    color: #FFF;
+
+    /* body-text-huge */
+    /* font-family: Bahnschrift; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 133.333% */
+}
+
+/* Third Card */
+
+.fourth-section-third-div-3 {
+    background: #fff;
+    padding: 64px;
+    border-radius: 48px;
+    height: 794px;
+    
+}
+
+.fourth-section-first-content-title-3 {
+    color: #414141;
+
+    /* H5 */
+    /* font-family: "Articulat CF"; */
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    margin: 18px 0px;
+}
+
+.fourth-section-first-content-title-3 span {
+    color: #E7AA2D;
+}
+.fourth-section-first-content-title-3 span-2 {
+    color: #1681C2;
+}
+
+.fourth-section-first-content-description-3 {
+    color: #131313;
+
+    /* body-text-huge */
+    /* font-family: Bahnschrift; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 133.333% */
+}
+
+
+
+@media (max-width: 1440px) {
+
+    .fourth-section-container {
+        max-width: 1024px;
+        
+    }
+    
+    .fourth-section-first-content-title{
+
+        font-size: 56px;
+        line-height: 64px; /* 114.286% */
+    }
+
+    .third-section-first-content-title-2 {
+        font-size: 56px;
+        line-height: 64px; /* 114.286% */
+    }
+
+
+    .fourth-section-second-div,
+    .fourth-section-third-div-3  {
+        height: 651px;
+    }
+
+    .fourth-section-first-content img {
+        min-width: 100%;
+    }
+}
+
+
+
+@media (max-width: 1024px) {
+
+    .fourth-section-container {
+        max-width: 768px;
+        
+    }
+
+    .fourth-section {
+        padding-bottom: 0px !important;
+    }
+
+    .fourth-section-second-content {
+        margin-top: 14px;
+    }
+
+    .fourth-section-first-div {
+        margin-top: 0 !important;
+        height: auto !important;
+    }
+
+    .fourth-section-second-div {
+        height: auto !important;
+    }
+    
+
+    .fourth-section-third-div-3  {
+        height: 750px;
+    }
+
+    
+
+    .third-section-second-content {
+        margin-top: 14px;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+
+
+    .fourth-section-container {
+        max-width: 100%;
+        
+    }
+
+    .fourth-section-first-div {
+        border-radius: 18px;
+        padding: 20px !important;
+    }
+
+    .fourth-section-first-content-title {
+
+        /* H8 */
+        font-size: 32px;
+        line-height: 40px; /* 125% */
+    }
+
+    .fourth-section-first-content-description {
+
+
+        /* body-text-normal */
+        /* font-family: Bahnschrift; */
+        font-size: 16px;
+        line-height: 24px; /* 150% */
+        margin-top: 14px;
+    }
+
+    .third-section-second-content {
+        margin-top: 20px !important;
+    }
+
+    .padding-gap {
+        padding: 20px !important;
+    }
+
+    .fourth-section-second-div,
+    .fourth-section-third-div-3 {
+        border-radius: 18px;
+        padding: 24px !important;
+
+    }
+
+    .fourth-section-first-content-title-2,
+    .fourth-section-first-content-title-3 {
+        font-size: 24px !important;
+        line-height: 36px !important; /* 150% */
+    }
+
+    .fourth-section-first-content-description-2,
+    .fourth-section-first-content-description-3 {
+        font-size: 16px;
+        line-height: 24px; /* 150% */
+    }
+  
+}
+
+
+@media (max-width: 425px) { 
+    .fourth-section-third-div-3 {
+        height: 470px;
+
+    }
+}

@@ -1,0 +1,129 @@
+.rpp-third-third-section {
+
+    position: relative;
+
+}
+
+.rpp-third-section-container {
+    max-width: 1440px;
+    height: 100%;
+    
+}
+
+.rpp-third-section-first-div {
+    background-color: #9AD9FF;  
+    border-radius: 48px;
+    padding: 92px;
+    
+}
+
+.rpp-third-section-first-content-title {
+    color: #131313;
+    /* H2 */
+    /* font-family: "Articulat CF"; */
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px; /* 113.889% */
+}
+
+.rpp-third-section-first-content-title span {
+    color: #1681C2;
+}
+
+.rpp-third-section-first-content-description {
+    margin-top: 32px;
+    color:  #131313;
+
+    /* body-text-huge */
+    font-family: Bahnschrift;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 133.333% */
+}
+
+/* 
+.rpp-landing-section-first-content {
+    padding-top: 100px;
+    padding-right: 100px;
+}
+
+
+.rpp-landing-section-first-div {    
+    margin-top: auto;
+}
+
+.rpp-landing-section-first-content-title {
+    color:  white;
+
+
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px; 
+}
+
+.rpp-landing-section-first-content-description {
+    margin-top: 32px;
+    color:  #FFF;
+
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+ */
+@media (max-width: 1440px) {
+
+    .rpp-third-section-first-div {
+        border-radius: 0px !important;
+    }
+
+}
+
+@media (max-width: 1199px) {
+
+    .rpp-third-section-first-content {
+        margin-top: 12px;
+    }
+
+    .rpp-third-section-second-content {
+        margin-top: 32px;
+    }
+    
+    .rpp-third-section .rpp-section-first-content {
+        padding-left: 0px !important;
+    }
+
+}
+
+
+@media (max-width: 769px) {
+
+    .rpp-third-section-first-div {
+        padding: 20px;
+    }
+
+}
+
+@media (max-width: 599px) {
+
+    .rpp-third-section-first-content-title {
+        max-width: 250px;
+        font-size: 32px;
+        line-height: 40px; /* 125% */
+    }
+    
+    .rpp-third-section-first-content-description {
+       
+        margin-top: 14px;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px; /* 150% */
+    }
+
+}
+
+

@@ -1,0 +1,277 @@
+/* outer Navbar */
+
+.navbar {
+    display: flex;
+    max-width: 1890px;
+    height: 72px;
+
+    padding: 2px 32px;
+    margin: 8px 15px;
+    
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+    border-radius: 18px;
+    background: var(--black, #131313);
+    --bs-navbar-brand-padding-y: 0 !important;
+    gap: 123.04px;
+
+}
+
+/* LOGO Navbar */
+.navbar-brand {
+    margin-right: auto;
+    width: 199.957px;
+    height: 42px;
+    flex-shrink: 0;
+}
+
+.nav-menu {
+    width: 100%;
+}
+
+/* Search Navbar */
+.search-div {
+    border-radius: 32px;
+    background:  #FFF;
+    display: flex;
+    padding: 6px 16px 6px 16px;
+    align-items: center;
+    height: 42px;
+
+}
+
+.nav-search {
+
+    box-shadow: none !important;
+    border: none !important;
+    color: #414141;
+    /* font-family: "Articulat CF"; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 187.5% */
+}
+
+.navbar-link {
+    gap: 32px;
+}
+
+.navbar-div {
+    display: flex;
+    align-items: center;
+    max-width: 879px;
+    gap: 22px;
+}
+
+.nav-h11 {
+    text-decoration: none;
+    color: white;
+    /* H11 */
+    /* font-family: "Articulat CF"; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+.nav-signUp {
+    text-decoration: none;
+    color: #E7AA2D;
+    /* H11 */
+    /* font-family: "Articulat CF"; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+}
+
+.border-line {
+    width: 2px;
+    height: 24px;
+    flex-shrink: 0;
+    border: 1px solid var(--light-grey, #9E9E9E);
+}
+
+
+.btn-login {
+    display: flex;
+    width: 116px;
+    height: 42px;
+    padding: 9px 37.95px 9px 37.05px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+    border-radius: 32px;
+    background: #1681C2;
+
+    color:  #FFF;
+
+    /* BODY BOLD */
+    /* font-family: "Articulat CF"; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    transition: 0.5s ease-in-out;
+}
+
+
+.btn-login:hover {
+    transition: 0.5s ease-in-out;
+    background:  #FFF;
+    color:  #1681C2;
+}
+
+.nav-search-btn {
+    display: none;
+}
+
+.nav-humburger-btn {
+    display: none;
+}
+
+.offcanvas-header {
+    max-height: 72px;
+}
+
+.offcanvas-header .btn-close {
+    width: 42px;
+    height: 42px;
+    padding: 0 !important; 
+    margin-top: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 0 !important;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e")
+    ;
+}
+
+.offcanvas {
+    background-color: #131313 !important;
+}
+
+
+
+
+/* Responsiveness */
+
+@media (max-width: 1700px) {
+
+    .navbar {
+        gap: 62px;
+    }
+        
+
+}
+
+
+@media (max-width: 1700px) {
+
+
+    .navbar {
+        gap: 32px;
+    }
+        
+
+}
+
+@media (max-width: 1500px) {
+
+
+    .navbar-link {
+        gap: 20px;
+    }
+        
+
+}
+
+
+
+@media (max-width: 1439px) {
+
+    .nav-menu {
+        width: auto;
+    }
+
+    .navbar-div {
+        display: none !important;
+    }
+        
+
+}
+
+@media  (max-width: 1439px)  {
+
+    .navbar {
+        margin: 0px !important;
+        padding: 12px 20px !important;
+        border-radius: 0px !important;
+    }
+    .navbar-brand {
+       
+        width: 190.435px;
+        height: 40px;
+    }
+
+    .navbar-brand svg {
+        width: 100%;
+    }
+
+    .nav-search-btn  {
+        margin-right: 16px;
+
+    }
+
+    .nav-humburger-btn {
+        width: 42px;
+        height: 42px;
+        padding-top: 6px;
+        display: block;
+
+    }
+
+    .nav-search-btn img {
+        width: 42px;
+        height: 42px;
+        flex-shrink: 0;
+    }
+
+    .search-div {
+        width: auto !important;
+        margin-right: 20px;
+    }
+
+    .nav-menu {
+        display: flex;
+    }
+}
+
+@media (max-width: 620px) {
+
+    .search-div {
+        display: none;
+    }
+    
+    .navbar {
+        height: 64px;
+    }
+
+    .nav-search-btn  {
+        margin-right: 16px;
+        display: block;
+        width: 24px;
+        height: 24px;
+        flex-shrink: 0;
+    }
+
+    .nav-humburger-btn {
+        width: 25px;
+        height: 18px;
+        padding: 0 !important;
+        flex-shrink: 0;
+
+    }
+
+}

@@ -1,0 +1,128 @@
+.ug-landing-section {
+
+    position: relative;
+    /* height: 620px; */
+    border-radius: 0px 0px 48px 48px;
+background: linear-gradient(180deg, rgba(19, 19, 19, 0.70) -17.26%, rgba(86, 158, 76, 0.70) 104.11%), linear-gradient(0deg, #8ECB86 -16.97%, #569E4C 19.73%, #569E4C 51.67%);
+
+}
+
+.ug-landing-section-container {
+    max-width: 1440px;
+    height: 100%;
+
+    
+}
+
+.ug-landing-section-first-content {
+    padding-bottom: 84px;
+    padding-top: 164px;
+}
+
+.ug-landing-section-second-content {
+    padding-top: 123px;
+}
+
+/* First Card */
+
+.ug-landing-section-first-div {    
+    margin-top: auto;
+}
+
+.ug-landing-section-first-content-title {
+    color:  white;
+    max-width: 600px;
+
+    /* H2 */
+   /*  font-family: "Articulat CF"; */
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px; /* 128.571% */
+}
+
+.ug-landing-section-first-content-description {
+    margin-top: 32px;
+    color:  #FFF;
+    max-width: 600px;
+    /* H7 */
+    /* font-family: Bahnschrift; */
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; /* 155.556% */
+}
+
+
+
+@media (max-width: 1200px) {
+
+    .ug-landing-section-first-content-title {
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .ug-landing-section-first-content-description {
+        margin-top: 20px !important;
+        text-align: center;
+        width: 100% !important;
+    }
+    
+    .ug-landing-section-Btn-div {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .ug-landing-section-second-content {
+        padding-top: 0px !important;
+    }
+   
+    .ug-landing-section-first-content {
+        padding-bottom: 32px !important;
+    }
+
+}
+
+@media (max-width: 599px) {
+
+    .Be-a-TRU-btn {
+    width: 100%;
+        
+    }
+
+    .ug-landing-section-first-content {
+        padding-top: 88px !important;
+        padding-bottom: 32px !important;
+    }
+
+    .ug-landing-section-first-content-title {
+        font-size: 28px;
+        line-height: 40px; /* 142.857% */
+
+    }
+
+    .ug-landing-section-first-content-description {
+
+        font-size: 18px;
+        line-height: 30px; /* 166.667% */
+        width: 180px;
+        margin: auto;
+    }
+
+    .ug-landing-section-first-content-img {
+        width: 248.735px;
+        height: auto;
+    }
+
+    .ug-landing-section-first-content-description {
+        margin-top: 20px;
+    }
+
+
+    .Be-a-TRU-btn {
+        margin-top: 32px;
+        
+    }
+    
+}

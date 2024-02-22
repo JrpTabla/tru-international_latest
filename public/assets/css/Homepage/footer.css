@@ -1,0 +1,108 @@
+
+.footer-credits {
+    color: #414141;
+    
+    /* CAPTION */
+    /* font-family: "Articulat CF"; */
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+
+    margin-top: 117px;
+}
+.footer-socials-logo {
+    margin-right: 36px;
+}
+.footer-logo {
+    margin-bottom: 51px;
+}
+.footer-nav-link {
+    color: #414141;
+    margin-bottom: 8px;
+    /* BODY */
+    /* font-family: "Articulat CF"; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    text-decoration-line: none;
+    display: block;
+
+}
+
+.footer-nav-title {
+    color: #414141;
+    margin-bottom: 29px;
+    /* PC/H4 */
+    /* font-family: "Articulat CF"; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 133.333% */
+}
+
+
+
+.footer-nav {
+    height: 295px;
+}
+
+
+.disclaimer {
+    height: 105px;
+}
+.disclaimer-text {
+    
+    color: #414141;
+    /* font-family: "Articulat CF"; */
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 181.818% */
+}
+.footer-section {
+    width: 100%;
+    height: 427px;
+    position: fixed;
+    padding-left: 46px;
+    padding-right: 46px;
+    padding-bottom: 27px;
+    left: 0;
+    bottom: 0;
+    z-index: -100;
+}
+
+.small-screen {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+
+    .footer-socials {
+        display: none !important;
+    }
+
+    .footer-credits {
+        display: none !important;
+    }
+
+    .footer-nav {
+        height: 450px
+    }
+
+    .footer-section {
+        height: 900px !important;
+    }
+
+    .small-screen {
+        display: flex;
+    }
+    
+
+    .footer-section {
+        position: relative;
+    }
+
+
+}

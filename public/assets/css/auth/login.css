@@ -1,0 +1,129 @@
+
+.div-first-content {
+    border-right: 1px solid #414141;
+
+}
+
+.div-content {
+    margin-top: 137px;
+    height: 100%;
+    max-width: 1400px;
+
+}
+
+.div-title {
+    margin-top: 53.5px;
+    color: #FFF;
+    max-width: 572px;
+    /* H2 */
+    /* font-family: "Articulat CF"; */
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px;
+}
+
+.div-title span {
+    color: #63A859;
+}
+
+.div-description {
+    margin-top: 18px;
+    color: #FFF;
+    max-width: 542px;
+    /* body-text-huge */
+    font-family: Bahnschrift;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 133.333% */
+}   
+
+
+label {
+    color: #E6E7E7;
+    font-family: Bahnschrift;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.form-control {
+    border-radius: 8px;
+    background: #414141;
+    width: 400px;
+    color: #9E9E9E;
+
+    /* body-text-normal */
+    /* font-family: Bahnschrift; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 150% */
+    border: none;
+}
+
+.form-control::placeholder {
+    color: #9E9E9E; /* Your desired color for the placeholder text */
+}
+
+.input-form {
+    margin-bottom: 16px;
+}
+
+.input-form-2 {
+    margin-bottom: 48px;
+}
+
+.btn-login {
+    
+    border-radius: 64px;
+    background: linear-gradient(90deg, #FFC400 -1.92%, #F17727 63.45%);
+    color: #FFF;
+    text-align: center;
+    /* font-family: "Articulat CF"; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 166.667% */
+
+    display: inline-flex;
+    padding: 13px 68px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.btn-login:hover {
+    color: #fff;
+}
+
+.input-form-forgot-password {
+    margin-top: 48px;
+}
+
+.forgot-password {
+    color:  #1681C2;
+    /* font-family: "Articulat CF"; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    text-decoration-line: underline;
+}
+
+.input-form-create-account {
+    margin-top: 36px;
+}
+
+
+.create-account {
+    color: #63A859;
+    /* font-family: "Articulat CF"; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    text-decoration-line: underline;
+}

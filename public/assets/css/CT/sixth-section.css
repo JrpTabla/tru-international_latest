@@ -1,0 +1,245 @@
+.ct-sixth-section {
+
+    position: relative;
+
+}
+
+.ct-section-container {
+    max-width: 1440px;
+    height: 100%;
+    
+}
+
+
+.ct-sixth-section-title {
+    padding-top: 120px;
+    max-width: 908px;
+    color: #131313;
+    text-align: center;
+
+    /* H2 */
+    /* font-family: "Articulat CF"; */
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px; /* 113.889% */
+}
+
+.faq-send {
+    margin-left: 18px;
+}
+
+.faq-name {
+    color:  #414141;
+    /* body-text-small */
+    font-family: Bahnschrift;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.faq-name span{
+    color: #1681C2;
+}
+
+.faq-comment {
+    color: #131313;
+    /* body-text-normal */
+    /* font-family: Bahnschrift; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 150% */
+}
+
+.ct-sixth-section-show-more {
+    margin-top: 48px;
+    color: #1681C2;
+    text-align: center;
+    /* font-family: "Articulat CF"; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 133.333% */
+    text-decoration-line: underline;
+}
+
+
+
+
+.ct-sixth-section .accordion {
+max-width: 920px;
+margin-top: 52px;
+}
+.ct-sixth-section .accordion-item {
+margin-bottom: 10px;
+border-radius: 24px !important;
+background: #fff !important;
+box-shadow: 0px 12px 24px 0px rgba(19, 19, 19, 0.1);
+}
+
+.ct-sixth-section .accordion-button {
+    padding: 24px !important;
+}
+
+.ct-sixth-section .accordion-button::after {
+    background-image: url(../../images/RPP-images/sixth-section/arrow-down.png ) !important;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 42px;
+    top: 42px;
+
+}
+
+.ct-sixth-section .accordion-button:not(.collapsed) {
+background-color: #fff;
+border-radius: 24px 24px 0px 0px !important;
+border-bottom: 1px solid rgba(19, 19, 19, 0.1);
+}
+
+.ct-sixth-section .accordion-button:not(.collapsed)::after {
+    background-image: url(../../images/RPP-images/sixth-section/arrow-up.png) !important;
+    transform: rotate(180deg);
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 42px;
+    top: 42px;
+
+}
+
+.ct-sixth-section .accordion-button:focus {
+box-shadow: none;
+}
+
+.ct-sixth-section .collapsed {
+
+border-radius: 24px !important;
+background: #fff !important;
+box-shadow: 0px 12px 24px 0px rgba(19, 19, 19, 0.1);
+}
+
+
+.ct-sixth-section .accordion-body {
+    padding: 24px !important;
+    justify-content: flex-end;
+    display: flex;
+
+}
+
+.accordion-body .faq-response {
+    margin-right: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.faq-response {
+    margin-right: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 710px;
+}
+.faq-response-name  {
+    
+    text-align: end;
+    color:  #414141;
+    /* body-text-small */
+    font-family: Bahnschrift;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.faq-respponse-comment {
+    text-align: end;
+    color: #131313;
+    /* body-text-normal */
+    /* font-family: Bahnschrift; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 150% */
+}
+
+.faq-response-name span {
+
+    color: #1681C2;
+}
+
+.faq-response-sm {
+    display: none !important;
+}
+
+@media (max-width: 769px) {
+    
+    .ct-sixth-section {
+        background-color: #fff;
+    }
+
+    .accordion-button {
+        display: block;
+    }
+
+    .faq-name {
+        margin-top: 14px;
+    }
+
+    .accordion-body {
+        display: block !important;
+    }
+
+    .faq-response-img{
+        display: flex;
+        margin-left: auto;
+        width: 60px;
+        height: 60px;
+    }
+
+    .faq-send {
+        margin-left: 0px !important;
+        margin-top: 14px;
+        
+    }
+
+    .faq-response-lg {
+        display: none !important;
+    }
+
+    .faq-response-sm {
+        display: block !important;
+    }
+    
+    .faq-response {
+        margin-right: 0px !important;
+        margin-top: 14px;
+    }
+}
+
+
+@media (max-width: 599px) {
+
+
+    .ct-sixth-section-title {
+        padding-top: 32px;
+        font-size: 32px;
+        line-height: 40px; /* 125% */
+        max-width: 350px;
+    }
+
+
+
+
+
+
+
+}
+
+
+

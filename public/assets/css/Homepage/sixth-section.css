@@ -1,0 +1,252 @@
+.sixth-section {
+    /* background: #FFCA5D; */
+
+    
+    /* background: #131313; */
+
+    position: relative;
+    padding-bottom: 212px;
+    
+}
+
+.sixth-section-container {
+    max-width: 1414px;
+    
+}
+
+/* First Card */
+
+.sixth-section-first-div {
+    margin-top: -118px;
+    padding: 92px;
+    border-radius: 48px;
+    background: #8ECB86;
+    height: 534px;
+}
+
+.sixth-section-first-content-title {
+    color:  #131313;
+
+    /* H2 */
+    
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px; /* 113.889% */
+}
+
+.sixth-section-first-content-title span {
+    color: #fff;
+}
+
+.sixth-section-first-content-description {
+    color:  #131313;
+    /* body-text-huge */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 133.333% */
+    margin-top: 36px;
+    max-width: 578px;
+}
+
+/* Sencond Card */
+
+.sixth-section-second-div {
+    background: #569E4C;
+    /* height: 534px; */
+    padding: 64px;
+    border-radius: 48px;
+    height: 794px; 
+}
+
+.sixth-section-first-content-title-2 {
+    color: #131313;
+
+    /* H5 */
+    /* font-family: "Articulat CF"; */
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    margin: 18px 0px;
+}
+
+.sixth-section-first-content-title-2 span {
+    color: #fff;
+}
+
+.sixth-section-first-content-description-2 {
+    color: #FFF;
+
+    /* body-text-huge */
+    /* font-family: Bahnschrift; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 133.333% */
+}
+
+/* Third Card */
+
+.sixth-section-third-div-3 {
+    background: #fff;
+    padding: 64px;
+    border-radius: 48px;
+    height: 794px;
+    
+}
+
+.sixth-section-first-content-title-3 {
+    color: #569E4C;
+
+    /* H5 */
+    /* font-family: "Articulat CF"; */
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    margin: 18px 0px;
+}
+
+.sixth-section-first-content-title-3 span {
+    color: #131313;
+}
+
+.sixth-section-first-content-description-3 {
+    color: #131313;
+
+    /* body-text-huge */
+    /* font-family: Bahnschrift; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 133.333% */
+}
+
+@media (max-width: 1440px) {
+
+    .sixth-section-container {
+        max-width: 1024px;
+        
+    }
+    
+    .sixth-section-first-content-title{
+
+        font-size: 56px;
+        line-height: 64px; /* 114.286% */
+    }
+
+    .third-section-first-content-title-2 {
+        font-size: 56px;
+        line-height: 64px; /* 114.286% */
+    }
+
+
+    .sixth-section-second-div,
+    .sixth-section-third-div-3  {
+        height: 651px;
+    }
+
+    .sixth-section-first-content-phone {
+        max-width: 150px !important;
+    }
+
+
+}
+
+
+@media (max-width: 1024px) {
+
+    .sixth-section {
+
+        padding-bottom: 0 !important;
+    }
+
+    .sixth-section-container {
+        max-width: 768px;
+        
+    }
+
+    .sixth-section-first-div {
+        margin-top: 0px;
+    }
+    
+    .sixth-section-first-div,
+    .sixth-section-second-div {
+        height: auto;
+    }
+
+    .sixth-section-third-div-3 {
+        height: 700px;
+    }
+
+    .sixth-section-first-content-phone {
+        max-width: 300px !important;
+    }
+   
+
+
+}
+
+@media (max-width: 768px) {
+
+
+    .sixth-section-container {
+        max-width: 100%;
+        
+    }
+
+    .sixth-section-first-div {
+        border-radius: 18px;
+        padding: 20px;
+    }
+
+    .sixth-section-first-content-title {
+
+        /* H8 */
+        font-size: 32px;
+        line-height: 40px; /* 125% */
+    }
+
+    .sixth-section-first-content-description {
+
+        /* body-text-normal */
+        /* font-family: Bahnschrift; */
+        font-size: 16px;
+        line-height: 24px; /* 150% */
+        margin-top: 14px;
+    }
+
+    .sixth-section-second-content {
+        margin-top: 20px !important;
+    }
+
+    .padding-gap {
+        padding: 20px !important;
+    }
+
+    .sixth-section-second-div,
+    .sixth-section-third-div-3 {
+        border-radius: 18px;
+        padding: 24px !important;
+
+    }
+
+    .sixth-section-first-content-title-2,
+    .sixth-section-first-content-title-3 {
+        font-size: 24px !important;
+        line-height: 36px !important; /* 150% */
+        font-weight: 700 !important;
+    }
+
+    .sixth-section-first-content-description-2,
+    .sixth-section-first-content-description-3 {
+        font-size: 16px;
+        line-height: 24px; /* 150% */
+    }
+  
+}
+
+
+

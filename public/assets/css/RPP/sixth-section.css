@@ -1,0 +1,125 @@
+.rpp-sixth-section {
+
+    position: relative;
+
+}
+
+.rpp-section-container {
+    max-width: 1440px;
+    height: 100%;
+    
+}
+
+
+.rpp-sixth-section-title {
+    margin-top: 120px;
+    max-width: 908px;
+    color: #131313;
+    text-align: center;
+
+    /* H2 */
+    /* font-family: "Articulat CF"; */
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px; /* 113.889% */
+}
+
+.faq-name {
+    color:  #414141;
+    /* body-text-small */
+    font-family: Bahnschrift;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.faq-name span{
+    color: #1681C2;
+}
+
+.rpp-sixth-section-show-more {
+    margin-top: 48px;
+    color: #1681C2;
+    text-align: center;
+    /* font-family: "Articulat CF"; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 133.333% */
+    text-decoration-line: underline;
+}
+
+
+
+.accordion {
+max-width: 920px;
+margin-top: 52px;
+}
+.accordion-item {
+margin-bottom: 10px;
+border-radius: 24px !important;
+background: #fff !important;
+box-shadow: 0px 12px 24px 0px rgba(19, 19, 19, 0.1);
+}
+
+.accordion-button::after {
+background-image: url(../../images/RPP-images/sixth-section/arrow-down.png ) !important;
+width: 24px;
+height: 24px;
+}
+
+.accordion-button:not(.collapsed) {
+background-color: #fff;
+height: 108px;
+border-radius: 24px 24px 0px 0px !important;
+border-bottom: 1px solid rgba(19, 19, 19, 0.1);
+}
+
+.accordion-button:not(.collapsed)::after {
+background-image: url(../../images/RPP-images/sixth-section/arrow-up.png) !important;
+transform: rotate(180deg);
+width: 24px;
+height: 24px;
+padding: 12px;
+}
+
+.accordion-flush .accordion-collapse {
+height: 108px;
+padding: 24px !important;
+}
+
+.accordion-button:focus {
+box-shadow: none;
+}
+
+.collapsed {
+height: 108px;
+border-radius: 24px !important;
+background: #fff !important;
+box-shadow: 0px 12px 24px 0px rgba(19, 19, 19, 0.1);
+}
+
+
+@media (max-width: 599px) {
+
+
+
+    .rpp-sixth-section-title {
+        margin-top: 32px;
+        font-size: 32px;
+        line-height: 40px; /* 125% */
+        max-width: 350px;
+    }
+
+
+
+
+
+
+
+}
+
+
+

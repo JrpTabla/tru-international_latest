@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* section {
+    min-height: 100vh;
+}
+ */ 
+
+
+.Be-a-TRU-btn {
+
+    margin-top: 48px;
+
+    border-radius: 64px;
+    background: linear-gradient(90deg, #FFC400 -1.92%, #F17727 63.45%);
+    display: inline-flex;
+    padding: 13px 68px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    
+    color: #FFF;
+    text-align: center;
+    /* font-family: "Articulat CF"; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 166.667% */
+
+    text-decoration: none;
+
+}
+
+.row {
+    margin: 0;
+}
+
+
+.main {
+    background-color: white;
+    margin-bottom: 479px;
+    transition: background-color 0.5s;
+    border-radius: 0 0 48px 48px ;
+}
+
+
+@media (max-width: 1024px) {
+
+    .main {
+
+        margin-bottom: 50px;
+    }
+   
+
+
+
+}

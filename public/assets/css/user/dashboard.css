@@ -1,0 +1,266 @@
+.main {
+    width: 954px;   
+    max-height: 100vh;
+    position: relative;
+}
+
+.Page-header {
+    padding-top: 56px;
+    padding-left: 34px;
+    width: 100%;
+    height: 196px;
+    background-color: #fff;
+
+    box-shadow: 0px 4px 0px 2px rgba(168,168,168,0.25);
+    -webkit-box-shadow: 0px 4px 4px 2px rgba(168,168,168,0.25);
+    -moz-box-shadow: 0px 4px 4px 2px rgba(168,168,168,0.25);
+    display: flex;
+    flex-direction: column;
+}
+
+.Page-title {
+    
+    color: #414141;
+    /* font-family: "Articulat CF"; */
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 85.714% */
+    letter-spacing: 0.56px;
+}
+
+.Page-Nav {
+    padding: 11px 54px;
+    height: 71px;
+}
+
+
+.Page-Membership,
+.Page-Activity,
+.Page-Affiliate {
+    padding: 10px 0px;
+    text-align: center;
+    color: #414141;
+    /* font-family: "Articulat CF"; */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.4px;
+    
+}
+
+
+.Page-link:hover {
+    
+    background: #E7AA2E;
+    color: white;
+}
+
+.active-page-link {
+    transition: 0.3s ease-in-out;
+    border-bottom: 5px solid #E7AA2E;
+}
+
+.Page-Body {
+    overflow-y: auto;
+    height: 757px;
+}
+
+.Page-Membership-body {
+    padding: 125px 48px ;
+    height: 100%;
+}
+
+.Page-Membership-body-img-container {
+    width: 155px;
+    height: 155px;
+    flex-shrink: 0;
+    background-color: #545454;
+}
+
+.user-name-profile {
+    color: #414141;
+    /* font-family: "Articulat CF"; */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.4px;
+}
+
+.user-id-profile {
+    margin-top: 2px;
+    margin-left: 6px;
+    color: #414141;
+    /* font-family: "Articulat CF"; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.28px;
+}
+
+.user-info-description {
+    color: #414141;
+    margin-top: 1px;
+    /* font-family: "Articulat CF"; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.28px;
+}
+
+.user-verification-profile {
+    margin-left: 6px;
+    margin-top: 1px;
+
+    /* font-family: "Articulat CF"; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.28px;
+}
+
+
+.user-unverified {
+    color: #D11010;
+}   
+
+.user-verified {
+    color: #1681C2;
+}   
+
+.user-tag-profile-green {
+    margin-left: 6px;
+    margin-top: 1px;
+    
+    width: auto;
+    height: 19.357px;
+    color: #414141;
+
+    padding: 2.7px 3.37px;
+
+    text-align: center;
+    /* font-family: "Articulat CF"; */
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: auto; /* 300% */
+    background-color: #68D25A;
+}
+
+.user-tag-profile-orange {
+    margin-left: 6px;
+    margin-top: 1px;
+    
+    width: auto;
+    height: 19.357px;
+    color: #414141;
+
+    padding: 2.7px 3.37px;
+
+    text-align: center;
+    /* font-family: "Articulat CF"; */
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: auto; /* 300% */
+    background-color: #E7AA2E;
+}
+
+
+.user-term-profile,
+.user-country-profile {
+    margin-left: 6px;
+    color: #414141;
+    /* font-family: "Articulat CF"; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.28px;
+}
+
+
+.user-card-profile {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+.user-card-content {
+    flex-direction: column;
+    display: flex;
+    padding: 25px;
+    height: 249px;
+    border-radius: 20px;
+    border: 2px solid #D9D9D9;
+    background: rgba(217, 217, 217, 0.00);
+    align-items: center;
+}
+
+.user-card-content img {
+    width: 86px;
+    height: 86px;
+    flex-shrink: 0;
+}
+
+.user-card-points {
+    margin-top: 15px;
+    color: #414141;
+    text-align: center;
+   /*  font-family: "Articulat CF"; */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 100% */
+}
+
+.user-card-title {
+    margin-top: 5px;
+    color: #414141;
+    text-align: center;
+    /* font-family: "Articulat CF"; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 133.333% */
+}
+
+.user-card-btn {
+    margin-top: 9px;
+    width: 153px;
+    height: 37px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    color:  #FFF;
+    text-align: center;
+    /* font-family: "Articulat CF"; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    border: none;
+}
+
+.abled {
+    background: #1681C2;
+    transition: 0.3s ease-in-out;
+}
+
+.abled:hover {
+    background: #1681C2;
+}
+
+.unabled {
+    background: #C6C6C6;
+    cursor:  not-allowed !important;
+    transition: 0.3s ease-in-out;
+}
+
+.unabled:hover {
+    background: #E7AA2E;
+}

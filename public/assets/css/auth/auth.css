@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #131313;
+    min-width: 100vw;
+    min-height: 100vh;
+    padding: 24px 46px;
+}
+
+
+.btn-Goback {
+    min-width: 116px;
+    height: 42px;
+    padding: 9px 36.95px 9px 37.05px;
+    border-radius: 32px;
+    background: #FFF;
+
+    color:  #131313;
+
+    /* BODY BOLD */
+    /* font-family: "Articulat CF"; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    transition: 0.3s ease-in-out;
+    border: none;
+}
+
+
+.btn-Goback:hover {
+    color: #fff;
+    background-color: #414141;
+}

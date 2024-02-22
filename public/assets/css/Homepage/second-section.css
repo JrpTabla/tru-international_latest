@@ -1,0 +1,116 @@
+.second-section-content-container {
+    max-width: 1414px;
+    margin-top: 48px;
+}
+
+.second-section-advertisment-container {
+    width: 980px;
+    height: 90px;
+    background: #858585;
+    margin-top: 49px;
+}
+
+.second-section {
+    min-height: 488px !important;
+    background: #131313;
+    display: flex;
+    flex-direction: column;
+}
+
+.second-section-title {
+    color: #e7aa2d;
+    /* text-align: center;
+    font-family: Bahnschrift; */
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 144px; */
+}
+
+.second-section-description {
+    color: #fff;
+    /* text-align: center;
+    font-family: Bahnschrift; */
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 36px; /* 138.462% */
+
+    min-height: 70px;
+}
+
+.second-section-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 1440px) {
+    .second-section-content-container {
+        max-width: 1024px;
+        margin-top: 48px;
+    }
+
+    .second-section-title {
+        font-size: 56px;
+        line-height: 64px; /* 114.286% */
+    }
+}
+
+@media (max-width: 1024px) {
+    .second-section-content-container {
+        max-width: 768px;
+        margin-top: 48px;
+    }
+
+    .second-section-advertisment-container {
+        width: 90% !important;
+    }
+
+    .second-section-title {
+        font-size: 36px;
+        line-height: 40px; /* 142.857% */
+    }
+
+    .second-section-description {
+        font-size: 16px;
+        line-height: 28px; /* 142.857% */
+    }
+
+    .second-section {
+        min-height: 350px !important;
+        background: #131313;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .second-section-div {
+        max-width: 390px;
+        height: 64px !important;
+        margin: auto !important;
+    }
+
+    .second-section {
+        min-height: 225px !important;
+    }
+    .second-section-content-container {
+        margin-top: 24px !important;
+    }
+    .second-section-title {
+        font-size: 24px;
+        line-height: 54.781px; /* 228.255% */
+    }
+
+    .second-section-description {
+        font-size: 12px;
+        line-height: 18px; /* 150% */
+    }
+
+    .second-section-advertisment-container {
+        width: 318px;
+        height: 50px;
+        margin-top: 55px !important;
+    }
+}

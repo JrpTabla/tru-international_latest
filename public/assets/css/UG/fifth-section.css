@@ -1,0 +1,207 @@
+.ug-fifth-third-section {
+
+    position: relative;
+
+}
+
+.ug-fifth-section-container {
+    max-width: 1440px;
+    height: 100%;
+    margin-top: 120px;
+}
+
+.ug-fifth-section-first-div {
+    background-color: #131313;  
+    border-radius: 48px;
+    padding: 92px !important;
+    
+}
+
+.ug-fifth-section-first-content-title {
+    color:  #FFF;
+    text-align: center;
+
+    /* H4 */
+    /* font-family: "Articulat CF"; */
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px; /* 128.571% */
+}
+
+.ug-fifth-section-first-content-timer-div {
+    margin-top: 24px;
+    border-radius: 24px;
+    background: var(--light-blue, #9AD9FF);
+    max-width: 900px;
+
+    flex-shrink: 0;
+    padding: 48px 112px;
+}
+
+
+.ug-fifth-section-first-content-number {
+    color: #1681C2;
+    text-align: center;
+
+    /* H2 */
+    /* font-family: "Articulat CF"; */
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px; /* 113.889% */
+}
+
+.ug-fifth-section-first-content-description {
+    color:  #1681C2;
+    text-align: center;
+
+    /* H10 */
+    /* font-family: "Articulat CF"; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 166.667% */
+
+}
+
+.ug-fifth-section-first-content-divider {
+    color: #1681C2;
+    text-align: center;
+    /* font-family: Bahnschrift; */
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 42.857% */
+}
+.ug-fifth-section-second-content,
+.ug-fifth-section-third-content {
+    margin-top: 44px;
+}
+
+.ug-fifth-section-second-content-title {
+    max-width: 578px;
+    color:  #FFF;
+    /* font-family: "Articulat CF"; */
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 52px; /* 130% */
+}
+
+.ug-fifth-section-second-content-description {
+    max-width: 578px;
+    color:  #FFF;
+    margin-top:  32px;
+    /* body-text-huge */
+    /* font-family: Bahnschrift; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 133.333% */
+}
+
+.ug-fifth-section-third-content-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Bahnschrift;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 52px; /* 216.667% */
+}
+
+.ug-fifth-section-second-content-percent {
+    background: var(--Gradient-1, linear-gradient(90deg, #FFC400 -1.92%, #F17727 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    text-align: center;
+    /* font-family: "Articulat CF"; */
+    font-size: 160px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 180px; /* 112.5% */
+}
+
+@media (max-width: 1440px) {
+    .ug-fifth-section-first-div {
+        border-radius: 0px;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .ug-fifth-section-first-div {
+        padding-top: 32px !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        padding-bottom: 32px !important;
+    }
+
+    .ug-fifth-section-second-content-title,
+    .ug-fifth-section-second-content-description {
+        max-width: 100%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .ug-fifth-section-first-content-number {
+        font-size: 56px;
+        line-height: 72px;
+    }
+}
+
+@media (max-width: 599px) {
+    .ug-fifth-section-first-content-title {
+        font-size: 24px;
+        line-height: 36px; /* 150% */
+    }
+
+    .ug-fifth-section-first-content-number {
+        font-size: 40px;
+        line-height: 52px; /* 130% */
+    }   
+
+    .ug-fifth-section-first-content-description {
+        font-size: 14px;
+        line-height: 24px; /* 171.429% */
+    }
+
+    .ug-fifth-section-second-content, .ug-fifth-section-third-content {
+        margin-top: 32px;
+    }
+
+    .ug-fifth-section-third-content-title {
+        font-size: 20px;
+        line-height: 52px; /* 260% */
+    }
+
+    .ug-fifth-section-second-content-percent {
+        font-size: 72px;
+        line-height: 84px; /* 250% */
+    }
+
+    .ug-fifth-section-second-content-title {
+        font-size: 24px;
+        line-height: 36px; /* 150% */
+    }
+    
+    .ug-fifth-section-second-content-description {
+        margin-top: 14px;
+        font-size: 16px;
+        line-height: 24px; /* 150% */
+    }
+
+
+
+
+
+
+
+
+
+}
+
