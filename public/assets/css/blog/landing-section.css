@@ -1,0 +1,8 @@
+.blog-landing-section {
+
+    position: relative;
+    /* height: 620px; */
+    border-radius: 0px 0px 48px 48px;
+    background: radial-gradient(50% 50% at 50% 50%, #49BAF8 0%, #0C78B1 92%);
+    height: 523px;
+}

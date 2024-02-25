@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ $title }}</title>
-    <link rel="stylesheet" href="{{ asset ('assets/css/bootstrap.css') }}">
+    <title><?php echo e($title); ?></title>
+    <link rel="stylesheet" href="<?php echo e(asset ('assets/css/bootstrap.css')); ?>">
 
-    <link rel="shortcut icon" href="{{ asset ('assets/images/favicon.ico') }}" type="image/x-icon"/>
+    <link rel="shortcut icon" href="<?php echo e(asset ('assets/images/favicon.ico')); ?>" type="image/x-icon"/>
 
     
-    <link rel="stylesheet" href="{{ asset ('assets/css/Homepage/navbar.css') }}">
-    <link rel="stylesheet" href="{{ asset ('assets/css/Homepage/footer.css') }}">
+    <link rel="stylesheet" href="<?php echo e(asset ('assets/css/Homepage/navbar.css')); ?>">
+    <link rel="stylesheet" href="<?php echo e(asset ('assets/css/Homepage/footer.css')); ?>">
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
@@ -51,7 +51,7 @@
 
         <div class="nav-menu">   
             <div class="search-div" >
-                <img src="{{ asset ('assets/images/circum_search.png') }}" alt="" width="24px" height="24px">
+                <img src="<?php echo e(asset ('assets/images/circum_search.png')); ?>" alt="" width="24px" height="24px">
                 <input type="text" class="form-control nav-search" id="nav-search" aria-describedby="emailHelp" placeholder="Search on TradersUnited">
             </div>
     
@@ -106,7 +106,7 @@
         
     </nav>
     
-    @yield('content')
+    <?php echo $__env->yieldContent('content'); ?>
 
     <style>
         .preloader-content-text {
@@ -313,7 +313,7 @@
 
 
     
-    <script src="{{ asset ('assets/js/bootstrap.js') }}"></script>
+    <script src="<?php echo e(asset ('assets/js/bootstrap.js')); ?>"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
@@ -333,4 +333,4 @@
 
 </body>
 
-</html>
+</html><?php /**PATH C:\Users\James for Zuitt\OneDrive\Documents\tru-international\tru-international_latest\resources\views/header/header.blade.php ENDPATH**/ ?>

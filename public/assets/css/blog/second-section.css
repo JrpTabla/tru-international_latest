@@ -1,0 +1,58 @@
+
+
+.ug-fourth-section-container {
+    max-width: 1440px;
+    height: 100%;
+}
+
+.ug-fourth-section-first-div {
+   /*  background-color: #E6E7E7;   */
+    border-radius: 48px;
+    padding-left: 92px !important;
+    padding-right: 92px !important;
+    margin-top: -236px;
+    
+}
+
+.ug-fourth-section-first-content {
+   
+    z-index: 99;
+    padding: 12.5px;
+}
+
+.ug-fourth-section-first-content-details {
+    border-radius: 40px;
+    background: #383838;
+    box-shadow: 14px 29px 24px 0px rgba(19, 19, 19, 0.15);
+}
+
+.ug-fourth-section-first-content-title {
+    color:  #FFF;
+    /* font-family: "Articulat CF"; */
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.ug-fourth-section-first-content-img img{
+    margin-top: 32px;
+    width: 100%;
+}
+
+.ug-fourth-section-first-content-details-2 {
+    border-radius: 40px;
+    background: #fff;
+    box-shadow: 14px 29px 24px 0px rgba(19, 19, 19, 0.15);
+    height: 554px;
+    flex-shrink: 0;
+}
+
+.ug-fourth-section-first-content-title-2 {
+    color:  #FFF;
+    /* font-family: "Articulat CF"; */
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}

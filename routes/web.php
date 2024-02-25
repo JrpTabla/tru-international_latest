@@ -29,6 +29,12 @@ Route::get('/communitrade', function () {
     return view('pages/communitrade', ['title' => 'Traders United | CommuniTrade']);
 });
 
+Route::get('/blog', function () {
+    return view('pages/blog', ['title' => 'Traders United | Blog']);
+});
+
+
+
 Route::get('/dashboard', function () {
     return view('pages/user/dashboard', ['title' => 'Traders United | Dashboard']);
 })->middleware(['auth'])->name('dashboard');
