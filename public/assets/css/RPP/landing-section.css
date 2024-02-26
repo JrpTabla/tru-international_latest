@@ -4,7 +4,7 @@
     /* height: 620px; */
     border-radius: 0px 0px 48px 48px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.70) -17.26%, rgba(22, 129, 194, 0.70) 104.11%), linear-gradient(0deg, #9AD9FF -16.97%, #45A0D8 19.73%, #1681C2 51.67%);
-
+    overflow: hidden;
 }
 
 .rpp-landing-section-container {

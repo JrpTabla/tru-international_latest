@@ -1,17 +1,17 @@
-@extends('header.header')
 
 
 
-@section('content')
 
-    <link rel="stylesheet" href="{{ asset ('assets/css/RPP/index.css') }}">
-    <link rel="stylesheet" href="{{ asset ('assets/css/UG/landing-section.css') }}">
-    <link rel="stylesheet" href="{{ asset ('assets/css/UG/second-section.css') }}">
-    <link rel="stylesheet" href="{{ asset ('assets/css/UG/third-section.css') }}">
-    <link rel="stylesheet" href="{{ asset ('assets/css/UG/fourth-section.css') }}">
-    <link rel="stylesheet" href="{{ asset ('assets/css/UG/fifth-section.css') }}">
-    <link rel="stylesheet" href="{{ asset ('assets/css/UG/sixth-section.css') }}">
-    <link rel="stylesheet" href="{{ asset ('assets/css/UG/seventh-section.css') }}">
+<?php $__env->startSection('content'); ?>
+
+    <link rel="stylesheet" href="<?php echo e(asset ('assets/css/RPP/index.css')); ?>">
+    <link rel="stylesheet" href="<?php echo e(asset ('assets/css/UG/landing-section.css')); ?>">
+    <link rel="stylesheet" href="<?php echo e(asset ('assets/css/UG/second-section.css')); ?>">
+    <link rel="stylesheet" href="<?php echo e(asset ('assets/css/UG/third-section.css')); ?>">
+    <link rel="stylesheet" href="<?php echo e(asset ('assets/css/UG/fourth-section.css')); ?>">
+    <link rel="stylesheet" href="<?php echo e(asset ('assets/css/UG/fifth-section.css')); ?>">
+    <link rel="stylesheet" href="<?php echo e(asset ('assets/css/UG/sixth-section.css')); ?>">
+    <link rel="stylesheet" href="<?php echo e(asset ('assets/css/UG/seventh-section.css')); ?>">
 
 <div class="main">
     <!-- Fourth Section Start -->
@@ -38,7 +38,7 @@
             <div class="mx-auto mt-auto">
                 <div class="ug-landing-section-first-content-img">
                 <img
-                    src="{{ asset ('assets/images/UG-images/landing-img.png') }}"
+                    src="<?php echo e(asset ('assets/images/UG-images/landing-img.png')); ?>"
                     alt=""
                     style="width: 100%"
                 />
@@ -87,7 +87,7 @@
                 <div class="mx-auto">
                 <div class="ug-third-section-first-content-img">
                     <img
-                    src="{{ asset ('assets/images/UG-images/third-section/circle-graph.png') }}"
+                    src="<?php echo e(asset ('assets/images/UG-images/third-section/circle-graph.png')); ?>"
                     alt=""
                     style="width: 100%"
                     />
@@ -144,7 +144,7 @@
                 <div class="mx-auto">
                 <div class="ug-fourth-section-first-content-img">
                     <img
-                    src="{{ asset ('assets/images/UG-images/fourth-section/fourth-section-img.png') }}"
+                    src="<?php echo e(asset ('assets/images/UG-images/fourth-section/fourth-section-img.png')); ?>"
                     alt=""
                     style="width: 100%"
                     />
@@ -248,7 +248,7 @@ is your potential benefits from UnityGains. 
 
                 <div class="accordion-item" data-aos="fade-right" data-aos-duration="1000">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-1"aria-expanded="false" aria-controls="flush-1">
-                        <img src="{{ asset ('assets/images/RPP-images/sixth-section/Vector.png') }}" alt=""/>
+                        <img src="<?php echo e(asset ('assets/images/RPP-images/sixth-section/Vector.png')); ?>" alt=""/>
                         <div class="faq-send">
                             <div class="faq-name">
                                 <span>Zara Al-Farsi</span>, United States
@@ -269,7 +269,7 @@ is your potential benefits from UnityGains. 
                                     No, you only have to pay for the membership fee. All TRU members can access our services and programs, including the CommuniTrade, without additional financial commitments.
                                 </div>
                             </div>
-                            <img class="faq-response-img" src="{{ asset ('assets/images/RPP-images/sixth-section/logo.png') }}" alt="" style="height: 60px; width: 60px"/>
+                            <img class="faq-response-img" src="<?php echo e(asset ('assets/images/RPP-images/sixth-section/logo.png')); ?>" alt="" style="height: 60px; width: 60px"/>
 
                             <div class="faq-response faq-response-sm">
                                 <div class="faq-response-name"> 
@@ -315,7 +315,7 @@ is your potential benefits from UnityGains. 
 
                 <div class="ug-seventh-section-first-content-img mx-auto">
                     <img
-                    src="{{ asset ('assets/images/UG-images/seventh-section/seventh-section-img.png') }}"
+                    src="<?php echo e(asset ('assets/images/UG-images/seventh-section/seventh-section-img.png')); ?>"
                     alt=""
                     style="width: 100%"
                     />
@@ -332,4 +332,5 @@ is your potential benefits from UnityGains. 
 <script>
   AOS.init();
 </script>
-@endsection
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('header.header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\Users\James for Zuitt\OneDrive\Documents\tru-international\tru-international_latest\resources\views/pages/unity-gains.blade.php ENDPATH**/ ?>

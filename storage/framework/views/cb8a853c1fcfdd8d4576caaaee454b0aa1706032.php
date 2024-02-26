@@ -1,17 +1,17 @@
-@extends('header.header')
 
-@section('content')
+
+<?php $__env->startSection('content'); ?>
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 
-  <link rel="stylesheet" href="{{ asset ('assets/css/RPP/index.css') }}">
-  <link rel="stylesheet" href="{{ asset ('assets/css/RPP/landing-section.css') }}">
-  <link rel="stylesheet" href="{{ asset ('assets/css/RPP/second-section.css') }}">
-  <link rel="stylesheet" href="{{ asset ('assets/css/RPP/third-section.css') }}">
-  <link rel="stylesheet" href="{{ asset ('assets/css/RPP/fourth-section.css') }}">
-  <link rel="stylesheet" href="{{ asset ('assets/css/RPP/fifth-section.css') }}">
-  <link rel="stylesheet" href="{{ asset ('assets/css/RPP/sixth-section.css') }}">
-  <link rel="stylesheet" href="{{ asset ('assets/css/RPP/seventh-section.css') }}">
+  <link rel="stylesheet" href="<?php echo e(asset ('assets/css/RPP/index.css')); ?>">
+  <link rel="stylesheet" href="<?php echo e(asset ('assets/css/RPP/landing-section.css')); ?>">
+  <link rel="stylesheet" href="<?php echo e(asset ('assets/css/RPP/second-section.css')); ?>">
+  <link rel="stylesheet" href="<?php echo e(asset ('assets/css/RPP/third-section.css')); ?>">
+  <link rel="stylesheet" href="<?php echo e(asset ('assets/css/RPP/fourth-section.css')); ?>">
+  <link rel="stylesheet" href="<?php echo e(asset ('assets/css/RPP/fifth-section.css')); ?>">
+  <link rel="stylesheet" href="<?php echo e(asset ('assets/css/RPP/sixth-section.css')); ?>">
+  <link rel="stylesheet" href="<?php echo e(asset ('assets/css/RPP/seventh-section.css')); ?>">
 
 <div class="main">
   <!-- Fourth Section Start -->
@@ -36,7 +36,7 @@
           <div class="mx-auto mt-auto">
             <div class="rpp-landing-section-first-content-img">
               <img
-                src="{{ asset ('assets/images/RPP-images/landing-section/landing-page-img.png') }}"
+                src="<?php echo e(asset ('assets/images/RPP-images/landing-section/landing-page-img.png')); ?>"
                 alt=""
                 style="width: 100%"
               />
@@ -182,7 +182,7 @@
           <div class="mx-auto">
             <div class="rpp-third-section-first-content-img">
               <img
-                src="{{ asset ('assets/images/RPP-images/third-section/third-section-img.png') }}"
+                src="<?php echo e(asset ('assets/images/RPP-images/third-section/third-section-img.png')); ?>"
                 alt=""
                 style="width: 100%"
               />
@@ -618,7 +618,7 @@
                 aria-controls="flush-collapseOne"
               >
                 <img
-                  src="{{ asset ('assets/images/RPP-images/sixth-section/Vector.png') }}"
+                  src="<?php echo e(asset ('assets/images/RPP-images/sixth-section/Vector.png')); ?>"
                   alt=""
                   style="margin-right: 18px"
                 />
@@ -649,7 +649,7 @@
                   </div>
                 </div>
                 <img
-                  src="{{ asset ('assets/images/RPP-images/sixth-section/logo.png') }}"
+                  src="<?php echo e(asset ('assets/images/RPP-images/sixth-section/logo.png')); ?>"
                   alt=""
                   style="margin-left: 18px"
                 />
@@ -667,7 +667,7 @@
                 aria-controls="flush-collapseTwo"
               >
                 <img
-                  src="{{ asset ('assets/images/RPP-images/sixth-section/Vector.png') }}"
+                  src="<?php echo e(asset ('assets/images/RPP-images/sixth-section/Vector.png')); ?>"
                   alt=""
                   style="margin-right: 18px"
                 />
@@ -706,7 +706,7 @@
                 aria-controls="flush-collapseThree"
               >
                 <img
-                  src="{{ asset ('assets/images/RPP-images/sixth-section/Vector.png') }}"
+                  src="<?php echo e(asset ('assets/images/RPP-images/sixth-section/Vector.png')); ?>"
                   alt=""
                   style="margin-right: 18px"
                 />
@@ -769,7 +769,7 @@
             <div class="m-auto">
               <div class="rpp-seventh-section-first-content-img">
                 <img
-                  src="{{ asset ('assets/images/RPP-images/seventh-section/picture.png') }}"
+                  src="<?php echo e(asset ('assets/images/RPP-images/seventh-section/picture.png')); ?>"
                   alt=""
                   style="width: 100%"
                 />
@@ -814,4 +814,5 @@
 
     </script>
 
-@endsection
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('header.header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\Users\James for Zuitt\OneDrive\Documents\tru-international\tru-international_latest\resources\views/pages/risk-protection-program.blade.php ENDPATH**/ ?>

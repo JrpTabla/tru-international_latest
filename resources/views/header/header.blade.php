@@ -19,7 +19,7 @@
     
 
 </head>
-<body>
+<body style="display: none;">
     
     <nav class="navbar navbar-expand-lg fixed-top">
         
@@ -324,6 +324,12 @@
             window.location.href = "/login";
         });
         
+        window.addEventListener("load", function() {
+
+            var bodyElement = document.querySelector('body');
+
+            bodyElement.style.display = 'block';
+        });
 
     </script>
 

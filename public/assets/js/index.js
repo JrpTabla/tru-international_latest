@@ -2,7 +2,7 @@ var countingStarted = false; // Flag to track whether counting has started
 /* Second-section counting upto the value of setData */
 
 
-document.addEventListener('DOMContentLoaded', function() {
+window.addEventListener("load", function() {
 
   setTimeout(function() {
     var typed = new Typed('.preloader-content-text', {
@@ -64,10 +64,10 @@ function changeBackgroundColor() {
   var scrollPosition = window.scrollY;
 
   sections.forEach(function(section) {
-  var sectionTop = section.offsetTop;
-  var sectionHeight = section.offsetHeight;
-  var triggerPoint = sectionTop - (sectionHeight * 0.75); // Adjusted trigger point
-
+    var sectionTop = section.offsetTop;
+    var sectionHeight = section.offsetHeight;
+    var triggerPoint = sectionTop - (sectionHeight * 0.70); // Adjusted trigger point
+  
     if (scrollPosition >= triggerPoint && scrollPosition < sectionTop + sectionHeight) {
         var sectionId = section.id;
 

@@ -1,17 +1,17 @@
-    @extends('header.header')
+    
 
-    @section('content')
+    <?php $__env->startSection('content'); ?>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 
-        <link rel="stylesheet" href="{{ asset ('assets/css/RPP/index.css') }}">
-        <link rel="stylesheet" href="{{ asset ('assets/css/CT/landing-section.css') }}">
-        <link rel="stylesheet" href="{{ asset ('assets/css/CT/second-section.css') }}">
-        <link rel="stylesheet" href="{{ asset ('assets/css/CT/third-section.css') }}">
-        <link rel="stylesheet" href="{{ asset ('assets/css/CT/fourth-section.css') }}">
-        <link rel="stylesheet" href="{{ asset ('assets/css/CT/fifth-section.css') }}">
-        <link rel="stylesheet" href="{{ asset ('assets/css/CT/sixth-section.css') }}">
-        <link rel="stylesheet" href="{{ asset ('assets/css/RPP/seventh-section.css') }}">
+        <link rel="stylesheet" href="<?php echo e(asset ('assets/css/RPP/index.css')); ?>">
+        <link rel="stylesheet" href="<?php echo e(asset ('assets/css/CT/landing-section.css')); ?>">
+        <link rel="stylesheet" href="<?php echo e(asset ('assets/css/CT/second-section.css')); ?>">
+        <link rel="stylesheet" href="<?php echo e(asset ('assets/css/CT/third-section.css')); ?>">
+        <link rel="stylesheet" href="<?php echo e(asset ('assets/css/CT/fourth-section.css')); ?>">
+        <link rel="stylesheet" href="<?php echo e(asset ('assets/css/CT/fifth-section.css')); ?>">
+        <link rel="stylesheet" href="<?php echo e(asset ('assets/css/CT/sixth-section.css')); ?>">
+        <link rel="stylesheet" href="<?php echo e(asset ('assets/css/RPP/seventh-section.css')); ?>">
 
     <div class="main">
     <!-- Fourth Section Start -->
@@ -40,7 +40,7 @@
             <div class="mx-auto my-auto">
                 <div class="ct-landing-section-first-content-img">
                 <img
-                    src="{{ asset ('assets/images/CT-images/landing-section/picture.png') }}"
+                    src="<?php echo e(asset ('assets/images/CT-images/landing-section/picture.png')); ?>"
                     alt=""
                     style="width: 100%"
                 />
@@ -59,7 +59,7 @@
             <div class="mx-auto">
                 <div class="ct-second-section-first-content-img">
                 <img
-                    src="{{ asset ('assets/images/CT-images/second-section/second-section-img.png') }}"
+                    src="<?php echo e(asset ('assets/images/CT-images/second-section/second-section-img.png')); ?>"
                     alt=""
                     style="width: 100%"
                 />
@@ -161,7 +161,7 @@
             <div class="mx-auto">
                 <div class="ct-third-section-first-content-img">
                 <img
-                    src="{{ asset ('assets/images/CT-images/third-section/third-section-img.png') }}"
+                    src="<?php echo e(asset ('assets/images/CT-images/third-section/third-section-img.png')); ?>"
                     alt=""
                     style="width: 100%"
                 />
@@ -182,7 +182,7 @@
                     <div class="swiper-slide">
                         <div class="swiper-slide-div">
                         <div class="spotlight-img-div">
-                            <img src="{{ asset ('assets/images/CT-images/fourth-section/Vector_sanny.png') }}" alt="" srcset="">
+                            <img src="<?php echo e(asset ('assets/images/CT-images/fourth-section/Vector_sanny.png')); ?>" alt="" srcset="">
                         </div>
                         <div class="spotlight-text-div">
                             <div class="spotlight-name">
@@ -197,7 +197,7 @@
                     <div class="swiper-slide">
                         <div class="swiper-slide-div">
                         <div class="spotlight-img-div">
-                            <img src="{{ asset ('assets/images/CT-images/fourth-section/Vector_sanny.png') }}" alt="" srcset="">
+                            <img src="<?php echo e(asset ('assets/images/CT-images/fourth-section/Vector_sanny.png')); ?>" alt="" srcset="">
                         </div>
                         <div class="spotlight-text-div">
                             <div class="spotlight-name">
@@ -212,7 +212,7 @@
                     <div class="swiper-slide">
                         <div class="swiper-slide-div">
                         <div class="spotlight-img-div">
-                            <img src="{{ asset ('assets/images/CT-images/fourth-section/Vector_sanny.png') }}" alt="" srcset="">
+                            <img src="<?php echo e(asset ('assets/images/CT-images/fourth-section/Vector_sanny.png')); ?>" alt="" srcset="">
                         </div>
                         <div class="spotlight-text-div">
                             <div class="spotlight-name">
@@ -227,7 +227,7 @@
                     <div class="swiper-slide">
                         <div class="swiper-slide-div">
                         <div class="spotlight-img-div">
-                            <img src="{{ asset ('assets/images/CT-images/fourth-section/Vector_sanny.png') }}" alt="" srcset="">
+                            <img src="<?php echo e(asset ('assets/images/CT-images/fourth-section/Vector_sanny.png')); ?>" alt="" srcset="">
                         </div>
                         <div class="spotlight-text-div">
                             <div class="spotlight-name">
@@ -242,7 +242,7 @@
                     <div class="swiper-slide">
                         <div class="swiper-slide-div">
                         <div class="spotlight-img-div">
-                            <img src="{{ asset ('assets/images/CT-images/fourth-section/Vector_sanny.png') }}" alt="" srcset="">
+                            <img src="<?php echo e(asset ('assets/images/CT-images/fourth-section/Vector_sanny.png')); ?>" alt="" srcset="">
                         </div>
                         <div class="spotlight-text-div">
                             <div class="spotlight-name">
@@ -257,7 +257,7 @@
                     <div class="swiper-slide">
                         <div class="swiper-slide-div">
                         <div class="spotlight-img-div">
-                            <img src="{{ asset ('assets/images/CT-images/fourth-section/Vector_sanny.png') }}" alt="" srcset="">
+                            <img src="<?php echo e(asset ('assets/images/CT-images/fourth-section/Vector_sanny.png')); ?>" alt="" srcset="">
                         </div>
                         <div class="spotlight-text-div">
                             <div class="spotlight-name">
@@ -289,9 +289,9 @@
                     General Discussion Board
                 </div>
                 <div class="ct-section-card-content mx-auto">
-                    <img src="{{ asset ('assets/images/CT-images/fifth-section/card-1.png') }}" alt="" width="100%">
+                    <img src="<?php echo e(asset ('assets/images/CT-images/fifth-section/card-1.png')); ?>" alt="" width="100%">
                 </div>
-                <img src="{{ asset ('assets/images/CT-images/fifth-section/view-btn.png') }}" alt="" class="ms-auto">
+                <img src="<?php echo e(asset ('assets/images/CT-images/fifth-section/view-btn.png')); ?>" alt="" class="ms-auto">
             </div>
         </div>
 
@@ -306,7 +306,7 @@
                         General Discussion Board
                     </div>
                     <div class="ct-section-card-content mx-auto">
-                        <img src="{{ asset ('assets/images/CT-images/fifth-section/card-1.png') }}" alt="" width="100%">
+                        <img src="<?php echo e(asset ('assets/images/CT-images/fifth-section/card-1.png')); ?>" alt="" width="100%">
                     </div>
                     <div class="ct-section-card-description">
                     Engage with fellow traders, build network, and tap into the collective knowledge of online traders worldwide – all in a single, safe space! Through the General Discussion Board, TRU members can seek advice on a wide range of topics, share personal trading anecdotes, or explore emerging market trends together.
@@ -323,9 +323,9 @@
                     TRU Forum
                 </div>
                 <div class="ct-section-card-content mx-auto">
-                    <img src="{{ asset ('assets/images/CT-images/fifth-section/card-2.png') }}" alt="" width="100%">
+                    <img src="<?php echo e(asset ('assets/images/CT-images/fifth-section/card-2.png')); ?>" alt="" width="100%">
                 </div>
-                <img src="{{ asset ('assets/images/CT-images/fifth-section/view-btn.png') }}" alt="" class="ms-auto">
+                <img src="<?php echo e(asset ('assets/images/CT-images/fifth-section/view-btn.png')); ?>" alt="" class="ms-auto">
             </div>
         </div>
         <div class="col-12 col-lg-6 ct-section-card" data-aos="fade-right" data-aos-duration="1000">
@@ -334,9 +334,9 @@
                     Badge system
                 </div>
                 <div class="ct-section-card-content mx-auto">
-                    <img src="{{ asset ('assets/images/CT-images/fifth-section/card-3.png') }}" alt="" width="100%">
+                    <img src="<?php echo e(asset ('assets/images/CT-images/fifth-section/card-3.png')); ?>" alt="" width="100%">
                 </div>
-                <img src="{{ asset ('assets/images/CT-images/fifth-section/view-btn.png') }}" alt="" class="ms-auto">
+                <img src="<?php echo e(asset ('assets/images/CT-images/fifth-section/view-btn.png')); ?>" alt="" class="ms-auto">
             </div>
         </div>
         <div class="col-12 col-lg-6 ct-section-card" data-aos="fade-left" data-aos-duration="1000">
@@ -345,9 +345,9 @@
                     Healthy Community Guidelines
                 </div>
                 <div class="ct-section-card-content mx-auto">
-                    <img src="{{ asset ('assets/images/CT-images/fifth-section/card-4.png') }}" alt="" width="100%">
+                    <img src="<?php echo e(asset ('assets/images/CT-images/fifth-section/card-4.png')); ?>" alt="" width="100%">
                 </div>
-                <img src="{{ asset ('assets/images/CT-images/fifth-section/view-btn.png') }}" alt="" class="ms-auto">
+                <img src="<?php echo e(asset ('assets/images/CT-images/fifth-section/view-btn.png')); ?>" alt="" class="ms-auto">
             </div>
         </div>
 
@@ -362,7 +362,7 @@
                 <div class="accordion accordion-flush mx-auto" id="accordionFlushExample">
                     <div class="accordion-item" data-aos="fade-right" data-aos-duration="1000">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-1"aria-expanded="false" aria-controls="flush-1">
-                            <img src="{{ asset ('assets/images/RPP-images/sixth-section/Vector.png') }}" alt=""/>
+                            <img src="<?php echo e(asset ('assets/images/RPP-images/sixth-section/Vector.png')); ?>" alt=""/>
                             <div class="faq-send">
                                 <div class="faq-name">
                                     <span>Zara Al-Farsi</span>, United States
@@ -383,7 +383,7 @@
                                         No, you only have to pay for the membership fee. All TRU members can access our services and programs, including the CommuniTrade, without additional financial commitments.
                                     </div>
                                 </div>
-                                <img class="faq-response-img" src="{{ asset ('assets/images/RPP-images/sixth-section/logo.png') }}" alt="" style="height: 60px; width: 60px"/>
+                                <img class="faq-response-img" src="<?php echo e(asset ('assets/images/RPP-images/sixth-section/logo.png')); ?>" alt="" style="height: 60px; width: 60px"/>
 
                                 <div class="faq-response faq-response-sm">
                                     <div class="faq-response-name"> 
@@ -429,7 +429,7 @@
                 <div class="m-auto">
                 <div class="rpp-seventh-section-first-content-img">
                     <img
-                    src="{{ asset ('assets/images/CT-images/seventh-section/picture.png') }}"
+                    src="<?php echo e(asset ('assets/images/CT-images/seventh-section/picture.png')); ?>"
                     alt=""
                     style="width: 100%"
                     />
@@ -471,4 +471,5 @@
 
 </script>
 
-@endsection
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('header.header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\Users\James for Zuitt\OneDrive\Documents\tru-international\tru-international_latest\resources\views/pages/communitrade.blade.php ENDPATH**/ ?>
