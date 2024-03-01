@@ -1,16 +1,12 @@
 
 .third-section {
-    /* background: #9AD9FF; */
-    /* background: #131313; */
-
     position: relative;
-    overflow-x: hidden;
-    padding-bottom: 212px;
-    /* overflow-x: hidden; */
+    padding-bottom: 118px;
+
 }
 
 .third-section-container {
-    max-width: 1444px;
+    max-width: 1400px;
     
 }
 
@@ -21,13 +17,12 @@
 /* First Card */
 
 .third-section-first-div {
-    /* margin-top: -118px; */
-    background: #9AD9FF;
+    margin-top: -118px;
+
     height: auto;
     padding: 92px;
     border-radius: 48px;
     background: #9AD9FF;
-    height: 534px;
 }
 
 .third-section-first-content-title {
@@ -38,7 +33,6 @@
     font-style: normal;
     font-weight: 700;
     line-height: 82px; /* 113.889% */
-    max-width: 578px;
 }
 
 .third-section-first-content-title span {
@@ -53,7 +47,6 @@
     font-weight: 300;
     line-height: 24px; /* 133.333% */
     margin-top: 36px;
-    max-width: 578px;
 }
 
 /* Sencond Card */
@@ -63,7 +56,7 @@
     /* height: 534px; */
     padding: 64px;
     border-radius: 48px;
-    height: 794px;
+    min-height: 100%;
 }
 
 .third-section-first-content-title-2 {
@@ -99,7 +92,7 @@
     background: #131313;
     padding: 64px;
     border-radius: 48px;
-    height: 794px;
+    min-height: 100%;
     
 }
 
@@ -131,10 +124,49 @@
 }
 
 
-@media (max-width: 1440px) {
+/* Ads */
+
+    .second-img-background {
+        min-width: 1920px;
+        position: absolute;
+        left:50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .third-section-ads-1 {
+        position: absolute;
+        top: 138px;
+        left: 56px;
+        width: 120px;
+        height: 600px;
+        flex-shrink: 0;
+        background: #858585;
+    }
+
+    .third-section-ads-2 {
+        position: absolute;
+        top: 138px;
+        right: 56px;
+        width: 120px;
+        height: 600px;
+        flex-shrink: 0;
+        background: #858585;
+    }
+
+/* Ads - End */
+
+
+
+
+@media (max-width: 1800px) {
+
+    .second-img-background {
+        min-width: 1600px;
+
+    }
 
     .third-section-container {
-        max-width: 1024px;
+        max-width: 1250px;
         
     }
     
@@ -152,7 +184,7 @@
 
     .third-section-second-div,
     .third-section-third-div-3  {
-        height: 651px;
+        min-height: 100%;
     }
 
 
@@ -167,7 +199,7 @@
     }
 
     .third-section-first-div {
-
+        padding: 64px !important;
         margin-top: 0 !important;
         height: auto !important;
     }

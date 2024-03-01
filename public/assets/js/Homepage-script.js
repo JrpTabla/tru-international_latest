@@ -18,6 +18,10 @@ window.addEventListener("load", function() {
 
   }, 3000); // Adjust the delay as needed
 
+
+  var bodyElement = document.querySelector('body');
+  bodyElement.style.display = 'block';
+
  
   ScrollReveal().reveal('.navbar', {
     origin: 'top',   // Slide in from the top
@@ -66,7 +70,7 @@ function changeBackgroundColor() {
   sections.forEach(function(section) {
     var sectionTop = section.offsetTop;
     var sectionHeight = section.offsetHeight;
-    var triggerPoint = sectionTop - (sectionHeight * 0.70); // Adjusted trigger point
+    var triggerPoint = sectionTop - (sectionHeight * 0.50); // Adjusted trigger point
   
     if (scrollPosition >= triggerPoint && scrollPosition < sectionTop + sectionHeight) {
         var sectionId = section.id;

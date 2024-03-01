@@ -1,5 +1,5 @@
 .second-section-content-container {
-    max-width: 1414px;
+    max-width: 1400px;
     margin-top: 48px;
 }
 
@@ -45,9 +45,10 @@
     align-items: center;
 }
 
-@media (max-width: 1440px) {
+
+@media (max-width: 1800px) {
     .second-section-content-container {
-        max-width: 1024px;
+        max-width: 1250px;
         margin-top: 48px;
     }
 

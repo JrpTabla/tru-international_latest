@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContentController;
 
 /*
 |--------------------------------------------------------------------------
@@ -34,6 +35,21 @@ Route::get('/blog', function () {
 });
 
 
+Route::get('/admin__dashboard', function () {
+    return view('pages/admin/dashboard', ['title' => 'Traders United | Admin Dashboard']);
+});
+
+Route::get('/admin__blog', function () {
+    return view('pages/admin/blog', ['title' => 'Traders United | Admin Blog']);
+});
+
+
+Route::get('/zoho', function () {
+    return view('pages/zoho', ['title' => 'Traders United | Admin Blog']);
+});
+
+
+
 
 Route::get('/dashboard', function () {
     return view('pages/user/dashboard', ['title' => 'Traders United | Dashboard']);
@@ -49,4 +65,9 @@ Auth::routes(['verify' => true]);
 require __DIR__.'/auth.php';
 
 require __DIR__.'/user.php';
+
+
+
+
+Route::get('/fetch-content', 'ContentController@fetchContent')->name('fetch-content');
 

@@ -106,6 +106,7 @@
 
 
 .lading-section-card-div {
+    max-width: 1400px;
     margin-top: 72px;
     display: flex;
     flex-direction: column;
@@ -136,16 +137,42 @@
 
 }
 
+.card-div {
+    margin-top: 48px;
+    margin-bottom: 52px;
+}
+
+.landing-card {
+    padding: 48px;
+    min-height: 490px;
+    border-radius: 48px;
+    display: flex;
+}
 
 .landing-card:hover .landing-card-description {
     display: block;
-
 }
 
 .landing-card-description {
-    display: none;
+    display: none; 
+}
 
-    
+.landing-card-CommuniTrade {
+    border: 2px solid #9AD9FF;
+    background: #1681C2;
+    background-image: url('../../images/Home-images/card-1.png'); 
+}
+
+.landing-card-RPP {
+   border: 2px solid #E7AA2D;
+   background: #817B0D;
+   background-image: url('../../images/Home-images/card-2.png');
+}
+
+.landing-card-PSP {
+    border: 2px solid #8ECB86;
+    background: #569E4C;
+    background-image: url('../../images/Home-images/card-3.png');
 }
 
 .card-div-2 {
@@ -212,14 +239,15 @@
 
 
 
-@media (max-width: 1440px) {
+@media (max-width: 1800px) {
 
     .lading-section-card-div {
-        max-width: 1024px !important;
+        max-width: 1250px !important;
     }
 
     .landing-card {
-        min-height: 400px !important;
+       /*  min-height: 400px !important; */
+       padding: 48px;
     }
 
 }

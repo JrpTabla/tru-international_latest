@@ -14,16 +14,15 @@
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-
     <script src="https://unpkg.com/scrollreveal"></script>
     
 
 </head>
-<body style="display: none;">
+<body>
+    
     
     <nav class="navbar navbar-expand-lg fixed-top">
-        
-    </style>>
+
         <!-- Navigation Bar LOGO -->
         <a class="navbar-brand" href="/">
             <svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 0 191 40" fill="none">
@@ -55,7 +54,7 @@
                 <input type="text" class="form-control nav-search" id="nav-search" aria-describedby="emailHelp" placeholder="Search on TradersUnited">
             </div>
     
-            <div class="nav-search-btn">
+            <div class="nav-search-btn">    
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
                     <path d="M20.0308 20.7901C20.4908 21.2501 21.2008 20.5401 20.7408 20.0901L16.9908 16.3301C18.3063 14.8746 19.0334 12.9819 19.0308 11.0201C19.0308 6.63006 15.4608 3.06006 11.0708 3.06006C6.68084 3.06006 3.11084 6.63006 3.11084 11.0201C3.11084 15.4101 6.68084 18.9801 11.0708 18.9801C13.0508 18.9801 14.8808 18.2501 16.2808 17.0401L20.0308 20.7901ZM4.10984 11.0201C4.10984 7.18006 7.23984 4.06006 11.0698 4.06006C14.9098 4.06006 18.0298 7.18006 18.0298 11.0201C18.0298 14.8601 14.9098 17.9801 11.0698 17.9801C7.23984 17.9801 4.10984 14.8601 4.10984 11.0201Z" fill="white" stroke="white"/>
                 </svg>
@@ -93,8 +92,13 @@
                 <li class="nav-item">
                     <a class="nav-h11" href="#">TechHub</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-h11" href="#">Organization</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-h11 dropdown-toggle active" data-bs-toggle="dropdown" aria-expanded="false" href="#">Organization</a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
                 </li>
             </ul>
             <ul class="navbar-nav navbar-login ms-auto">
@@ -323,19 +327,8 @@
             // Redirect to the /login page
             window.location.href = "/login";
         });
-        
-        window.addEventListener("load", function() {
-
-            var bodyElement = document.querySelector('body');
-
-            bodyElement.style.display = 'block';
-        });
 
     </script>
-
-    
-
-</body>
 
 </body>
 

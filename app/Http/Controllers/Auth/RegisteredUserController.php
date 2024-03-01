@@ -54,8 +54,8 @@ class RegisteredUserController extends Controller
             'phone' => $request->phone,
         ]);
 
-        event(new Registered($user));
+        // event(new Registered($user));
 
-        return redirect("/");
+        return redirect("/login");
     }
 }

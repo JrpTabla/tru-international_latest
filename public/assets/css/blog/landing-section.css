@@ -6,3 +6,14 @@
     background: radial-gradient(50% 50% at 50% 50%, #49BAF8 0%, #0C78B1 92%);
     height: 523px;
 }
+
+
+
+@media (max-width: 599px) {
+
+
+    .blog-landing-section {
+        height: 323px
+    }
+
+}

@@ -19,6 +19,7 @@
         </div>
         <div class="col-6 d-flex div-second-content">
             <form id="loginForm" class="m-auto">
+                @csrf
                 <div class="input-form">
                     <label for="email" class="form-label">Email</label>
                     <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" required autofocus placeholder="email">
@@ -45,40 +46,6 @@
 </div>
 
 
-<script>
-
-    document.getElementById('loginForm').addEventListener('submit', function(event) {
-        event.preventDefault(); // Prevent the default form submission
-        
-        // Get the form data
-        const formData = new FormData(this);
-
-        // Send an AJAX request to the server
-        fetch('/login', {
-            method: 'POST',
-            body: formData,
-            headers: {
-                'X-CSRF-TOKEN': '{{ csrf_token() }}'
-            }
-        })
-        .then(response => response.json())
-        .then(data => {
-
-            /* console.log(data); */
-            if (data.success) {
-                // Redirect to intended page on successful login
-                window.location.href = data.redirect;
-            } else {
-                // Handle login failure, e.g., display an error message
-                alert('Login failed. Please check your credentials.');
-            }
-        })
-        .catch(error => {
-            console.error('Error:', error);
-        });
-    });
-
-    
-</script>
+<script src="{{ asset ('assets/js/user/user-script.js') }}"></script>
 
 @endsection

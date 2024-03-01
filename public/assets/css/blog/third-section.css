@@ -1,0 +1,120 @@
+
+
+.blog-third-section-container {
+    max-width: 1440px;
+    height: 100%;
+    margin-top: 94px;
+}
+
+.blog-third-section-first-div {
+   /*  background-color: #E6E7E7;   */
+    border-radius: 48px;
+    /* padding-left: 92px !important; */
+    /* padding-right: 92px !important; */
+   
+    padding: 0px !important;
+}
+
+.blog-third-section-title {
+    color: #E7AA2E;
+    /* font-family: "Articulat CF"; */
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; /* 113.889% */
+    margin-bottom: 50px;
+}
+
+.blog-third-section-content {
+    padding-right: 23px !important;
+    padding-left: 23px !important;
+    padding-top: 23px !important;
+}
+
+.blog-third-section-details {
+    /* background-color: aqua; */
+    width: 100%;
+    max-width: 827px;
+}
+
+.blog-third-section-details img {
+    width: 100%;
+}
+
+.blog-third-section-details-title {
+    margin-top: 22px;
+    color: #131313;
+   /*  font-family: "Articulat CF"; */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 150% */
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.blog-third-section-details-title i {
+    height: 100%;
+}
+
+.blog-third-section-details-date {
+    margin-top: 5px;
+    color: #959595;
+    /* font-family: "Articulat CF"; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.blog-third-section-details-tag {
+    gap: 12px   ;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.blog-third-section-details-tag-txt {
+    color: #131313;
+    /* font-family: "Articulat CF"; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+
+.ads {
+    display: none;
+    margin-top: 69px;
+    width: 980px;
+    height: 90px;
+    background: #858585;
+}
+
+
+
+
+
+@media (max-width: 599px) {
+
+
+    .blog-third-section-container {
+        margin-top: 32px;
+    }
+
+    .blog-third-section-title {
+
+        font-size: 32px;
+        line-height: 40px; /* 125% */
+        margin-bottom: 0px;
+    }
+
+}

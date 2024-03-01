@@ -1,17 +1,13 @@
 .eigth-section {
     position: relative;
     padding-bottom: 76px;
-    min-height: 856px !important;
+    /* min-height: 856px !important; */
     border-radius: 0 0 48px 48px ;
     
 }
 
 .eigth-section-container {
-    height: 714px;
-}
-
-.eigth-section-container {
-    max-width: 1414px;
+    max-width: 1400px;
     
 }
 
@@ -171,11 +167,8 @@
     overflow: hidden;
     cursor: pointer;
     position: relative;
-    bottom: 76px;
-}
-.eigth-section-scroll-div {
-    display: flex;
-    white-space: nowrap;
+    /* bottom: 76px; */
+    height: 180px;
 }
 
 .eigth-moving-text {
@@ -198,6 +191,10 @@
 .eigth-section-scroll-div {
     width: calc(1634.41px * 2);
     animation: LefttoRight 20s infinite linear;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    display: flex;
+    white-space: nowrap;
 }
 
 .eigth-section-third-content-button,
@@ -205,12 +202,13 @@
     border-radius: 64px;
     background: linear-gradient(90deg, #FFC400 -1.92%, #F17727 63.45%);
     display: inline-flex;
+    /* opacity: 0; */
     padding: 13px 68px;
     justify-content: center;
     align-items: center;
-    gap: 12px;
+ 
     text-decoration: none;
-
+     min-width: 288px;
     color: #FFF;
     text-align: center;
     /* font-family: "Articulat CF"; */
@@ -218,8 +216,10 @@
     font-style: normal;
     font-weight: 700;
     line-height: 30px; /* 166.667% */
+    cursor: pointer;
    
 }
+
 
 .eigth-section-third-content {
     display: none   ;
@@ -232,15 +232,41 @@
     
 }
 
+.cursor-btn {
+    z-index: 1;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 64px;
+    background: linear-gradient(90deg, #FFC400 -1.92%, #F17727 63.45%);
+    display: none;
+    padding: 13px 68px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    color:  #FFF;
+    text-align: center;
+    /* font-family: "Articulat CF"; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 166.667% */
+    transform: translate(-50%,-50%);
+    min-width: 288px;
+    /* cursor: pointer; */
+}
 
 .eigth-section-fourth-content-button {
-    position: absolute;
-    z-index: 10;
-    left:50%;
-    top: 60%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    /* left:50%;
+    top: 60%; */
     transform: translate(-50%,-50%);
     opacity: 0;
+    pointer-events: none;
 }
+
 
 
 
@@ -253,10 +279,10 @@
     }
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1800px) {
 
     .eigth-section-container {
-        max-width: 1024px;
+        max-width: 1250px;
         
     }
     
@@ -381,6 +407,7 @@
 
     .eigth-section-scroll-section {
         margin-top: 200px;
+
     }
 
     .eigth-section {

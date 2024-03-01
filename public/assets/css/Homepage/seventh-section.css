@@ -47,16 +47,16 @@
     /* background: #FFCA5D; */
     /* background: #131313; */
     position: relative;
-    padding-bottom: 212px;
-    min-height: 856px !important;
+    padding-bottom: 118px;
+    /* min-height: 856px !important; */
     
 }
-.seventh-section-container {
+/* .seventh-section-container {
     height: 714px;
-}
+} */
 
 .seventh-section-container {
-    max-width: 1414px;
+    max-width: 1400px;
     
 }
 
@@ -68,7 +68,7 @@
     padding: 92px;
     border-radius: 48px;
     background: #E6E7E7;
-    height: 736px;
+    /* height: 736px; */
 }
 
 .seventh-section-first-content-title {
@@ -238,10 +238,10 @@
 }
 
 
-@media (max-width: 1440px) {
+@media (max-width: 1800px) {
 
     .seventh-section-container {
-        max-width: 1024px;
+        max-width: 1250px;
         
     }
     

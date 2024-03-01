@@ -75,9 +75,13 @@
 .main {
     background-color: #131313;
     margin-bottom: 479px;
-    transition: background-color 4s;
+    transition: background-color 3s;
     border-radius: 0 0 48px 48px ;
     overflow: hidden;
+    display: none;
+}
+
+body {
     display: none;
 }
 
@@ -126,3 +130,6 @@
     flex-wrap: wrap;
     z-index: 999999 !important;
 }
+
+
+

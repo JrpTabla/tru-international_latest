@@ -781,37 +781,12 @@
     </section>
   </div>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        effect: "coverflow",
-        grabCursor: true,
-        centeredSlides: true,
-        slidesPerView: "auto",
-        coverflowEffect: {
-          rotate: 0,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows: false,
-        },
-        /* pagination: {
-            el: ".swiper-pagination",
-          }, */
-        // Add navigation buttons
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-        // Set initial slide index to the last one
-        initialSlide: 1,
-        spaceBetween: -477, // Adjust this value to decrease/increase the gap between slides
-      });
 
-      AOS.init();
+  <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-    </script>
+  <script src="{{ asset ('assets/js/Rpp-script.js') }}"></script>
+
 
 @endsection

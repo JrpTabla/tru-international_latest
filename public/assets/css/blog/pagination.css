@@ -1,0 +1,48 @@
+
+.pagination-div {
+    width: 100%;
+    display: flex;
+}
+
+.disabled .page-link svg path{
+    fill: #414141;
+
+}
+.pagination {
+    --bs-pagination-disabled-color: none;
+    --bs-pagination-disabled-bg: none;
+    --bs-pagination-disabled-border-color: none;
+}
+
+.active>.page-link, .page-link.active {
+    border-radius: 6px !important;
+    background: #0C81C1 !important;
+}
+
+.page-link {
+    cursor: pointer;
+    color:  #414141;
+    /* font-family: "Articulat CF"; */
+    border: none;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%; /* 40px */
+    transition: 0.3s ease-in-out;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.page-link:hover {
+    border-radius: 6px !important;
+    color: #fff;
+    background: #414141;
+
+}
+
+.page-link:hover path {
+    fill: #fff !important;
+
+}
+
+

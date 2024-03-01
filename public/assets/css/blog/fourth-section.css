@@ -1,0 +1,319 @@
+
+
+.blog-fourth-section-container {
+    max-width: 1236px;
+    height: 100%;
+    margin-top: 61px;
+}
+
+.blog-fourth-section-first-div {
+   /*  background-color: #E6E7E7;   */
+    border-radius: 48px;
+    /* padding-left: 92px !important; */
+    /* padding-right: 92px !important; */
+   
+    
+}
+
+.blog-fourth-section-title {
+    color: #0C81C1;
+    /* font-family: "Articulat CF"; */
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.blog-fourth-section-navigation {
+    margin-top: 55px;
+    margin-bottom: 32px;
+    display: flex;
+    gap: 46px;
+}
+
+.content-search {
+    border: none;
+    color: #747474;
+    /* font-family: "Articulat CF"; */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    box-shadow: none !important; 
+    padding: 0px !important;
+
+
+}
+
+.blog-fourth-section-search-div {
+    padding-left: 25px;
+    padding-top: 18px;
+    padding-bottom: 14px;
+    padding-right: 34px;
+    border-radius: 9px;
+    border: 2px solid #A1A1A1;
+    /* max-width: 816px; */
+    height: 66px;
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.search-btn-svg {
+    width: 34px;
+    height: 35px;
+    cursor: pointer;
+    height: 100%;
+}
+
+
+.blog-fourth-section-search-option {
+
+    display: flex;
+    gap: 25px;
+    height: 66px;
+
+}
+
+.blog-fourth-section-filter-div {
+    height: 100%;
+    display: flex;
+    min-width: 174.067px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #0C81C1;
+    justify-items: center;
+    align-items: center;
+    padding-left: 25px;
+    gap: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.blog-fourth-section-filter-txt {
+    color: #FFF;
+    /* font-family: "Articulat CF"; */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+
+.blog-fourth-section-sort-div {
+    height: 100%;
+    display: flex;
+    min-width: 174.067px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #E7AA2E;
+    justify-items: center;
+    align-items: center;
+    padding-left: 25px;
+    gap: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Contents */
+
+.blog-fourth-section-div {
+    margin-top: 32px;
+}
+
+.blog-fourth-section-first-content {
+    border-bottom: 3px solid #A1A1A1;
+    margin-bottom: 32px;
+}
+
+.blog-fourth-section-first-content-details {
+    padding-top: 32px;
+    padding-bottom: 46px;
+
+}
+
+.blog-fourth-section-content-title {
+    max-height: 32px;
+    color: #000;
+    /* font-family: "Articulat CF"; */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; /* 150% */
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* number of lines to show */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.blog-fourth-section-details-tag {
+    gap: 14px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.blog-fourth-section-details-tag-txt {
+    color: #000;
+    /* font-family: "Articulat CF"; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.blog-fourth-section-details-date {
+    margin-top: 14px;
+    color: #959595;
+    /* font-family: "Articulat CF"; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.blog-fourth-section-details-description {
+    max-height: 48px;
+    margin-top: 14px;
+    color: #000;
+    /* font-family: "Articulat CF"; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.blog-fourth-section-details-btn {
+    margin-top: 20px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.blog-fourth-section-first-content-btn {
+    border-radius: 12px;
+    background: #414141;
+    width: 253.738px;
+    height: 51.735px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: 10px 19px;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    border: 2px solid #414141;
+    cursor: pointer;
+    box-shadow: rgba(19, 19, 19, 0.15) 14px 14px 24px 0px;
+    
+}
+
+.blog-fourth-section-first-content-btn:hover {
+    border: 2px solid #131313;
+    background: #131313;
+}
+
+.blog-fourth-section-first-content-btn-2:focus {
+    border: 2px solid var(--light-grey, #9E9E9E);
+    background: var(--navy-grey, #414141);
+}
+
+.spinner {
+    display: none;
+    margin: auto;
+    /* animation: spin 1s linear infinite; */
+}
+
+.blog-fourth-section-first-content-btn-txt {
+    color:  #FFF;
+    /* font-family: "Articulat CF"; */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: block;
+}
+
+.blog-fourth-section-first-content-btn .btn-arrow {
+    margin-left: auto;
+    display: block;
+}
+
+
+.blog-fourth-section-details-btn-save {
+    cursor: pointer;    
+}
+
+.blog-fourth-section-details-btn-save:hover path {
+    fill: #131313 !important;
+    transition: 0.3s ease-in;
+}
+
+.blog-fourth-section-first-content-img img {
+    width: 100%;
+}
+
+
+
+/* Pagination */
+
+.pagination-div {
+    margin-top: 74px;
+}
+
+
+
+
+@media (max-width: 991px) {
+
+    .blog-fourth-section-navigation  {
+        flex-direction: column; 
+    }
+
+    .blog-fourth-section-search-option {
+        justify-content: center;
+    }
+
+
+    .blog-fourth-section-filter-div {
+        width: 45%;
+    }
+
+
+    .blog-fourth-section-sort-div {
+        width: 45%;
+    } 
+
+}
+
+@media (max-width: 599px) {
+
+    .blog-fourth-section-container {
+        margin-top: 32px;
+    }
+
+    .blog-fourth-section-title {
+
+        font-size: 32px;
+        line-height: 40px; /* 125% */
+        margin-bottom: 0px;
+
+    }
+
+}
+
+
+

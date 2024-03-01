@@ -5,12 +5,12 @@
     /* background: #131313; */
 
     position: relative;
-    padding-bottom: 212px;
+    padding-bottom: 118px;
     
 }
 
 .sixth-section-container {
-    max-width: 1414px;
+    max-width: 1400px;
     
 }
 
@@ -21,7 +21,7 @@
     padding: 92px;
     border-radius: 48px;
     background: #8ECB86;
-    height: 534px;
+    /* height: 534px; */
 }
 
 .sixth-section-first-content-title {
@@ -90,6 +90,7 @@
 /* Third Card */
 
 .sixth-section-third-div-3 {
+    position: relative;
     background: #fff;
     padding: 64px;
     border-radius: 48px;
@@ -124,10 +125,18 @@
     line-height: 24px; /* 133.333% */
 }
 
-@media (max-width: 1440px) {
+.sixth-section-first-content-phone {
+    position: absolute;
+    bottom: 0;
+    padding: 0 !important;
+    max-width: 354px;
+}
+
+
+@media (max-width: 1800px) {
 
     .sixth-section-container {
-        max-width: 1024px;
+        max-width: 1250px;
         
     }
     
@@ -145,11 +154,8 @@
 
     .sixth-section-second-div,
     .sixth-section-third-div-3  {
-        height: 651px;
-    }
-
-    .sixth-section-first-content-phone {
-        max-width: 150px !important;
+        /* height: 651px; */
+        min-height: 100%;
     }
 
 
