@@ -5,14 +5,12 @@
 }
 
 .div-content {
-    margin-top: 137px;
     height: 100%;
     max-width: 1400px;
 
 }
 
 .div-title {
-    margin-top: 53.5px;
     color: #FFF;
     max-width: 572px;
     /* H2 */
@@ -28,7 +26,6 @@
 }
 
 .div-description {
-    margin-top: 18px;
     color: #FFF;
     max-width: 542px;
     /* body-text-huge */
@@ -68,14 +65,6 @@ label {
     color: #9E9E9E; /* Your desired color for the placeholder text */
 }
 
-.input-form {
-    margin-bottom: 16px;
-}
-
-.input-form-2 {
-    margin-bottom: 48px;
-}
-
 .btn-login {
     
     border-radius: 64px;
@@ -99,10 +88,6 @@ label {
     color: #fff;
 }
 
-.input-form-forgot-password {
-    margin-top: 48px;
-}
-
 .forgot-password {
     color:  #1681C2;
     /* font-family: "Articulat CF"; */
@@ -112,11 +97,6 @@ label {
     line-height: 24px; /* 150% */
     text-decoration-line: underline;
 }
-
-.input-form-create-account {
-    margin-top: 36px;
-}
-
 
 .create-account {
     color: #63A859;

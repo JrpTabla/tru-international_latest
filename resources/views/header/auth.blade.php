@@ -11,7 +11,7 @@
 </head>
 <body>
 
-    <div class="w-100 d-flex">
+    <div class="w-100 d-flex p-3">
         <button type="button" class="btn ms-auto btn-Goback" onclick="goBack()">Go Back</button>
     </div>
 
@@ -22,11 +22,11 @@
     
     
 
-<script>
+    <script>
     function goBack() {
-        window.history.back();
+        window.location.href = "/";
     }
-</script>
+</script>   
 
 
 </body>

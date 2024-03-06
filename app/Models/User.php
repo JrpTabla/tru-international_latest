@@ -12,6 +12,14 @@ class User extends Authenticatable implements MustVerifyEmail
 {
     use HasApiTokens, HasFactory, Notifiable;
 
+     /**
+     * Indicates if the model should be timestamped.
+     *
+     * @var bool
+     */
+    public $timestamps = false;
+
+
     /**
      * The attributes that are mass assignable.
      *
@@ -25,6 +33,14 @@ class User extends Authenticatable implements MustVerifyEmail
         'date_of_birth',
         'country',
         'phone',
+        'email_verified',
+        'block_flg',
+        'delete_flg',
+        'created_date',
+        'created_user',
+        'updated_date',
+        'updated_user',
+
     ];
 
     /**
@@ -34,15 +50,5 @@ class User extends Authenticatable implements MustVerifyEmail
      */
     protected $hidden = [
         'password',
-        'remember_token',
-    ];
-
-    /**
-     * The attributes that should be cast.
-     *
-     * @var array<string, string>
-     */
-    protected $casts = [
-        'email_verified_at' => 'datetime',
     ];
 }

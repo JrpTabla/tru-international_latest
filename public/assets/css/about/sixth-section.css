@@ -1,0 +1,138 @@
+.about-sixth-third-section {
+
+    position: relative;
+
+}
+
+.about-sixth-section-container {
+    max-width: 1440px;
+    height: 100%;
+    /* margin-top: 120px; */
+}
+
+.about-sixth-section-first-div {
+   /*  background-color: #E6E7E7;   */
+    border-radius: 48px;
+    padding: 92px !important;
+    
+}
+
+.about-sixth-section-first-content-title {
+    color: #E7AA2D;
+    /* text-align: center; */
+    /* font-family: Bahnschrift; */
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 52px; /* 144.444% */
+}
+
+.about-sixth-section-first-content-title span {
+    color: #B17B0D;
+    text-decoration: underline;
+
+}
+
+.about-sixth-section-first-content-description {
+    margin-top: 32px;
+
+    color: #131313;
+
+    /* body-text-huge */
+    font-family: Bahnschrift;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 133.333% */
+}
+
+
+@media (max-width: 1200px) {
+
+    .about-sixth-section-first-div {
+        padding: 20px !important    ;
+    }
+
+    .rpp-landing-section-Btn-div {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+
+@media (max-width: 599px) {
+    .about-sixth-section-first-content-title {
+
+        font-size: 32px;
+        line-height: 40px; /* 125% */
+    }
+
+    .about-sixth-section-first-content-description {
+        font-size: 16px;
+        line-height: 24px; /* 150% */
+        margin-top: 14px;
+    }
+
+    .about-sixth-section-container {
+        margin-top: 0px !important;
+    }
+    
+        
+}
+
+
+/* 
+@media (max-width: 1440px) {
+
+    .rpp-third-section-first-div {
+        border-radius: 0px !important;
+    }
+
+}
+
+@media (max-width: 1199px) {
+
+    .rpp-third-section-first-content {
+        margin-top: 12px;
+    }
+
+    .rpp-third-section-second-content {
+        margin-top: 32px;
+    }
+    
+    .rpp-third-section .rpp-section-first-content {
+        padding-left: 0px !important;
+    }
+
+}
+
+
+@media (max-width: 769px) {
+
+    .rpp-third-section-first-div {
+        padding: 20px;
+    }
+
+}
+
+@media (max-width: 599px) {
+
+    .rpp-third-section-first-content-title {
+        max-width: 250px;
+        font-size: 32px;
+        line-height: 40px; /
+    }
+    
+    .rpp-third-section-first-content-description {
+       
+        margin-top: 14px;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px; 
+    }
+
+}
+
+
+ */

@@ -265,7 +265,7 @@
 
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1199px) {
 
     .seventh-section-container {
         max-width: 768px;
@@ -284,7 +284,7 @@
     }
 
     .seventh-section-second-content {
-        height: 470px;
+        height: 370px;
     }
 
     .seventh-section {

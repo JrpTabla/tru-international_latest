@@ -30,6 +30,10 @@ Route::get('/communitrade', function () {
     return view('pages/communitrade', ['title' => 'Traders United | CommuniTrade']);
 });
 
+Route::get('/about', function () {
+    return view('pages/about', ['title' => 'Traders United | About Us']);
+});
+
 Route::get('/blog', function () {
     return view('pages/blog', ['title' => 'Traders United | Blog']);
 });

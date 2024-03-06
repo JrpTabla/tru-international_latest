@@ -5,14 +5,10 @@
 }
 
 .div-content {
-    margin-top: 60px;
-    height: 100%;
     max-width: 1400px;
-
 }
 
 .div-title {
-    margin-top: 53.5px;
     color: #FFF;
     max-width: 572px;
     /* H2 */
@@ -27,8 +23,8 @@
     color: #9AD9FF;
 }
 
-.div-description {
-    margin-top: 18px;
+.div-description,
+.div-description-2 {
     color: #FFF;
     max-width: 542px;
     /* body-text-huge */
@@ -39,6 +35,9 @@
     line-height: 24px; /* 133.333% */
 }
 
+.div-description-2 {
+    display: none;
+}
 
 label {
     color: #E6E7E7;
@@ -88,15 +87,8 @@ label {
     background-size: 16px 12px;
 }
 
-
-.input-form {
-    margin-bottom: 16px;
-}
 .terms {
     max-width: 280px;
-    margin-top: 33px;
-    margin-bottom: 48px;
-
     color: #E6E7E7;
     /* font-family: Bahnschrift; */
     font-size: 14px;
@@ -128,7 +120,25 @@ label {
     color: #fff;
 }
 
+.error-border {
+    border: 1px solid red !important;
+}
 
 
+@media (max-width: 767px) {
 
+    .div-description-2 {
+        display: flex;
+    }
+
+    .div-description {
+        display: none;
+    }
+
+    .div-title {
+        font-size: 56px;
+        line-height: 72px; 
+    }
+
+}
 

@@ -139,7 +139,7 @@
             <div class="third-section-container row mx-auto">
                 <div class="padding-gap col-12">
                     <div class="third-section-first-div row" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
-                        <div class="third-section-first-content col-12 col-lg-6" data-aos="fade-down" data-aos-duration="500">
+                        <div class="third-section-first-content col-12 col-xl-6" data-aos="fade-down" data-aos-duration="500">
                             <div class="third-section-first-content-title">
                                 <span>Safeguard</span> <br> your trading <br> account.
                             </div>
@@ -147,7 +147,7 @@
                                 Elevate your account's security with the Risk Protection Plan. TRU empowers members to prosper from calculated risk by providing a unique safety net from investment losses.  
                             </div>
                         </div>
-                        <div class="third-section-second-content col-12 col-lg-6"  data-aos="fade-down" data-aos-duration="500">
+                        <div class="third-section-second-content col-12 col-xl-6"  data-aos="fade-down" data-aos-duration="500">
                             <div class="m-auto">  
                                 <div class="third-section-first-content-img">
                                     <img src="<?php echo e(asset ('assets/images/Home-images/Third-section/card-1.png')); ?>" alt="" style="width: 100%;">
@@ -284,7 +284,7 @@
         <div class="container-fluid">
             <div class="fifth-section-container row mx-auto" >
                 <div class="padding-gap col-12">
-                    <div class="fifth-section-first-div row col-12" data-aos="zoom-in" data-aos-duration="500" data-aos-anchor-placement="top-bottom">
+                    <div class="fifth-section-first-div row col-12  " data-aos="zoom-in" data-aos-duration="500" data-aos-anchor-placement="top-bottom">
                         <div class="fifth-section-first-content d-flex col-12 col-xl-6">
                             <div class="m-auto">  
                                 <div class="fifth-section-first-content-title" data-aos="zoom-in-right" data-aos-duration="1000">
@@ -649,8 +649,12 @@
     let index = 0;
 
     function changeText() {
-        textElements[0].textContent = texts[index];
-        index = (index + 1) % texts.length;
+        textElements[0].style.transform = "translateY(-50px)"; // Move text up
+        setTimeout(() => {
+            textElements[0].textContent = texts[index];
+            textElements[0].style.transform = "translateY(0)"; // Move text back to original position
+            index = (index + 1) % texts.length;
+        }, 500); // Wait for the animation duration
         setTimeout(changeText, 2000); // Change every 3 seconds
     }
 

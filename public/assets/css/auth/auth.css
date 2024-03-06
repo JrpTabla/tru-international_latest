@@ -8,14 +8,12 @@ body {
     background: #131313;
     min-width: 100vw;
     min-height: 100vh;
-    padding: 24px 46px;
 }
 
 
 .btn-Goback {
     min-width: 116px;
     height: 42px;
-    padding: 9px 36.95px 9px 37.05px;
     border-radius: 32px;
     background: #FFF;
 

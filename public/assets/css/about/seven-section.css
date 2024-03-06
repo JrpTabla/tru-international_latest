@@ -1,0 +1,219 @@
+.about-seven-section {
+
+    position: relative;
+}
+
+.about-section-container {
+    max-width: 1440px;
+    height: 100%;
+}
+
+
+.about-seven-section-title {
+    /* margin-top: 120px; */
+    max-width: 600px;
+    color: #131313;
+    text-align: center;
+
+    /* H2 */
+    /* font-family: "Articulat CF"; */
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px; /* 113.889% */
+}
+
+.about-seven-section-title span {
+    color: #569E4C !important;
+}
+
+.about-seven-section-card-title {
+    width: 334px;
+    color: #131313;
+    /* H6 */
+    /* font-family: "Articulat CF"; */
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 52px; /* 130% */
+}
+
+.about-seven-section-card-description {
+    margin-top: 18px;
+    color: #131313;
+
+    /* body-text-huge */
+    /* font-family: Bahnschrift; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 133.333% */
+}
+
+.about-section-cards-seven {
+    padding-top: 52px;
+}
+
+.about-section-card-seven {
+    padding: 26px;
+    
+}
+
+.about-section-card-seven:hover {
+    transition: 0.3s ease-in-out;
+    background: #E6E7E7;
+    box-shadow: 0px 12px 24px 0px rgba(19, 19, 19, 0.10);
+}
+
+.about-section-card-seven-title {
+    /* margin-bottom: 32px; */
+    color: #569E4C;
+    /* font-family: Bahnschrift; */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 133.333% */
+}
+
+.about-section-card-seven-description {
+    margin-top: 18px;
+    margin-bottom: 24px;
+    color: #131313;
+
+    /* body-text-huge */
+    /* font-family: Bahnschrift; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 133.333% */
+}
+
+
+.about-section-card-seven {
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 24px;
+    border: 2px solid var(--Grey, #E6E7E7);
+    padding: 32px;
+
+}
+
+.about-section-card-seven-content {
+    margin-bottom: 24px;
+    
+}
+
+.about-section-card-seven-content img {
+    border-radius: 12px;
+}
+
+.about-section-card-seven-date-text {
+    color: #414141;
+    margin-bottom: 18px;
+    /* text-align: right; */
+    /* body-text-tiny */
+    /* font-family: "Articulat CF"; */
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+}
+
+.about-section-card-seven-btn {
+    color: #569E4C;
+
+    /* font-family: "Articulat CF"; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 133.333% */
+    text-decoration-line: underline;
+}
+
+
+
+.modal-content {
+    display: flex;
+    padding: 30px;
+    fill: var(--light-blue, #9AD9FF);
+    filter: drop-shadow(0px 12px 24px rgba(154, 217, 255, 0.48));
+    background-color: #9AD9FF;
+    border: none;
+}
+
+.modal-body {
+    padding: 34px !important;
+}
+
+@media (max-width: 1024px) {
+
+    .rpp-seven-section-title {
+        margin-top: 32px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+
+    .about-seven-section {
+        background-color: #fff;
+    }
+
+}
+
+
+
+@media (max-width: 599px) {
+
+    .spotlight-text-div {
+        margin-left: 0px !important;
+    }
+
+    .about-section-card-title {
+        font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 150% */
+    }
+
+    .about-section-card-1,
+    .about-section-card-2,
+    .about-section-card-3,
+    .about-section-card-4 {
+        padding: 24px !important;
+    }
+
+    .about-seven-section-title  {
+        padding-top: 32px;
+        max-width: 400px;
+        font-size: 32px;
+        line-height: 40px; /* 125% */
+    }
+    
+    .about-section-card-1-title,
+    .about-section-card-2-title,
+    .about-section-card-3-title,
+    .about-section-card-4-title{
+
+        font-size: 24px;
+        line-height: 36px; /* 150% */
+    }
+
+    .ct-section-card-content {
+        margin-top: 12px;
+        font-size: 16px;
+        line-height: 24px; /* 150% */
+    }
+
+    .rpp-section-first-content {
+        width: auto !important;
+        height: auto !important;
+    }
+
+}
+
+
+

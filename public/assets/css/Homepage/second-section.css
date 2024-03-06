@@ -58,14 +58,14 @@
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1199px) {
     .second-section-content-container {
         max-width: 768px;
         margin-top: 48px;
     }
 
     .second-section-advertisment-container {
-        width: 90% !important;
+        width: 768px !important;
     }
 
     .second-section-title {
