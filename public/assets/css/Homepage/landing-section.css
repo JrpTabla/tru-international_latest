@@ -29,7 +29,7 @@
 }
 
 .lading-section-text-div {
-    margin-top: 165px;
+    margin-top: 120px;
     max-width: 961px;
     display: flex;
     flex-direction: column;
@@ -99,12 +99,6 @@
     outline: none;
 }
 
-/* .btn-get-started:hover {
-    color: white;
-    background: linear-gradient(-180deg, #FFC400 -1.92%, #F17727 63.45%);
-} */
-
-
 .lading-section-card-div {
     max-width: 1400px;
     margin-top: 72px;
@@ -113,28 +107,18 @@
 }
 
 .landing-card-title {
-    /* color: var(--white, var(--white, #FFF));
-    text-align: center; */
-    /* H8 */
-    /* font-family: "Articulat CF"; */
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
-    line-height: 40px; /* 125% */
+    line-height: 40px; 
 }
 
 
 .landing-card-description {
-
-    /* color: var(--white, var(--white, #FFF));
-    text-align: center; */
-    /* body-text-huge */
-    /* font-family: Bahnschrift; */
     font-size: 18px;
     font-style: normal;
     font-weight: 300;
-    line-height: 24px; /* 133.333% */
-
+    line-height: 24px; 
 }
 
 .card-div {
@@ -218,22 +202,20 @@
 }
 
 .landing-card-sm-title {
-    /* font-family: "Articulat CF"; */
     margin-top: 8px;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: 36px; /* 150% */
+    line-height: 36px; 
     color: white;
 }
 
 .landing-card-sm-content {
-    /* font-family: Bahnschrift; */
     margin-top: 14px;
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
-    line-height: 24px; /* 150% */
+    line-height: 24px;
     color: white;
 }
 

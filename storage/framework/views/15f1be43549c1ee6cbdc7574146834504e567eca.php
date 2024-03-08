@@ -1,20 +1,20 @@
-@extends('header.header')
 
-@section('content')
 
-<link rel="stylesheet" href="{{ asset ('assets/css/Homepage/index.css') }}">
-<link rel="stylesheet" href="{{ asset ('assets/css/Homepage/landing-section.css') }}">
-<link rel="stylesheet" href="{{ asset ('assets/css/Homepage/second-section.css') }}">
-<link rel="stylesheet" href="{{ asset ('assets/css/Homepage/third-section.css') }}">
-<link rel="stylesheet" href="{{ asset ('assets/css/Homepage/fourth-section.css') }}">
-<link rel="stylesheet" href="{{ asset ('assets/css/Homepage/fifth-section.css') }}">
-<link rel="stylesheet" href="{{ asset ('assets/css/Homepage/sixth-section.css') }}">
-<link rel="stylesheet" href="{{ asset ('assets/css/Homepage/seventh-section.css') }}">
-<link rel="stylesheet" href="{{ asset ('assets/css/Homepage/eigth-section.css') }}">
+<?php $__env->startSection('content'); ?>
+
+<link rel="stylesheet" href="<?php echo e(asset ('assets/css/Homepage/index.css')); ?>">
+<link rel="stylesheet" href="<?php echo e(asset ('assets/css/Homepage/landing-section.css')); ?>">
+<link rel="stylesheet" href="<?php echo e(asset ('assets/css/Homepage/second-section.css')); ?>">
+<link rel="stylesheet" href="<?php echo e(asset ('assets/css/Homepage/third-section.css')); ?>">
+<link rel="stylesheet" href="<?php echo e(asset ('assets/css/Homepage/fourth-section.css')); ?>">
+<link rel="stylesheet" href="<?php echo e(asset ('assets/css/Homepage/fifth-section.css')); ?>">
+<link rel="stylesheet" href="<?php echo e(asset ('assets/css/Homepage/sixth-section.css')); ?>">
+<link rel="stylesheet" href="<?php echo e(asset ('assets/css/Homepage/seventh-section.css')); ?>">
+<link rel="stylesheet" href="<?php echo e(asset ('assets/css/Homepage/eigth-section.css')); ?>">
 
 <div class="preloader" id="preloader">
     <div class="preloader-content m-auto">
-        <img src="{{ asset ('assets/images/pre-loader-logo.png') }}" alt="" class="m-auto"/>
+        <img src="<?php echo e(asset ('assets/images/pre-loader-logo.png')); ?>" alt="" class="m-auto"/>
         <div class="preloader-content-text m-auto"></div>
     </div>
 </div>
@@ -26,8 +26,8 @@
     <section id="landing-section" class="landing-section">
         <!-- Background  Images -->
         <div class="landing-img-background m-auto" >
-            <img src="{{ asset ('assets/images/Home-images/hero_image_left.png') }}" alt="" class=" background-img-left" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine" data-aos-duration="1000"/>
-            <img src="{{ asset ('assets/images/Home-images/hero_image_right.png') }}" alt="" class="background-img-right" data-aos="fade-left" data-aos-offset="500"data-aos-easing="ease-in-sine" data-aos-duration="1000"/>
+            <img src="<?php echo e(asset ('assets/images/Home-images/hero_image_left.png')); ?>" alt="" class=" background-img-left" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine" data-aos-duration="1000"/>
+            <img src="<?php echo e(asset ('assets/images/Home-images/hero_image_right.png')); ?>" alt="" class="background-img-right" data-aos="fade-left" data-aos-offset="500"data-aos-easing="ease-in-sine" data-aos-duration="1000"/>
         </div>
         <!-- Landing Text Division -->
         <div class="lading-section-text-div mx-auto d-flex" data-aos="zoom-in-up" data-aos-duration="500">
@@ -148,7 +148,7 @@
                         <div class="third-section-second-content col-12 col-xl-6 d-flex"  data-aos="fade-down" data-aos-duration="500">
                             <div class="m-auto">  
                                 <div class="third-section-first-content-img">
-                                    <img src="{{ asset ('assets/images/Home-images/Third-section/card-1.png') }}" alt="" style="width: 100%;">
+                                    <img src="<?php echo e(asset ('assets/images/Home-images/Third-section/card-1.png')); ?>" alt="" style="width: 100%;">
                                 </div>
                             </div>
                         </div>
@@ -160,7 +160,7 @@
                         <div class="third-section-second-content d-flex col-12">
                             <div class="m-auto">  
                                 <div class="third-section-first-content-img">
-                                    <img src="{{ asset ('assets/images/Home-images/Third-section/card-2.png') }}" alt="" style="width: 100%;" data-aos="flip-up" data-aos-duration="500">
+                                    <img src="<?php echo e(asset ('assets/images/Home-images/Third-section/card-2.png')); ?>" alt="" style="width: 100%;" data-aos="flip-up" data-aos-duration="500">
                                 </div>
                             </div>
                         </div>
@@ -193,7 +193,7 @@
                         <div class="third-section-second-content d-flex col-12">
                             <div class="m-auto">  
                                 <div class="third-section-first-content-img">
-                                    <img src="{{ asset ('assets/images/Home-images/Third-section/card-3.png') }}" alt="" style="width: 100%;" data-aos="flip-down" data-aos-duration="500">
+                                    <img src="<?php echo e(asset ('assets/images/Home-images/Third-section/card-3.png')); ?>" alt="" style="width: 100%;" data-aos="flip-down" data-aos-duration="500">
                                 </div>
                             </div>
                         </div>
@@ -224,7 +224,7 @@
                         <div class="fourth-section-second-content d-flex col-12 col-xl-6" data-aos="flip-down" data-aos-duration="1000"> 
                             <div class="m-auto">  
                                 <div class="fourth-section-first-content-img">
-                                    <img src="{{ asset ('assets/images/Home-images/fourth-section/card-1.png') }}" alt="" style="width: 100%;">
+                                    <img src="<?php echo e(asset ('assets/images/Home-images/fourth-section/card-1.png')); ?>" alt="" style="width: 100%;">
                                 </div>
                             </div>
                         </div>
@@ -236,7 +236,7 @@
                         <div class="fourth-section-second-content d-flex col-12" data-aos="fade-down" data-aos-duration="1000">
                             <div class="m-auto">  
                                 <div class="fourth-section-first-content-img">
-                                    <img src="{{ asset ('assets/images/Home-images/fourth-section/card-2.png') }}" alt="" style="width: 100%;">
+                                    <img src="<?php echo e(asset ('assets/images/Home-images/fourth-section/card-2.png')); ?>" alt="" style="width: 100%;">
                                 </div>
                             </div>
                         </div>
@@ -269,7 +269,7 @@
                                 </div>
                             </div>
                         </div>
-                        <img src="{{ asset ('assets/images/Home-images/fourth-section/card-3.png') }}" class="fourth-section-first-content-description-3-img" alt="" data-aos="fade-up" data-aos-duration="1000">
+                        <img src="<?php echo e(asset ('assets/images/Home-images/fourth-section/card-3.png')); ?>" class="fourth-section-first-content-description-3-img" alt="" data-aos="fade-up" data-aos-duration="1000">
                     </div>
                 </div>
             </div>
@@ -296,24 +296,24 @@
                         </div>
                         <div class="fifth-section-second-content d-flex col-12 col-xl-6">
 
-                            <img class="circle-1" src="{{ asset ('assets/images/Home-images/fifth-section/circle-1.png') }}" data-aos="zoom-in" data-aos-duration="1000">
-                            <img class="circle-2" src="{{ asset ('assets/images/Home-images/fifth-section/circle-1.png') }}" data-aos="zoom-in" data-aos-duration="1000">
-                            <img class="circle-3" src="{{ asset ('assets/images/Home-images/fifth-section/circle-1.png') }}" data-aos="zoom-in" data-aos-duration="1000">
-                            <img class="circle-4" src="{{ asset ('assets/images/Home-images/fifth-section/circle-1.png') }}" data-aos="zoom-in" data-aos-duration="1000">
+                            <img class="circle-1" src="<?php echo e(asset ('assets/images/Home-images/fifth-section/circle-1.png')); ?>" data-aos="zoom-in" data-aos-duration="1000">
+                            <img class="circle-2" src="<?php echo e(asset ('assets/images/Home-images/fifth-section/circle-1.png')); ?>" data-aos="zoom-in" data-aos-duration="1000">
+                            <img class="circle-3" src="<?php echo e(asset ('assets/images/Home-images/fifth-section/circle-1.png')); ?>" data-aos="zoom-in" data-aos-duration="1000">
+                            <img class="circle-4" src="<?php echo e(asset ('assets/images/Home-images/fifth-section/circle-1.png')); ?>" data-aos="zoom-in" data-aos-duration="1000">
 
-                            <img class="image-1" src="{{ asset ('assets/images/Home-images/fifth-section/ava1.png') }}" data-aos="zoom-out" data-aos-duration="1000">
-                            <img class="image-2" src="{{ asset ('assets/images/Home-images/fifth-section/ava2.png ') }}"  data-aos="zoom-out" data-aos-duration="1000">
-                            <img class="image-3" src="{{ asset ('assets/images/Home-images/fifth-section/Vector.png ') }}"  data-aos="zoom-out" data-aos-duration="1000">
-                            <img class="image-4" src="{{ asset ('assets/images/Home-images/fifth-section/ava4.png ') }}" data-aos="zoom-out" data-aos-duration="1000">
-                            <img class="image-5" src="{{ asset ('assets/images/Home-images/fifth-section/ava5.png ') }}" data-aos="zoom-out" data-aos-duration="1000">
-                            <img class="image-6" src="{{ asset ('assets/images/Home-images/fifth-section/ava6.png ') }}"  data-aos="zoom-out" data-aos-duration="1000">
+                            <img class="image-1" src="<?php echo e(asset ('assets/images/Home-images/fifth-section/ava1.png')); ?>" data-aos="zoom-out" data-aos-duration="1000">
+                            <img class="image-2" src="<?php echo e(asset ('assets/images/Home-images/fifth-section/ava2.png ')); ?>"  data-aos="zoom-out" data-aos-duration="1000">
+                            <img class="image-3" src="<?php echo e(asset ('assets/images/Home-images/fifth-section/Vector.png ')); ?>"  data-aos="zoom-out" data-aos-duration="1000">
+                            <img class="image-4" src="<?php echo e(asset ('assets/images/Home-images/fifth-section/ava4.png ')); ?>" data-aos="zoom-out" data-aos-duration="1000">
+                            <img class="image-5" src="<?php echo e(asset ('assets/images/Home-images/fifth-section/ava5.png ')); ?>" data-aos="zoom-out" data-aos-duration="1000">
+                            <img class="image-6" src="<?php echo e(asset ('assets/images/Home-images/fifth-section/ava6.png ')); ?>"  data-aos="zoom-out" data-aos-duration="1000">
 
                             <div class="fifth-section-second-content-comment d-flex m-auto" data-aos="flip-down" data-aos-duration="1000" >
                                 <div class="fifth-section-second-content-profile">
-                                    <img src="{{ asset ('assets/images/Home-images/fifth-section/profile.png ') }}">
+                                    <img src="<?php echo e(asset ('assets/images/Home-images/fifth-section/profile.png ')); ?>">
                                 </div>
                                 <div class="fifth-section-second-content-info">
-                                    <div class="fifth-section-second-content-username">@Gulam Ambiya</div>
+                                    <div class="fifth-section-second-content-username">@Gulam  Ambiya</div>
                                     <div class="fifth-section-second-content-platform">comment in Telegram</div>
 
                                     <div class="fifth-section-second-content-comments">
@@ -350,7 +350,7 @@
                         <div class="sixth-section-second-content d-flex col-12 col-xl-6" data-aos="flip-down" data-aos-duration="1000">
                             <div class="m-auto">  
                                 <div class="sixth-section-first-content-img">
-                                    <img src="{{ asset ('assets/images/Home-images/sixth-section/card-1.png ') }}" alt="" style="width: 100%;">
+                                    <img src="<?php echo e(asset ('assets/images/Home-images/sixth-section/card-1.png ')); ?>" alt="" style="width: 100%;">
                                 </div>
                             </div>
                         </div>
@@ -361,7 +361,7 @@
                         <div class="sixth-section-second-content d-flex col-12">
                             <div class="m-auto">  
                                 <div class="sixth-section-first-content-img">
-                                    <img src="{{ asset ('assets/images/Home-images/sixth-section/card-2.png ') }}" alt="" style="width: 100%;" data-aos="fade-left" data-aos-duration="1000">
+                                    <img src="<?php echo e(asset ('assets/images/Home-images/sixth-section/card-2.png ')); ?>" alt="" style="width: 100%;" data-aos="fade-left" data-aos-duration="1000">
                                 </div>
                             </div>
                         </div>
@@ -394,7 +394,7 @@
                                 </div>
                             </div>
                         </div>
-                        <img class="sixth-section-first-content-phone" src="{{ asset ('assets/images/Home-images/sixth-section/card-3.png ') }}" alt="" data-aos="fade-right" data-aos-duration="1000">
+                        <img class="sixth-section-first-content-phone" src="<?php echo e(asset ('assets/images/Home-images/sixth-section/card-3.png ')); ?>" alt="" data-aos="fade-right" data-aos-duration="1000">
                     </div>
                 </div>
             </div>
@@ -426,56 +426,56 @@
     data-aos-duration="500">
                             <div class="seventh-section-second-card-div-1 col-6 p-2">
                                 <div class="seventh-section-second-card-1">
-                                    <img class="seventh-section-second-card-main-img" src="{{ asset ('assets/images/Home-images/seventh-section/card-1.png ') }}">
+                                    <img class="seventh-section-second-card-main-img" src="<?php echo e(asset ('assets/images/Home-images/seventh-section/card-1.png ')); ?>">
                                     <div class="seventh-section-second-title">Tag title</div>
                                     <div class="seventh-section-second-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</div>
                                     <div class="seventh-section-second-time">
-                                        <img src="{{ asset ('assets/images/Home-images/seventh-section/lets-icons_time-light.png  ') }}" alt="">
+                                        <img src="<?php echo e(asset ('assets/images/Home-images/seventh-section/lets-icons_time-light.png  ')); ?>" alt="">
                                         <div class="seventh-section-second-date">November 29, 2023</div>
                                     </div>
                                 </div>
                                 <div class="seventh-section-second-card-1">
-                                    <img class="seventh-section-second-card-main-img" src="{{ asset ('assets/images/Home-images/seventh-section/card-2.png  ') }}">
+                                    <img class="seventh-section-second-card-main-img" src="<?php echo e(asset ('assets/images/Home-images/seventh-section/card-2.png  ')); ?>">
                                     <div class="seventh-section-second-title">Tag title</div>
                                     <div class="seventh-section-second-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</div>
                                     <div class="seventh-section-second-time">
-                                        <img src="{{ asset ('assets/images/Home-images/seventh-section/lets-icons_time-light.png  ') }}" alt="">
+                                        <img src="<?php echo e(asset ('assets/images/Home-images/seventh-section/lets-icons_time-light.png  ')); ?>" alt="">
                                         <div class="seventh-section-second-date">November 29, 2023</div>
                                     </div>
                                 </div>
                                 <div class="seventh-section-second-card-1">
-                                    <img class="seventh-section-second-card-main-img" src="{{ asset ('assets/images/Home-images/seventh-section/card-1.png  ') }}">
+                                    <img class="seventh-section-second-card-main-img" src="<?php echo e(asset ('assets/images/Home-images/seventh-section/card-1.png  ')); ?>">
                                     <div class="seventh-section-second-title">Tag title</div>
                                     <div class="seventh-section-second-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</div>
                                     <div class="seventh-section-second-time">
-                                        <img src="{{ asset ('assets/images/Home-images/seventh-section/lets-icons_time-light.png  ') }}" alt="">
+                                        <img src="<?php echo e(asset ('assets/images/Home-images/seventh-section/lets-icons_time-light.png  ')); ?>" alt="">
                                         <div class="seventh-section-second-date">November 29, 2023</div>
                                     </div>
                                 </div>
                                 <div class="seventh-section-second-card-1">
-                                    <img class="seventh-section-second-card-main-img" src="{{ asset ('assets/images/Home-images/seventh-section/card-2.png  ') }}">
+                                    <img class="seventh-section-second-card-main-img" src="<?php echo e(asset ('assets/images/Home-images/seventh-section/card-2.png  ')); ?>">
                                     <div class="seventh-section-second-title">Tag title</div>
                                     <div class="seventh-section-second-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</div>
                                     <div class="seventh-section-second-time">
-                                        <img src="{{ asset ('assets/images/Home-images/seventh-section/lets-icons_time-light.png  ') }}" alt="">
+                                        <img src="<?php echo e(asset ('assets/images/Home-images/seventh-section/lets-icons_time-light.png  ')); ?>" alt="">
                                         <div class="seventh-section-second-date">November 29, 2023</div>
                                     </div>
                                 </div>
                                 <div class="seventh-section-second-card-1" >
-                                    <img class="seventh-section-second-card-main-img" src="{{ asset ('assets/images/Home-images/seventh-section/card-1.png  ') }}">
+                                    <img class="seventh-section-second-card-main-img" src="<?php echo e(asset ('assets/images/Home-images/seventh-section/card-1.png  ')); ?>">
                                     <div class="seventh-section-second-title">Tag title</div>
                                     <div class="seventh-section-second-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</div>
                                     <div class="seventh-section-second-time">
-                                        <img src="{{ asset ('assets/images/Home-images/seventh-section/lets-icons_time-light.png  ') }}" alt="">
+                                        <img src="<?php echo e(asset ('assets/images/Home-images/seventh-section/lets-icons_time-light.png  ')); ?>" alt="">
                                         <div class="seventh-section-second-date">November 29, 2023</div>
                                     </div>
                                 </div>
                                 <div class="seventh-section-second-card-1" >
-                                    <img class="seventh-section-second-card-main-img" src="{{ asset ('assets/images/Home-images/seventh-section/card-2.png  ') }}">
+                                    <img class="seventh-section-second-card-main-img" src="<?php echo e(asset ('assets/images/Home-images/seventh-section/card-2.png  ')); ?>">
                                     <div class="seventh-section-second-title">Tag title</div>
                                     <div class="seventh-section-second-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</div>
                                     <div class="seventh-section-second-time">
-                                        <img src="{{ asset ('assets/images/Home-images/seventh-section/lets-icons_time-light.png  ') }}" alt="">
+                                        <img src="<?php echo e(asset ('assets/images/Home-images/seventh-section/lets-icons_time-light.png  ')); ?>" alt="">
                                         <div class="seventh-section-second-date">November 29, 2023</div>
                                     </div>
                                 </div>
@@ -483,56 +483,56 @@
 
                             <div class="seventh-section-second-card-div-2 col-6 p-2" data-aos="fade-left" data-aos-duration="1000">
                                 <div class="seventh-section-second-card-2">
-                                    <img class="seventh-section-second-card-main-img" src="{{ asset ('assets/images/Home-images/seventh-section/card-3.png  ') }}">
+                                    <img class="seventh-section-second-card-main-img" src="<?php echo e(asset ('assets/images/Home-images/seventh-section/card-3.png  ')); ?>">
                                     <div class="seventh-section-second-title">Tag title</div>
                                     <div class="seventh-section-second-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</div>
                                     <div class="seventh-section-second-time">
-                                        <img src="{{ asset ('assets/images/Home-images/seventh-section/lets-icons_time-light.png  ') }}" alt="">
+                                        <img src="<?php echo e(asset ('assets/images/Home-images/seventh-section/lets-icons_time-light.png  ')); ?>" alt="">
                                         <div class="seventh-section-second-date">November 29, 2023</div>
                                     </div>
                                 </div>
                                 <div class="seventh-section-second-card-2">
-                                    <img class="seventh-section-second-card-main-img" src="{{ asset ('assets/images/Home-images/seventh-section/card-4.png  ') }}">
+                                    <img class="seventh-section-second-card-main-img" src="<?php echo e(asset ('assets/images/Home-images/seventh-section/card-4.png  ')); ?>">
                                     <div class="seventh-section-second-title">Tag title</div>
                                     <div class="seventh-section-second-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</div>
                                     <div class="seventh-section-second-time">
-                                        <img src="{{ asset ('assets/images/Home-images/seventh-section/lets-icons_time-light.png  ') }}" alt="">
+                                        <img src="<?php echo e(asset ('assets/images/Home-images/seventh-section/lets-icons_time-light.png  ')); ?>" alt="">
                                         <div class="seventh-section-second-date">November 29, 2023</div>
                                     </div>
                                 </div>
                                 <div class="seventh-section-second-card-2">
-                                    <img class="seventh-section-second-card-main-img" src="{{ asset ('assets/images/Home-images/seventh-section/card-3.png  ') }}">
+                                    <img class="seventh-section-second-card-main-img" src="<?php echo e(asset ('assets/images/Home-images/seventh-section/card-3.png  ')); ?>">
                                     <div class="seventh-section-second-title">Tag title</div>
                                     <div class="seventh-section-second-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</div>
                                     <div class="seventh-section-second-time">
-                                        <img src="{{ asset ('assets/images/Home-images/seventh-section/lets-icons_time-light.png  ') }}" alt="">
+                                        <img src="<?php echo e(asset ('assets/images/Home-images/seventh-section/lets-icons_time-light.png  ')); ?>" alt="">
                                         <div class="seventh-section-second-date">November 29, 2023</div>
                                     </div>
                                 </div>
                                 <div class="seventh-section-second-card-2">
-                                    <img class="seventh-section-second-card-main-img" src="{{ asset ('assets/images/Home-images/seventh-section/card-4.png  ') }}">
+                                    <img class="seventh-section-second-card-main-img" src="<?php echo e(asset ('assets/images/Home-images/seventh-section/card-4.png  ')); ?>">
                                     <div class="seventh-section-second-title">Tag title</div>
                                     <div class="seventh-section-second-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</div>
                                     <div class="seventh-section-second-time">
-                                        <img src="{{ asset ('assets/images/Home-images/seventh-section/lets-icons_time-light.png  ') }}" alt="">
+                                        <img src="<?php echo e(asset ('assets/images/Home-images/seventh-section/lets-icons_time-light.png  ')); ?>" alt="">
                                         <div class="seventh-section-second-date">November 29, 2023</div>
                                     </div>
                                 </div>
                                 <div class="seventh-section-second-card-2">
-                                    <img class="seventh-section-second-card-main-img" src="{{ asset ('assets/images/Home-images/seventh-section/card-3.png  ') }}">
+                                    <img class="seventh-section-second-card-main-img" src="<?php echo e(asset ('assets/images/Home-images/seventh-section/card-3.png  ')); ?>">
                                     <div class="seventh-section-second-title">Tag title</div>
                                     <div class="seventh-section-second-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</div>
                                     <div class="seventh-section-second-time">
-                                        <img src="{{ asset ('assets/images/Home-images/seventh-section/lets-icons_time-light.png  ') }}" alt="">
+                                        <img src="<?php echo e(asset ('assets/images/Home-images/seventh-section/lets-icons_time-light.png  ')); ?>" alt="">
                                         <div class="seventh-section-second-date">November 29, 2023</div>
                                     </div>
                                 </div>
                                 <div class="seventh-section-second-card-2">
-                                    <img class="seventh-section-second-card-main-img" src="{{ asset ('assets/images/Home-images/seventh-section/card-4.png  ') }}">
+                                    <img class="seventh-section-second-card-main-img" src="<?php echo e(asset ('assets/images/Home-images/seventh-section/card-4.png  ')); ?>">
                                     <div class="seventh-section-second-title">Tag title</div>
                                     <div class="seventh-section-second-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</div>    
                                     <div class="seventh-section-second-time">
-                                        <img src="{{ asset ('assets/images/Home-images/seventh-section/lets-icons_time-light.png  ') }}" alt="">
+                                        <img src="<?php echo e(asset ('assets/images/Home-images/seventh-section/lets-icons_time-light.png  ')); ?>" alt="">
                                         <div class="seventh-section-second-date">November 29, 2023</div>
                                     </div>
                                 </div>
@@ -564,9 +564,9 @@
                             </div>
                         </div>
                         <div class="eigth-section-second-content d-flex col-12 col-xl-5">
-                            <img src="{{ asset ('assets/images/Home-images/eigth-section/card-1.png  ') }}" alt="" class="eigth-section-second-content-img-1" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="500">
-                            <img src="{{ asset ('assets/images/Home-images/eigth-section/card-2.png  ') }}" alt="" class="eigth-section-second-content-img-2" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1000">
-                            <img src="{{ asset ('assets/images/Home-images/eigth-section/card-3.png  ') }}" alt="" class="eigth-section-second-content-img-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1500">
+                            <img src="<?php echo e(asset ('assets/images/Home-images/eigth-section/card-1.png  ')); ?>" alt="" class="eigth-section-second-content-img-1" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="500">
+                            <img src="<?php echo e(asset ('assets/images/Home-images/eigth-section/card-2.png  ')); ?>" alt="" class="eigth-section-second-content-img-2" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1000">
+                            <img src="<?php echo e(asset ('assets/images/Home-images/eigth-section/card-3.png  ')); ?>" alt="" class="eigth-section-second-content-img-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1500">
                         </div>
                         <!-- <div class="eigth-section-third-content d-flex col-12 col-xl-7">
                             <a class="eigth-section-first-content-button">Be a TRU member</a>
@@ -621,7 +621,7 @@
     </div>
 </div>
 
-<script src="{{ asset ('assets/js/Homepage-script.js') }}"></script>
+<script src="<?php echo e(asset ('assets/js/Homepage-script.js')); ?>"></script>
 
 <script type="text/javascript">
 
@@ -662,4 +662,5 @@
 </script>
 
 
-@endsection
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('header.header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\Users\James for Zuitt\OneDrive\Desktop\Clone\tru-international_latest\resources\views/pages/homepage.blade.php ENDPATH**/ ?>

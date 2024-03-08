@@ -1,18 +1,11 @@
  
 .fourth-section {
-    /* background: #FFCA5D; */
-
-    
-    /* background: #131313; */
-
     position: relative;
     padding-bottom: 118px;
-    
 }
 
 .fourth-section-container {
     max-width: 1400px;
-    
 }
 
 /* First Card */
@@ -23,18 +16,14 @@
     padding: 92px;
     border-radius: 48px;
     background: #FFCA5D;
-    /* height: 534px; */
 }
 
 .fourth-section-first-content-title {
     color:  #131313;
-
-    /* H2 */
-    
     font-size: 72px;
     font-style: normal;
     font-weight: 700;
-    line-height: 82px; /* 113.889% */
+    line-height: 82px;
 }
 
 .fourth-section-first-content-title span {
@@ -43,11 +32,10 @@
 
 .fourth-section-first-content-description {
     color:  #131313;
-    /* body-text-huge */
     font-size: 18px;
     font-style: normal;
     font-weight: 300;
-    line-height: 24px; /* 133.333% */
+    line-height: 24px;
     margin-top: 36px;
     max-width: 578px;
 }
@@ -56,18 +44,13 @@
 
 .fourth-section-second-div {
     background: #131313;
-    /* height: 534px; */
     padding: 64px;
     border-radius: 48px;
-    /* height: 794px; */
     min-height: 100%;
 }
 
 .fourth-section-first-content-title-2 {
     color: #FFF;
-
-    /* H5 */
-    /* font-family: "Articulat CF"; */
     font-size: 56px;
     font-style: normal;
     font-weight: 600;
@@ -82,14 +65,11 @@
 .fourth-section-first-content-description-2 {
     color: #FFF;
 
-    /* body-text-huge */
-    /* font-family: Bahnschrift; */
     font-size: 18px;
     font-style: normal;
     font-weight: 300;
-    line-height: 24px; /* 133.333% */
+    line-height: 24px; 
 }
-
 /* Third Card */
 
 .fourth-section-third-div-3 {
@@ -102,9 +82,6 @@
 
 .fourth-section-first-content-title-3 {
     color: #414141;
-
-    /* H5 */
-    /* font-family: "Articulat CF"; */
     font-size: 56px;
     font-style: normal;
     font-weight: 600;
@@ -121,13 +98,10 @@
 
 .fourth-section-first-content-description-3 {
     color: #131313;
-
-    /* body-text-huge */
-    /* font-family: Bahnschrift; */
     font-size: 18px;
     font-style: normal;
     font-weight: 300;
-    line-height: 24px; /* 133.333% */
+    line-height: 24px;
 }
 
 .fourth-section-first-content-description-3-img {
@@ -137,35 +111,44 @@
     padding: 0 !important;
 }
 
-
-
 @media (max-width: 1800px) {
 
     .fourth-section-container {
-        max-width: 1250px;
-        
+        max-width: 1200px;
     }
-    
-    .fourth-section-first-content-title{
 
+    .fourth-section-first-content-title,
+    .fourth-section-first-content-title-2,
+    .fourth-section-first-content-title-3 {
         font-size: 56px;
-        line-height: 64px; /* 114.286% */
+        line-height: 64px;
     }
 
-    .third-section-first-content-title-2 {
-        font-size: 56px;
-        line-height: 64px; /* 114.286% */
-    }
-
-
-    .fourth-section-second-div,
-    .fourth-section-third-div-3  {
+    .fourth-section-third-div-3 {
         height: 700px;
-        min-height: 100%;
+    }
+}
+
+
+@media (max-width: 1500px) {
+
+    .fourth-section-container {
+        max-width: 1024px;
     }
 
-    .fourth-section-first-content img {
-        min-width: 100%;
+    .fourth-section-first-content-title,
+    .fourth-section-first-content-title-2,
+    .fourth-section-first-content-title-3 {
+        font-size: 40px;
+        line-height: 52px;
+    }
+
+    .fourth-section-third-div-3 {
+        height: 651px;
+    }
+
+    .fourth-section-first-content-description {
+        margin-top: 18px;
     }
 }
 
@@ -174,104 +157,74 @@
 @media (max-width: 1199px) {
 
     .fourth-section-container {
-        max-width: 768px;
-        
+        max-width: 900px;
+        margin-top: 0px !important;
     }
 
-    .fourth-section {
-        padding-bottom: 0px !important;
+    .fourth-section-first-content-title,
+    .fourth-section-first-content-title-2,
+    .fourth-section-first-content-title-3 {
+        font-size: 72px;
+        line-height: 64px;
     }
 
-    .fourth-section-second-content {
-        margin-top: 14px;
+
+    .fourth-section-first-div,
+    .fourth-section-second-div,
+    .fourth-section-third-div-3 {
+        padding: 48px;
     }
 
-    .fourth-section-first-div {
-        margin-top: 0 !important;
-        height: auto !important;
-    }
-
-    .fourth-section-second-div {
-        height: auto !important;
-    }
-    
-
-    .fourth-section-third-div-3  {
-        height: 800px;
-    }
-
-    
-
-    .third-section-second-content {
-        margin-top: 14px;
-    }
-
-}
-
-
-@media (max-width: 768px) {
-
-
-    .fourth-section-container {
-        max-width: 100%;
-        
-    }
-
-    .fourth-section-first-div {
-        border-radius: 18px;
-        padding: 20px !important;
-    }
-
-    .fourth-section-first-content-title {
-
-        /* H8 */
-        font-size: 32px;
-        line-height: 40px; /* 125% */
+    .fourth-section-third-div-3 {
+        height: 850px;
     }
 
     .fourth-section-first-content-description {
-
-
-        /* body-text-normal */
-        /* font-family: Bahnschrift; */
-        font-size: 16px;
-        line-height: 24px; /* 150% */
-        margin-top: 14px;
+        margin-top: 18px;
     }
-
-    .third-section-second-content {
-        margin-top: 20px !important;
-    }
-
-    .padding-gap {
-        padding: 20px !important;
-    }
-
-    .fourth-section-second-div,
-    .fourth-section-third-div-3 {
-        border-radius: 18px;
-        padding: 24px !important;
-
-    }
-
-    .fourth-section-first-content-title-2,
-    .fourth-section-first-content-title-3 {
-        font-size: 24px !important;
-        line-height: 36px !important; /* 150% */
-    }
-
-    .fourth-section-first-content-description-2,
-    .fourth-section-first-content-description-3 {
-        font-size: 16px;
-        line-height: 24px; /* 150% */
-    }
-  
 }
 
+@media (max-width: 700px) {
 
-@media (max-width: 425px) { 
     .fourth-section-third-div-3 {
-        height: 470px;
-
+        height: 780px;
     }
+
+}
+
+@media (max-width: 600px) {
+
+    .fourth-section-first-content-title,
+    .fourth-section-first-content-title-2,
+    .fourth-section-first-content-title-3 {
+        font-size: 56px;
+        line-height: 64px;
+    }
+
+    .fourth-section-third-div-3 {
+        height: 750px;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .fourth-section-first-content-title,
+    .fourth-section-first-content-title-2,
+    .fourth-section-first-content-title-3 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .fourth-section-first-div,
+    .fourth-section-second-div,
+    .fourth-section-third-div-3 {
+        padding: 24px;
+        border-radius: 18px;
+    }
+
+    .fourth-section-third-div-3 {
+        height: 600px;
+    }
+
 }

@@ -57,7 +57,7 @@
     /* height: 534px; */
     padding: 64px;
     border-radius: 48px;
-    height: 794px; 
+    min-height: 100%; 
 }
 
 .sixth-section-first-content-title-2 {
@@ -100,9 +100,6 @@
 
 .sixth-section-first-content-title-3 {
     color: #569E4C;
-
-    /* H5 */
-    /* font-family: "Articulat CF"; */
     font-size: 56px;
     font-style: normal;
     font-weight: 600;
@@ -116,13 +113,10 @@
 
 .sixth-section-first-content-description-3 {
     color: #131313;
-
-    /* body-text-huge */
-    /* font-family: Bahnschrift; */
     font-size: 18px;
     font-style: normal;
     font-weight: 300;
-    line-height: 24px; /* 133.333% */
+    line-height: 24px;
 }
 
 .sixth-section-first-content-phone {
@@ -132,7 +126,114 @@
     max-width: 354px;
 }
 
+@media (max-width: 1800px) {
 
+    .sixth-section-container {
+        max-width: 1200px;
+    }
+
+    .sixth-section-first-content-title{
+
+        font-size: 56px;
+        line-height: 64px;
+    }
+
+}
+
+@media (max-width: 1500px) {
+
+    .sixth-section-container {
+        max-width: 1024px;
+    }
+
+    .sixth-section-first-content-title,
+    .sixth-section-first-content-title-2,
+    .sixth-section-first-content-title-3{
+        font-size: 40px;
+        line-height: 52px;
+    }
+
+    .sixth-section-first-content-description {
+        margin: 18px;
+    }
+
+    .sixth-section-first-content-phone {
+        max-width: 300px;
+    }
+
+}
+
+
+@media (max-width: 1199px) {
+
+    .sixth-section-container {
+        max-width: 900px;
+        margin-top: 0px !important;
+    }
+
+    .sixth-section-first-content-title,
+    .sixth-section-first-content-title-2,
+    .sixth-section-first-content-title-3{
+        font-size: 72px;
+        line-height: 64px;
+    }
+
+    .sixth-section-first-div,
+    .sixth-section-second-div,
+    .sixth-section-third-div-3 {
+        padding: 48px;
+    }
+
+    .sixth-section-first-content-phone {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .sixth-section-first-content-phone {
+        max-width: 350px;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .sixth-section-first-content-title,
+    .sixth-section-first-content-title-2,
+    .sixth-section-first-content-title-3{
+        font-size: 56px;
+        line-height: 64px;
+    }
+
+    .sixth-section-first-content-phone {
+        max-width: 300px;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .sixth-section-first-content-title,
+    .sixth-section-first-content-title-2,
+    .sixth-section-first-content-title-3{
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .sixth-section-first-div ,
+    .sixth-section-second-div,
+    .sixth-section-third-div-3  {
+        padding: 24px;
+        border-radius: 18px;
+    }
+
+    
+
+}
+
+/* 
 @media (max-width: 1800px) {
 
     .sixth-section-container {
@@ -143,18 +244,11 @@
     .sixth-section-first-content-title{
 
         font-size: 56px;
-        line-height: 64px; /* 114.286% */
+        line-height: 64px;
     }
-
-    .third-section-first-content-title-2 {
-        font-size: 56px;
-        line-height: 64px; /* 114.286% */
-    }
-
 
     .sixth-section-second-div,
     .sixth-section-third-div-3  {
-        /* height: 651px; */
         min-height: 100%;
     }
 
@@ -209,18 +303,13 @@
     }
 
     .sixth-section-first-content-title {
-
-        /* H8 */
         font-size: 32px;
-        line-height: 40px; /* 125% */
+        line-height: 40px; 
     }
 
     .sixth-section-first-content-description {
-
-        /* body-text-normal */
-        /* font-family: Bahnschrift; */
         font-size: 16px;
-        line-height: 24px; /* 150% */
+        line-height: 24px; 
         margin-top: 14px;
     }
 
@@ -242,17 +331,17 @@
     .sixth-section-first-content-title-2,
     .sixth-section-first-content-title-3 {
         font-size: 24px !important;
-        line-height: 36px !important; /* 150% */
+        line-height: 36px !important; 
         font-weight: 700 !important;
     }
 
     .sixth-section-first-content-description-2,
     .sixth-section-first-content-description-3 {
         font-size: 16px;
-        line-height: 24px; /* 150% */
+        line-height: 24px;
     }
   
 }
 
 
-
+ */
