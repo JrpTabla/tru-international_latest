@@ -17,7 +17,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
 <div class="main">
-    <!-- Fourth Section Start -->
     <section id="about-landing-section" class="about-landing-section" data-aos="fade-down" data-aos-duration="2000">
         <div class="about-landing-section-container row mx-auto">
         <div class="about-landing-section-first-div row">

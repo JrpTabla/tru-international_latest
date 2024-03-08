@@ -144,7 +144,7 @@
     height: 316.528px;
     flex-shrink: 0;
     flex-shrink: 0;
-    bottom: 40px;
+    bottom: -50px;
     left: -40px;
     z-index: 1;
 }
@@ -154,7 +154,7 @@
     width: 383.644px;
     height: 245.471px;
     flex-shrink: 0;
-    top: 40px;
+    top: 0px;
     left: 10px;
 }
 
@@ -363,7 +363,7 @@
 
         width: 453.333px;
         height: 346.90px;
-        bottom: -20px;
+        bottom: -150px;
         left: 50px;
 
     
@@ -373,7 +373,7 @@
 
         width: 400.79px;
         height: 256.01px;
-        bottom: 120px;
+        bottom: -50px;
         left: 75px;
     }
 

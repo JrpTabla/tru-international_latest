@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContentController;
+use App\Models\User;
+use App\Models\PageContent;
 
 /*
 |--------------------------------------------------------------------------
@@ -71,7 +73,58 @@ require __DIR__.'/auth.php';
 require __DIR__.'/user.php';
 
 
+Route::get('/api/content/Homepage-section-3', function () {
 
+    $pageContents = PageContent::where('page_name', "Home_page")
+    ->where('page_section', 3)
+    ->get();
 
-Route::get('/fetch-content', 'ContentController@fetchContent')->name('fetch-content');
+    return response()->json($pageContents);
+});
+
+Route::get('/api/content/Homepage-section-4', function () {
+
+    $pageContents = PageContent::where('page_name', "Home_page")
+    ->where('page_section', 4)
+    ->get();
+
+    return response()->json($pageContents);
+});
+
+Route::get('/api/content/Homepage-section-5', function () {
+
+    $pageContents = PageContent::where('page_name', "Home_page")
+    ->where('page_section', 5)
+    ->get();
+
+    return response()->json($pageContents);
+});
+
+Route::get('/api/content/Homepage-section-6', function () {
+
+    $pageContents = PageContent::where('page_name', "Home_page")
+    ->where('page_section', 6)
+    ->get();
+
+    return response()->json($pageContents);
+});
+
+Route::get('/api/content/Homepage-section-7', function () {
+
+    $pageContents = PageContent::where('page_name', "Home_page")
+    ->where('page_section', 7)
+    ->get();
+
+    return response()->json($pageContents);
+});
+
+Route::get('/api/content/Homepage-section-8', function () {
+
+    $pageContents = PageContent::where('page_name', "Home_page")
+    ->where('page_section', 8)
+    ->get();
+
+    return response()->json($pageContents);
+});
+
 

@@ -29,7 +29,6 @@
             <img src="<?php echo e(asset ('assets/images/Home-images/hero_image_left.png')); ?>" alt="" class=" background-img-left" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine" data-aos-duration="1000"/>
             <img src="<?php echo e(asset ('assets/images/Home-images/hero_image_right.png')); ?>" alt="" class="background-img-right" data-aos="fade-left" data-aos-offset="500"data-aos-easing="ease-in-sine" data-aos-duration="1000"/>
         </div>
-
         <!-- Landing Text Division -->
         <div class="lading-section-text-div mx-auto d-flex" data-aos="zoom-in-up" data-aos-duration="500">
             <div class="h4 landing-title text-center">
@@ -47,12 +46,12 @@
         </div>
 
         <div class="lading-section-card-div mx-auto d-flex container-fluid">
-            <div class="h6 landing-card-title text-center text-white"data-aos="zoom-in-up" data-aos-duration="500">
+            <div class="h6 landing-card-title text-center text-white" data-aos="zoom-in-up" data-aos-duration="500" data-aos-anchor-placement="top-bottom">
                 Experience unbiased resources in the Financial Markets
             </div>
 
             <div class="card-div row" >
-                <div class="col-4 px-3" data-aos="flip-right" data-aos-duration="1000">
+                <div class="col-4 px-3" data-aos="flip-right" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
                     <div class="landing-card landing-card-CommuniTrade">
                         <div class="m-auto">
                             <div class="landing-card-title text-white text-center mx-auto my-5">CommuniTrade</div>
@@ -63,7 +62,7 @@
                     </div>
                 </div>
 
-                <div class="col-4 px-3" data-aos="flip-up" data-aos-duration="1000">
+                <div class="col-4 px-3" data-aos="flip-up" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
                     <div class="landing-card landing-card-RPP">
                         <div class="m-auto">
                             <div class="landing-card-title text-white text-center mx-auto my-5">Risk Protection Program</div>
@@ -72,7 +71,7 @@
                     </div>
                 </div>
 
-                <div class="col-4 px-3" data-aos="flip-left" data-aos-duration="1000">
+                <div class="col-4 px-3" data-aos="flip-left" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
                     <div class="landing-card landing-card-PSP">
                         <div class="m-auto">
                             <div class="landing-card-title text-white text-center mx-auto my-4">Profit-Sharing Program</div>
@@ -135,19 +134,14 @@
         </div>
 
         <div class="container-fluid mx-auto">
-
             <div class="third-section-container row mx-auto">
                 <div class="padding-gap col-12">
                     <div class="third-section-first-div row" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
                         <div class="third-section-first-content col-12 col-xl-6" data-aos="fade-down" data-aos-duration="500">
-                            <div class="third-section-first-content-title">
-                                <span>Safeguard</span> <br> your trading <br> account.
-                            </div>
-                            <div class="third-section-first-content-description">
-                                Elevate your account's security with the Risk Protection Plan. TRU empowers members to prosper from calculated risk by providing a unique safety net from investment losses.  
-                            </div>
+                            <div class="third-section-first-content-title"></div>
+                            <div class="third-section-first-content-description"></div>
                         </div>
-                        <div class="third-section-second-content col-12 col-xl-6"  data-aos="fade-down" data-aos-duration="500">
+                        <div class="third-section-second-content col-12 col-xl-6 d-flex"  data-aos="fade-down" data-aos-duration="500">
                             <div class="m-auto">  
                                 <div class="third-section-first-content-img">
                                     <img src="<?php echo e(asset ('assets/images/Home-images/Third-section/card-1.png')); ?>" alt="" style="width: 100%;">
@@ -168,12 +162,8 @@
                         </div>
                         <div class="third-section-first-content d-flex col-12">
                             <div class="m-auto">  
-                                <div class="third-section-first-content-title-2" data-aos="flip-left" data-aos-duration="500">
-                                    <span>Engage</span> <br> to succeed.
-                                </div>
-                                <div class="third-section-first-content-description-2" data-aos="flip-down" data-aos-duration="500">
-                                    Stimulate thought-provoking exchanges with TRU Forum and General Discussion Board. On CommuniTrade, you're not simply engaging; you're gaining reliable and valuable information for your trading needs. 
-                                </div>
+                                <div class="third-section-first-content-title-2" data-aos="flip-left" data-aos-duration="500"></div>
+                                <div class="third-section-first-content-description-2" data-aos="flip-down" data-aos-duration="500"></div>
                             </div>
                         </div>
                     </div>
@@ -183,13 +173,8 @@
                     <div class="third-section-third-div-3 row " data-aos="fade-up-left" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
                         <div class="third-section-first-content d-flex col-12">
                             <div class="m-auto">  
-                                <div class="third-section-first-content-title-3"  data-aos="flip-right" data-aos-duration="500">
-                                    <span>Earn while</span>  <br> you’re at it.
-                                </div>
-            
-                                <div class="third-section-first-content-description-3"  data-aos="flip-up" data-aos-duration="500">
-                                    Actively engage with the organization and be rewarded with monetary incentives through UnityGains. This visionary initiative guarantees that you - our valuable asset, are enjoying constant financial growth.. 
-                                </div>
+                                <div class="third-section-first-content-title-3"  data-aos="flip-right" data-aos-duration="500"></div>
+                                <div class="third-section-first-content-description-3"  data-aos="flip-up" data-aos-duration="500"></div>
                             </div>
                         </div>
                         <div class="third-section-second-content d-flex col-12">
@@ -216,10 +201,10 @@
                             <div class="m-auto">  
                                 <div class="fourth-section-first-content-title">
                                     <!-- The first <br> community <span>- <br> Traders United</span> -->
-                                    The world’s first <br> community-<span>driven traders organization</span>
+                                  <!--   The world’s first <br> community-<span>driven traders organization</span> -->
                                 </div>
                                 <div class="fourth-section-first-content-description">
-                                    At TRU, you can access valuable insights and impartial broker ratings. More importantly, you can tap into the collective knowledge of online traders worldwide. All in one place. 
+                                    <!-- At TRU, you can access valuable insights and impartial broker ratings. More importantly, you can tap into the collective knowledge of online traders worldwide. All in one place.  -->
                                 </div>
                             </div>
                         </div>
@@ -245,10 +230,10 @@
                         <div class="fourth-section-first-content d-flex col-12">
                             <div class="m-auto">  
                                 <div class="fourth-section-first-content-title-2">
-                                    <span>About</span> <br> our community
+                                   <!--  <span>About</span> <br> our community -->
                                 </div>
                                 <div class="fourth-section-first-content-description-2">
-                                    This is not just a community; it is a movement paving the way for a better environment 	for online traders everywhere.   
+                                    <!-- This is not just a community; it is a movement paving the way for a better environment 	for online traders everywhere.    -->
                                 </div>
                             </div>
                         </div>
@@ -260,14 +245,14 @@
                         <div class="fourth-section-first-content d-flex col-12">
                             <div class="">  
                                 <div class="fourth-section-first-content-title-3">
-                                    <span>You</span> are <span-2>TRU</span-2>
+                                    <!-- <span>You</span> are <span-2>TRU</span-2> -->
                                 </div>
             
                                 <div class="fourth-section-first-content-description-3">
-                                Our services and initiatives are designed to bolster security and instill confidence in your 	trading journey.  
+                                <!-- Our services and initiatives are designed to bolster security and instill confidence in your 	trading journey.  --> 
                                 <br>
                                 <br>
-                                TRU revolutionizes the online trading world, empowering every member and spurring 	them to success. 
+                                <!-- TRU revolutionizes the online trading world, empowering every member and spurring 	them to success.  -->
                                 </div>
                             </div>
                         </div>
@@ -288,10 +273,10 @@
                         <div class="fifth-section-first-content d-flex col-12 col-xl-6">
                             <div class="m-auto">  
                                 <div class="fifth-section-first-content-title" data-aos="zoom-in-right" data-aos-duration="1000">
-                                    <span>Engage and learn from people </span> with the same goals as you — to earn and succeed!
+                                    <!-- <span>Engage and learn from people </span> with the same goals as you — to earn and succeed! -->
                                 </div>
                                 <div class="fifth-section-first-content-description" data-aos="zoom-in-left" data-aos-duration="1000"> 
-                                    CommuniTrade evolved the concept of social media into an indispensable reservoir of shared and collaborative wisdom. 
+                                    <!-- CommuniTrade evolved the concept of social media into an indispensable reservoir of shared and collaborative wisdom.  -->
                                 </div>
                                 <a class="fifth-section-first-content-button" data-aos="zoom-in" data-aos-duration="1000">Be part of the CommUNITRADE</a>
                             </div>
@@ -342,10 +327,10 @@
                             <div class="m-auto">  
                                 <div class="sixth-section-first-content-title">
                                     <!-- Let’s Forge <span>a <br>better trading <br>world -->
-                                    Let’s BUILD a <span>better trading world, TOGETHER.</span>
+                                    <!-- Let’s BUILD a <span>better trading world, TOGETHER.</span> -->
                                 </div>
                                 <div class="sixth-section-first-content-description">
-                                    One trader can only do so much. But an entire community? The possibilities are endless. 
+                                    <!-- One trader can only do so much. But an entire community? The possibilities are endless.  -->
                                 </div>
                             </div>
                         </div>
@@ -371,13 +356,13 @@
                             <div class="m-auto">  
                                 <div class="sixth-section-first-content-title-2">
                                     <!-- Trade, <br> Protected -->
-                                    Tread Safely. <span>Trade Securely.</span>
+                                    <!-- Tread Safely. <span>Trade Securely.</span> -->
                                 </div>
                                 <div class="sixth-section-first-content-description-2">
-                                    70% of forex traders incur losses quarterly. With TRU’s Risk Protection Plan, you need 	not worry about becoming part of these statistics. 
+                                    <!-- 70% of forex traders incur losses quarterly. With TRU’s Risk Protection Plan, you need 	not worry about becoming part of these statistics. --> 
                                     <br>
                                     <br>
-                                    We guarantee to have your back, so 	you can trade without holding back. 
+                                    <!-- We guarantee to have your back, so 	you can trade without holding back.  -->
                                 </div>
                             </div>
                         </div>
@@ -388,11 +373,11 @@
                         <div class="sixth-section-first-content d-flex col-12" data-aos="zoom-in-right" data-aos-duration="1000">
                             <div class="">  
                                 <div class="sixth-section-first-content-title-3">
-                                    Growth <span>in Transparency</span>
+                                    <!-- Growth <span>in Transparency</span> -->
                                 </div>
             
                                 <div class="sixth-section-first-content-description-3">
-                                    With an increasing number of TRU members, additional revenue streams come in – and you will always be in the loop of the progress. TRU is one of the few certainties in trading. <br> <br>TRU is neither operated by any brokerage company nor created to extort money from brokerage companies to keep positive ratings and branding.
+                                    <!-- With an increasing number of TRU members, additional revenue streams come in – and you will always be in the loop of the progress. TRU is one of the few certainties in trading. <br> <br>TRU is neither operated by any brokerage company nor created to extort money from brokerage companies to keep positive ratings and branding. -->
                                 </div>
                             </div>
                         </div>
@@ -415,10 +400,10 @@
                             <div class="me-auto my-auto">  
                                 <div class="seventh-section-first-content-title" data-aos="zoom-in-right" data-aos-duration="1000">
                                     <!-- What do <br> you need <br> to know -->
-                                    Not just <br> real-time data. Verified. Relevant. <br>TRUe
+                                   <!--  Not just <br> real-time data. Verified. Relevant. <br>TRUe -->
                                 </div>
                                 <div class="seventh-section-first-content-description" data-aos="zoom-in-left" data-aos-duration="1000">
-                                    Stay updated, learn from the experts.
+                                    <!-- Stay updated, learn from the experts. -->
                                 </div>
                                 <a class="seventh-section-first-content-button" data-aos="zoom-in" data-aos-duration="1000">More news</a>
                             </div>
@@ -557,22 +542,22 @@
             <div class="eigth-section-container row mx-auto">
                 <div class="padding-gap col-12">
                     <div class="eigth-section-first-div row" data-aos="zoom-in" data-aos-duration="500" data-aos-anchor-placement="top-bottom">
-                        <div class="eigth-section-first-content d-flex col-12 col-xl-7" data-aos="fade-right" data-aos-duration="1000">
+                        <div class="eigth-section-first-content d-flex col-12 col-xl-6" data-aos="fade-right" data-aos-duration="1000">
                             <div class="me-auto ">  
                                 <div class="eigth-section-first-content-title">
-                                    Achieve <br> the TRU triumph <br> and share <br> experiences
+                                    <!-- Achieve <br> the TRU triumph <br> and share <br> experiences -->
                                     <a class="eigth-section-first-content-button"  data-aos="zoom-in" data-aos-duration="1000">Be a TRU member</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="eigth-section-second-content d-flex col-12 col-xl-5">
+                        <div class="eigth-section-second-content d-flex col-12 col-xl-6">
                             <img src="<?php echo e(asset ('assets/images/Home-images/eigth-section/card-1.png  ')); ?>" alt="" class="eigth-section-second-content-img-1" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="500">
                             <img src="<?php echo e(asset ('assets/images/Home-images/eigth-section/card-2.png  ')); ?>" alt="" class="eigth-section-second-content-img-2" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1000">
                             <img src="<?php echo e(asset ('assets/images/Home-images/eigth-section/card-3.png  ')); ?>" alt="" class="eigth-section-second-content-img-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1500">
                         </div>
-                        <!-- <div class="eigth-section-third-content d-flex col-12 col-xl-7">
+                        <div class="eigth-section-third-content d-flex col-12 col-xl-7">
                             <a class="eigth-section-first-content-button">Be a TRU member</a>
-                        </div> -->
+                        </div>
 
                         <div class="eigth-section-third-content col-12 col-xl-7">
                             <div class="m-auto">  
@@ -660,6 +645,221 @@
 
     // Start the loop
     changeText();
+
+    document.addEventListener("DOMContentLoaded", () => {
+        handle_3rd_Contents();
+        handle_4th_Contents();
+        handle_5th_Contents();
+        handle_6th_Contents();
+        handle_7th_Contents();
+        handle_8th_Contents();
+    })
+
+    function handle_3rd_Contents() {
+        fetch(`/api/content/Homepage-section-3`)
+        .then(response => response.json())
+        .then(data => {
+            /* console.log(data); */
+
+            // DATA CONTENT in 3rd Section - 1st Division
+            const contentTitle = data[0].content_title;
+            const contentTitleColored = data[0].content_title_colored;
+            const contentDescription = data[0].content_description;
+
+            // DATA CONTENT in 3rd Section - 1st Division
+            const contentTitle_2 = data[1].content_title;
+            const contentTitleColored_2 = data[1].content_title_colored;
+            const contentDescription_2 = data[1].content_description;
+
+
+            // DATA CONTENT in 3rd Section - 1st Division
+            const contentTitle_3 = data[2].content_title;
+            const contentTitleColored_3 = data[2].content_title_colored;
+            const contentDescription_3 = data[2].content_description;
+
+            const titleElement = document.querySelector('.third-section-first-content-title');
+            titleElement.innerHTML = `<span>${contentTitleColored}</span> <br> ${contentTitle}`;
+
+            const descriptionElement = document.querySelector('.third-section-first-content-description');
+            descriptionElement.textContent = contentDescription;
+
+            const titleElement_2 = document.querySelector('.third-section-first-content-title-2');
+            titleElement_2.innerHTML = `<span>${contentTitleColored_2}</span> <br> ${contentTitle_2}`;
+
+            const descriptionElement_2 = document.querySelector('.third-section-first-content-description-2');
+            descriptionElement_2.textContent = contentDescription_2;
+
+            const titleElement_3 = document.querySelector('.third-section-first-content-title-3');
+            titleElement_3.innerHTML = `<span>${contentTitleColored_3}</span> <br> ${contentTitle_3}`;
+
+            const descriptionElement_3 = document.querySelector('.third-section-first-content-description-3');
+            descriptionElement_3.textContent = contentDescription_3;
+           
+        })
+        .catch(error => console.error('Error fetching Page Content 3rd Section:', error));
+    }
+
+
+    function handle_4th_Contents() {
+        fetch(`/api/content/Homepage-section-4`)
+        .then(response => response.json())
+        .then(data => {
+            /* console.log(data); */
+
+            const contentTitle = data[0].content_title;
+            const contentTitleColored = data[0].content_title_colored;
+            const contentDescription = data[0].content_description;
+
+            // DATA CONTENT in 3rd Section - 1st Division
+            const contentTitle_2 = data[1].content_title;
+            const contentTitleColored_2 = data[1].content_title_colored;
+            const contentDescription_2 = data[1].content_description;
+
+
+            // DATA CONTENT in 3rd Section - 1st Division
+            const contentTitle_3 = data[2].content_title;
+            const contentTitle_3_2 = data[2].content_title_2;
+            const contentTitleColored_3 = data[2].content_title_colored;
+            const contentDescription_3 = data[2].content_description;
+            const contentDescription_3_2 = data[2].content_description_2;
+        
+            const titleElement = document.querySelector('.fourth-section-first-content-title');
+            titleElement.innerHTML = `${contentTitle}  <br> <span>${contentTitleColored}</span>`;
+
+            const descriptionElement = document.querySelector('.fourth-section-first-content-description');
+            descriptionElement.textContent = contentDescription;
+
+            const titleElement_2 = document.querySelector('.fourth-section-first-content-title-2');
+            titleElement_2.innerHTML = `<span>${contentTitleColored_2}</span> <br> ${contentTitle_2}`;
+
+            const descriptionElement_2 = document.querySelector('.fourth-section-first-content-description-2');
+            descriptionElement_2.textContent = contentDescription_2;
+
+            const titleElement_3 = document.querySelector('.fourth-section-first-content-title-3');
+            titleElement_3.innerHTML = `<span>${contentTitleColored_3}</span> ${contentTitle_3} <span-2>${contentTitle_3_2}</span-2>`;
+
+            const descriptionElement_3 = document.querySelector('.fourth-section-first-content-description-3');
+            descriptionElement_3.innerHTML = `${contentDescription_3}<br><br>${contentDescription_3_2}`;
+
+        })
+        .catch(error => console.error('Error fetching Page Content 4th Section:', error));
+    }
+
+
+    function handle_5th_Contents() {
+        fetch(`/api/content/Homepage-section-5`)
+        .then(response => response.json())
+        .then(data => {
+
+            const contentTitle = data[0].content_title;
+            const contentTitleColored = data[0].content_title_colored;
+            const contentDescription = data[0].content_description;
+
+            const titleElement = document.querySelector('.fifth-section-first-content-title');
+            titleElement.innerHTML = `<span>${contentTitleColored}</span> ${contentTitle}`;
+
+            const descriptionElement = document.querySelector('.fifth-section-first-content-description');
+            descriptionElement.textContent = contentDescription;
+
+        })
+        .catch(error => console.error('Error fetching Page Content 4th Section:', error));
+    }
+
+    function handle_6th_Contents() {
+        fetch(`/api/content/Homepage-section-6`)
+        .then(response => response.json())
+        .then(data => {
+            /* console.log(data); */
+
+            // DATA CONTENT in 6th Section 
+            const contentTitle = data[0].content_title;
+            const contentTitleColored = data[0].content_title_colored;
+            const contentDescription = data[0].content_description;
+
+
+            const contentTitle_2 = data[1].content_title;
+            const contentTitleColored_2 = data[1].content_title_colored;
+            const contentDescription_2 = data[1].content_description;
+            const contentDescription_2_2 = data[1].content_description_2;
+
+            const contentTitle_3 = data[2].content_title;
+            const contentTitleColored_3 = data[2].content_title_colored;
+            const contentDescription_3 = data[2].content_description;
+            const contentDescription_3_2 = data[2].content_description_2;
+
+            const titleElement = document.querySelector('.sixth-section-first-content-title');
+            titleElement.innerHTML = `${contentTitle} <span>${contentTitleColored}</span>`;
+
+            const descriptionElement = document.querySelector('.sixth-section-first-content-description');
+            descriptionElement.textContent = contentDescription;
+
+            const titleElement_2 = document.querySelector('.sixth-section-first-content-title-2');
+            titleElement_2.innerHTML = `${contentTitle_2} <span>${contentTitleColored_2}</span>`;
+
+            const descriptionElement_2 = document.querySelector('.sixth-section-first-content-description-2');
+            descriptionElement_2.innerHTML = `${contentDescription_2}<br><br>${contentDescription_2_2}`;
+
+            const titleElement_3 = document.querySelector('.sixth-section-first-content-title-3');
+            titleElement_3.innerHTML = `${contentTitle_3} <span>${contentTitleColored_3}</span>`;
+
+            const descriptionElement_3 = document.querySelector('.sixth-section-first-content-description-3');
+            descriptionElement_3.innerHTML = `${contentDescription_3}<br><br>${contentDescription_3_2}`;
+
+        })
+        .catch(error => console.error('Error fetching Page Content 4th Section:', error));
+    }
+
+    function handle_7th_Contents() {
+        fetch(`/api/content/Homepage-section-7`)
+        .then(response => response.json())
+        .then(data => {
+            /* console.log(data); */
+
+            // DATA CONTENT in 3rd Section - 1st Division
+            const contentTitle = data[0].content_title;
+            const contentTitleColored = data[0].content_title_colored;
+            const contentDescription = data[0].content_description;
+
+            // DATA CONTENT in 7th Section - 1st Division
+            const titleElement = document.querySelector('.seventh-section-first-content-title');
+            titleElement.innerHTML = `${contentTitle}`;
+
+            const descriptionElement = document.querySelector('.seventh-section-first-content-description');
+            descriptionElement.textContent = contentDescription;
+           
+        })
+        .catch(error => console.error('Error fetching Page Content 4th Section:', error));
+    }
+
+    function handle_8th_Contents() {
+        fetch(`/api/content/Homepage-section-8`)
+        .then(response => response.json())
+        .then(data => {
+            console.log(data);
+
+            // DATA CONTENT in 3rd Section - 1st Division
+            const contentTitle = data[0].content_title;
+
+            // DATA CONTENT in 7th Section - 1st Division
+            const titleElement = document.querySelector('.eigth-section-first-content-title');
+            titleElement.innerHTML = `${contentTitle}`;
+
+            const descriptionElement = document.querySelector('.seventh-section-first-content-description');
+            descriptionElement.textContent = contentDescription;
+           
+        })
+        .catch(error => console.error('Error fetching Page Content 4th Section:', error));
+    }
+
+
+    // <div class="eigth-section-first-content-title">
+    //                                 Achieve the TRU triumph and share experiences
+    //                                 <a class="eigth-section-first-content-button"  data-aos="zoom-in" data-aos-duration="1000">Be a TRU member</a>
+    //                             </div>
+    
+
+
+
 
 </script>
 

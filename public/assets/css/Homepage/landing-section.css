@@ -52,7 +52,7 @@
 
 .btn-get-started {
     z-index: 10;
-    margin-top: 32px;
+    margin-top: 24px;
     display: inline-flex;
     padding: 13px 68px;
     justify-content: center;
@@ -81,8 +81,6 @@
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
 
-
-
 }
 
 
@@ -101,7 +99,7 @@
 
 .lading-section-card-div {
     max-width: 1400px;
-    margin-top: 72px;
+    margin-top: 24px;
     display: flex;
     flex-direction: column;
 }
@@ -122,7 +120,7 @@
 }
 
 .card-div {
-    margin-top: 48px;
+    margin-top: 24px;
     margin-bottom: 52px;
 }
 
