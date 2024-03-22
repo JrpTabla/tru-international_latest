@@ -1,0 +1,210 @@
+.ep-landing-section {
+
+    position: relative;
+    border-radius: 0px 0px 48px 48px;
+    background: #f7f7f7;
+
+}
+
+.row>* {
+
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+
+}
+
+.ep-landing-section-container {
+    max-width: 1440px;
+    min-height: 100vh;
+    
+}
+
+.education-topic {
+    max-width: 900px;
+    border-radius: 24px;
+    box-shadow: 0px 12px 24px 0px rgba(19, 19, 19, 0.10);
+    
+}
+
+.education-topic-div-btn {
+    padding-bottom: 84px;
+}
+
+
+.ep-landing-section-title {
+    margin-top: 125px;
+    color: #0C81C1;
+    font-size: 160px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 180px;
+    }
+
+
+.ep-landing-section-sub-title {
+    color: #63A859;
+    margin-bottom: 75px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 52px;
+}
+
+.ep-landing-section-sub-title span {
+    text-decoration: underline;
+    text-decoration-color: #E7AA2E;
+}
+
+.education-level {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.education-level-text {
+    color: #6E6E6E;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    border-left: 2px solid #6E6E6E;
+}
+
+.education-level-text-first {
+    color: #6E6E6E;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.difficulty-actived {
+    border-bottom: 6px solid #E7AA2E;
+    padding-bottom: 30px;
+    
+}
+.difficulty-nav {
+    cursor: pointer;
+}
+
+.education-course {
+    margin-top: 60px;
+    margin-bottom: 84px;
+}
+
+.education-course-container {
+    margin-bottom: 84px;
+}
+
+.education-course-card {
+    min-height: 100%;
+}
+
+.education-course-item {
+    height: 396px;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 0px 6px 32px 1px rgba(0, 0, 0, 0.05);
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 38px;
+    padding-top: 65px;
+    cursor: pointer;
+}
+
+.education-course-card-img {
+    width: 100%;
+    padding-left: 85px;
+    padding-right: 85px;
+}
+
+.education-course-card-img img {
+    aspect-ratio: 1/1;
+    width: 100%;
+}
+
+.education-course-card-text {
+    color: #414141;
+    max-width: 255px;
+    margin-top: 34px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.education-course-btn-container {
+    display: flex;
+}
+
+.education-btn {
+    border-radius: 46px;
+    background: #E7AA2E;
+    padding: 20px 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    color:  #FFF;
+    text-align: center;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0.84px;
+}
+
+
+.education-btn:hover {
+    background: #E7AA2E;
+    color: #fff;
+}
+
+
+.education-btn:focus {
+    background: #E7AA2E;
+
+}
+
+
+
+.education-course-ads-container {
+    margin-bottom: 84px;
+}
+
+
+.education-ads {
+    width: 980px;
+    height: 90px;
+    flex-shrink: 0;
+    background: #858585;
+}
+
+.ep-landing-section-test-text-title {
+    color: #63A859;
+    text-align: center;
+    font-size: 82px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.ep-landing-section-test-text-description {
+    color: #7E7E7E;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 120%; 
+    width: 634px;
+    margin-bottom: 84px;
+}
+
+.ep-landing-section-test-img {
+    margin-bottom: 84px;
+}
+
+.education-test-btn-container {
+    margin-bottom: 84px;
+}

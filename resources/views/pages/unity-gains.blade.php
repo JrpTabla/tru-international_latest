@@ -1,5 +1,4 @@
-@extends('header.header')
-
+@extends('header.subpage')
 
 
 @section('content')
@@ -24,7 +23,7 @@
                 UnityGains
                 </div>
                 <div class="ug-landing-section-first-content-description">
-                    Let's earn and grow — TRUgether
+                    Let's thrive and prosper together — TRUgether.
                 </div>
                 <div class="ug-landing-section-Btn-div">
                     <a class="Be-a-TRU-btn">Be a TRU member</a>
@@ -52,7 +51,7 @@
     
     <section id="ug-second-section" class="ug-second-section" data-aos="fade-up" data-aos-duration="2000">
         <div class="ug-second-section-container row mx-auto">
-            <div class="ug-second-section-first-div row">
+            <div class="ug-second-section-first-div">
                 <div class="ug-second-section-container-title order-1 order-lg-1">UnityGains for members</div>
                 <div class="ug-second-section-container-sub-title order-2 order-lg-2">392,312.88 USD</div>
                 <div class="ug-second-section-container-description-div mx-auto order-4 order-md-3">
@@ -60,7 +59,7 @@
                     <div class="ug-second-section-container-description-description">We value our members’ trust and we show that through a collaborative and mutually beneficial UnityGains program. TRU uses a systematic mechanism to ensure an accurate and fair distribution of the program’s benefits among all our valued members.</div>
                 </div>
 
-                <svg class="ug-second-section-graph order-3 order-md-4" xmlns="http://www.w3.org/2000/svg" width="1920" height="648" viewBox="0 0 1920 648" fill="none" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1000">
+                <!-- <svg class="ug-second-section-graph order-3 order-md-4" xmlns="http://www.w3.org/2000/svg" width="1920" height="648" viewBox="0 0 1920 648" fill="none" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1000">
                     <path d="M142.505 374.43L51.3114 401.501L-2.66046 374.43L-61.2851 432.104L-112 647.5H1938V0L1761.66 112.407L1610.91 150.092L1470.17 124.309L1362.92 195.52L1193.17 222.592L1033.49 344.415L958.031 296.745L829.024 374.43H787.157L742.37 401.501L616.283 344.415L444.934 401.501H291.574L226.827 432.104L142.505 374.43Z" fill="url(#paint0_linear_1287_7626)" fill-opacity="0.56"/>
                     <defs>
                     <linearGradient id="paint0_linear_1287_7626" x1="-151.423" y1="335.041" x2="1938" y2="335.041" gradientUnits="userSpaceOnUse">
@@ -68,10 +67,18 @@
                     <stop offset="1" stop-color="#1681C2"/>
                     </linearGradient>
                     </defs>
-                </svg>
+                </svg> -->
             </div>
         </div>
     </section>
+
+
+    <style>
+        .ug-second-section-container {
+            background-image: url(http://127.0.0.1:8000/assets/images/UG-images/second-section/MicrosoftTeams-image.png);
+            height: 800px;
+        }
+    </style>
 
     <section id="ug-third-section" class="ug-third-section" style="overflow: hidden;">
         <div class="ug-third-section-container row mx-auto">
@@ -143,11 +150,7 @@
             <div class="ug-fourth-section-second-content d-flex col-12 col-xl-6" data-aos="fade-right" data-aos-duration="3000">
                 <div class="mx-auto">
                 <div class="ug-fourth-section-first-content-img">
-                    <img
-                    src="{{ asset ('assets/images/UG-images/fourth-section/fourth-section-img.png') }}"
-                    alt=""
-                    style="width: 100%"
-                    />
+                    <img src="{{ asset ('assets/images/UG-images/fourth-section/fourth-section-img.png') }}" alt="" style="width: 100%"/>
                 </div>
                 </div>
             </div>
@@ -160,11 +163,11 @@
                 <div class="ug-fifth-section-first-content-title order-1 order-xl-1">
                     UnityGains Countdown
                 </div>
-                <div class="row ug-fifth-section-first-content-timer-div mx-auto  order-2 order-xl-2">
+                <div class="row ug-fifth-section-first-content-timer-div mx-auto order-2 order-xl-2">
                     <div class="col-3 row">
                         <div class="col-10 my-auto">
-                            <div class="ug-fifth-section-first-content-number">
-                                115
+                            <div id="days" class="ug-fifth-section-first-content-number">
+                                0
                             </div>
                             <div class="ug-fifth-section-first-content-description m-auto">
                                 Days
@@ -176,8 +179,8 @@
                     </div>
                     <div class="col-3 row">
                         <div class="col-10 my-auto">
-                            <div class="ug-fifth-section-first-content-number">
-                                17
+                            <div id="hours" class="ug-fifth-section-first-content-number">
+                                0
                             </div>
                             <div class="ug-fifth-section-first-content-description m-auto">
                                 Hours
@@ -188,9 +191,9 @@
                         </div>
                     </div>
                     <div class="col-3 row">
-                        <div class="col-10  my-auto">
-                            <div class="ug-fifth-section-first-content-number">
-                                59
+                        <div class="col-10 my-auto">
+                            <div id="minutes" class="ug-fifth-section-first-content-number">
+                                0
                             </div>
                             <div class="ug-fifth-section-first-content-description m-auto">
                                 Minutes
@@ -201,32 +204,30 @@
                         </div>
                     </div>
                     <div class="col-3 row">
-                        <div class="col-10  my-auto">
-                            <div class="ug-fifth-section-first-content-number">
-                                56
+                        <div class="col-10 my-auto">
+                            <div id="seconds" class="ug-fifth-section-first-content-number">
+                                0
                             </div>
                             <div class="ug-fifth-section-first-content-description m-auto">
                                 Seconds
                             </div>
                         </div>
                     </div>
-                </div>  
+                </div>
                 <div class="ug-fifth-section-second-content col-12 col-xl-8  order-4 order-xl-3">
                     
                     <div class="ug-fifth-section-second-content-title">
-                    Time is running, your gains are waiting
+                        Time is running, your gains are waiting
                     </div>
                     <div class="ug-fifth-section-second-content-description">
-                    UnityGains recognizes the active participation of TRU member
-throughout the year. The sooner you become a member, the bigger
-is your potential benefits from UnityGains. 
+                        UnityGains recognizes the active participation of TRU member throughout the year. The sooner you become a member, the bigger is your potential benefits from UnityGains. 
                     </div>
 
                 </div>
 
                 <div class="ug-fifth-section-third-content col-12 col-xl-4 order-3 order-xl-4">
                     <div class="ug-fifth-section-third-content-title">
-                        Your Potential Share %
+                        Your Potential Share
                         </div>
                     <div class="ug-fifth-section-second-content-percent">
                         93% 
@@ -239,7 +240,7 @@ is your potential benefits from UnityGains. 
 
     <section id="ct-sixth-section" class="ct-sixth-section">
         <div class="ct-sixth-section-title text-center mx-auto" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
-        You may also be asking…
+            You may also be asking…
         </div>
         <div class="ct-section-container row mx-auto">
         <div class="ct-section-first-div">
@@ -254,8 +255,7 @@ is your potential benefits from UnityGains. 
                                 <span>Zara Al-Farsi</span>, United States
                             </div>
                             <div class="faq-comment">
-                                Just wondering, is TRU giving away money? What’s the
-                                reason for RPP?
+                                Just wondering, is TRU giving away money? What’s the reason for RPP?
                             </div>
                         </div>
                     </button>
@@ -296,9 +296,7 @@ is your potential benefits from UnityGains. 
         <section id="ug-seventh-section" class="ug-seventh-section">
         <div class="ug-seventh-section-container row mx-auto" data-aos="zoom-in-up" data-aos-duration="2000">
             <div class="ug-seventh-section-first-div row">
-            <div
-                class="ug-seventh-section-first-content col-12 col-xl-6"
-            >
+            <div class="ug-seventh-section-first-content col-12 col-xl-6">
 
                 <div class="ug-seventh-section-first-content-title">
                     More than being valued, be rewarded.
@@ -309,16 +307,10 @@ is your potential benefits from UnityGains. 
                 
                 </div>
 
-            <div
-                class="ug-seventh-section-second-content col-12 col-xl-6"
-            >
+            <div class="ug-seventh-section-second-content col-12 col-xl-6">
 
                 <div class="ug-seventh-section-first-content-img mx-auto">
-                    <img
-                    src="{{ asset ('assets/images/UG-images/seventh-section/seventh-section-img.png') }}"
-                    alt=""
-                    style="width: 100%"
-                    />
+                    <img src="{{ asset ('assets/images/UG-images/seventh-section/seventh-section-img.png') }}" alt="" style="width: 100%"/>
                 </div>
 
             </div>
@@ -328,6 +320,42 @@ is your potential benefits from UnityGains. 
 
 </div>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+<script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("September 30, 2024 00:00:00").getTime();
+
+    // Update the countdown every 1 second
+    var x = setInterval(function() {
+
+        // Get the current date and time
+        var now = new Date().getTime();
+
+        // Calculate the distance between now and the countdown date
+        var distance = countDownDate - now;
+
+        // Calculate days, hours, minutes, and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Display the result in the HTML elements
+        document.getElementById("days").innerHTML = days;
+        document.getElementById("hours").innerHTML = hours;
+        document.getElementById("minutes").innerHTML = minutes;
+        document.getElementById("seconds").innerHTML = seconds;
+
+        // If the countdown is finished, display a message
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("countdown").innerHTML = "EXPIRED";
+        }
+    }, 1000);
+</script>
+
+
 
 <script>
   AOS.init();

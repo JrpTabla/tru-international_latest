@@ -55,6 +55,20 @@
 }
 
 
+@media (max-width: 1800px) {
+
+    .ct-landing-section-container {
+        max-width: 1200px;
+    }
+}
+
+@media (max-width: 1500px) {
+
+    .ct-landing-section-container {
+        max-width: 1024px;
+    }
+}
+
 @media (max-width: 1200px) {
 
     .ct-landing-section-first-content-title {

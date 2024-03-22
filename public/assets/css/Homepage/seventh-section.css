@@ -21,23 +21,23 @@
 
     
 .seventh-section-second-title {
-    width: 127.701px;
-    margin-top: 10.25px;
+    /* width: 127.701px; */
     color: #1681C2;
     /* font-family: Bahnschrift; */
     font-size: 12px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 19.392px; /* 161.6% */
 }
 
 .seventh-section-second-description {
-    margin-top: 12.37px;
+    margin-top: 10px;
+    margin-bottom: 5px;
     color:  #131313;
     /* font-family: Bahnschrift; */
     font-size: 14px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 700;
     line-height: 19.392px; /* 138.514% */
 
 }
@@ -79,6 +79,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: 82px; /* 113.889% */
+    margin: 18px 0px;
 }
 
 .seventh-section-first-content-title span {
@@ -92,8 +93,8 @@
     font-style: normal;
     font-weight: 300;
     line-height: 24px; /* 133.333% */
-    margin-top: 36px;
     max-width: 578px;
+    margin-bottom: 18px;
 }
 
 .seventh-section-first-content-button,
@@ -117,6 +118,7 @@
 
     text-decoration: none;
     margin-top: 48px;
+    margin-bottom: 32px;
 }
 
 .seventh-section-first-content-button-2 {
@@ -157,10 +159,11 @@
     margin-top: 9px;
     /* H11 */
 /*                font-family: "Articulat CF";*/
-    font-size: 16px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 24px; /* 150% */
+    
 }
 
 .seventh-section-second-content-platform {
@@ -202,6 +205,8 @@
     box-shadow: 0px 12px 24px 0px rgba(0, 0, 0, 0.10);
     padding: 26px;
     margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
 }
 
 .seventh-section-second-card-1 img,
@@ -215,6 +220,15 @@
     animation: UptoDown 40s infinite linear;
 }
 
+.seventh-section-second-tag {
+    display: flex;
+}
+.seventh-section-second-tag svg {
+    width: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
 @keyframes UptoDown {
     from {
         transform: translateY(0);
@@ -226,6 +240,8 @@
 
 .seventh-section-second-card-div-2 {
     animation: DowntoUp 20s infinite linear;
+    position: absolute;
+    left: 332px;
 }
 
 @keyframes DowntoUp {
@@ -241,7 +257,7 @@
 @media (max-width: 1800px) {
 
     .seventh-section-container {
-        max-width: 1250px;
+        max-width: 1200px;
         
     }
     
@@ -249,6 +265,10 @@
 
         font-size: 56px;
         line-height: 64px; /* 114.286% */
+    }
+    
+    .seventh-section-second-card-div-2 {
+        left: 282px;
     }
 
     .seventh-section-second-card-1,
@@ -262,9 +282,85 @@
         width: 100%;
     }
 
+}
+
+@media (max-width: 1500px) {
+
+    .seventh-section-container {
+        max-width: 1024px;
+    }
+
+    .seventh-section-first-content-title {
+
+        font-size: 40px;
+        line-height: 52px;
+    }
+
+    .seventh-section-second-card-div-2 {
+        left: 282px;
+    }
 
 }
 
+@media (max-width: 1199px) {
+
+
+    .seventh-section-container {
+        max-width: 900px;
+    }
+
+    .seventh-section-first-div {
+        padding: 48px;
+    }
+
+    .seventh-section-first-content-title {
+        font-size: 72px;
+        line-height: 64px;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .seventh-section-first-content-title {
+        font-size: 56px;
+        line-height: 64px;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .seventh-section-first-content-title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .seventh-section-first-div {
+        padding: 24px;
+        border-radius: 18px;
+    }
+
+    .seventh-section-first-content-button-2 {
+        display: block;
+    }
+
+    .seventh-section-first-content-button {
+        display: none;
+    }
+
+    .seventh-section .padding-gap {
+        padding: 0px;
+    }
+
+    .seventh-section-first-div {
+        padding: 24px;
+        border-radius: 0px;
+    } 
+
+}
+
+/* 
 @media (max-width: 1199px) {
 
     .seventh-section-container {
@@ -312,17 +408,15 @@
 
     .seventh-section-first-content-title {
 
-        /* H8 */
         font-size: 32px;
-        line-height: 40px; /* 125% */
+        line-height: 40px;
     }
 
     .seventh-section-first-content-description {
 
-        /* body-text-normal */
-        /* font-family: Bahnschrift; */
+
         font-size: 16px;
-        line-height: 24px; /* 150% */
+        line-height: 24px; 
         margin-top: 14px;
     }
 
@@ -337,7 +431,7 @@
     .seventh-section-second-card-div-2 {
         
         position: absolute;
-        right: -100px;
+        left: 300px;
     }
     
     .seventh-section-first-content-button-2 {
@@ -348,4 +442,4 @@
         min-height: 850px !important;
     }
   
-}
+} */

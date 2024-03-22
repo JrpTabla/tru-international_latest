@@ -40,8 +40,8 @@
 
 
 .main {
-    background-color: white;
-    margin-bottom: 479px;
+    background-color: #fff;
+    margin-bottom: 550px;
     transition: background-color 0.5s;
     border-radius: 0 0 48px 48px ;
 }

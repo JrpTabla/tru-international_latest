@@ -22,10 +22,19 @@
 
     /* H2 */
    /*  font-family: "Articulat CF"; */
-    font-size: 56px;
+    /* font-size: 56px;
     font-style: normal;
     font-weight: 700;
-    line-height: 72px; /* 128.571% */
+    line-height: 72px; */
+
+    color: #131313;
+
+    /* H7 */
+    /* font-family: Bahnschrift; */
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; /* 155.556% */
 }
 
 .about-eight-section-first-content-img {

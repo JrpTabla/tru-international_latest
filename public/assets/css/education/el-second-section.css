@@ -1,0 +1,77 @@
+.el-second-section {
+    position: relative;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.20);
+    background-color: #F7F0E1;
+}
+
+.el-second-section-container {
+    max-width: 1440px;
+    display: flex;
+
+}
+
+
+.el-second-section-first-div {
+   
+    margin-top: 48px;
+    margin-bottom: 115px;
+}
+
+.highlight-div-title-text {
+    color: #F28E61;
+    /* font-family: "Articulat CF"; */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 28.8px */
+    margin-bottom: 16px;
+}
+
+.highlight-div-lesson-highlight,
+.highlight-div-lesson-content {
+    padding-left: 16px;
+}
+
+.highlight-div-lesson-highlight svg {
+    margin-top: 4px;
+}
+
+.highlight-div-lesson-title {
+    color: #000;
+    /* font-family: "Articulat CF"; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 21.6px */
+    margin-left: 9px;
+    max-width: 184px;
+}
+
+.highlight-div-lesson-content {
+    border-left: 1px solid #131313;
+    margin-left: 16px;
+    padding-top: 10px;
+    min-height: 139px;
+}
+
+.highlight-div-lesson-content-text {
+    color: #131313;
+    /* font-family: "Articulat CF"; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 19.2px */
+    max-width: 184px;
+}
+
+.ads-div {
+    padding: 0px 20px !important;
+}
+
+.education-lesson-ads {
+    margin-bottom: 58px;
+    height: 483px;
+    width: 100%;
+    aspect-ratio: 1/1;
+    background-color: #D7D7D7;
+}

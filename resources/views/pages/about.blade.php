@@ -1,4 +1,4 @@
-@extends('header.header')
+@extends('header.subpage')
 
 
 
@@ -12,8 +12,12 @@
     <link rel="stylesheet" href="{{ asset ('assets/css/about/fifth-section.css') }}">
     <link rel="stylesheet" href="{{ asset ('assets/css/about/sixth-section.css') }}">
     <link rel="stylesheet" href="{{ asset ('assets/css/about/seven-section.css') }}">
+    <link rel="stylesheet" href="{{ asset ('assets/css/about/nineth-section.css') }}">
+    <link rel="stylesheet" href="{{ asset ('assets/css/CT/sixth-section.css') }}">
+    <link rel="stylesheet" href="{{ asset ('assets/css/about/eleventh-section.css') }}">
+    
     <link rel="stylesheet" href="{{ asset ('assets/css/about/eight-section.css') }}">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@20.0.5/build/css/intlTelInput.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
 <div class="main">
@@ -84,7 +88,7 @@
                         Our <span>Vision</span>
                     </div>
                     <div class="about-section-card-description">
-                        Our vision is to become the leading financial organization, aiming to safeguard the interests of every online traders. We strive to transform the traditional online trading landscape into a secure and enriched environment by advocating secured experience and providing invaluable resources through quality educational resources, community-led discussions, and broker reviews. Our commitment to transparency, innovation, and accountability will create a better and secured experience for online traders. 
+                        TRU shall become the leading community in the financial industry, aiming to safeguard the interests of every online trader. We strive to transform the traditional online trading landscape into a secure and enriched environment by advocating a safer online space and providing invaluable resources through community-led discussions, quality educational content, and objective reviews. Our commitment to transparency, innovation, and accountability will create a better and more inclusive experience for online traders.   
                     </div>
                 </div>
             </div>
@@ -98,7 +102,7 @@
                         Our <span class="mission-title-span">Mission</span>
                     </div>
                     <div class="about-section-card-description">
-                        TRU takes a proactive approach in reestablishing trust among online traders in the financial market by providing a healthy and reliable community, comprehensive broker ratings, and protection program. We are commited to delivering excellence, accountability, and integrity in all our endeavors. Our focus on establishing a community-led organization enhances the traditional financial landscape, resulting to a safer, more informed online trading experience.
+                        TRU takes a proactive approach to reestablishing online traders’ trust in the financial market by providing a healthy and reliable community, comprehensive reviews, and dispute resolution program. We are committed to delivering excellence, accountability, and integrity in all our endeavors. Our focus on establishing a community-led organization enhances the traditional financial landscape, resulting in a safer, more informed online trading experience. 
                     </div>
                 </div>
             </div>
@@ -123,7 +127,7 @@
                                 Member-Centric Growth
                             </div>
                             <div class="swiper-slide-description">
-                                Member-Centric Growth – TRU views its members valuable and integral to the organization success. By providing, improving, and expanding services and benefits, our organization ensures the members grow together with TRU.
+                                Our members are invaluable assets and integral to the organization's success. By providing, improving, and expanding services and benefits, our organization ensures the members grow together with TRU.  
                             </div>
                         </div>
                         <!-- No.2 Card -->
@@ -132,10 +136,10 @@
                                 02
                             </div>
                             <div class="swiper-slide-title">
-                                Organization’s Credibility
+                                Organization's Credibility
                             </div>
                             <div class="swiper-slide-description">
-                                TRU officiates a smooth flow of unbiased information, empowering members to make informed and sound financial decisions. With the introduction of TRU's quality education program, CommuniTrade, and Rating Board, the organization builds its credibility as a dependable source of trading knowledge.
+                                We facilitate and encourage a smooth flow of valuable and unbiased information, empowering members to make informed and sound financial decisions. With the introduction of TRU's quality education program, CommuniTrade, and Rating Board, we establish our credibility as a reliable source of trading knowledge. 
                             </div>
                         </div>
                         <!-- No.3 Card -->
@@ -144,10 +148,10 @@
                                 03
                             </div>
                             <div class="swiper-slide-title">
-                            Community Engagement
+                                Community Engagement
                             </div>
                             <div class="swiper-slide-description">
-                                TRU acknowledges the vital role of accessible first-hand experiences and perspectives for online traders' growth. TRU cultivates a dynamic, interactive community where traders can initiate discussion, learn, and collaborate on various aspects of online trading. 
+                                We acknowledge the power of first-hand experiences and unique perspectives in fostering the growth of online traders. At TRU, we cultivate a dynamic and interactive community where traders can initiate discussions, learn, and collaborate on various aspects of online trading.  
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -155,10 +159,43 @@
                                 04
                             </div>
                             <div class="swiper-slide-title">
-                            Protection and Advocacy
+                                Protection and Advocacy 
                             </div>
                             <div class="swiper-slide-description">
                                 Our organization actively safeguards traders from any possible trading risks by advocating trading education. Moreover, TRU implements a robust support framework to help traders settle disputes and allot funds to protect members from potential losses due to unethical practices of some brokers.
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-no ms-auto">
+                                05
+                            </div>
+                            <div class="swiper-slide-title">
+                                Educational Outreach
+                            </div>
+                            <div class="swiper-slide-description">
+                                TRU actively empowers all its members and the whole online trading community to make informed and sound financial decisions. We organize events, webinars, and seminars to promote an interactive and productive learning environment. Moreover, the organization is filled with learning resources to educate the community about best trading practices, platform selection, and risk management.
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-no ms-auto">
+                                06
+                            </div>
+                            <div class="swiper-slide-title">
+                                Innovation and Adaptability 
+                            </div>
+                            <div class="swiper-slide-description">
+                                The members and whole online trading community is the core of TRU. Thus, their satisfaction is among our top priorities. TRU continuously enhances the organization, its services, and member benefits based on feedback, financial market trends, and technological advancements to ensure members can always access the best tools and information. 
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-no ms-auto">
+                                07
+                            </div>
+                            <div class="swiper-slide-title">
+                                Transparency and Accountability
+                            </div>
+                            <div class="swiper-slide-description">
+                                Restoring the customer's trust in the Financial Market is the core mission of TRU. To establish credibility, we establish an accessible framework wherein all organizational actions, decisions, and recommendations are comprehensively presented to the members. This practice ensures TRU remains faithful to its core values, maintains integrity in the organization's operations, and upholds accountability and responsible leadership.
                             </div>
                         </div>
                     </div>
@@ -175,12 +212,12 @@
         </div>
         <div class="about-section-container row mx-auto">
             <div class="col-12 col-lg-4 about-section-card-fifth" data-aos="fade-right" data-aos-duration="1000">
-                <div class="about-section-card-fifth-1" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <div class="about-section-card-fifth-1" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onclick="ModalContent1()">
                     <div class="about-section-card-fifth-title">
                         Environmental
                     </div>
                     <div class="about-section-card-fifth-description">
-                        At TRU, positive changes comes from within. By promoting a communal and sustainable eco-frienfly activities, TRU foster shared knowledge and appreciation of the environment.
+                        We consider our planet an invaluable stakeholder. Thus, TRU ensures to uphold and advocate green corporate practices aimed at keeping an ecofriendly work environment and encouraging its members to embrace environmentally sustainable lifestyles.
                     </div>
                     <div class="about-section-card-fifth-content mx-auto mt-auto mb-3">
                         <img src="{{ asset ('assets/images/about-images/fifth-section/card-1-img.png') }}" alt="" >
@@ -189,30 +226,8 @@
                 </div>
             </div>
 
-
-            <!-- Modal -->
-            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered card-modal">
-                    <div class="modal-content">
-                        <button type="button" class="btn-close ms-auto" data-bs-dismiss="modal" aria-label="Close"></button>
-                        <div class="modal-body">
-                            <div class="about-section-card-fifth-title">
-                                Social
-                            </div>
-                            
-                            <div class="about-section-card-fifth-content mx-auto mb-3">
-                                <img src="{{ asset ('assets/images/CT-images/fifth-section/card-1.png') }}" alt="" width="100%">
-                            </div>
-                            <div class="about-section-card-fifth-description">
-                                Engage with fellow traders, build network, and tap into the collective knowledge of online traders worldwide – all in a single, safe space! Through the General Discussion Board, TRU members can seek advice on a wide range of topics, share personal trading anecdotes, or explore emerging market trends together.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <div class="col-12 col-lg-4 about-section-card-fifth" data-aos="fade-left" data-aos-duration="1000">
-                <div class="about-section-card-fifth-2">
+                <div class="about-section-card-fifth-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onclick="ModalContent2()">
                     <div class="about-section-card-fifth-title">
                         Social
                     </div>
@@ -226,7 +241,7 @@
                 </div>
             </div>
             <div class="col-12 col-lg-4 about-section-card-fifth" data-aos="fade-right" data-aos-duration="1000">
-                <div class="about-section-card-fifth-3">
+                <div class="about-section-card-fifth-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onclick="ModalContent3()">
                     <div class="about-section-card-fifth-title">
                         Governance
                     </div>
@@ -242,23 +257,70 @@
         </div>
     </section>
 
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered card-modal">
+            <div class="modal-content">
+                <button type="button" class="btn-close ms-auto" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-body">
+
+                    <div class="d-flex">
+                        <div class="content-title-no">1</div>
+                        <div class="about-section-card-fifth-title modal-title-1"></div>
+                    </div>
+                    
+                    
+                    <div class="about-section-card-fifth-description modal-description-1"></div>
+
+                    <div class="d-flex">
+                        <div class="content-title-no">2</div>
+                        <div class="about-section-card-fifth-title modal-title-2"></div>
+                    </div>
+                    <div class="about-section-card-fifth-description modal-description-2"></div>
+
+                    <div class="d-flex">
+                        <div class="content-title-no">3</div>
+                        <div class="about-section-card-fifth-title modal-title-3"></div>
+                    </div>
+                    <div class="about-section-card-fifth-description modal-description-3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .content-title-no {
+            /* color:  #36607A; */
+            /* font-family: Bahnschrift; */
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 32px;
+            width: 32px;
+            min-width: 32px;
+            max-height: 32px;
+            text-align: center;
+            border-radius: 50%;
+        }
+    </style>
+
     <section id="about-sixth-section" class="about-sixth-section">
         <div class="about-sixth-section-container row mx-auto">
             <div class="about-sixth-section-first-div row" data-aos="zoom-in-up" data-aos-duration="2000">
-                <div class="about-sixth-section-second-content d-flex col-12 col-xl-6" data-aos="fade-right" data-aos-duration="3000">
-                    <div class="mx-auto">
-                        <div class="about-sixth-section-first-content-img">
-                            <img src="{{ asset ('assets/images/about-images/sixth-section/sixth-section-img.png') }}" alt="" style="width: 100%"/>
-                        </div>
-                    </div>
-                </div>
                 <div class="about-sixth-section-first-content d-flex col-12 col-xl-6" data-aos="fade-left" data-aos-duration="3000">
                     <div class="m-auto">
                         <div class="about-sixth-section-first-content-img">
                             <img src="{{ asset ('assets/images/about-images/sixth-section/quote.png') }}" alt=""/>
                         </div>
                         <div class="about-sixth-section-first-content-title">
-                            Until now, traders have always been left one on one with brokers. <br><br> But now, for the <span>first time in the history of this market, we traders are no longer alone.</span>
+                            Until now, traders have always been left one on one with brokers. <br><br> But now, for the <i>first time in the history of this market, we traders are no longer alone.</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-sixth-section-second-content d-flex col-12 col-xl-6" data-aos="fade-right" data-aos-duration="3000">
+                    <div class="mx-auto">
+                        <div class="about-sixth-section-first-content-img">
+                            <img src="{{ asset ('assets/images/about-images/sixth-section/sixth-section-img.png') }}" alt="" style="width: 100%"/>
                         </div>
                     </div>
                 </div>
@@ -346,17 +408,131 @@
     <section id="about-eight-section" class="about-eight-section">
         <div class="about-eight-section-container row mx-auto" data-aos="zoom-in-up" data-aos-duration="2000">
             <div class="about-eight-section-first-div row">
-                <div class="about-eight-section-first-content col-12 col-xl-6">
-                    <div class="about-eight-section-first-content-title">
+                <div class="about-eight-section-second-content col-12 col-xl-6">
+                    <div class="about-eight-section-first-content-img mx-auto">
+                        <img src="{{ asset ('assets/images/about-images/eight-section/eight-section-img.png') }}" alt="" style="width: 100%"/>
+                    </div>
+                </div>
+                <div class="about-eight-section-first-content col-12 col-xl-6 d-flex">
+                    <div class="my-auto">
+                        <div class="about-eight-section-first-content-title">
+                        Want to download the Media Kit?
+                        </div>
+                        <div class="about-section-Btn-div">
+                            <a class="Be-a-TRU-btn">Be a TRU member</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <section id="about-nineth-section" class="about-nineth-section">
+        <div class="about-nineth-section-container row mx-auto" data-aos="zoom-in-up" data-aos-duration="2000">
+            <div class="about-nineth-section-first-div row">
+                <div class="about-nineth-section-first-content col-12 d-flex">
+                    <div class="my-auto w-100">
+                        <div class="about-nineth-section-first-content-title text-center">Contact us</div>
+                        <form class="row mx-auto">
+                            <div class="col-6 mb-3">
+                                <label for="First_name" class="form-label">First name</label>
+                                <input type="text" class="form-control contact-us" id="First_name" placeholder="First Name">
+                            </div>
+                            <div class="col-6 mb-3">
+                                <label for="Last_name" class="form-label">Last name</label>
+                                <input type="text" class="form-control contact-us" id="Last_name" placeholder="Last Name">
+                            </div>
+                            <div class="col-6 mb-3">
+                                <label for="Email_address" class="form-label">Email</label>
+                                <input type="email" class="form-control contact-us" id="Email_address" aria-describedby="emailHelp" placeholder="john_doe@mail.com">
+                            </div>
+                            <div class="col-6 mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Phone</label>
+                                <input type="tel" class="form-control contact-us" id="phone">
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Your message</label>
+                                <textarea class="form-control contact-us" placeholder="Leave a Message here" id="floatingTextarea"></textarea>
+                            </div>
+                        
+                            <div class="about-section-Btn-div col-12 d-flex">
+                                <a class="Be-a-TRU-btn mx-auto">Sent it now</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+
+
+
+
+    <section id="ct-sixth-section" class="ct-sixth-section">
+        <div class="ct-sixth-section-title text-center mx-auto" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">You may also be asking…</div>
+        <div class="ct-section-container row mx-auto">
+            <div class="ct-section-first-div">
+                <div class="accordion accordion-flush mx-auto" id="accordionFlushExample">
+                    <div class="accordion-item" data-aos="fade-right" data-aos-duration="1000">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-1"aria-expanded="false" aria-controls="flush-1">
+                            <img src="{{ asset ('assets/images/RPP-images/sixth-section/Vector.png') }}" alt=""/>
+                            <div class="faq-send">
+                                <div class="faq-name">
+                                    <span>Zara Al-Farsi</span>, United States
+                                </div>
+                                <div class="faq-comment">
+                                    Just wondering, is TRU giving away money? What’s the
+                                    reason for RPP?
+                                </div>
+                            </div>
+                        </button>
+                        <div id="flush-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <div class="faq-response faq-response-lg" style="">
+                                    <div class="faq-response-name"> 
+                                        <span>Traders United</span>
+                                    </div>
+                                    <div class="faq-respponse-comment">
+                                        No, you only have to pay for the membership fee. All TRU members can access our services and programs, including the CommuniTrade, without additional financial commitments.
+                                    </div>
+                                </div>
+                                <img class="faq-response-img" src="{{ asset ('assets/images/RPP-images/sixth-section/logo.png') }}" alt="" style="height: 60px; width: 60px"/>
+
+                                <div class="faq-response faq-response-sm">
+                                    <div class="faq-response-name"> 
+                                        <span>Traders United</span>
+                                    </div>
+                                    <div class="faq-respponse-comment">
+                                        No, you only have to pay for the membership fee. All TRU members can access our services and programs, including the CommuniTrade, without additional financial commitments.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ct-sixth-section-show-more text-center mx-auto" data-aos="fade-up" data-aos-duration="1000">
+                Show more
+            </div>
+        </div>
+    </section>
+
+    <section id="about-eleventh-section" class="about-eleventh-section">
+        <div class="about-eleventh-section-container row mx-auto" data-aos="zoom-in-up" data-aos-duration="2000">
+            <div class="about-eleventh-section-first-div row">
+                <div class="about-eleventh-section-first-content col-12 col-xl-6">
+                    <div class="about-eleventh-section-first-content-title">
                         Engage. Collaborate. Succeed.
                     </div>
                     <div class="about-section-Btn-div">
                         <a class="Be-a-TRU-btn">Be a TRU member</a>
                     </div>
                 </div>
-                <div class="about-eight-section-second-content col-12 col-xl-6">
-                    <div class="about-eight-section-first-content-img mx-auto">
-                        <img src="{{ asset ('assets/images/about-images/eight-section/eight-section-img.png') }}" alt="" style="width: 100%"/>
+                <div class="about-eleventh-section-second-content col-12 col-xl-6">
+                    <div class="about-eleventh-section-first-content-img mx-auto">
+                        <img src="{{ asset ('assets/images/about-images/eleventh-section/eleventh-section-img.png') }}" alt="" style="width: 100%"/>
                     </div>
                 </div>
             </div>
@@ -390,6 +566,115 @@
         },
     });
 
+    function ModalContent1() {
+        // Selecting elements within the modal body
+        var title1 = document.querySelector('.modal-title-1');
+        var description1 = document.querySelector('.modal-description-1');
+        var title2 = document.querySelector('.modal-title-2');
+        var description2 = document.querySelector('.modal-description-2');
+        var title3 = document.querySelector('.modal-title-3');
+        var description3 = document.querySelector('.modal-description-3');
 
+        // Updating innerHTML with the new content
+        title1.innerHTML = 'Paperless Work Systems';
+        description1.innerHTML = 'TRU is together with the environmental giants in battling deforestation and pollution. We implement a paperless work environment with the workplace to lessen, if not eliminate, paper usage in the operations. The organization develops and utilizes state-of-the-art technologies to minimize unnecessary paper waste. TRU promotes the utilization of digital documents, online data storage, and streamline workflows through digital software to support and sustain this innitiative.';
+        title2.innerHTML = 'Promoting Energy and Water Conservation';
+        description2.innerHTML = 'Among TRU\'s main environmental initiatives is promoting the best practices to combat the issue of climate change. The organization values essential knowledge regarding energy and water conversation, thus, actively raising awareness about the issue to the general public. TRU dedicated its resources to develop energy-efficient technologies and promotes water-saving practices to all its stakeholders. We ensure a plethora of quality and informed educational content to encourage energy and water conversation to partake in the movement.';
+        title3.innerHTML = 'Initiation of Go-Green Activities';
+        description3.innerHTML = 'TRU believes that collective efforts can bring about positive changes. The organization actively encourages all the stakeholders to participates in its Go-Green initiatives, such as tree planting, recycling, and engaging in environmental seminars. These communal activities fosters a shared understanding of and appreciation for the environment. As an integral part of our commitment to sustainability, TRU organizes and facilitates eco-friendly programs to educate its members on these essential conservation practices.';
+    
+        // Applying additional styles to modal content
+        var modalContent = document.querySelector('.modal-content');
+        modalContent.style.fill = 'var(--light-blue, #9AD9FF)';
+        modalContent.style.filter = 'drop-shadow(0px 12px 24px rgba(154, 217, 255, 0.48))';
+        modalContent.style.backgroundColor = '#9AD9FF';
+
+        // var contentTitleNo = document.querySelectorAll('.content-title-no');
+        // contentTitleNo.style.backgroundColor = '#58ADE0';
+
+        var contentTitleNo = document.querySelectorAll('.content-title-no');
+        contentTitleNo.forEach(function(title) {
+            title.style.backgroundColor = '#58ADE0';
+            title.style.color = '#36607A';
+        });
+    }
+
+    function ModalContent2() {
+        // Selecting elements within the modal body
+        var title1 = document.querySelector('.modal-title-1');
+        var description1 = document.querySelector('.modal-description-1');
+        var title2 = document.querySelector('.modal-title-2');
+        var description2 = document.querySelector('.modal-description-2');
+        var title3 = document.querySelector('.modal-title-3');
+        var description3 = document.querySelector('.modal-description-3');
+
+        // Updating innerHTML with the new content
+        title1.innerHTML = 'Promote workplace diversity, equity, and inclusion by hiring, training, and retaining employees from different backgrounds, cultures, and perspectives.';
+        description1.innerHTML = 'The organization continuously allot resources to create rich, constructive working scenes that actively contribute to executive decisions and production. The Boards of Directors are hands-on in hiring, training, and retaining employees despite varying backgrounds. We value every mind and perspective in creating and enriching TRU to ensure a worthy and satisfying experiences for the customers.';
+        title2.innerHTML = 'Support social causes through programs aimed to help communities, and donating, volunteering, and partnering with non-profit organizations, charities, and local groups.';
+        description2.innerHTML = 'TRU positions itself together with the society and whole community of traders. Our company brings back the opportunities, support, and trust given to the organization by society and the community. With that, TRU will initiate programs and campaigns to reach communities that need education, support, and recovery from social issues. ';
+        title3.innerHTML = 'Enhance customer satisfaction and loyalty by offering quality products and services, engaging in ethical marketing, and addressing customer feedback and complaints.';
+        description3.innerHTML = 'At TRU, our utmost priority is to provide the best services and benefits to all its members. Our promise is manifested by continuously enriching the quality of our products, services, and content. Through the stakeholders\' continuous feedback, TRU aims to be on a constant growth and meet our primary goal of being a community-centric organization. ';
+    
+        // Applying additional styles to modal content
+        var modalContent = document.querySelector('.modal-content');
+        modalContent.style.fill = 'var(--light-gold, #FFCA5D)';
+        modalContent.style.filter = 'drop-shadow(0px 12px 24px rgba(255, 202, 93, 0.48))';
+        modalContent.style.backgroundColor = '#FFCA5D';
+
+        // var contentTitleNo = document.querySelectorAll('.content-title-no');
+        // contentTitleNo.style.backgroundColor = '#E7AA2D';
+        var contentTitleNo = document.querySelectorAll('.content-title-no');
+        contentTitleNo.forEach(function(title) {
+            title.style.backgroundColor = '#E7AA2D';
+            title.style.color = '#7D5E20';
+            
+        });
+    }
+
+    function ModalContent3() {
+        // Selecting elements within the modal body
+        var title1 = document.querySelector('.modal-title-1');
+        var description1 = document.querySelector('.modal-description-1');
+        var title2 = document.querySelector('.modal-title-2');
+        var description2 = document.querySelector('.modal-description-2');
+        var title3 = document.querySelector('.modal-title-3');
+        var description3 = document.querySelector('.modal-description-3');
+
+        // Updating innerHTML with the new content
+        title1.innerHTML = 'Adopt a robust corporate governance structure that ensures accountability, oversight, and compliance of the board of directors, management, and employees.';
+        description1.innerHTML = 'TRU takes pride on every systematic approaches implemented on all of its operations, decisions, and changes. Organization has developed and documented a comprehensive framework, rules, practices, and processes that ensure smooth product, service, and content decision-making.';
+        title2.innerHTML = 'Engage in constructive dialogue and collaboration with shareholders, regulators, and other stakeholders on ESG issues and opportunities.';
+        description2.innerHTML = 'At TRU, we place immense value on the voices of every individual that makes TRU what it is now. We provide a platform for everyone to contribute towards our organization\'s ESG success. The ideas manifested and created in a collective space will lead to a more dependable and trustworthy approach to initiating programs and activities for ESG issues.';
+        title3.innerHTML = 'Disclose ESG performance and progress through regular and reliable reporting, auditing, and verification.';
+        description3.innerHTML = 'TRU upholds its core value; transparency and accountability. The organization aims to build trust-oriented relationships with the members and the whole online trading community. To achieve this level of trust, TRU is committed to providing timely updates, reports, and audits that authenticates all the activities and resources used in the organization ESG initiatives.';
+    
+        // Applying additional styles to modal content
+        var modalContent = document.querySelector('.modal-content');
+        modalContent.style.fill = 'var(--light-green, #8ECB86)';
+        modalContent.style.filter = 'drop-shadow(0px 12px 24px rgba(142, 203, 134, 0.48))';
+        modalContent.style.backgroundColor = '#8ECB86';
+
+        // var contentTitleNo = document.querySelectorAll('.content-title-no');
+        // contentTitleNo.style.backgroundColor = '#6CB063';
+
+        var contentTitleNo = document.querySelectorAll('.content-title-no');
+        contentTitleNo.forEach(function(title) {
+            title.style.backgroundColor = '#6CB063';
+            title.style.color = '#40623B';
+
+        });
+    }
+
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@20.0.5/build/js/intlTelInput.min.js"></script>
+
+<script>
+  const input = document.querySelector("#phone");
+  window.intlTelInput(input, {
+    utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@20.0.5/build/js/utils.js",
+    initialCountry: "UA" // Set the initial country to Philippines
+  });
 </script>
 @endsection

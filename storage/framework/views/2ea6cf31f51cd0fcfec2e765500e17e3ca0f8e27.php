@@ -45,7 +45,7 @@
                 <path d="M146.236 16.5217C148.665 16.5217 150.436 17.6845 150.436 21.0865V27.8261H147.122V21.2588C147.122 19.7085 146.191 19.1271 145.011 19.1271C143.353 19.1271 142.559 20.5052 142.445 21.2157V27.8261H139.131V16.6294H142.445V18.8472C142.786 18.072 144.057 16.5217 146.236 16.5217Z" fill="white"/>
                 <path d="M136.523 21.6444C136.523 25.6181 133.856 27.8258 130.013 27.8258C126.124 27.8258 123.479 25.6181 123.479 21.6444V12.1736H126.938V21.5119C126.938 23.8079 128.091 24.9117 130.013 24.9117C131.934 24.9117 133.064 23.8079 133.064 21.5119V12.1736H136.523V21.6444Z" fill="white"/>
                 <path d="M153.914 14.7825C154.875 14.7825 155.654 14.0038 155.654 13.0433C155.654 12.0828 154.875 11.3042 153.914 11.3042C152.954 11.3042 152.175 12.0828 152.175 13.0433C152.175 14.0038 152.954 14.7825 153.914 14.7825Z" fill="#E7AA2D"/>
-              </svg>
+            </svg>
         </a>
 
         <div class="nav-menu">   
@@ -59,7 +59,6 @@
                     <path d="M20.0308 20.7901C20.4908 21.2501 21.2008 20.5401 20.7408 20.0901L16.9908 16.3301C18.3063 14.8746 19.0334 12.9819 19.0308 11.0201C19.0308 6.63006 15.4608 3.06006 11.0708 3.06006C6.68084 3.06006 3.11084 6.63006 3.11084 11.0201C3.11084 15.4101 6.68084 18.9801 11.0708 18.9801C13.0508 18.9801 14.8808 18.2501 16.2808 17.0401L20.0308 20.7901ZM4.10984 11.0201C4.10984 7.18006 7.23984 4.06006 11.0698 4.06006C14.9098 4.06006 18.0298 7.18006 18.0298 11.0201C18.0298 14.8601 14.9098 17.9801 11.0698 17.9801C7.23984 17.9801 4.10984 14.8601 4.10984 11.0201Z" fill="white" stroke="white"/>
                 </svg>
             </div>
-
 
             <div class="nav-humburger-btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" style="cursor: pointer;">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 18" fill="none">
@@ -77,7 +76,33 @@
 
         <div class="navbar-div">
             <ul class="navbar-nav d-flex navbar-link ms-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-h11 dropdown-toggle active" data-bs-toggle="dropdown" aria-expanded="false" href="#">Organization</a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="/about">About TRU</a></li>
+                        <li><a class="dropdown-item" href="#">Help Center</a></li>
+                        <li><a class="dropdown-item" href="#">Partnership Program</a></li>
+                        <li><a class="dropdown-item" href="#">Documents</a></li>
+                        <li><a class="dropdown-item" href="#">Feedback Page</a></li>
+                    </ul>
+                </li>
                 <li class="nav-item">
+                    <a class="nav-h11" href="/communitrade">CommuniTrade</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-h11" href="/dispute_resolution">Dispute&nbsp;Resolution</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-h11" href="/unitygains">UnityGains</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-h11 dropdown-toggle active" data-bs-toggle="dropdown" aria-expanded="false" href="#">Resources</a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="/education">Education</a></li>
+                        <li><a class="dropdown-item" href="/blog">Blog</a></li>
+                    </ul>
+                </li>
+                <!-- <li class="nav-item">
                     <a class="nav-h11" href="/risk-protection-program">Rating</a>
                 </li>
                 <li class="nav-item">
@@ -99,7 +124,7 @@
                         <li><a class="dropdown-item" href="#">Another action</a></li>
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
-                </li>
+                </li> -->
             </ul>
             <ul class="navbar-nav navbar-login ms-auto">
                 <a class="nav-signUp" href="/register">SignUp</a>
@@ -152,7 +177,7 @@
     <footer id="footer-section" class="footer-section">
         <div class="footer-section-container row">
             <div class="col-12 footer-nav row">
-                <div class=" col-12 col-xl-4">
+                <div class=" col-12 col-md-4 my-2">
                     <div class="footer-logo">
                         <svg xmlns="http://www.w3.org/2000/svg" width="200" height="42" viewBox="0 0 200 42" fill="none">
                             <path d="M35.6386 0H6.36142C2.84811 0 0 2.84811 0 6.36142V35.6386C0 39.1519 2.84811 42 6.36142 42H35.6386C39.1519 42 42 39.1519 42 35.6386V6.36142C42 2.84811 39.1519 0 35.6386 0Z" fill="#414141"/>
@@ -198,37 +223,40 @@
                             </svg>
                         </div>
                     </div>
-                    <div class="footer-credits">
+                    <!-- <div class="footer-credits">
                         2023. TradersUnited. All rights reserved
-                    </div>
+                    </div> -->
                 </div>
-                <div class="col-6 col-xl-2">
-                    <div class="footer-nav-title">Organization</div>
-                    <a class="footer-nav-link">Our Goals</a>
-                    <a class="footer-nav-link">ESG Initiatives</a>
-                    <a class="footer-nav-link">Contact Us</a>
-                    <a class="footer-nav-link">Partnerships</a>
-                    <a class="footer-nav-link">Financial</a>
-                    <a class="footer-nav-link">Reports</a>    
-                </div>
-                <div class="col-6 col-xl-2">
-                    <div class="footer-nav-title">Resources</div>
-                    <a class="footer-nav-link">Ratings</a>
-                    <a class="footer-nav-link">CommuniTrade</a>
-                    <a class="footer-nav-link">Education</a>
-                    <a class="footer-nav-link">Marketplace</a>
-                    <a class="footer-nav-link">Tools</a> 
-                </div>
-                <div class="col-6 col-xl-2">
-                    <div class="footer-nav-title">Advantages</div>
-                    <a class="footer-nav-link">UnityGains</a>
-                    <a class="footer-nav-link">Risk Protection Plan</a>
-                    <a class="footer-nav-link">Dispute Resolution</a>
-                </div>
-                <div class="col-6 col-xl-2">
-                    <div class="footer-nav-title">Documentation</div>
-                    <a class="footer-nav-link">Terms of Use</a>
+                <div class="col-6 col-md-2 my-2">
+                    <div class="footer-nav-title">Legal Documents</div>
+                    <a class="footer-nav-link">Cookie Policy</a>
                     <a class="footer-nav-link">Privacy Policy</a>
+                    <a class="footer-nav-link">Terms of Use</a>
+                    <a class="footer-nav-link">Risk Disclosure</a>
+                    <a class="footer-nav-link">Dispute Resolution</a>
+                    <a class="footer-nav-link">CommuniTrade</a>
+                    <a class="footer-nav-link">UnityGains</a>
+                    <!-- <a class="footer-nav-link">Privacy Policy</a> -->
+                </div>
+                <div class="col-6 col-md-2 my-2">
+                    <div class="footer-nav-title">Organization</div>
+                    <a class="footer-nav-link">About TRU</a>
+                    <a class="footer-nav-link">Help Center</a>
+                    <a class="footer-nav-link">Partnership Program</a>
+                    <a class="footer-nav-link">Documentation</a>
+                    <a class="footer-nav-link">Feedback Page</a>
+                    <!-- <a class="footer-nav-link">Reports</a>     -->
+                </div>
+                <div class="col-6 col-md-2 my-2">
+                    <div class="footer-nav-title">Advantages</div>
+                    <a class="footer-nav-link">CommuniTrade</a>
+                    <a class="footer-nav-link">Dispute Resolution</a>
+                    <a class="footer-nav-link">UnityGains</a>
+                </div>
+                <div class="col-6 col-md-2 my-2">
+                    <div class="footer-nav-title">Resources</div>
+                    <a class="footer-nav-link">Education</a>
+                    <a class="footer-nav-link">Blog</a>
                 </div>
             </div>
             <div class="row col-12 small-screen my-5">
@@ -254,9 +282,9 @@
                         </svg>
                     </div>
                 </div>
-                <div class="footer-credits-1 text-center">
+                <!-- <div class="footer-credits-1 text-center">
                     2023. TradersUnited. All rights reserved
-                </div>
+                </div> -->
             </div>
             <div class="col-12 disclaimer">
                 <div class="disclaimer-text">
@@ -266,6 +294,10 @@
                     TRU generates revenues through advertisements on its website, selling trading resources, membership subscriptions, and acting as a third-party intermediary between traders and other financial service providers. It may also receive commissions from external brokerage firms if users sign up for a brokerage firm’s platform using TRU’s portal.
                 </div>
             </div>
+
+            <div class="footer-credits text-center">
+                        2023. TradersUnited. All rights reserved
+                    </div>
         </div>
     </footer>
         <!-- Footer End -->
@@ -328,6 +360,24 @@
             window.location.href = "/login";
         });
 
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Get all dropdown menus
+            var dropdowns = document.querySelectorAll('.nav-item.dropdown');
+
+            // Toggle dropdown menu on hover
+            dropdowns.forEach(function (dropdown) {
+                dropdown.addEventListener('mouseenter', function () {
+                    dropdown.querySelector('.dropdown-menu').classList.add('show');
+                });
+
+                dropdown.addEventListener('mouseleave', function () {
+                    dropdown.querySelector('.dropdown-menu').classList.remove('show');
+                });
+            });
+        });
     </script>
 
 </body>

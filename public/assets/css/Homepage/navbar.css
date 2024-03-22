@@ -34,7 +34,7 @@
 /* Search Navbar */
 .search-div {
     border-radius: 32px;
-    background:  #FFF;
+    background:  #F7F7F7;
     display: flex;
     padding: 6px 16px 6px 16px;
     align-items: center;
@@ -52,6 +52,11 @@
     font-style: normal;
     font-weight: 700;
     line-height: 30px; /* 187.5% */
+    background-color: #F7F7F7;
+}
+
+.nav-search:focus {
+    background-color: #F7F7F7;
 }
 
 .navbar-link {
@@ -150,6 +155,11 @@
 
 .offcanvas {
     background-color: #131313 !important;
+}
+
+
+.dropdown-toggle::after {
+    display: none !important;
 }
 
 

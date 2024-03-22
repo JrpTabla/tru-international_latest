@@ -134,16 +134,6 @@
 }
 
 
-
-.modal-content {
-    display: flex;
-    padding: 30px;
-    fill: var(--light-blue, #9AD9FF);
-    filter: drop-shadow(0px 12px 24px rgba(154, 217, 255, 0.48));
-    background-color: #9AD9FF;
-    border: none;
-}
-
 .modal-body {
     padding: 34px !important;
 }

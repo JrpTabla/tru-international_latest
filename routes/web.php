@@ -5,6 +5,13 @@ use App\Http\Controllers\ContentController;
 use App\Models\User;
 use App\Models\PageContent;
 
+
+use App\Http\Controllers\EducationLevelController;
+use App\Http\Controllers\EducationTopicController;
+use App\Http\Controllers\EducationCourseController;
+use App\Http\Controllers\EducationModuleController;
+use App\Http\Controllers\EducationLessonController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,39 +27,40 @@ Route::get('/', function () {
     return view('pages/homepage', ['title' => 'Traders United']);
 });
 
-Route::get('/risk-protection-program', function () {
-    return view('pages/risk-protection-program', ['title' => 'Traders United | Risk Protection Program']);
+Route::get('/dispute_resolution', function () {
+    return view('pages/dispute-resolution', ['title' => 'Traders United | Risk Protection Program']);
 });
 
-Route::get('/unity-gains', function () {
+Route::get('/unitygains', function () {
     return view('pages/unity-gains', ['title' => 'Traders United | UnityGains']);
 });
 
 Route::get('/communitrade', function () {
-    return view('pages/communitrade', ['title' => 'Traders United | CommuniTrade']);
+    return view('pages/communiTrade', ['title' => 'Traders United | CommuniTrade']);
 });
 
 Route::get('/about', function () {
     return view('pages/about', ['title' => 'Traders United | About Us']);
 });
 
+
 Route::get('/blog', function () {
     return view('pages/blog', ['title' => 'Traders United | Blog']);
 });
 
 
-Route::get('/admin__dashboard', function () {
-    return view('pages/admin/dashboard', ['title' => 'Traders United | Admin Dashboard']);
-});
+// Route::get('/admin__dashboard', function () {
+//     return view('pages/admin/dashboard', ['title' => 'Traders United | Admin Dashboard']);
+// });
 
-Route::get('/admin__blog', function () {
-    return view('pages/admin/blog', ['title' => 'Traders United | Admin Blog']);
-});
+// Route::get('/admin__blog', function () {
+//     return view('pages/admin/blog', ['title' => 'Traders United | Admin Blog']);
+// });
 
 
-Route::get('/zoho', function () {
-    return view('pages/zoho', ['title' => 'Traders United | Admin Blog']);
-});
+// Route::get('/zoho', function () {
+//     return view('pages/zoho', ['title' => 'Traders United | Admin Blog']);
+// });
 
 
 
@@ -128,3 +136,51 @@ Route::get('/api/content/Homepage-section-8', function () {
 });
 
 
+/* ----------------------------------------- Education Pages ---------------------------------------------------------*/
+
+Route::get('/education', function () {
+    return view('pages/education/education', ['title' => 'Traders United | Education Page']);
+});
+
+
+Route::get('/education/{id}', function ($id) {
+    return view('pages/education/educationCourse', ['title' => 'Traders United | Education Courses Page']);
+});
+
+Route::get('/education_course/{id}', function ($id) {
+    return view('pages/education/educationModule', ['title' => 'Traders United | Education Courses Page']);
+});
+
+
+Route::get('/education_lesson/{id}', function ($id) {
+    return view('pages/education/educationLesson', ['title' => 'Traders United | Education Lesson Page']);
+});
+
+
+/* ----------------------------------------- Education API ---------------------------------------------------------*/
+
+/* Retrieve */
+Route::get('/api/view-education-topic', [EducationTopicController::class, 'index']);
+
+
+/* Retrieve */
+Route::get('/api/view-education-course/{topic_id}/{difficulty_id}', [EducationCourseController::class, 'index']);
+
+
+/* Retrieve */
+Route::get('/api/retrieve-education-level', [EducationLevelController::class, 'index']);
+
+/* Page Data */
+Route::get('/api/page-education-course/{id}', [EducationCourseController::class, 'page']);
+
+
+/* Retrieve */
+Route::get('/api/view-education-module/{course_id}', [EducationModuleController::class, 'index']);
+
+
+/* Retrieve */
+Route::get('/api/view-education-lesson/{module_id}', [EducationLessonController::class, 'index']);
+
+
+/* Page Data */
+Route::get('/api/page-education-lesson/{id}', [EducationLessonController::class, 'page']);

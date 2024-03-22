@@ -1,4 +1,4 @@
-@extends('header.header')
+@extends('header.subpage')
 
 @section('content')
 

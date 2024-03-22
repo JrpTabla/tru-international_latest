@@ -10,7 +10,8 @@
   <link rel="stylesheet" href="<?php echo e(asset ('assets/css/RPP/third-section.css')); ?>">
   <link rel="stylesheet" href="<?php echo e(asset ('assets/css/RPP/fourth-section.css')); ?>">
   <link rel="stylesheet" href="<?php echo e(asset ('assets/css/RPP/fifth-section.css')); ?>">
-  <link rel="stylesheet" href="<?php echo e(asset ('assets/css/RPP/sixth-section.css')); ?>">
+
+  <link rel="stylesheet" href="<?php echo e(asset ('assets/css/CT/sixth-section.css')); ?>">
   <link rel="stylesheet" href="<?php echo e(asset ('assets/css/RPP/seventh-section.css')); ?>">
 
 <div class="main">
@@ -29,7 +30,6 @@
             <div class="rpp-landing-section-Btn-div">
                 <a class="Be-a-TRU-btn">Be a TRU member</a>
             </div>
-            
           </div>
         </div>
         <div class="rpp-landing-section-second-content d-flex col-12 col-xl-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
@@ -168,10 +168,7 @@
               We got you <span>covered!</span>
             </div>
             <div class="rpp-third-section-first-content-description">
-              Recover as much as 100% of your losses! Risk Protection
-              Program (RPP) is a trading coverage initiative of TRU for all
-              its members that gives them safety against unethical
-              activities of brokers/service providers.
+              Recover as much as 100% of your losses! The Dispute Resolution Support (DRS) is an online trader protection initiative of TRU for all its members that gives them safety against unfair and unethical activities of brokers or service providers. 
             </div>
             <div>
                 <a class="Be-a-TRU-btn">Be a TRU member</a>
@@ -455,16 +452,16 @@
         <div class="rpp-section-first-content row col-12 col-xl-6">
           <div>
             <div class="rpp-fifth-section-first-content-title">
-              Recent <br />Claims Update
+              Recent <br />Disputes Update
             </div>
             <div class="rpp-fifth-section-second-content-1">
                 <div class="rpp-fifth-section-first-content-description">
-                Do you have a claim due to possible unscrupulous activities of
-                your broker/service provider?
+                Do you have a dispute due to possible unscrupulous activities of
+                your broker or service provider?
               </div>
-              <a class="Be-a-TRU-btn">File an Claim Now</a>
+              <a class="Be-a-TRU-btn">File an Dispute Now</a>
               <div class="rpp-fifth-section-first-content-sub-description">
-                *All posted claims were publicized with the consent of the
+                *All posted disputes were publicized with the consent of the
                 members who filed them. TRU updates these posts as soon as
                 they are addressed and resolved.
               </div>
@@ -488,13 +485,13 @@
                             Broker: <span class="rrp-slider-info broker">Tickmill</span>
                         </div>
                         <div class="rrp-slider-descriptions">
-                            Claim Amount: <span class="rrp-slider-info claim">$13,000</span>
+                          Dispute Amount: <span class="rrp-slider-info claim">$13,000</span>
                         </div>
                         <div class="rrp-slider-descriptions">
-                            Case Severity: <span class="rrp-slider-info severity">Misquotes - Major</span>
+                            Severity: <span class="rrp-slider-info severity">Misquotes - Major</span>
                         </div>
                         <div class="rrp-slider-descriptions">
-                            Case Description: 
+                            Description: 
                         </div>
                     </div>
                     <div class="rrp-slider-date_time col-12 col-xl-6 d-flex ms-auto order-xl-2 order-3">
@@ -503,22 +500,12 @@
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M1.89474 9C1.89474 5.07587 5.07587 1.89474 9 1.89474C12.9241 1.89474 16.1053 5.07587 16.1053 9C16.1053 12.9241 12.9241 16.1053 9 16.1053C5.07587 16.1053 1.89474 12.9241 1.89474 9ZM9 0C4.02944 0 0 4.02944 0 9C0 13.9706 4.02944 18 9 18C13.9706 18 18 13.9706 18 9C18 4.02944 13.9706 0 9 0ZM9.47368 6.63157C9.47368 6.10836 9.04953 5.6842 8.52632 5.6842C8.0031 5.6842 7.57895 6.10836 7.57895 6.63157V9.71052C7.57895 10.0246 7.70371 10.3258 7.92579 10.5479C8.14788 10.77 8.44909 10.8947 8.76316 10.8947H12.7895C13.3127 10.8947 13.7368 10.4706 13.7368 9.94736C13.7368 9.42414 13.3127 8.99999 12.7895 8.99999H9.47368V6.63157Z" fill="#1681C2"/>
                             </svg>
 
-                            <div class="rrp-slider-date_time">2024/01/23. 09:39 PM</div>
+                            <div class="rrp-slider-date_time">2024/01/23. 09:39 PM  </div>
                         </div>
                     </div>  
 
                     <div class="rrp-slider-description col-12 order-xl-3 order-2" >
-                      Tickmill gave me the wrong market price of Apple and I
-                      lost $13,000 because of Tickmill’s misqoute. Earlier
-                      today (5 PM), I was closely monitoring the market and
-                      I noticed the unusual drop of Apple’s price.
-                      Immediately, I decided to go short to avoid losing
-                      profits. But then, I crossed check the news and saw
-                      that the Apple’s stock continue to rise until now!
-                      Tickmill made me lose my potential profit because I
-                      would never sell my position if the market is in my
-                      favor. I think I lost almost $13,000 of potential
-                      profit bacuase of it.
+                      ***** gave me the wrong market price of Apple and I lost $13,000 because of *****’s misqoute. Earlier today (5 PM), I was closely monitoring the market and I noticed the unusual drop of Apple's price. Immediately, I decided to go short to avoid losing profits. But then, I crossed check the news and saw that the Apple's stock continue to rise until now! ***** made me lose my potential profit because I would never sell my position if the market is in my favor. I think I lost almost $13,000 of potential profit bacuase of it.
                     </div>
                   </div>
                 </div>
@@ -528,19 +515,19 @@
 
                     <div class="col-12 col-xl-6 order-xl-1 order-1">
                         <div class="rrp-slider-descriptions">
-                            Name: <span class="rrp-slider-info name">W****** A******</span>
+                            Name: <span class="rrp-slider-info name">M****** G***** </span>
                         </div>
                         <div class="rrp-slider-descriptions">
-                            Broker: <span class="rrp-slider-info broker">Tickmill</span>
+                            Broker: <span class="rrp-slider-info broker">*****</span>
                         </div>
                         <div class="rrp-slider-descriptions">
-                            Claim Amount: <span class="rrp-slider-info claim">$13,000</span>
+                            Dispute Amount: <span class="rrp-slider-info claim">$5,000</span>
                         </div>
                         <div class="rrp-slider-descriptions">
-                            Case Severity: <span class="rrp-slider-info severity">Misquotes - Major</span>
+                            Severity: <span class="rrp-slider-info severity">Refund Issues - Minor</span>
                         </div>
                         <div class="rrp-slider-descriptions">
-                            Case Description: 
+                            Description: 
                         </div>
                     </div>
                     <div class="rrp-slider-date_time col-12 col-xl-6 d-flex ms-auto order-xl-2 order-3">
@@ -549,22 +536,262 @@
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M1.89474 9C1.89474 5.07587 5.07587 1.89474 9 1.89474C12.9241 1.89474 16.1053 5.07587 16.1053 9C16.1053 12.9241 12.9241 16.1053 9 16.1053C5.07587 16.1053 1.89474 12.9241 1.89474 9ZM9 0C4.02944 0 0 4.02944 0 9C0 13.9706 4.02944 18 9 18C13.9706 18 18 13.9706 18 9C18 4.02944 13.9706 0 9 0ZM9.47368 6.63157C9.47368 6.10836 9.04953 5.6842 8.52632 5.6842C8.0031 5.6842 7.57895 6.10836 7.57895 6.63157V9.71052C7.57895 10.0246 7.70371 10.3258 7.92579 10.5479C8.14788 10.77 8.44909 10.8947 8.76316 10.8947H12.7895C13.3127 10.8947 13.7368 10.4706 13.7368 9.94736C13.7368 9.42414 13.3127 8.99999 12.7895 8.99999H9.47368V6.63157Z" fill="#1681C2"/>
                             </svg>
 
-                            <div class="rrp-slider-date_time">2024/01/23. 09:39 PM</div>
+                            <div class="rrp-slider-date_time">2024/01/10. 11:13 AM</div>
                         </div>
                     </div>  
 
                     <div class="rrp-slider-description col-12 order-xl-3 order-2" >
-                      Tickmill gave me the wrong market price of Apple and I
-                      lost $13,000 because of Tickmill’s misqoute. Earlier
-                      today (5 PM), I was closely monitoring the market and
-                      I noticed the unusual drop of Apple’s price.
-                      Immediately, I decided to go short to avoid losing
-                      profits. But then, I crossed check the news and saw
-                      that the Apple’s stock continue to rise until now!
-                      Tickmill made me lose my potential profit because I
-                      would never sell my position if the market is in my
-                      favor. I think I lost almost $13,000 of potential
-                      profit bacuase of it.
+                      I was trying to deposit 5 grand into my trading account through the *****'s client portal (Monday, January 03). However, my deposit didn't reflect in my account for some reason. The account manager told me that my deposit should be credited to my account last Wednesday (January 05), but upon checking, my money was not yet in there. I requested a refund amounting to $5,000 on that exact date but they haven't got back to me until now.  
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide my-auto">
+                  <div class="row">
+
+                    <div class="col-12 col-xl-6 order-xl-1 order-1">
+                        <div class="rrp-slider-descriptions">
+                            Name: <span class="rrp-slider-info name">A**** S****** </span>
+                        </div>
+                        <div class="rrp-slider-descriptions">
+                            Broker: <span class="rrp-slider-info broker">*****</span>
+                        </div>
+                        <div class="rrp-slider-descriptions">
+                            Dispute Amount: <span class="rrp-slider-info claim">$12,000 </span>
+                        </div>
+                        <div class="rrp-slider-descriptions">
+                            Severity: <span class="rrp-slider-info severity">Slippage - Major  </span>
+                        </div>
+                        <div class="rrp-slider-descriptions">
+                            Description: 
+                        </div>
+                    </div>
+                    <div class="rrp-slider-date_time col-12 col-xl-6 d-flex ms-auto order-xl-2 order-3">
+                        <div class="mb-auto rrp-slider-date_time-div" style="align-items: center;display: flex;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.89474 9C1.89474 5.07587 5.07587 1.89474 9 1.89474C12.9241 1.89474 16.1053 5.07587 16.1053 9C16.1053 12.9241 12.9241 16.1053 9 16.1053C5.07587 16.1053 1.89474 12.9241 1.89474 9ZM9 0C4.02944 0 0 4.02944 0 9C0 13.9706 4.02944 18 9 18C13.9706 18 18 13.9706 18 9C18 4.02944 13.9706 0 9 0ZM9.47368 6.63157C9.47368 6.10836 9.04953 5.6842 8.52632 5.6842C8.0031 5.6842 7.57895 6.10836 7.57895 6.63157V9.71052C7.57895 10.0246 7.70371 10.3258 7.92579 10.5479C8.14788 10.77 8.44909 10.8947 8.76316 10.8947H12.7895C13.3127 10.8947 13.7368 10.4706 13.7368 9.94736C13.7368 9.42414 13.3127 8.99999 12.7895 8.99999H9.47368V6.63157Z" fill="#1681C2"/>
+                            </svg>
+
+                            <div class="rrp-slider-date_time">2024/01/05. 06:55 PM </div>
+                        </div>
+                    </div>  
+
+                    <div class="rrp-slider-description col-12 order-xl-3 order-2" >
+                      Position experienced slippage when exiting the trade using *****. This broker markets fast-execution, which is the main reason why I used their service. However, their service is not as advertised! My position has been experiencing losses, but ***** just added salts to it! I've been victim of their platforms late execution more than twice and I think I've more than $12,000 because of *****‘s false marketing! I tried my luck with their dispute team, but they denied my claim request.  
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide my-auto">
+                  <div class="row">
+
+                    <div class="col-12 col-xl-6 order-xl-1 order-1">
+                        <div class="rrp-slider-descriptions">
+                            Name: <span class="rrp-slider-info name">K***** Q****** </span>
+                        </div>
+                        <div class="rrp-slider-descriptions">
+                            Broker: <span class="rrp-slider-info broker">*****</span>
+                        </div>
+                        <div class="rrp-slider-descriptions">
+                            Dispute Amount: <span class="rrp-slider-info claim">$70,000  </span>
+                        </div>
+                        <div class="rrp-slider-descriptions">
+                            Severity: <span class="rrp-slider-info severity">Unauthorized Trades - Critical</span>
+                        </div>
+                        <div class="rrp-slider-descriptions">
+                            Description: 
+                        </div>
+                    </div>
+                    <div class="rrp-slider-date_time col-12 col-xl-6 d-flex ms-auto order-xl-2 order-3">
+                        <div class="mb-auto rrp-slider-date_time-div" style="align-items: center;display: flex;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.89474 9C1.89474 5.07587 5.07587 1.89474 9 1.89474C12.9241 1.89474 16.1053 5.07587 16.1053 9C16.1053 12.9241 12.9241 16.1053 9 16.1053C5.07587 16.1053 1.89474 12.9241 1.89474 9ZM9 0C4.02944 0 0 4.02944 0 9C0 13.9706 4.02944 18 9 18C13.9706 18 18 13.9706 18 9C18 4.02944 13.9706 0 9 0ZM9.47368 6.63157C9.47368 6.10836 9.04953 5.6842 8.52632 5.6842C8.0031 5.6842 7.57895 6.10836 7.57895 6.63157V9.71052C7.57895 10.0246 7.70371 10.3258 7.92579 10.5479C8.14788 10.77 8.44909 10.8947 8.76316 10.8947H12.7895C13.3127 10.8947 13.7368 10.4706 13.7368 9.94736C13.7368 9.42414 13.3127 8.99999 12.7895 8.99999H9.47368V6.63157Z" fill="#1681C2"/>
+                            </svg>
+
+                            <div class="rrp-slider-date_time">2023/12/27. 01:20 AM</div>
+                        </div>
+                    </div>  
+
+                    <div class="rrp-slider-description col-12 order-xl-3 order-2" >
+                      I logged into my trading account and discovered a suspicious trade from December 14, resulting in a loss of nearly $70,000. This trade doesn't match my usual pattern, and after investigation, it was confirmed as unauthorized access. Despite this, ***** declined to compensate, citing security lapses.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide my-auto">
+                  <div class="row">
+
+                    <div class="col-12 col-xl-6 order-xl-1 order-1">
+                        <div class="rrp-slider-descriptions">
+                            Name: <span class="rrp-slider-info name">S***** C********</span>
+                        </div>
+                        <div class="rrp-slider-descriptions">
+                            Broker: <span class="rrp-slider-info broker">*****</span>
+                        </div>
+                        <div class="rrp-slider-descriptions">
+                            Dispute Amount: <span class="rrp-slider-info claim">$200,000 </span>
+                        </div>
+                        <div class="rrp-slider-descriptions">
+                            Severity: <span class="rrp-slider-info severity">Withdrawal Delays or Restrictions - Critical</span>
+                        </div>
+                        <div class="rrp-slider-descriptions">
+                            Description: 
+                        </div>
+                    </div>
+                    <div class="rrp-slider-date_time col-12 col-xl-6 d-flex ms-auto order-xl-2 order-3">
+                        <div class="mb-auto rrp-slider-date_time-div" style="align-items: center;display: flex;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.89474 9C1.89474 5.07587 5.07587 1.89474 9 1.89474C12.9241 1.89474 16.1053 5.07587 16.1053 9C16.1053 12.9241 12.9241 16.1053 9 16.1053C5.07587 16.1053 1.89474 12.9241 1.89474 9ZM9 0C4.02944 0 0 4.02944 0 9C0 13.9706 4.02944 18 9 18C13.9706 18 18 13.9706 18 9C18 4.02944 13.9706 0 9 0ZM9.47368 6.63157C9.47368 6.10836 9.04953 5.6842 8.52632 5.6842C8.0031 5.6842 7.57895 6.10836 7.57895 6.63157V9.71052C7.57895 10.0246 7.70371 10.3258 7.92579 10.5479C8.14788 10.77 8.44909 10.8947 8.76316 10.8947H12.7895C13.3127 10.8947 13.7368 10.4706 13.7368 9.94736C13.7368 9.42414 13.3127 8.99999 12.7895 8.99999H9.47368V6.63157Z" fill="#1681C2"/>
+                            </svg>
+
+                            <div class="rrp-slider-date_time">2023/12/25 . 08:46 PM</div>
+                        </div>
+                    </div>  
+
+                    <div class="rrp-slider-description col-12 order-xl-3 order-2" >
+                    I can't withdraw my funds from my ***** trading account. I tried withdrawing $200,000 but it always end up unsuccessful. I reached out to *****’s support team but he told me to try withdrawing again. I've been trying since last week but my withdrawal requests are not pushing through. I needed the money for my mortgage but it seems like I won't be getting it any time soon. Please help me reach *****. 
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide my-auto">
+                  <div class="row">
+
+                    <div class="col-12 col-xl-6 order-xl-1 order-1">
+                        <div class="rrp-slider-descriptions">
+                            Name: <span class="rrp-slider-info name">K***** J** C*** S******</span>
+                        </div>
+                        <div class="rrp-slider-descriptions">
+                            Broker: <span class="rrp-slider-info broker">*****</span>
+                        </div>
+                        <div class="rrp-slider-descriptions">
+                            Dispute Amount: <span class="rrp-slider-info claim">$30,000 </span>
+                        </div>
+                        <div class="rrp-slider-descriptions">
+                            Severity: <span class="rrp-slider-info severity">Withdrawal Delays or Restrictions - Major</span>
+                        </div>
+                        <div class="rrp-slider-descriptions">
+                            Description: 
+                        </div>
+                    </div>
+                    <div class="rrp-slider-date_time col-12 col-xl-6 d-flex ms-auto order-xl-2 order-3">
+                        <div class="mb-auto rrp-slider-date_time-div" style="align-items: center;display: flex;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.89474 9C1.89474 5.07587 5.07587 1.89474 9 1.89474C12.9241 1.89474 16.1053 5.07587 16.1053 9C16.1053 12.9241 12.9241 16.1053 9 16.1053C5.07587 16.1053 1.89474 12.9241 1.89474 9ZM9 0C4.02944 0 0 4.02944 0 9C0 13.9706 4.02944 18 9 18C13.9706 18 18 13.9706 18 9C18 4.02944 13.9706 0 9 0ZM9.47368 6.63157C9.47368 6.10836 9.04953 5.6842 8.52632 5.6842C8.0031 5.6842 7.57895 6.10836 7.57895 6.63157V9.71052C7.57895 10.0246 7.70371 10.3258 7.92579 10.5479C8.14788 10.77 8.44909 10.8947 8.76316 10.8947H12.7895C13.3127 10.8947 13.7368 10.4706 13.7368 9.94736C13.7368 9.42414 13.3127 8.99999 12.7895 8.99999H9.47368V6.63157Z" fill="#1681C2"/>
+                            </svg>
+
+                            <div class="rrp-slider-date_time">2023/12/15. 06:27 AM</div>
+                        </div>
+                    </div>  
+
+                    <div class="rrp-slider-description col-12 order-xl-3 order-2" >
+                      ***** locked my account after I tried withdrawing my funds. I tried requesting for the same withdrawal thrice, but all are unsuccessful. Now, I can’t withdraw my funds at all because my account is now closed.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide my-auto">
+                  <div class="row">
+
+                    <div class="col-12 col-xl-6 order-xl-1 order-1">
+                        <div class="rrp-slider-descriptions">
+                            Name: <span class="rrp-slider-info name">E**** M** U******</span>
+                        </div>
+                        <div class="rrp-slider-descriptions">
+                            Broker: <span class="rrp-slider-info broker">*****</span>
+                        </div>
+                        <div class="rrp-slider-descriptions">
+                            Dispute Amount: <span class="rrp-slider-info claim">$8,000</span>
+                        </div>
+                        <div class="rrp-slider-descriptions">
+                            Severity: <span class="rrp-slider-info severity">Algorithmic Trading Glitches - Minor</span>
+                        </div>
+                        <div class="rrp-slider-descriptions">
+                            Description: 
+                        </div>
+                    </div>
+                    <div class="rrp-slider-date_time col-12 col-xl-6 d-flex ms-auto order-xl-2 order-3">
+                        <div class="mb-auto rrp-slider-date_time-div" style="align-items: center;display: flex;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.89474 9C1.89474 5.07587 5.07587 1.89474 9 1.89474C12.9241 1.89474 16.1053 5.07587 16.1053 9C16.1053 12.9241 12.9241 16.1053 9 16.1053C5.07587 16.1053 1.89474 12.9241 1.89474 9ZM9 0C4.02944 0 0 4.02944 0 9C0 13.9706 4.02944 18 9 18C13.9706 18 18 13.9706 18 9C18 4.02944 13.9706 0 9 0ZM9.47368 6.63157C9.47368 6.10836 9.04953 5.6842 8.52632 5.6842C8.0031 5.6842 7.57895 6.10836 7.57895 6.63157V9.71052C7.57895 10.0246 7.70371 10.3258 7.92579 10.5479C8.14788 10.77 8.44909 10.8947 8.76316 10.8947H12.7895C13.3127 10.8947 13.7368 10.4706 13.7368 9.94736C13.7368 9.42414 13.3127 8.99999 12.7895 8.99999H9.47368V6.63157Z" fill="#1681C2"/>
+                            </svg>
+
+                            <div class="rrp-slider-date_time">2023/12/12. 08:25 AM</div>
+                        </div>
+                    </div>  
+
+                    <div class="rrp-slider-description col-12 order-xl-3 order-2" >
+                      I've been using *****'s algo trading for almost a year without issues until last week. I experienced significant losses due to erroneous executions by the automated strategies I set up. ***** is reviewing the incident, and they mentioned a 30-day processing time for the refund. I'm requesting an expedited process to retrieve my funds sooner.
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide my-auto">
+                  <div class="row">
+
+                    <div class="col-12 col-xl-6 order-xl-1 order-1">
+                        <div class="rrp-slider-descriptions">
+                            Name: <span class="rrp-slider-info name">J**** E******** </span>
+                        </div>
+                        <div class="rrp-slider-descriptions">
+                            Broker: <span class="rrp-slider-info broker">*****</span>
+                        </div>
+                        <div class="rrp-slider-descriptions">
+                            Dispute Amount: <span class="rrp-slider-info claim">$130,000</span>
+                        </div>
+                        <div class="rrp-slider-descriptions">
+                            Severity: <span class="rrp-slider-info severity">Withdrawal Delays or Restrictions - Major</span>
+                        </div>
+                        <div class="rrp-slider-descriptions">
+                            Description: 
+                        </div>
+                    </div>
+                    <div class="rrp-slider-date_time col-12 col-xl-6 d-flex ms-auto order-xl-2 order-3">
+                        <div class="mb-auto rrp-slider-date_time-div" style="align-items: center;display: flex;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.89474 9C1.89474 5.07587 5.07587 1.89474 9 1.89474C12.9241 1.89474 16.1053 5.07587 16.1053 9C16.1053 12.9241 12.9241 16.1053 9 16.1053C5.07587 16.1053 1.89474 12.9241 1.89474 9ZM9 0C4.02944 0 0 4.02944 0 9C0 13.9706 4.02944 18 9 18C13.9706 18 18 13.9706 18 9C18 4.02944 13.9706 0 9 0ZM9.47368 6.63157C9.47368 6.10836 9.04953 5.6842 8.52632 5.6842C8.0031 5.6842 7.57895 6.10836 7.57895 6.63157V9.71052C7.57895 10.0246 7.70371 10.3258 7.92579 10.5479C8.14788 10.77 8.44909 10.8947 8.76316 10.8947H12.7895C13.3127 10.8947 13.7368 10.4706 13.7368 9.94736C13.7368 9.42414 13.3127 8.99999 12.7895 8.99999H9.47368V6.63157Z" fill="#1681C2"/>
+                            </svg>
+
+                            <div class="rrp-slider-date_time">2023/12/02. 04:40 AM</div>
+                        </div>
+                    </div>  
+
+                    <div class="rrp-slider-description col-12 order-xl-3 order-2" >
+                      ***** is holding my withdrawn amount and the requested amount is already deducted to my account. I opted for the instant withdrawal to my debit card, but until now, I haven’t received it. It’s been 2 weeks now and no one from ***** replied to my emails. 
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide my-auto">
+                  <div class="row">
+
+                    <div class="col-12 col-xl-6 order-xl-1 order-1">
+                        <div class="rrp-slider-descriptions">
+                            Name: <span class="rrp-slider-info name">J*** S*****</span>
+                        </div>
+                        <div class="rrp-slider-descriptions">
+                            Broker: <span class="rrp-slider-info broker">*****</span>
+                        </div>
+                        <div class="rrp-slider-descriptions">
+                            Dispute Amount: <span class="rrp-slider-info claim">$1000</span>
+                        </div>
+                        <div class="rrp-slider-descriptions">
+                            Severity: <span class="rrp-slider-info severity">Bonus Disputes - Minor</span>
+                        </div>
+                        <div class="rrp-slider-descriptions">
+                            Description: 
+                        </div>
+                    </div>
+                    <div class="rrp-slider-date_time col-12 col-xl-6 d-flex ms-auto order-xl-2 order-3">
+                        <div class="mb-auto rrp-slider-date_time-div" style="align-items: center;display: flex;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.89474 9C1.89474 5.07587 5.07587 1.89474 9 1.89474C12.9241 1.89474 16.1053 5.07587 16.1053 9C16.1053 12.9241 12.9241 16.1053 9 16.1053C5.07587 16.1053 1.89474 12.9241 1.89474 9ZM9 0C4.02944 0 0 4.02944 0 9C0 13.9706 4.02944 18 9 18C13.9706 18 18 13.9706 18 9C18 4.02944 13.9706 0 9 0ZM9.47368 6.63157C9.47368 6.10836 9.04953 5.6842 8.52632 5.6842C8.0031 5.6842 7.57895 6.10836 7.57895 6.63157V9.71052C7.57895 10.0246 7.70371 10.3258 7.92579 10.5479C8.14788 10.77 8.44909 10.8947 8.76316 10.8947H12.7895C13.3127 10.8947 13.7368 10.4706 13.7368 9.94736C13.7368 9.42414 13.3127 8.99999 12.7895 8.99999H9.47368V6.63157Z" fill="#1681C2"/>
+                            </svg>
+
+                            <div class="rrp-slider-date_time">2023/11/25. 09:07 AM</div>
+                        </div>
+                    </div>  
+
+                    <div class="rrp-slider-description col-12 order-xl-3 order-2" >
+                      ***** doesn't credit my all trading rebate into my balance. I worked on my notional volume trade and reached 400 milion. My rebate tier is at level 5 and I'm expecting to get a $10,000 rebate. However, they only credited $9,000 into my balance. I contacted my account manager, and they advised me the notional value doesn't meet 10 grand rabate. I calculated all my trades and it showed that I've reached the notional value of 400 million, which makes me a tier 5 and eligiblle to receive $25 per million traded.
                     </div>
                   </div>
                 </div>
@@ -596,154 +823,267 @@
     </div>
   </section>
 
-  <section id="rpp-sixth-section" class="rpp-sixth-section">
-    <div class="rpp-sixth-section-title text-center mx-auto" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
-      You may also be asking…
-    </div>
-    <div class="rpp-section-container row mx-auto">
-      <div class="rpp-section-first-div">
+  <section id="ct-sixth-section" class="ct-sixth-section">
+        <div class="ct-sixth-section-title text-center mx-auto" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">You may also be asking…</div>
+        <div class="ct-section-container row mx-auto">
+            <div class="ct-section-first-div">
+                <div class="accordion accordion-flush mx-auto" id="accordionFlushExample">
+                    <div class="accordion-item" data-aos="fade-right" data-aos-duration="1000">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-1" aria-expanded="false" aria-controls="flush-1">
+                            <img src="<?php echo e(asset ('assets/images/RPP-images/sixth-section/Vector.png')); ?>" alt=""/>
+                            <div class="faq-send">
+                                <div class="faq-name">
+                                    <span>Zara Al-Farsi</span>, United States
+                                </div>
+                                <div class="faq-comment">
+                                  Where do I send my disputes? Do I have to email them to you?
+                                </div>
+                            </div>
+                        </button>
+                        <div id="flush-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <div class="faq-response faq-response-lg" style="">
+                                    <div class="faq-response-name"> 
+                                        <span>Traders United</span>
+                                    </div>
+                                    <div class="faq-respponse-comment">
+                                      TRU provides members with a first-level dispute resolution chatbot integrated into our website. You can simply start a conversation with the chatbot, communicate your dispute, and the chatbot will help you resolve these disputes. <br> <br> To learn more about the types of disputes we cater to, check our Terms of Service. 
+                                    </div>
+                                </div>
+                                <img class="faq-response-img" src="<?php echo e(asset ('assets/images/RPP-images/sixth-section/logo.png')); ?>" alt="" style="height: 60px; width: 60px"/>
 
-        <div
-          class="accordion accordion-flush mx-auto"
-          id="accordionFlushExample"
-        >
-          <div class="accordion-item" data-aos="fade-right" data-aos-duration="1000">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseOne"
-                aria-expanded="false"
-                aria-controls="flush-collapseOne"
-              >
-                <img
-                  src="<?php echo e(asset ('assets/images/RPP-images/sixth-section/Vector.png')); ?>"
-                  alt=""
-                  style="margin-right: 18px"
-                />
-                <div>
-                  <div class="faq-name">
-                    <span>Zara Al-Farsi</span>, United States
-                  </div>
-                  <div>
-                    Just wondering, is TRU giving away money? What’s the
-                    reason for RPP?
-                  </div>
+                                <div class="faq-response faq-response-sm">
+                                    <div class="faq-response-name"> 
+                                        <span>Traders United</span>
+                                    </div>
+                                    <div class="faq-respponse-comment">
+                                      TRU provides members with a first-level dispute resolution chatbot integrated into our website. You can simply start a conversation with the chatbot, communicate your dispute, and the chatbot will help you resolve these disputes. <br> <br> To learn more about the types of disputes we cater to, check our Terms of Service. 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item" data-aos="fade-right" data-aos-duration="1000">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-2" aria-expanded="false" aria-controls="flush-1">
+                            <img src="<?php echo e(asset ('assets/images/RPP-images/sixth-section/Vector.png')); ?>" alt=""/>
+                            <div class="faq-send">
+                                <div class="faq-name">
+                                    <span>Jabulani Khumalo</span>, Cape Town, South Africa
+                                </div>
+                                <div class="faq-comment">
+                                  Do I need to be a member first before I can use the DRS?
+                                </div>
+                            </div>
+                        </button>
+                        <div id="flush-2" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <div class="faq-response faq-response-lg" style="">
+                                    <div class="faq-response-name"> 
+                                        <span>Traders United</span>
+                                    </div>
+                                    <div class="faq-respponse-comment">
+                                      The Risk Protection Program is available for all active TRU members. Verified members can use our dispute resolution chatbot to raise their concerns or grievances against their brokers. <br><br> To learn more about the types of disputes we cater to, check our Terms of Service. 
+                                    </div>
+                                </div>
+                                <img class="faq-response-img" src="<?php echo e(asset ('assets/images/RPP-images/sixth-section/logo.png')); ?>" alt="" style="height: 60px; width: 60px"/>
+
+                                <div class="faq-response faq-response-sm">
+                                    <div class="faq-response-name"> 
+                                        <span>Traders United</span>
+                                    </div>
+                                    <div class="faq-respponse-comment">
+                                      The Risk Protection Program is available for all active TRU members. Verified members can use our dispute resolution chatbot to raise their concerns or grievances against their brokers. <br><br> To learn more about the types of disputes we cater to, check our Terms of Service. 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item" data-aos="fade-right" data-aos-duration="1000">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-3" aria-expanded="false" aria-controls="flush-1">
+                            <img src="<?php echo e(asset ('assets/images/RPP-images/sixth-section/Vector.png')); ?>" alt=""/>
+                            <div class="faq-send">
+                                <div class="faq-name">
+                                    <span>Rajiv Kapoor</span>, Singapore, Singapore
+                                </div>
+                                <div class="faq-comment">
+                                  How long do I have to wait before you fix the issue with my broker?
+                                </div>
+                            </div>
+                        </button>
+                        <div id="flush-3" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <div class="faq-response faq-response-lg" style="">
+                                    <div class="faq-response-name"> 
+                                        <span>Traders United</span>
+                                    </div>
+                                    <div class="faq-respponse-comment">
+                                      TRU strives to resolve all members’ disputes in a timely manner consistent with industry standards. The complexity of your disputes affect the timeframe for providing satisfactory resolutions. <br><br> For a more detailed explanation regarding dispute resolution timelines, check our Terms of Service. 
+                                    </div>
+                                </div>
+                                <img class="faq-response-img" src="<?php echo e(asset ('assets/images/RPP-images/sixth-section/logo.png')); ?>" alt="" style="height: 60px; width: 60px"/>
+
+                                <div class="faq-response faq-response-sm">
+                                    <div class="faq-response-name"> 
+                                        <span>Traders United</span>
+                                    </div>
+                                    <div class="faq-respponse-comment">
+                                      TRU strives to resolve all members’ disputes in a timely manner consistent with industry standards. The complexity of your disputes affect the timeframe for providing satisfactory resolutions. <br><br> For a more detailed explanation regarding dispute resolution timelines, check our Terms of Service.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item" data-aos="fade-right" data-aos-duration="1000">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-4" aria-expanded="false" aria-controls="flush-1">
+                            <img src="<?php echo e(asset ('assets/images/RPP-images/sixth-section/Vector.png')); ?>" alt=""/>
+                            <div class="faq-send">
+                                <div class="faq-name">
+                                    <span>Santiago Vargas</span>, Santiago Vargas 
+                                </div>
+                                <div class="faq-comment">
+                                  What if my dispute involves losing money, can you help me get it back?
+                                </div>
+                            </div>
+                        </button>
+                        <div id="flush-4" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <div class="faq-response faq-response-lg" style="">
+                                    <div class="faq-response-name"> 
+                                        <span>Traders United</span>
+                                    </div>
+                                    <div class="faq-respponse-comment">
+                                      We strive to resolve all members’ disputes regardless of magnitude or complexity. <br><br> For a more detailed explanation of how we can help you in this matter, read our Terms of Service. 
+                                    </div>
+                                </div>
+                                <img class="faq-response-img" src="<?php echo e(asset ('assets/images/RPP-images/sixth-section/logo.png')); ?>" alt="" style="height: 60px; width: 60px"/>
+
+                                <div class="faq-response faq-response-sm">
+                                    <div class="faq-response-name"> 
+                                        <span>Traders United</span>
+                                    </div>
+                                    <div class="faq-respponse-comment">
+                                      TRU strives to resolve all members’ disputes in a timely manner consistent with industry standards. The complexity of your disputes affect the timeframe for providing satisfactory resolutions. <br><br> For a more detailed explanation regarding dispute resolution timelines, check our Terms of Service.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item" data-aos="fade-right" data-aos-duration="1000">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-5" aria-expanded="false" aria-controls="flush-1">
+                            <img src="<?php echo e(asset ('assets/images/RPP-images/sixth-section/Vector.png')); ?>" alt=""/>
+                            <div class="faq-send">
+                                <div class="faq-name">
+                                    <span>Edith Santiago</span>, Taguig, Philippines 
+                                </div>
+                                <div class="faq-comment">
+                                  Who is handling my disputes when I give them to you?
+                                </div>
+                            </div>
+                        </button>
+                        <div id="flush-5" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <div class="faq-response faq-response-lg" style="">
+                                    <div class="faq-response-name"> 
+                                        <span>Traders United</span>
+                                    </div>
+                                    <div class="faq-respponse-comment">
+                                      If the first-level dispute resolution chatbot is not able to help resolve your dispute, you will be transferred to our Dispute Resolution Support Team. <br><br>Escalated client disputes with legal implications will be handled by TRU’s in-house legal experts. <br><br>You can visit this page for a more detailed explanation of the DRS.  
+                                    </div>
+                                </div>
+                                <img class="faq-response-img" src="<?php echo e(asset ('assets/images/RPP-images/sixth-section/logo.png')); ?>" alt="" style="height: 60px; width: 60px"/>
+
+                                <div class="faq-response faq-response-sm">
+                                    <div class="faq-response-name"> 
+                                        <span>Traders United</span>
+                                    </div>
+                                    <div class="faq-respponse-comment">
+                                    If the first-level dispute resolution chatbot is not able to help resolve your dispute, you will be transferred to our Dispute Resolution Support Team. <br><br>Escalated client disputes with legal implications will be handled by TRU’s in-house legal experts. <br><br>You can visit this page for a more detailed explanation of the DRS. 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item" data-aos="fade-right" data-aos-duration="1000">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-6" aria-expanded="false" aria-controls="flush-1">
+                            <img src="<?php echo e(asset ('assets/images/RPP-images/sixth-section/Vector.png')); ?>" alt=""/>
+                            <div class="faq-send">
+                                <div class="faq-name">
+                                    <span>Leila Souza</span>, Johannesburg, South Africa 
+                                </div>
+                                <div class="faq-comment">
+                                  Why do I have to go through a chatbot, can I just go straight to an agent?
+                                </div>
+                            </div>
+                        </button>
+                        <div id="flush-6" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <div class="faq-response faq-response-lg" style="">
+                                    <div class="faq-response-name"> 
+                                        <span>Traders United</span>
+                                    </div>
+                                    <div class="faq-respponse-comment">
+                                    Our dispute resolution chatbot is a first-level troubleshooting mechanism designed to help members attempt to resolve issues with self-initiated steps before escalating these to live agents, if needed. <br><br>If you find that your dispute cannot be resolved with our chatbot’s help, it will be transferred to a live agent. <br><br>For more details about our dispute resolution process, head over to this page. 
+                                    </div>
+                                </div>
+                                <img class="faq-response-img" src="<?php echo e(asset ('assets/images/RPP-images/sixth-section/logo.png')); ?>" alt="" style="height: 60px; width: 60px"/>
+
+                                <div class="faq-response faq-response-sm">
+                                    <div class="faq-response-name"> 
+                                        <span>Traders United</span>
+                                    </div>
+                                    <div class="faq-respponse-comment">
+                                    Our dispute resolution chatbot is a first-level troubleshooting mechanism designed to help members attempt to resolve issues with self-initiated steps before escalating these to live agents, if needed. <br><br>If you find that your dispute cannot be resolved with our chatbot’s help, it will be transferred to a live agent. <br><br>For more details about our dispute resolution process, head over to this page. 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item" data-aos="fade-right" data-aos-duration="1000">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-7" aria-expanded="false" aria-controls="flush-1">
+                            <img src="<?php echo e(asset ('assets/images/RPP-images/sixth-section/Vector.png')); ?>" alt=""/>
+                            <div class="faq-send">
+                                <div class="faq-name">
+                                    <span>Tariro Moyo</span>, Harare, Zimbabwe 
+                                </div>
+                                <div class="faq-comment">
+                                  How are you able to resolve our disputes, are you partners with my broker?
+                                </div>
+                            </div>
+                        </button>
+                        <div id="flush-7" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <div class="faq-response faq-response-lg" style="">
+                                    <div class="faq-response-name"> 
+                                        <span>Traders United</span>
+                                    </div>
+                                    <div class="faq-respponse-comment">
+                                    TRU is not affiliated with any brokers or financial services providers. We are an independent organization providing support and assistance to online traders worldwide. <br><br>We are able to resolve our members’ disputes by reaching out to their brokers and acting as a liaison between the two parties. <br><br>For a more detailed explanation of how the DRS process works, check this page.
+                                    </div>
+                                </div>
+                                <img class="faq-response-img" src="<?php echo e(asset ('assets/images/RPP-images/sixth-section/logo.png')); ?>" alt="" style="height: 60px; width: 60px"/>
+
+                                <div class="faq-response faq-response-sm">
+                                    <div class="faq-response-name"> 
+                                        <span>Traders United</span>
+                                    </div>
+                                    <div class="faq-respponse-comment">
+                                    TRU is not affiliated with any brokers or financial services providers. We are an independent organization providing support and assistance to online traders worldwide. <br><br>We are able to resolve our members’ disputes by reaching out to their brokers and acting as a liaison between the two parties. <br><br>For a more detailed explanation of how the DRS process works, check this page.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </button>
-            </h2>
-            <div
-              id="flush-collapseOne"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionFlushExample"
-            >
-              <div class="d-flex w-100">
-                <div class="ms-auto">
-                  <div class="faq-name text-end">
-                    <span>Traders United</span>
-                  </div>
-                  <div>
-                    How can I know if I’m qualified for the Risk Protection
-                    Plan?
-                  </div>
-                </div>
-                <img
-                  src="<?php echo e(asset ('assets/images/RPP-images/sixth-section/logo.png')); ?>"
-                  alt=""
-                  style="margin-left: 18px"
-                />
-              </div>
             </div>
-          </div>
-          <div class="accordion-item" data-aos="fade-left" data-aos-duration="1000">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseTwo"
-                aria-expanded="false"
-                aria-controls="flush-collapseTwo"
-              >
-                <img
-                  src="<?php echo e(asset ('assets/images/RPP-images/sixth-section/Vector.png')); ?>"
-                  alt=""
-                  style="margin-right: 18px"
-                />
-                <div>
-                  <div class="faq-name">
-                    <span>Zara Al-Farsi</span>, United States
-                  </div>
-                  <div>
-                    Just wondering, is TRU giving away money? What’s the
-                    reason for RPP?
-                  </div>
-                </div>
-              </button>
-            </h2>
-            <div
-              id="flush-collapseTwo"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionFlushExample"
-            >
-              <div class="accordion-body">
-                Placeholder content for this accordion, which is intended to
-                demonstrate the <code>.accordion-flush</code> class. This is
-                the second item's accordion body. Let's imagine this being
-                filled with some actual content.
-              </div>
+            <div class="ct-sixth-section-show-more text-center mx-auto" data-aos="fade-up" data-aos-duration="1000">
+                Show more
             </div>
-          </div>
-          <div class="accordion-item" data-aos="fade-right" data-aos-duration="1000">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseThree"
-                aria-expanded="false"
-                aria-controls="flush-collapseThree"
-              >
-                <img
-                  src="<?php echo e(asset ('assets/images/RPP-images/sixth-section/Vector.png')); ?>"
-                  alt=""
-                  style="margin-right: 18px"
-                />
-                <div>
-                  <div class="faq-name">
-                    <span>Zara Al-Farsi</span>, United States
-                  </div>
-                  <div>
-                    Just wondering, is TRU giving away money? What’s the
-                    reason for RPP?
-                  </div>
-                </div>
-              </button>
-            </h2>
-            <div
-              id="flush-collapseThree"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionFlushExample"
-            >
-              <div class="accordion-body">
-                Placeholder content for this accordion, which is intended to
-                demonstrate the <code>.accordion-flush</code> class. This is
-                the third item's accordion body. Nothing more exciting
-                happening here in terms of content, but just filling up the
-                space to make it look, at least at first glance, a bit more
-                representative of how this would look in a real-world
-                application.
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-      <div class="rpp-sixth-section-show-more text-center mx-auto" data-aos="fade-up" data-aos-duration="1000">
-        Show more
-      </div>
-    </div>
-  </section>
+    </section>
 
     <section id="rpp-seventh-section" class="rpp-seventh-section">
       <div class="rpp-section-container row mx-auto" data-aos="zoom-in-up" data-aos-duration="2000">
