@@ -23,10 +23,10 @@
                 UnityGains
                 </div>
                 <div class="ug-landing-section-first-content-description">
-                    Let's thrive and prosper together — TRUgether.
+                    Let's thrive and prosper together - TRUgether.
                 </div>
                 <div class="ug-landing-section-Btn-div">
-                    <a class="Be-a-TRU-btn">Be a TRU member</a>
+                    <a class="Be-a-TRU-btn" href="/register">Be a TRU member</a>
                 </div>
                 
             </div>
@@ -75,14 +75,14 @@
 
     <style>
         .ug-second-section-container {
-            background-image: url(http://127.0.0.1:8000/assets/images/UG-images/second-section/MicrosoftTeams-image.png);
+            background-image: url("/assets/images/UG-images/second-section/MicrosoftTeams-image.png");
             height: 800px;
         }
     </style>
 
-    <section id="ug-third-section" class="ug-third-section" style="overflow: hidden;">
+    <section id="ug-third-section" class="ug-third-section">
         <div class="ug-third-section-container row mx-auto">
-            <div class="ug-third-section-first-div row" data-aos="flip-up" data-aos-duration="2000">
+            <div class="ug-third-section-first-div row" data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="top-bottom">
             <div class="ug-third-section-first-content d-flex col-12 col-xl-6">
                 <div class="m-auto">
                 <div class="ug-third-section-first-content-title">
@@ -102,29 +102,29 @@
                 </div>
             </div>
             <div class="ug-third-section-third-content d-flex col-12 row">
-                <div class="col-12 col-md-6 col-xl-3" style="display: flex; align-content: center;margin: auto;" data-aos="fade-right" data-aos-duration="750">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none" class="my-auto">
+                <div class="col-12 col-md-6 col-xl-3" style="display: flex; align-content: center;margin: auto;justify-content: center;" data-aos="fade-right" data-aos-duration="750">
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none" class="my-auto">
                         <circle cx="10" cy="10" r="10" fill="#1681C2"/>
-                    </svg>
-                    <div class="ug-third-section-third-content-description-member">Membership: $200,000</div>
+                    </svg> -->
+                    <div class="ug-third-section-third-content-description-member text-center">Membership: $200,000</div>
                 </div>
-                <div class="col-12 col-md-6 col-xl-3" style="display: flex; align-content: center;margin: auto;" data-aos="fade-right" data-aos-duration="1500">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none" class="my-auto">
-                        <circle cx="10" cy="10" r="10" fill="#569E4C"/>
-                    </svg>
-                    <div class="ug-third-section-third-content-description-affiliates" class="my-auto">Affiliates: $160,000</div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-3" style="display: flex; align-content: center;margin: auto;" data-aos="fade-right" data-aos-duration="2250">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none" class="my-auto">
+                <div class="col-12 col-md-6 col-xl-3" style="display: flex; align-content: center;margin: auto;justify-content: center;" data-aos="fade-right" data-aos-duration="1500">
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none" class="my-auto">
                         <circle cx="10" cy="10" r="10" fill="#F27927"/>
-                    </svg>
-                    <div class="ug-third-section-third-content-description-others">Others: $80,000</div>
+                    </svg> -->
+                    <div class="ug-third-section-third-content-description-others text-center">Others: $80,000</div>
                 </div>
-                <div class="col-12 col-md-6 col-xl-3" style="display: flex; align-content: center;margin: auto;" data-aos="fade-right" data-aos-duration="3000">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none" class="my-auto">
+                <div class="col-12 col-md-6 col-xl-3" style="display: flex; align-content: center;margin: auto;justify-content: center;;" data-aos="fade-right" data-aos-duration="2250">
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none" class="my-auto">
+                        <circle cx="10" cy="10" r="10" fill="#569E4C"/>
+                    </svg> -->
+                    <div class="ug-third-section-third-content-description-affiliates text-center" class="my-auto">Affiliates: $160,000</div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3" style="display: flex; align-content: center;margin: auto;justify-content: center;" data-aos="fade-right" data-aos-duration="3000">
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none" class="my-auto">
                         <circle cx="10" cy="10" r="10" fill="#B17B0D"/>
-                    </svg>
-                    <div class="ug-third-section-third-content-description-advertising" >Advertising: $560,000</div>
+                    </svg> -->
+                    <div class="ug-third-section-third-content-description-advertising text-center">Advertising: $560,000</div>
                 </div>
             </div>
         </div>
@@ -143,7 +143,7 @@
                 </div>
 
                 <div class="rpp-landing-section-Btn-div">
-                    <a class="Be-a-TRU-btn">Earn By Engaging Now!</a>
+                    <a class="Be-a-TRU-btn" href="/register">Earn By Engaging Now!</a>
                 </div>
                 </div>
             </div>
@@ -239,61 +239,280 @@
     </section>
 
     <section id="ct-sixth-section" class="ct-sixth-section">
-        <div class="ct-sixth-section-title text-center mx-auto" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
-            You may also be asking…
-        </div>
+        <div class="ct-sixth-section-title text-center mx-auto" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">You may also be asking…</div>
         <div class="ct-section-container row mx-auto">
-        <div class="ct-section-first-div">
-
-            <div class="accordion accordion-flush mx-auto" id="accordionFlushExample">
-
-                <div class="accordion-item" data-aos="fade-right" data-aos-duration="1000">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-1"aria-expanded="false" aria-controls="flush-1">
-                        <img src="{{ asset ('assets/images/RPP-images/sixth-section/Vector.png') }}" alt=""/>
-                        <div class="faq-send">
-                            <div class="faq-name">
-                                <span>Zara Al-Farsi</span>, United States
+            <div class="ct-section-first-div">
+                <div class="accordion accordion-flush mx-auto" id="accordionFlushExample">
+                    <div class="accordion-item" data-aos="fade-right" data-aos-duration="1000">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-1" aria-expanded="false" aria-controls="flush-1">
+                            <img src="https://img.icons8.com/fluency/48/000000/gender-neutral-user--v1.png" alt=""/>
+                            <div class="faq-send">
+                                <div class="faq-name">
+                                    <span>DeMarcus Palmer</span>, Zimbabwe
+                                </div>
+                                <div class="faq-comment">
+                                    How can I qualify for the UnityGains? 
+                                </div>
                             </div>
-                            <div class="faq-comment">
-                                Just wondering, is TRU giving away money? What’s the reason for RPP?
+                        </button>
+                        <div id="flush-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <div class="faq-response faq-response-lg" style="">
+                                    <div class="faq-response-name"> 
+                                        <span>Traders United</span>
+                                    </div>
+                                    <div class="faq-respponse-comment">
+                                        All active members are eligible for the UnityGains program! We recognize and reward your initiative in sharing first-hand knowledge and experiences with other traders. 
+                                    </div>
+                                </div>
+                                <img class="faq-response-img" src="{{ asset ('assets/images/RPP-images/sixth-section/logo.png') }}" alt="" style="height: 60px; width: 60px"/>
+
+                                <div class="faq-response faq-response-sm">
+                                    <div class="faq-response-name"> 
+                                        <span>Traders United</span>
+                                    </div>
+                                    <div class="faq-respponse-comment">
+                                        All active members are eligible for the UnityGains program! We recognize and reward your initiative in sharing first-hand knowledge and experiences with other traders. 
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </button>
-                    <div id="flush-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <div class="faq-response faq-response-lg" style="">
-                                <div class="faq-response-name"> 
-                                    <span>Traders United</span>
+                    </div>
+
+                    <div class="accordion-item" data-aos="fade-right" data-aos-duration="1000">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-2" aria-expanded="false" aria-controls="flush-1">
+                            <img src="https://img.icons8.com/fluency/48/000000/gender-neutral-user--v1.png" alt=""/>
+                            <div class="faq-send">
+                                <div class="faq-name">
+                                    <span>Amana Nia Dlamini</span>, Angola
                                 </div>
-                                <div class="faq-respponse-comment">
-                                    No, you only have to pay for the membership fee. All TRU members can access our services and programs, including the CommuniTrade, without additional financial commitments.
+                                <div class="faq-comment">
+                                    How much can I get from the UnityGains?
                                 </div>
                             </div>
-                            <img class="faq-response-img" src="{{ asset ('assets/images/RPP-images/sixth-section/logo.png') }}" alt="" style="height: 60px; width: 60px"/>
-
-                            <div class="faq-response faq-response-sm">
-                                <div class="faq-response-name"> 
-                                    <span>Traders United</span>
+                        </button>
+                        <div id="flush-2" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <div class="faq-response faq-response-lg" style="">
+                                    <div class="faq-response-name"> 
+                                        <span>Traders United</span>
+                                    </div>
+                                    <div class="faq-respponse-comment">
+                                        With UnityGains, you will get an allotted payout from the organization’s total net profit. To reward your contribution to the community’s growth, TRU will divide the amount among qualified members.
+                                    </div>
                                 </div>
-                                <div class="faq-respponse-comment">
-                                    No, you only have to pay for the membership fee. All TRU members can access our services and programs, including the CommuniTrade, without additional financial commitments.
+                                <img class="faq-response-img" src="{{ asset ('assets/images/RPP-images/sixth-section/logo.png') }}" alt="" style="height: 60px; width: 60px"/>
+
+                                <div class="faq-response faq-response-sm">
+                                    <div class="faq-response-name"> 
+                                        <span>Traders United</span>
+                                    </div>
+                                    <div class="faq-respponse-comment">
+                                        With UnityGains, you will get an allotted payout from the organization’s total net profit. To reward your contribution to the community’s growth, TRU will divide the amount among qualified members.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item" data-aos="fade-right" data-aos-duration="1000">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-3" aria-expanded="false" aria-controls="flush-1">
+                            <img src="https://img.icons8.com/fluency/48/000000/gender-neutral-user--v1.png" alt=""/>
+                            <div class="faq-send">
+                                <div class="faq-name">
+                                    <span>Luca Christoper Archer</span>, Scotland
+                                </div>
+                                <div class="faq-comment">
+                                    When will I receive the benefits from UnityGains?
+                                </div>
+                            </div>
+                        </button>
+                        <div id="flush-3" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <div class="faq-response faq-response-lg" style="">
+                                    <div class="faq-response-name"> 
+                                        <span>Traders United</span>
+                                    </div>
+                                    <div class="faq-respponse-comment">
+                                        You will receive your reward after the fiscal year once the finance team has calculated the accurate amounts to be distributed to qualified members.
+                                    </div>
+                                </div>
+                                <img class="faq-response-img" src="{{ asset ('assets/images/RPP-images/sixth-section/logo.png') }}" alt="" style="height: 60px; width: 60px"/>
+
+                                <div class="faq-response faq-response-sm">
+                                    <div class="faq-response-name"> 
+                                        <span>Traders United</span>
+                                    </div>
+                                    <div class="faq-respponse-comment">
+                                        You will receive your reward after the fiscal year once the finance team has calculated the accurate amounts to be distributed to qualified members.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item faq-hidden" data-aos="fade-right" data-aos-duration="1000">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-4" aria-expanded="false" aria-controls="flush-1">
+                            <img src="https://img.icons8.com/fluency/48/000000/gender-neutral-user--v1.png" alt=""/>
+                            <div class="faq-send">
+                                <div class="faq-name">
+                                    <span>Thitipoom Wichai</span>, Thailand 
+                                </div>
+                                <div class="faq-comment">
+                                    I can’t see how to apply to UnityGains program. Can you link me to the application page?
+                                </div>
+                            </div>
+                        </button>
+                        <div id="flush-4" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <div class="faq-response faq-response-lg" style="">
+                                    <div class="faq-response-name"> 
+                                        <span>Traders United</span>
+                                    </div>
+                                    <div class="faq-respponse-comment">
+                                    All verified and premium members are automatically enrolled in the UnityGains program. To be eligible for the benefit, you must meet the active participation parameters set by TRU. <br><br>You can learn more about how TRU measures your participation here.
+                                    </div>
+                                </div>
+                                <img class="faq-response-img" src="{{ asset ('assets/images/RPP-images/sixth-section/logo.png') }}" alt="" style="height: 60px; width: 60px"/>
+
+                                <div class="faq-response faq-response-sm">
+                                    <div class="faq-response-name"> 
+                                        <span>Traders United</span>
+                                    </div>
+                                    <div class="faq-respponse-comment">
+                                        You don’t need to apply to be eligible for the UnityGains program. All you must do is be a member and engage with the community and organization.  <br><br> After completing your TRU registration, you’re officially selected to receive UnityGains. Once you’ve met the set parameters for the UnityGains, you’ll receive a notice regarding your eligibility for the UnityGains. You can increase your UnityGains share by either engaging more or by upgrading your membership. <br><br> After completing your TRU registration, you’re officially selected to receive UnityGains. Once you’ve met the set parameters for the UnityGains, you’ll receive a notice regarding your eligibility for the UnityGains. You can increase your UnityGains share by either engaging more or by upgrading your membership.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item faq-hidden" data-aos="fade-right" data-aos-duration="1000">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-5" aria-expanded="false" aria-controls="flush-1">
+                            <img src="https://img.icons8.com/fluency/48/000000/gender-neutral-user--v1.png" alt=""/>
+                            <div class="faq-send">
+                                <div class="faq-name">
+                                    <span>Tuhafeni Nangolo</span>, Namibia 
+                                </div>
+                                <div class="faq-comment">
+                                    How do I increase my share in UnityGains? 
+                                </div>
+                            </div>
+                        </button>
+                        <div id="flush-5" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <div class="faq-response faq-response-lg" style="">
+                                    <div class="faq-response-name"> 
+                                        <span>Traders United</span>
+                                    </div>
+                                    <div class="faq-respponse-comment">
+                                        You can upgrade your membership plan to increase your reward from UnityGains. The higher your membership tier, the larger your reward! 
+                                    </div>
+                                </div>
+                                <img class="faq-response-img" src="{{ asset ('assets/images/RPP-images/sixth-section/logo.png') }}" alt="" style="height: 60px; width: 60px"/>
+
+                                <div class="faq-response faq-response-sm">
+                                    <div class="faq-response-name"> 
+                                        <span>Traders United</span>
+                                    </div>
+                                    <div class="faq-respponse-comment">
+                                        You can upgrade your membership plan to increase your reward from UnityGains. The higher your membership tier, the larger your reward! 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item faq-hidden" data-aos="fade-right" data-aos-duration="1000">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-6" aria-expanded="false" aria-controls="flush-1">
+                            <img src="https://img.icons8.com/fluency/48/000000/gender-neutral-user--v1.png" alt=""/>
+                            <div class="faq-send">
+                                <div class="faq-name">
+                                    <span>Diya Dasgupta</span>, India 
+                                </div>
+                                <div class="faq-comment">
+                                    How can I calculate my UnityGains? 
+                                </div>
+                            </div>
+                        </button>
+                        <div id="flush-6" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <div class="faq-response faq-response-lg" style="">
+                                    <div class="faq-response-name"> 
+                                        <span>Traders United</span>
+                                    </div>
+                                    <div class="faq-respponse-comment">
+                                        You first need to see the total amount TRU has for the UnityGains for the specific year, which will be available at the end of the fiscal year through the Financial Statements. TRU allots 30% of its profit to the program and will be divided among all UnityGains members. 
+                                    </div>
+                                </div>
+                                <img class="faq-response-img" src="{{ asset ('assets/images/RPP-images/sixth-section/logo.png') }}" alt="" style="height: 60px; width: 60px"/>
+
+                                <div class="faq-response faq-response-sm">
+                                    <div class="faq-response-name"> 
+                                        <span>Traders United</span>
+                                    </div>
+                                    <div class="faq-respponse-comment">
+                                        You first need to see the total amount TRU has for the UnityGains for the specific year, which will be available at the end of the fiscal year through the Financial Statements. TRU allots 30% of its profit to the program and will be divided among all UnityGains members. 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item faq-hidden" data-aos="fade-right" data-aos-duration="1000">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-7" aria-expanded="false" aria-controls="flush-1">
+                            <img src="https://img.icons8.com/fluency/48/000000/gender-neutral-user--v1.png" alt=""/>
+                            <div class="faq-send">
+                                <div class="faq-name">
+                                    <span>Likius Ndatipo Uugwanga</span>, Botswana 
+                                </div>
+                                <div class="faq-comment">
+                                    Are CommuniTrade members eligible for the UnityGains 
+                                </div>
+                            </div>
+                        </button>
+                        <div id="flush-7" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <div class="faq-response faq-response-lg" style="">
+                                    <div class="faq-response-name"> 
+                                        <span>Traders United</span>
+                                    </div>
+                                    <div class="faq-respponse-comment">
+                                        Yes, all paid members are eligible to receive a share from UnityGains. If you’re using TRU services (i.e., CommuniTrade) for free, you have to upgrade your membership to benefit from the UnityGains.
+                                    </div>
+                                </div>
+                                <img class="faq-response-img" src="{{ asset ('assets/images/RPP-images/sixth-section/logo.png') }}" alt="" style="height: 60px; width: 60px"/>
+
+                                <div class="faq-response faq-response-sm">
+                                    <div class="faq-response-name"> 
+                                        <span>Traders United</span>
+                                    </div>
+                                    <div class="faq-respponse-comment">
+                                        Yes, all paid members are eligible to receive a share from UnityGains. If you’re using TRU services (i.e., CommuniTrade) for free, you have to upgrade your membership to benefit from the UnityGains.  
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="ct-sixth-section-show-more text-center mx-auto" data-aos="fade-up" data-aos-duration="1000">
-            Show more
-        </div>
+            <div class="ct-sixth-section-show-more text-center mx-auto" data-aos="fade-up" data-aos-duration="1000" onclick="toggleFAQ()">Show more</div>
         </div>
     </section>
 
+        
+    <style>
+      .faq-hidden {
+        display: none;
+      }
+      
+      .ct-sixth-section-show-more {
+        cursor: pointer;
+      }
+    </style>
 
 
-
-        <section id="ug-seventh-section" class="ug-seventh-section">
+    <section id="ug-seventh-section" class="ug-seventh-section">
         <div class="ug-seventh-section-container row mx-auto" data-aos="zoom-in-up" data-aos-duration="2000">
             <div class="ug-seventh-section-first-div row">
             <div class="ug-seventh-section-first-content col-12 col-xl-6">
@@ -302,7 +521,7 @@
                     More than being valued, be rewarded.
                 </div>
                 <div class="ug-section-Btn-div">
-                    <a class="Be-a-TRU-btn">Be a TRU member</a>
+                    <a class="Be-a-TRU-btn" href="/register">Be a TRU member</a>
                 </div>
                 
                 </div>
@@ -317,12 +536,28 @@
             </div>
         </div>
     </section> 
-
 </div>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 
 <script>
+
+    function toggleFAQ() {
+      var hiddenElements = document.querySelectorAll('.faq-hidden');
+      var showMoreButton = document.querySelector('.ct-sixth-section-show-more');
+
+      hiddenElements.forEach(function(element) {
+          if (element.style.display === 'none') {
+              element.style.display = 'block';
+              showMoreButton.textContent = 'Show less';
+          } else {
+              element.style.display = 'none';
+              showMoreButton.textContent = 'Show more';
+          }
+      });
+    }
+
+
     // Set the date we're counting down to
     var countDownDate = new Date("September 30, 2024 00:00:00").getTime();
 
@@ -359,5 +594,11 @@
 
 <script>
   AOS.init();
+
+  AOS.init({
+
+    once: true
+
+    });
 </script>
 @endsection

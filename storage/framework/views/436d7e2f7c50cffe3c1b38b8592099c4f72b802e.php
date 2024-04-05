@@ -4,6 +4,9 @@
 
 <?php $__env->startSection('content'); ?>
 
+    <meta name="csrf-token" content="<?php echo e(csrf_token()); ?>">
+
+<!-- Main Content -->
     <link rel="stylesheet" href="<?php echo e(asset ('assets/css/RPP/index.css')); ?>">
     <link rel="stylesheet" href="<?php echo e(asset ('assets/css/about/landing-section.css')); ?>">
     <link rel="stylesheet" href="<?php echo e(asset ('assets/css/about/second-section.css')); ?>">
@@ -419,7 +422,7 @@
                         Want to download the Media Kit?
                         </div>
                         <div class="about-section-Btn-div">
-                            <a class="Be-a-TRU-btn">Be a TRU member</a>
+                            <a class="Be-a-TRU-btn" onclick="submit()">Be a TRU member</a>
                         </div>
                     </div>
                     
@@ -428,13 +431,13 @@
         </div>
     </section> 
 
-    <section id="about-nineth-section" class="about-nineth-section">
+    <!-- <section id="about-nineth-section" class="about-nineth-section">
         <div class="about-nineth-section-container row mx-auto" data-aos="zoom-in-up" data-aos-duration="2000">
             <div class="about-nineth-section-first-div row">
                 <div class="about-nineth-section-first-content col-12 d-flex">
                     <div class="my-auto w-100">
                         <div class="about-nineth-section-first-content-title text-center">Contact us</div>
-                        <form class="row mx-auto">
+                        <form id="contactForm" class="row mx-auto">
                             <div class="col-6 mb-3">
                                 <label for="First_name" class="form-label">First name</label>
                                 <input type="text" class="form-control contact-us" id="First_name" placeholder="First Name">
@@ -448,76 +451,23 @@
                                 <input type="email" class="form-control contact-us" id="Email_address" aria-describedby="emailHelp" placeholder="john_doe@mail.com">
                             </div>
                             <div class="col-6 mb-3">
-                                <label for="exampleInputEmail1" class="form-label">Phone</label>
+                                <label for="phone" class="form-label">Phone</label>
                                 <input type="tel" class="form-control contact-us" id="phone">
                             </div>
                             <div class="col-12 mb-3">
-                                <label for="exampleInputEmail1" class="form-label">Your message</label>
-                                <textarea class="form-control contact-us" placeholder="Leave a Message here" id="floatingTextarea"></textarea>
+                                <label for="message" class="form-label">Your message</label>
+                                <textarea class="form-control contact-us" placeholder="Leave a Message here" id="message"></textarea>
                             </div>
                         
                             <div class="about-section-Btn-div col-12 d-flex">
-                                <a class="Be-a-TRU-btn mx-auto">Sent it now</a>
+                                <a class="Be-a-TRU-btn mx-auto" onclick="submitForm()">Send it now</a>
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
-    </section> 
-
-
-
-
-
-    <section id="ct-sixth-section" class="ct-sixth-section">
-        <div class="ct-sixth-section-title text-center mx-auto" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">You may also be asking…</div>
-        <div class="ct-section-container row mx-auto">
-            <div class="ct-section-first-div">
-                <div class="accordion accordion-flush mx-auto" id="accordionFlushExample">
-                    <div class="accordion-item" data-aos="fade-right" data-aos-duration="1000">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-1"aria-expanded="false" aria-controls="flush-1">
-                            <img src="<?php echo e(asset ('assets/images/RPP-images/sixth-section/Vector.png')); ?>" alt=""/>
-                            <div class="faq-send">
-                                <div class="faq-name">
-                                    <span>Zara Al-Farsi</span>, United States
-                                </div>
-                                <div class="faq-comment">
-                                    Just wondering, is TRU giving away money? What’s the
-                                    reason for RPP?
-                                </div>
-                            </div>
-                        </button>
-                        <div id="flush-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">
-                                <div class="faq-response faq-response-lg" style="">
-                                    <div class="faq-response-name"> 
-                                        <span>Traders United</span>
-                                    </div>
-                                    <div class="faq-respponse-comment">
-                                        No, you only have to pay for the membership fee. All TRU members can access our services and programs, including the CommuniTrade, without additional financial commitments.
-                                    </div>
-                                </div>
-                                <img class="faq-response-img" src="<?php echo e(asset ('assets/images/RPP-images/sixth-section/logo.png')); ?>" alt="" style="height: 60px; width: 60px"/>
-
-                                <div class="faq-response faq-response-sm">
-                                    <div class="faq-response-name"> 
-                                        <span>Traders United</span>
-                                    </div>
-                                    <div class="faq-respponse-comment">
-                                        No, you only have to pay for the membership fee. All TRU members can access our services and programs, including the CommuniTrade, without additional financial commitments.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="ct-sixth-section-show-more text-center mx-auto" data-aos="fade-up" data-aos-duration="1000">
-                Show more
-            </div>
-        </div>
-    </section>
+    </section> -->
 
     <section id="about-eleventh-section" class="about-eleventh-section">
         <div class="about-eleventh-section-container row mx-auto" data-aos="zoom-in-up" data-aos-duration="2000">
@@ -671,11 +621,75 @@
 <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@20.0.5/build/js/intlTelInput.min.js"></script>
 
 <script>
-  const input = document.querySelector("#phone");
-  window.intlTelInput(input, {
+  const phoneInput = document.querySelector("#phone");
+  window.intlTelInput(phoneInput, {
     utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@20.0.5/build/js/utils.js",
-    initialCountry: "UA" // Set the initial country to Philippines
+    initialCountry: "UA", // Set the initial country to Philippines
+    formatAsYouType: true
+  });
+
+  phoneInput.addEventListener("input", function(event) {
+    // Remove any non-numeric characters
+    phoneInput.value = phoneInput.value.replace(/\D/g, "");
   });
 </script>
+
+
+<script>
+    function submitForm() {
+        var firstName = document.getElementById('First_name').value;
+        var lastName = document.getElementById('Last_name').value;
+        var email = document.getElementById('Email_address').value;
+        var phone = document.getElementById('phone').value;
+        var message = document.getElementById('message').value;
+
+
+        fetch('/submit-form', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-CSRF-TOKEN': '<?php echo e(csrf_token()); ?>'
+                },
+                body: JSON.stringify({
+                    first_name: firstName,
+                    last_name: lastName,
+                    email: email,
+                    phone: phone,
+                    message: message
+                })
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                // console.log(data);
+
+                if (data == 0) {
+                    // Hide line-1 and email-div
+                    document.querySelector('.line-1').style.display = 'none';
+                    document.querySelector('.email-div').style.display = 'none';
+                    
+                    // Show all elements with class line-2
+                    var line2Elements = document.querySelectorAll('.line-2');
+                    line2Elements.forEach(element => {
+                        element.style.display = 'block';
+                    });
+                } else {
+                    // Re-enable the button if data is not 0
+                    notifyButton.disabled = false;
+                }
+            })
+            .catch(error => {
+                console.error('There was a problem with the fetch operation:', error);
+                alert('Failed to send this Request, Kindly try it again later.');
+                // Re-enable the button if an error occurs
+                notifyButton.disabled = false;
+            });
+    }
+</script>
+
 <?php $__env->stopSection(); ?>
 <?php echo $__env->make('header.subpage', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\Users\Admin-IT\Desktop\tru-international\tru-international_latest\resources\views/pages/about.blade.php ENDPATH**/ ?>

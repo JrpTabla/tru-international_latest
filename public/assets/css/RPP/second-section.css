@@ -64,7 +64,35 @@
     padding-right: 16.65px;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
+
+.closed-case-popover {
+
+    --bs-popover-border-color: ;
+    --bs-popover-header-bg: #1681C2;
+    --bs-popover-header-color: var(--bs-white);
+    --bs-popover-body-padding-x: 1rem;
+    --bs-popover-body-padding-y: .5rem;
+}
+
+.Released-popover {
+    --bs-popover-border-color: ;
+    --bs-popover-header-bg: #569E4C;
+    --bs-popover-header-color: var(--bs-white);
+    --bs-popover-body-padding-x: 1rem;
+    --bs-popover-body-padding-y: .5rem;
+}
+
+.open-case-popover {
+    --bs-popover-border-color: ;
+    --bs-popover-header-bg: #B17B0D;
+    --bs-popover-header-color: var(--bs-white);
+    --bs-popover-body-padding-x: 1rem;
+    --bs-popover-body-padding-y: .5rem;
+}
+
+
 
 .rpp-second-section-graph-1 {
     border-radius: 8px;
@@ -146,7 +174,7 @@
 .circle-blue path {
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
-    animation: blue-draw 5s linear forwards 4s;
+    /* animation: blue-draw 5s linear forwards 4s; */
 }
 
 @keyframes blue-draw {
@@ -161,7 +189,7 @@
 .circle-green path {
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000; /* Start from the end (right side) */
-    animation: green-draw 5s linear forwards 4.7s;  /* Delay of 3s */
+    /* animation: green-draw 5s linear forwards 4.7s;  */
 }
 
 @keyframes green-draw {
@@ -176,7 +204,7 @@
 .circle-yellow path {
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
-    animation: yellow-draw 5s linear forwards 4s;
+    /* animation: yellow-draw 5s linear forwards 4s; */
 }
 
 @keyframes yellow-draw {

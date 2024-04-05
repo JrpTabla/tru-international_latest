@@ -11,6 +11,7 @@ use App\Http\Controllers\EducationTopicController;
 use App\Http\Controllers\EducationCourseController;
 use App\Http\Controllers\EducationModuleController;
 use App\Http\Controllers\EducationLessonController;
+use App\Http\Controllers\FormController;
 
 /*
 |--------------------------------------------------------------------------
@@ -36,34 +37,53 @@ Route::get('/unitygains', function () {
 });
 
 Route::get('/communitrade', function () {
-    return view('pages/communiTrade', ['title' => 'Traders United | CommuniTrade']);
+    return view('pages/communitrade', ['title' => 'Traders United | CommuniTrade']);
 });
 
 Route::get('/about', function () {
     return view('pages/about', ['title' => 'Traders United | About Us']);
 });
 
-
 Route::get('/blog', function () {
-    return view('pages/blog', ['title' => 'Traders United | Blog']);
+    /* return view('pages/blog', ['title' => 'Traders United | Blog']); */
+    return view('pages/maintenance', ['title' => 'Traders United | Blog']);
+});
+
+Route::get('/help_center', function () {
+    return view('pages/maintenance', ['title' => 'Traders United | Help Center']);
+});
+
+Route::get('/partnership_program', function () {
+    return view('pages/maintenance', ['title' => 'Traders United | Partnership Program']);
+});
+
+Route::get('/documents', function () {
+    return view('pages/maintenance', ['title' => 'Traders United | Documents']);
+});
+
+Route::get('/feedback', function () {
+    return view('pages/maintenance', ['title' => 'Traders United | Feedback']);
+});
+
+Route::get('/cookie_policy', function () {
+    return view('pages/maintenance', ['title' => 'Traders United | Cookie Policy']);
+});
+
+Route::get('/privacy_policy', function () {
+    return view('pages/maintenance', ['title' => 'Traders United | Privacy Policy']);
+});
+
+Route::get('/terms_of_use', function () {
+    return view('pages/maintenance', ['title' => 'Traders United | Terms of Use']);
+});
+
+Route::get('/risk_disclosure', function () {
+    return view('pages/maintenance', ['title' => 'Traders United | Risk Disclosure']);
 });
 
 
-// Route::get('/admin__dashboard', function () {
-//     return view('pages/admin/dashboard', ['title' => 'Traders United | Admin Dashboard']);
-// });
 
-// Route::get('/admin__blog', function () {
-//     return view('pages/admin/blog', ['title' => 'Traders United | Admin Blog']);
-// });
-
-
-// Route::get('/zoho', function () {
-//     return view('pages/zoho', ['title' => 'Traders United | Admin Blog']);
-// });
-
-
-
+/* ----------------------------------------- User Pages ---------------------------------------------------------*/
 
 Route::get('/dashboard', function () {
     return view('pages/user/dashboard', ['title' => 'Traders United | Dashboard']);
@@ -74,11 +94,13 @@ Route::get('/techhub', function () {
 })->middleware(['auth'])->name('techhub');
 
 
-Auth::routes(['verify' => true]);
+Route::get('/account-settings', function () {
+    return view('pages/user/account_settings', ['title' => 'Traders United | Account Settings']);
+})->middleware(['auth'])->name('account-setting');
 
-require __DIR__.'/auth.php';
 
-require __DIR__.'/user.php';
+
+/* ----------------------------------------- Homepage API ---------------------------------------------------------*/
 
 
 Route::get('/api/content/Homepage-section-3', function () {
@@ -138,16 +160,18 @@ Route::get('/api/content/Homepage-section-8', function () {
 
 /* ----------------------------------------- Education Pages ---------------------------------------------------------*/
 
-Route::get('/education', function () {
-    return view('pages/education/education', ['title' => 'Traders United | Education Page']);
+Route::get('/tradegeek', function () {
+    return view('pages/education/education', ['title' => 'Traders United | Education']);
+
+    /* return view('pages/maintenance', ['title' => 'Traders United | Education']); */
 });
 
 
-Route::get('/education/{id}', function ($id) {
+Route::get('/tradegeek/{name}', function ($name) {
     return view('pages/education/educationCourse', ['title' => 'Traders United | Education Courses Page']);
 });
 
-Route::get('/education_course/{id}', function ($id) {
+Route::get('/tradegeek/course/{id}', function ($id) {
     return view('pages/education/educationModule', ['title' => 'Traders United | Education Courses Page']);
 });
 
@@ -162,9 +186,11 @@ Route::get('/education_lesson/{id}', function ($id) {
 /* Retrieve */
 Route::get('/api/view-education-topic', [EducationTopicController::class, 'index']);
 
+/* Retrieve */
+Route::get('/api/retrieve-education-topic-id/{topic_name}', [EducationCourseController::class, 'RetrieveID']);
 
 /* Retrieve */
-Route::get('/api/view-education-course/{topic_id}/{difficulty_id}', [EducationCourseController::class, 'index']);
+Route::get('/api/view-education-course/{topic_name}/{difficulty_id}', [EducationCourseController::class, 'index']);
 
 
 /* Retrieve */
@@ -184,3 +210,22 @@ Route::get('/api/view-education-lesson/{module_id}', [EducationLessonController:
 
 /* Page Data */
 Route::get('/api/page-education-lesson/{id}', [EducationLessonController::class, 'page']);
+
+
+
+
+
+/* ----------------------------------------- Send a Email API ---------------------------------------------------------*/
+
+Route::post('/submit-form', [FormController::class, 'submitForm']);
+
+Route::post('/submit-notification', [FormController::class, 'submitFormMaintenancePage']);
+
+
+
+
+Auth::routes(['verify' => true]);
+
+require __DIR__.'/auth.php';
+
+require __DIR__.'/user.php';

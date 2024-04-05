@@ -5,7 +5,6 @@
 <link rel="stylesheet" href="<?php echo e(asset ('assets/css/education/el-landing-section.css')); ?>">
 <link rel="stylesheet" href="<?php echo e(asset ('assets/css/education/el-second-section.css')); ?>">
 
-
 <style>
     .content-div li {
         line-height: 36px;
@@ -286,4 +285,4 @@
 -->
 
 <?php $__env->stopSection(); ?>
-<?php echo $__env->make('header.header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\Users\Admin-IT\Desktop\tru-international\tru-international_latest\resources\views/pages/education/educationLesson.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('header.subpage', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\Users\Admin-IT\Desktop\tru-international\tru-international_latest\resources\views/pages/education/educationLesson.blade.php ENDPATH**/ ?>

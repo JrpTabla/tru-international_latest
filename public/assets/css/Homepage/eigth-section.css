@@ -3,7 +3,7 @@
     padding-bottom: 76px;
     /* min-height: 856px !important; */
     border-radius: 0 0 48px 48px ;
-    
+    /* background: #131313; */
 }
 
 .eigth-section-container {
@@ -18,7 +18,7 @@
     height: auto;
     padding: 92px;
     border-radius: 48px;
-    background: #131313;;
+    background: #131313;
 }
 
 .eigth-section-first-content-title {
@@ -29,6 +29,20 @@
     font-style: normal;
     font-weight: 700;
     line-height: 82px; /* 113.889% */
+}
+
+.eigth-section-first-content-description {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color:  #fff;
+    /* font-family: Bahnschrift; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    max-width: 578px;
+    margin-bottom: 18px;
+
 }
 
 .eigth-section-first-content-button {
@@ -140,7 +154,6 @@
     border-radius: 64px;
     background: linear-gradient(90deg, #FFC400 -1.92%, #F17727 63.45%);
     display: inline-flex;
-    /* opacity: 0; */
     padding: 13px 68px;
     justify-content: center;
     align-items: center;
@@ -158,16 +171,8 @@
    
 }
 
-
 .eigth-section-third-content {
     display: none   ;
-}
-
-
-.eigth-section-scroll-section:hover .eigth-section-fourth-content-button {
-    opacity: 1;
-    transition: 1s ease-in-out;
-    
 }
 
 .cursor-btn {
@@ -195,15 +200,62 @@
 
 .eigth-section-fourth-content-button {
     position: fixed;
-    z-index: 1;
+    z-index: 999;
     top: 0;
     left: 0;
     /* left:50%;
     top: 60%; */
-    transform: translate(-50%,-50%);
-    opacity: 0;
+    transform: translate(-50%,-70%);
+    /* opacity: 0; */
     pointer-events: none;
+    display: none;
 }
+
+.main .eigth-section-scroll-section:hover .eigth-section-fourth-content-button {
+    display: 1 !important;
+}
+
+.eigth-section video {
+    border-radius: 25px
+}
+
+.carousel-indicators {
+    bottom: -75px !important;
+}
+
+.carousel-indicators [data-bs-target] {
+
+    width: 200px;
+    height: 100px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 5px solid #fff;
+    /* opacity: 0.7 ; */
+    background-color: rgba(0, 0, 0, .8)
+
+}
+
+.carousel-indicators .active {
+    /* opacity: 1 !important; */
+    background: none;
+}
+
+.carousel-caption {
+    bottom: 10% !important;
+}
+
+.eight-section-carousel-caption-paragraph {
+    color: white;
+    background-color: rgba(19, 19, 19, 0.5);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* max-width: 578px; */
+    margin-bottom: 18px;
+}
+
+
 
 
 
@@ -259,14 +311,23 @@
         height: 210px;
     }
 
+    .carousel-caption {
+        bottom: 0px !important;
+    }
+
+    .carousel-indicators {
+        bottom: -100px !important;
+    }
+
 }
 
- 
+
+
 @media (max-width: 1200px) {
    
-    .eigth-section-second-content {
+    /* .eigth-section-second-content {
         min-height: 450px;
-    }
+    } */
 
     .eigth-section-first-content-title {
         font-size: 72px;
@@ -277,22 +338,10 @@
         padding: 48px;
     }
     
-    .eigth-section-second-content-img-1 {
-        width: 582.492px;
-        height: 350px;
-        flex-shrink: 0;
-    }
 
-    .eigth-section-second-content-img-2 {
-        width: 494.699px;
-        height: 316.528px;
-    }
-
-    .eigth-section-second-content-img-3 {
-        width: 383.644px;
-        height: 245.471px;
-    }
 }
+
+
 
 @media (max-width: 600px) {
     .eigth-section-first-content-title {
@@ -321,6 +370,18 @@
         width: 50vw;
     }
 
+    .carousel-indicators {
+        bottom: -50px !important;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        width: 150px;
+        height: 75px;
+    }
+
+    .eigth-section-scroll-section {
+        background-color: #131313;
+    }
 }
 
 
@@ -338,6 +399,47 @@
     .eigth-section-third-content {
         display: flex;
     }
+
+    .carousel-indicators {
+        bottom: -50px !important;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        width: 150px;
+        height: 75px;
+    }
+
+}
+
+@media (max-width: 450px) {
+
+    .eigth-section-first-content-title {
+        font-size: 32px;
+        line-height: 40px;
+    } 
+
+    .eigth-section-first-content-btn {
+        display: none;
+    }
+
+    .eigth-section-third-content {
+        display: flex;
+    }
+
+    .carousel-indicators {
+        bottom: -50px !important;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        width: 100px;
+        height: 50px;
+    }
+
+    .eigth-section-first-div {
+        padding-bottom: 100px;
+    }
+
+
 
 }
 

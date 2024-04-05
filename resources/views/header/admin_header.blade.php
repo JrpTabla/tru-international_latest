@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="{{ asset ('assets/css/admin/admin_header.css') }}">
 
 
-
+    <meta name="robots" content="noindex,follow" />
     
 
 </head>

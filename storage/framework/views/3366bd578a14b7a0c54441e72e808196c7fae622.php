@@ -19,17 +19,17 @@
     </div>
 </div>
 
+
+
 <div class="main">
 
-    <!-- <div class="cursor-btn">Be a TRU Member</div> -->
-    <!-- Section for Landing  Page Start -->
+    <div class="eigth-section-fourth-content-button" onclick="Be_a_TRU()">Be a TRU member</div>
+
     <section id="landing-section" class="landing-section">
-        <!-- Background  Images -->
         <div class="landing-img-background m-auto" >
             <img src="<?php echo e(asset ('assets/images/Home-images/hero_image_left.png')); ?>" alt="" class=" background-img-left" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine" data-aos-duration="1000" data-aos-delay="1000"/>
             <img src="<?php echo e(asset ('assets/images/Home-images/hero_image_right.png')); ?>" alt="" class="background-img-right" data-aos="fade-left" data-aos-offset="500"data-aos-easing="ease-in-sine" data-aos-duration="1000" data-aos-delay="1000"/>
         </div>
-        <!-- Landing Text Division -->
         <div class="lading-section-text-div mx-auto d-flex" data-aos="zoom-in-up" data-aos-duration="500">
             <div class="h4 landing-title text-center">
                 The <span>world’s first</span> independent community-based organization for traders
@@ -40,12 +40,9 @@
                     <span class="landing-section-random-text"></span>
                     <div class="caret my-auto"></div>
                 </span>
-                
                 traders.
             </div>
-            <button type="button" class="btn btn-get-started text-center mx-auto" data-aos="zoom-in" data-aos-duration="1000">
-                Be a TRU member
-            </button>
+            <button type="button" class="btn btn-get-started text-center mx-auto" data-aos="zoom-in" data-aos-duration="1000" onclick="Be_a_TRU()">Be a TRU member</button>
         </div>
 
         <div class="lading-section-card-div mx-auto d-flex container-fluid">
@@ -66,9 +63,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card-data">
-                        Follow successful traders, share your insights and experiences, and receive advice on CommuniTrade, your dedicated channel for collaborative growth in the trading community.
-                        </div>
+                        <div class="card-data">Follow successful traders, share your insights and experiences, and receive advice on CommuniTrade, your dedicated channel for collaborative growth in the trading community.</div>
                     </div>
                 </div>
 
@@ -84,9 +79,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card-data-3">
-                            Have your back covered when escalating and resolving trading issues with TRU’s Dispute Resolution Support, a trader-oriented service for swift, effective, and equitable resolution of broker disputes.
-                        </div>
+                        <div class="card-data-3">Have your back covered when escalating and resolving trading issues with TRU’s Dispute Resolution Support, a trader-oriented service for swift, effective, and equitable resolution of broker disputes.</div>
                     </div>
                 </div>
 
@@ -102,67 +95,46 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card-data-2">
-                            Receive a share in the annual profit of the organization 	through UnityGains, a TRU commitment to reward your contributions in a transparent and mutually enriching environment.
-                        </div>
+                        <div class="card-data-2">Receive a share in the annual profit of the organization 	through UnityGains, a TRU commitment to reward your contributions in a transparent and mutually enriching environment.</div>
                     </div>
                 </div>
-
-                
             </div>
         </div>
-
     </section>
 
     <section id="second-section" class="second-section">
-        <!-- Second Section Container -->
         <div  class="second-section-content-container container-fluid" >
-            <!-- Second Section Division -->
             <div class="row second-section-div px-3">
-                <!-- First Content-->
                 <div class="section-section-content col-2 px-2" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="0">
-                    <!-- <div class="second-section-title text-center">80M+</div> -->
                     <div class="second-section-title text-center" data-count="80000000">0</div>
                     <div class="second-section-description text-center">Traders <br> Worldwide</div> 
                 </div>
-                <!-- Second Content-->
                 <div class="section-section-content col-2 px-2" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="1000">
-                    <!-- <div class="second-section-title text-center">60k+</div> -->
                     <div class="second-section-title text-center" data-count="60000">0</div>
                     <div class="second-section-description text-center">Online <br> Brokers</div>
                 </div>
-                <!-- Third Content-->
                 <div class="section-section-content col-2 px-2" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="2000">
-                    <!-- <div class="second-section-title text-center">170</div> -->
                     <div class="second-section-title text-center" data-count="170">0</div>
                     <div class="second-section-description text-center">Countries</div>
                 </div>
-                <!-- Forth Content-->
                 <div class="section-section-content col-2 px-2" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="3000">
-                    <!-- <div class="second-section-title text-center">5</div> -->
                     <div class="second-section-title text-center" data-count="5">0</div>
                     <div class="second-section-description text-center">Continents</div>
                 </div>
-                <!-- Fifth Content-->
                 <div class="section-section-content col-2 px-2" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="4000">
-                    <!-- <div class="second-section-title text-center">1</div> -->
                     <div class="second-section-title text-center" data-count="1">0</div>
                     <div class="second-section-description text-center">Traders United</div>
                 </div>
             </div>
         </div>
-        
     </section>
-    <!-- Second Section End -->     
 
-    <!-- Third Section Start -->
     <section id="third-section" class="third-section">
-
         <div class="second-img-background">
             <div class="third-section-ads-1" data-aos="fade-up-right" data-aos-duration="2000"></div>
             <div class="third-section-ads-2" data-aos="fade-up-left" data-aos-duration="2000"></div>
         </div>
-
+        <div class="second-section-advertisment-container container-fluid mx-auto" data-aos="fade-up" data-aos-duration="500"></div>
         <div class="container-fluid mx-auto">
             <div class="third-section-container row mx-auto">
                 <div class="padding-gap col-12 padding-gap-first-div">
@@ -180,7 +152,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="padding-gap col-12 col-xl-6">
                     <div class="third-section-second-div row " data-aos="fade-up-right" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
                         <div class="third-section-second-content d-flex col-12">
@@ -198,7 +169,6 @@
                         </div>
                     </div>
                 </div>
-                
                 <div class="padding-gap col-12 col-xl-6">
                     <div class="third-section-third-div-3 row " data-aos="fade-up-left" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
                         <div class="third-section-first-content d-flex col-12">
@@ -218,13 +188,8 @@
                 </div>
             </div>
         </div>
-
-        <!-- Second Section Ads Division -->
-        <div class="second-section-advertisment-container container-fluid mx-auto" data-aos="fade-up" data-aos-duration="500"></div>
     </section>
-    <!-- Third Section End -->
-                        
-    <!-- Fourth Section Start -->
+
     <section id="fourth-section" class="fourth-section" data-color="#FFCA5D" >
         <div class="container-fluid">
             <div class="fourth-section-container row mx-auto">
@@ -232,13 +197,8 @@
                     <div class="fourth-section-first-div row" data-aos="zoom-in" data-aos-duration="3000" data-aos-anchor-placement="center-bottom">
                         <div class="fourth-section-first-content d-flex col-12 col-xl-6" data-aos="flip-down" data-aos-duration="1000">
                             <div class="m-auto">  
-                                <div class="fourth-section-first-content-title">
-                                    <!-- The first <br> community <span>- <br> Traders United</span> -->
-                                  <!--   The world’s first <br> community-<span>driven traders organization</span> -->
-                                </div>
-                                <div class="fourth-section-first-content-description">
-                                    <!-- At TRU, you can access valuable insights and impartial broker ratings. More importantly, you can tap into the collective knowledge of online traders worldwide. All in one place.  -->
-                                </div>
+                                <div class="fourth-section-first-content-title"></div>
+                                <div class="fourth-section-first-content-description"></div>
                             </div>
                         </div>
                         <div class="fourth-section-second-content d-flex col-12 col-xl-6" data-aos="flip-down" data-aos-duration="1000"> 
@@ -250,7 +210,6 @@
                         </div>
                     </div>
                 </div>
-                
                 <div class="padding-gap col-12 col-xl-6">
                     <div class="fourth-section-second-div row" data-aos="fade-left" data-aos-duration="500" data-aos-anchor-placement="top-bottom" data-aos-offset="26">
                         <div class="fourth-section-second-content d-flex col-12" data-aos="fade-down" data-aos-duration="1000">
@@ -262,31 +221,18 @@
                         </div>
                         <div class="fourth-section-first-content d-flex col-12">
                             <div class="m-auto">  
-                                <div class="fourth-section-first-content-title-2">
-                                   <!--  <span>About</span> <br> our community -->
-                                </div>
-                                <div class="fourth-section-first-content-description-2">
-                                    <!-- This is not just a community; it is a movement paving the way for a better environment 	for online traders everywhere.    -->
-                                </div>
+                                <div class="fourth-section-first-content-title-2"></div>
+                                <div class="fourth-section-first-content-description-2"></div>
                             </div>
                         </div>
                     </div>
                 </div>
-                
                 <div class="padding-gap col-12 col-xl-6">
                     <div class="fourth-section-third-div-3 row" data-aos="fade-right" data-aos-duration="500" data-aos-anchor-placement="top-bottom" data-aos-offset="26">
                         <div class="fourth-section-first-content d-flex col-12">
                             <div class="">  
-                                <div class="fourth-section-first-content-title-3">
-                                    <!-- <span>You</span> are <span-2>TRU</span-2> -->
-                                </div>
-            
-                                <div class="fourth-section-first-content-description-3">
-                                <!-- Our services and initiatives are designed to bolster security and instill confidence in your 	trading journey.  --> 
-                                <br>
-                                <br>
-                                <!-- TRU revolutionizes the online trading world, empowering every member and spurring 	them to success.  -->
-                                </div>
+                                <div class="fourth-section-first-content-title-3"></div>
+                                <div class="fourth-section-first-content-description-3"></div>
                             </div>
                         </div>
                         <img src="<?php echo e(asset ('assets/images/Home-images/fourth-section/card-3.png')); ?>" class="fourth-section-first-content-description-3-img" alt="" data-aos="fade-up" data-aos-duration="1000">
@@ -295,9 +241,7 @@
             </div>
         </div>
     </section>
-    <!-- Fourth Section End -->
 
-    <!-- Fifth Section Start -->
     <section id="fifth-section" class="fifth-section" data-color="#fff">
         <div class="container-fluid">
             <div class="fifth-section-container row mx-auto" >
@@ -305,13 +249,9 @@
                     <div class="fifth-section-first-div row col-12  " data-aos="zoom-in" data-aos-duration="3000" data-aos-anchor-placement="top-bottom">
                         <div class="fifth-section-first-content d-flex col-12 col-xl-6">
                             <div class="m-auto">  
-                                <div class="fifth-section-first-content-title" data-aos="zoom-in-right" data-aos-duration="1000">
-                                    <!-- <span>Engage and learn from people </span> with the same goals as you — to earn and succeed! -->
-                                </div>
-                                <div class="fifth-section-first-content-description" data-aos="zoom-in-left" data-aos-duration="1000"> 
-                                    <!-- CommuniTrade evolved the concept of social media into an indispensable reservoir of shared and collaborative wisdom.  -->
-                                </div>
-                                <a class="fifth-section-first-content-button" data-aos="zoom-in" data-aos-duration="1000">Be part of the CommuniTrade</a>
+                                <div class="fifth-section-first-content-title" data-aos="zoom-in-right" data-aos-duration="1000"> </div>
+                                <div class="fifth-section-first-content-description" data-aos="zoom-in-left" data-aos-duration="1000"></div>
+                                <a class="fifth-section-first-content-button" data-aos="zoom-in" data-aos-duration="1000" onclick="Be_a_Communitrade()">Be part of the CommuniTrade</a>
                             </div>
                         </div>
                         <div class="fifth-section-second-content d-flex col-12 col-xl-6">
@@ -330,15 +270,13 @@
 
                             <div class="fifth-section-second-content-comment d-flex m-auto" data-aos="flip-down" data-aos-duration="1000" >
                                 <div class="fifth-section-second-content-profile">
-                                    <img src="<?php echo e(asset ('assets/images/Home-images/fifth-section/profile.png ')); ?>">
+                                    <img id="profile-image" src="<?php echo e(asset ('assets/images/Home-images/fifth-section/profile.png ')); ?>">
                                 </div>
                                 <div class="fifth-section-second-content-info">
-                                    <div class="fifth-section-second-content-username">@Gulam  Ambiya</div>
-                                    <div class="fifth-section-second-content-platform">comment in Telegram</div>
+                                    <div class="fifth-section-second-content-username">@Mario  Kern</div>
+                                    <div class="fifth-section-second-content-platform">comment in Community Forum</div>
 
-                                    <div class="fifth-section-second-content-comments">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                                    </div>
+                                    <div class="fifth-section-second-content-comments">Saw another post from FB that gives an easy step by step guide on how to build your investment plan.</div>
                                 </div>
                             </div>
                         </div>
@@ -348,9 +286,7 @@
             </div>
         </div>
     </section>
-    <!-- Fifth Section End -->
 
-    <!-- Sixth Section Start -->
     <section id="sixth-section" class="sixth-section">
         <div class="container-fluid">
             <div class="sixth-section-container row mx-auto">
@@ -358,13 +294,8 @@
                     <div class="sixth-section-first-div row" data-aos="zoom-in-up" data-aos-duration="3000" data-aos-anchor-placement="top-bottom">
                         <div class="sixth-section-first-content d-flex col-12 col-xl-6" data-aos="flip-down" data-aos-duration="1000">
                             <div class="m-auto">  
-                                <div class="sixth-section-first-content-title">
-                                    <!-- Let’s Forge <span>a <br>better trading <br>world -->
-                                    <!-- Let’s BUILD a <span>better trading world, TOGETHER.</span> -->
-                                </div>
-                                <div class="sixth-section-first-content-description">
-                                    <!-- One trader can only do so much. But an entire community? The possibilities are endless.  -->
-                                </div>
+                                <div class="sixth-section-first-content-title"></div>
+                                <div class="sixth-section-first-content-description"></div>
                             </div>
                         </div>
                         <div class="sixth-section-second-content d-flex col-12 col-xl-6" data-aos="flip-down" data-aos-duration="1000">
@@ -387,16 +318,8 @@
                         </div>
                         <div class="sixth-section-first-content d-flex col-12" data-aos="zoom-in-left" data-aos-duration="1000">
                             <div class="m-auto">  
-                                <div class="sixth-section-first-content-title-2">
-                                    <!-- Trade, <br> Protected -->
-                                    <!-- Tread Safely. <span>Trade Securely.</span> -->
-                                </div>
-                                <div class="sixth-section-first-content-description-2">
-                                    <!-- 70% of forex traders incur losses quarterly. With TRU’s Risk Protection Plan, you need 	not worry about becoming part of these statistics. --> 
-                                    <br>
-                                    <br>
-                                    <!-- We guarantee to have your back, so 	you can trade without holding back.  -->
-                                </div>
+                                <div class="sixth-section-first-content-title-2"></div>
+                                <div class="sixth-section-first-content-description-2"></div>
                             </div>
                         </div>
                     </div>
@@ -405,13 +328,8 @@
                     <div class="sixth-section-third-div-3 row justify-content-center" data-aos="zoom-out-left" data-aos-duration="500">
                         <div class="sixth-section-first-content d-flex col-12" data-aos="zoom-in-right" data-aos-duration="1000">
                             <div class="">  
-                                <div class="sixth-section-first-content-title-3">
-                                    <!-- Growth <span>in Transparency</span> -->
-                                </div>
-            
-                                <div class="sixth-section-first-content-description-3">
-                                    <!-- With an increasing number of TRU members, additional revenue streams come in – and you will always be in the loop of the progress. TRU is one of the few certainties in trading. <br> <br>TRU is neither operated by any brokerage company nor created to extort money from brokerage companies to keep positive ratings and branding. -->
-                                </div>
+                                <div class="sixth-section-first-content-title-3"></div>
+                                <div class="sixth-section-first-content-description-3"></div>
                             </div>
                         </div>
                         <img class="sixth-section-first-content-phone" src="<?php echo e(asset ('assets/images/Home-images/sixth-section/card-3.png ')); ?>" alt="" data-aos="fade-right" data-aos-duration="1000">
@@ -420,10 +338,7 @@
             </div>
         </div>
     </section>
-    <!-- Sixth Section End -->
 
-            
-    <!-- Seventh Section Start -->
     <section id="seventh-section" class="seventh-section" data-color="#E6E7E7">
         <div class="container-fluid">
             <div class="seventh-section-container row mx-auto">
@@ -431,15 +346,9 @@
                     <div class="seventh-section-first-div row" data-aos="zoom-in" data-aos-duration="3000" data-aos-anchor-placement="top-bottom">
                         <div class="seventh-section-first-content d-flex col-12 col-xl-5">
                             <div class="me-auto my-auto">  
-                                <div class="seventh-section-first-content-title" data-aos="zoom-in-right" data-aos-duration="1000">
-                                    <!-- What do <br> you need <br> to know -->
-                                   <!--  Not just <br> real-time data. Verified. Relevant. <br>TRUe -->
-                                </div>
-                                <div class="seventh-section-first-content-description" data-aos="zoom-in-left" data-aos-duration="1000">
-                                    <!-- Stay updated, learn from the experts. -->
-                                    
-                                </div>
-                                <a class="seventh-section-first-content-button" data-aos="zoom-in" data-aos-duration="1000">More TRU Insights</a>
+                                <div class="seventh-section-first-content-title" data-aos="zoom-in-right" data-aos-duration="1000"></div>
+                                <div class="seventh-section-first-content-description" data-aos="zoom-in-left" data-aos-duration="1000"></div>
+                                <a class="seventh-section-first-content-button" data-aos="zoom-in" data-aos-duration="1000" onclick="Be_a_TRU()">More TRU Insights</a>
                             </div>
                         </div>
                         <div class="seventh-section-second-content d-flex col-12 col-xl-7 row" data-aos="flip-up" data-aos-easing="ease-out-cubic" data-aos-duration="500">
@@ -451,7 +360,6 @@
                                         <svg class="mb-auto" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M7.0498 7.0498H7.0598M10.5118 3H7.8C6.11984 3 5.27976 3 4.63803 3.32698C4.07354 3.6146 3.6146 4.07354 3.32698 4.63803C3 5.27976 3 6.11984 3 7.8V10.5118C3 11.2455 3 11.6124 3.08289 11.9577C3.15638 12.2638 3.27759 12.5564 3.44208 12.8249C3.6276 13.1276 3.88703 13.387 4.40589 13.9059L9.10589 18.6059C10.2939 19.7939 10.888 20.388 11.5729 20.6105C12.1755 20.8063 12.8245 20.8063 13.4271 20.6105C14.112 20.388 14.7061 19.7939 15.8941 18.6059L18.6059 15.8941C19.7939 14.7061 20.388 14.112 20.6105 13.4271C20.8063 12.8245 20.8063 12.1755 20.6105 11.5729C20.388 10.888 19.7939 10.2939 18.6059 9.10589L13.9059 4.40589C13.387 3.88703 13.1276 3.6276 12.8249 3.44208C12.5564 3.27759 12.2638 3.15638 11.9577 3.08289C11.6124 3 11.2455 3 10.5118 3ZM7.5498 7.0498C7.5498 7.32595 7.32595 7.5498 7.0498 7.5498C6.77366 7.5498 6.5498 7.32595 6.5498 7.0498C6.5498 6.77366 6.77366 6.5498 7.0498 6.5498C7.32595 6.5498 7.5498 6.77366 7.5498 7.0498Z" stroke="#1681C2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
                                         <div class="seventh-section-second-title">Cryptocurrency, Beginner Guide</div>
                                     </div>
-                                    
                                     <div class="seventh-section-second-time mt-auto">
                                         <img src="<?php echo e(asset ('assets/images/Home-images/seventh-section/lets-icons_time-light.png  ')); ?>" alt="">
                                         <div class="seventh-section-second-date">January 31, 2024 </div>
@@ -464,7 +372,6 @@
                                         <svg class="mb-auto" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M7.0498 7.0498H7.0598M10.5118 3H7.8C6.11984 3 5.27976 3 4.63803 3.32698C4.07354 3.6146 3.6146 4.07354 3.32698 4.63803C3 5.27976 3 6.11984 3 7.8V10.5118C3 11.2455 3 11.6124 3.08289 11.9577C3.15638 12.2638 3.27759 12.5564 3.44208 12.8249C3.6276 13.1276 3.88703 13.387 4.40589 13.9059L9.10589 18.6059C10.2939 19.7939 10.888 20.388 11.5729 20.6105C12.1755 20.8063 12.8245 20.8063 13.4271 20.6105C14.112 20.388 14.7061 19.7939 15.8941 18.6059L18.6059 15.8941C19.7939 14.7061 20.388 14.112 20.6105 13.4271C20.8063 12.8245 20.8063 12.1755 20.6105 11.5729C20.388 10.888 19.7939 10.2939 18.6059 9.10589L13.9059 4.40589C13.387 3.88703 13.1276 3.6276 12.8249 3.44208C12.5564 3.27759 12.2638 3.15638 11.9577 3.08289C11.6124 3 11.2455 3 10.5118 3ZM7.5498 7.0498C7.5498 7.32595 7.32595 7.5498 7.0498 7.5498C6.77366 7.5498 6.5498 7.32595 6.5498 7.0498C6.5498 6.77366 6.77366 6.5498 7.0498 6.5498C7.32595 6.5498 7.5498 6.77366 7.5498 7.0498Z" stroke="#1681C2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
                                         <div class="seventh-section-second-title">Forex Trading, Beginner Guide</div>
                                     </div>
-                                    
                                     <div class="seventh-section-second-time mt-auto">
                                         <img src="<?php echo e(asset ('assets/images/Home-images/seventh-section/lets-icons_time-light.png  ')); ?>" alt="">
                                         <div class="seventh-section-second-date">January 30, 2024</div>
@@ -482,7 +389,6 @@
                                         <div class="seventh-section-second-date">January 29, 2024</div>
                                     </div>
                                 </div>
-
                                 <div class="seventh-section-second-card-1">
                                     <img class="seventh-section-second-card-main-img" src="<?php echo e(asset ('assets/images/Home-images/seventh-section/card-1.png ')); ?>">
                                     <div class="seventh-section-second-description">Decrypted: A Closer Look at Cryptocurrencies</div>
@@ -490,7 +396,6 @@
                                         <svg class="mb-auto" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M7.0498 7.0498H7.0598M10.5118 3H7.8C6.11984 3 5.27976 3 4.63803 3.32698C4.07354 3.6146 3.6146 4.07354 3.32698 4.63803C3 5.27976 3 6.11984 3 7.8V10.5118C3 11.2455 3 11.6124 3.08289 11.9577C3.15638 12.2638 3.27759 12.5564 3.44208 12.8249C3.6276 13.1276 3.88703 13.387 4.40589 13.9059L9.10589 18.6059C10.2939 19.7939 10.888 20.388 11.5729 20.6105C12.1755 20.8063 12.8245 20.8063 13.4271 20.6105C14.112 20.388 14.7061 19.7939 15.8941 18.6059L18.6059 15.8941C19.7939 14.7061 20.388 14.112 20.6105 13.4271C20.8063 12.8245 20.8063 12.1755 20.6105 11.5729C20.388 10.888 19.7939 10.2939 18.6059 9.10589L13.9059 4.40589C13.387 3.88703 13.1276 3.6276 12.8249 3.44208C12.5564 3.27759 12.2638 3.15638 11.9577 3.08289C11.6124 3 11.2455 3 10.5118 3ZM7.5498 7.0498C7.5498 7.32595 7.32595 7.5498 7.0498 7.5498C6.77366 7.5498 6.5498 7.32595 6.5498 7.0498C6.5498 6.77366 6.77366 6.5498 7.0498 6.5498C7.32595 6.5498 7.5498 6.77366 7.5498 7.0498Z" stroke="#1681C2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
                                         <div class="seventh-section-second-title">Cryptocurrency, Beginner Guide</div>
                                     </div>
-                                    
                                     <div class="seventh-section-second-time mt-auto">
                                         <img src="<?php echo e(asset ('assets/images/Home-images/seventh-section/lets-icons_time-light.png  ')); ?>" alt="">
                                         <div class="seventh-section-second-date">January 31, 2024 </div>
@@ -503,7 +408,6 @@
                                         <svg class="mb-auto" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M7.0498 7.0498H7.0598M10.5118 3H7.8C6.11984 3 5.27976 3 4.63803 3.32698C4.07354 3.6146 3.6146 4.07354 3.32698 4.63803C3 5.27976 3 6.11984 3 7.8V10.5118C3 11.2455 3 11.6124 3.08289 11.9577C3.15638 12.2638 3.27759 12.5564 3.44208 12.8249C3.6276 13.1276 3.88703 13.387 4.40589 13.9059L9.10589 18.6059C10.2939 19.7939 10.888 20.388 11.5729 20.6105C12.1755 20.8063 12.8245 20.8063 13.4271 20.6105C14.112 20.388 14.7061 19.7939 15.8941 18.6059L18.6059 15.8941C19.7939 14.7061 20.388 14.112 20.6105 13.4271C20.8063 12.8245 20.8063 12.1755 20.6105 11.5729C20.388 10.888 19.7939 10.2939 18.6059 9.10589L13.9059 4.40589C13.387 3.88703 13.1276 3.6276 12.8249 3.44208C12.5564 3.27759 12.2638 3.15638 11.9577 3.08289C11.6124 3 11.2455 3 10.5118 3ZM7.5498 7.0498C7.5498 7.32595 7.32595 7.5498 7.0498 7.5498C6.77366 7.5498 6.5498 7.32595 6.5498 7.0498C6.5498 6.77366 6.77366 6.5498 7.0498 6.5498C7.32595 6.5498 7.5498 6.77366 7.5498 7.0498Z" stroke="#1681C2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
                                         <div class="seventh-section-second-title">Forex Trading, Beginner Guide</div>
                                     </div>
-                                    
                                     <div class="seventh-section-second-time mt-auto">
                                         <img src="<?php echo e(asset ('assets/images/Home-images/seventh-section/lets-icons_time-light.png  ')); ?>" alt="">
                                         <div class="seventh-section-second-date">January 30, 2024</div>
@@ -522,7 +426,6 @@
                                     </div>
                                 </div>
                             </div>
-
                             <div class="seventh-section-second-card-div-2 col-6 p-2" data-aos="fade-left" data-aos-duration="1000">
                                 <div class="seventh-section-second-card-2">
                                     <img class="seventh-section-second-card-main-img" src="<?php echo e(asset ('assets/images/Home-images/seventh-section/card-3.png  ')); ?>">
@@ -560,7 +463,6 @@
                                         <div class="seventh-section-second-date">January 26, 2024</div>
                                     </div>
                                 </div>
-
                                 <div class="seventh-section-second-card-2">
                                     <img class="seventh-section-second-card-main-img" src="<?php echo e(asset ('assets/images/Home-images/seventh-section/card-3.png  ')); ?>">
                                     <div class="seventh-section-second-description">Index Indecision: How to Choose the Right Indices to Invest In</div>
@@ -599,48 +501,63 @@
                                 </div>
                             </div>
                         </div>
-
                         <a class="seventh-section-first-content-button-2" data-aos="zoom-in" data-aos-duration="1000">More TRU Insights</a>
                     </div>
                 </div>  
             </div>
         </div>
     </section>
-    <!-- Seventh Section End -->
 
-    <!-- Eigth Section Start -->
     <section id="eigth-section" class="eigth-section">
         <div class="container-fluid">
             <div class="eigth-section-container row mx-auto">
                 <div class="padding-gap col-12">
                     <div class="eigth-section-first-div row" data-aos="zoom-in" data-aos-duration="3000" data-aos-anchor-placement="top-bottom">
-                        <div class="eigth-section-first-content col-12 col-xl-6" data-aos="fade-right" data-aos-duration="1000">
-                            <div class="eigth-section-first-content-title">
-                                <!-- Achieve <br> the TRU triumph <br> and share <br> experiences -->
-                                <a class="eigth-section-first-content-button"  data-aos="zoom-in" data-aos-duration="1000">Be a TRU member</a>
-                            </div>
-                            <div class="eigth-section-first-content-btn col-12">
-                                <a class="eigth-section-first-content-button">Be a TRU member</a>
-                            </div>
+                        <div class="eigth-section-first-content col-12" data-aos="fade-right" data-aos-duration="1000">
+                            <div class="eigth-section-first-content-title"></div>
+                            <div class="eigth-section-first-content-description" data-aos="zoom-in-left" data-aos-duration="1000">See how TRU helped members become better and more successful traders!</div>
                         </div>
-                        <div class="eigth-section-second-content d-flex col-12 col-xl-6">
-                            <img src="<?php echo e(asset ('assets/images/Home-images/eigth-section/card-1.png  ')); ?>" alt="" class="eigth-section-second-content-img-1" data-aos="zoom-in" data-aos-delay="" data-aos-duration="500">
+                        <div class="eigth-section-second-content d-flex col-12">
+                            <!-- <img src="<?php echo e(asset ('assets/images/Home-images/eigth-section/card-1.png  ')); ?>" alt="" class="eigth-section-second-content-img-1" data-aos="zoom-in" data-aos-delay="" data-aos-duration="500">
                             <img src="<?php echo e(asset ('assets/images/Home-images/eigth-section/card-2.png  ')); ?>" alt="" class="eigth-section-second-content-img-2" data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000">
-                            <img src="<?php echo e(asset ('assets/images/Home-images/eigth-section/card-3.png  ')); ?>" alt="" class="eigth-section-second-content-img-3" data-aos="zoom-in" data-aos-delay="2000" data-aos-duration="1500">
-                        </div>
-                        <div class="eigth-section-third-content col-12">
-                            <a class="eigth-section-first-content-button mx-auto">Be a TRU member</a>
+                            <img src="<?php echo e(asset ('assets/images/Home-images/eigth-section/card-3.png  ')); ?>" alt="" class="eigth-section-second-content-img-3" data-aos="zoom-in" data-aos-delay="2000" data-aos-duration="1500"> -->
+                            <div id="carouselExampleCaptions" class="carousel slide" style="width:100%;border-radius: 50px">
+                                <div class="carousel-indicators">
+                                    <img type="button" src="<?php echo e(asset ('assets/images/Home-images/eigth-section/card-1.png')); ?>" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+                                    <img type="button" src="<?php echo e(asset ('assets/images/Home-images/eigth-section/card-2.png')); ?>"  data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2">
+                                    <img type="button" src="<?php echo e(asset ('assets/images/Home-images/eigth-section/card-3.png')); ?>" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3">
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <!-- <video src="<?php echo e(asset ('assets/images/Home-images/eigth-section/example_video.mp4')); ?>" class="d-block w-100" alt="..." autoplay muted controls> -->
+                                        <img class="d-block w-100" src="<?php echo e(asset ('assets/images/Home-images/eigth-section/card-1.png')); ?>" alt="">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p class="eight-section-carousel-caption-paragraph">TRU's Dispute Resolution Support really sealed the deal for me! Knowing that TRU has my back has made me more confident about trading with any broker.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <!-- <video src="<?php echo e(asset ('assets/images/Home-images/eigth-section/example_video.mp4')); ?>" class="d-block w-100" alt="..." autoplay muted controls> -->
+                                        <img class="d-block w-100" src="<?php echo e(asset ('assets/images/Home-images/eigth-section/card-2.png')); ?>" alt="">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p class="eight-section-carousel-caption-paragraph">TRU's Dispute Resolution Support really sealed the deal for me! Knowing that TRU has my back has made me more confident about trading with any broker.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <!-- <video src="<?php echo e(asset ('assets/images/Home-images/eigth-section/example_video.mp4')); ?>" class="d-block w-100" alt="..." autoplay muted controls> -->
+                                        <img class="d-block w-100" src="<?php echo e(asset ('assets/images/Home-images/eigth-section/card-3.png')); ?>" alt="">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p class="eight-section-carousel-caption-paragraph">TRU's Dispute Resolution Support really sealed the deal for me! Knowing that TRU has my back has made me more confident about trading with any broker.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        
-
-        <div class="eigth-section-scroll-section">
-            
-            <div class="eigth-section-fourth-content-button">Be a TRU member</div>
-
+        <div class="eigth-section-scroll-section" onclick="Be_a_TRU()">
             <div class="eigth-section-scroll-div">
                 <div class="d-flex">
                     <div class="eigth-moving-text">
@@ -669,65 +586,11 @@
             </div>
         </div>
     </section>
-        <!-- Eigth Section End -->
-    </div>
 </div>
 
 <script src="<?php echo e(asset ('assets/js/Homepage-script.js')); ?>"></script>
 
 <script type="text/javascript">
-
-    const container = document.querySelector('.eigth-section-scroll-section');
-    const Eigth_button = document.querySelector('.eigth-section-fourth-content-button');
-
-    document.addEventListener('mousemove', (e) => {
-        let x = e.clientX;
-        let y = e.clientY;
-
-        Eigth_button.style.top = y + "px";
-        Eigth_button.style.left = x + "px";
-    });
-
-    const textElements = document.getElementsByClassName("landing-section-random-text");
-    const texts = ['undeceivable', 'decisive', 'foolproof', 'smart', 'guarded'];
-    let index = 0;
-
-    function typeText(element, text, index, charIndex) {
-        if (index >= texts.length) {
-            index = 0;
-        }
-        if (charIndex < text.length) {
-            element.textContent += text.charAt(charIndex);
-            setTimeout(() => {
-                typeText(element, text, index, charIndex + 1);
-            }, 100);
-        } else {
-            setTimeout(() => {
-                eraseText(element, text, index, charIndex);
-            }, 1000);
-        }
-    }
-
-    function eraseText(element, text, index, charIndex) {
-        if (charIndex >= 0) {
-            element.textContent = text.substring(0, charIndex); 
-            setTimeout(() => {
-                eraseText(element, text, index, charIndex - 1);
-            }, 100);
-        } else {
-            setTimeout(() => {
-                typeNextText(element, index);
-            }, 500);
-        }
-    }
-
-    function typeNextText(element, index) {
-        element.textContent = '';
-        index = (index + 1) % texts.length;
-        typeText(element, texts[index], index, 0);
-    }
-
-    typeText(textElements[0], texts[index], index, 0);
 
     document.addEventListener("DOMContentLoaded", () => {
         handle_3rd_Contents();
@@ -747,13 +610,10 @@
             const contentTitleColored = data[0].content_title_colored;
             const contentDescription = data[0].content_description;
 
-            // DATA CONTENT in 3rd Section - 1st Division
             const contentTitle_2 = data[1].content_title;
             const contentTitleColored_2 = data[1].content_title_colored;
             const contentDescription_2 = data[1].content_description;
 
-
-            // DATA CONTENT in 3rd Section - 1st Division
             const contentTitle_3 = data[2].content_title;
             const contentTitleColored_3 = data[2].content_title_colored;
             const contentDescription_3 = data[2].content_description;
@@ -785,19 +645,14 @@
         fetch(`/api/content/Homepage-section-4`)
         .then(response => response.json())
         .then(data => {
-            /* console.log(data); */
-
             const contentTitle = data[0].content_title;
             const contentTitleColored = data[0].content_title_colored;
             const contentDescription = data[0].content_description;
 
-            // DATA CONTENT in 3rd Section - 1st Division
             const contentTitle_2 = data[1].content_title;
             const contentTitleColored_2 = data[1].content_title_colored;
             const contentDescription_2 = data[1].content_description;
 
-
-            // DATA CONTENT in 3rd Section - 1st Division
             const contentTitle_3 = data[2].content_title;
             const contentTitle_3_2 = data[2].content_title_2;
             const contentTitleColored_3 = data[2].content_title_colored;
@@ -850,9 +705,7 @@
         fetch(`/api/content/Homepage-section-6`)
         .then(response => response.json())
         .then(data => {
-            /* console.log(data); */
 
-            // DATA CONTENT in 6th Section 
             const contentTitle = data[0].content_title;
             const contentTitleColored = data[0].content_title_colored;
             const contentDescription = data[0].content_description;
@@ -894,14 +747,11 @@
         fetch(`/api/content/Homepage-section-7`)
         .then(response => response.json())
         .then(data => {
-            /* console.log(data); */
 
-            // DATA CONTENT in 3rd Section - 1st Division
             const contentTitle = data[0].content_title;
             const contentTitleColored = data[0].content_title_colored;
             const contentDescription = data[0].content_description;
 
-            // DATA CONTENT in 7th Section - 1st Division
             const titleElement = document.querySelector('.seventh-section-first-content-title');
             titleElement.innerHTML = `${contentTitle}`;
 
@@ -916,18 +766,12 @@
         fetch(`/api/content/Homepage-section-8`)
         .then(response => response.json())
         .then(data => {
-            /* console.log(data); */
 
-            // DATA CONTENT in 3rd Section - 1st Division
             const contentTitle = data[0].content_title;
             const contentDescription = data[0].content_description;
 
-            // DATA CONTENT in 7th Section - 1st Division
             const titleElement = document.querySelector('.eigth-section-first-content-title');
             titleElement.innerHTML = `${contentTitle}`;
-
-            // const descriptionElement = document.querySelector('.seventh-section-first-content-description');
-            // descriptionElement.textContent = contentDescription;
            
         })
         .catch(error => console.error('Error fetching Page Content 4th Section:', error));

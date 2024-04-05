@@ -4,17 +4,12 @@
 
 <link rel="stylesheet" href="{{ asset ('assets/css/user/dashboard.css') }}">
 
-<style>
-    .Page-Body > div {
-        display: none;
-    }
-</style>
 
 <div class="main">
         <div class="Page-header">
-                <div class="Page-title">Dashboard</div>
+            <div class="Page-title">Dashboard</div>
 
-                <div class="Page-Nav row mt-auto">
+            <div class="Page-Nav row mt-auto">
 
                 <div class="col-4">
                         <div class="Page-link Page-Membership" onclick="togglePage('Membership')">Membership</div>
@@ -26,12 +21,15 @@
                 <div class="col-4">
                         <div class="Page-link Page-Affiliate" onclick="togglePage('Affiliate')">Affiliate Program</div>
                 </div>
-                </div>
+            </div>
         </div>
 
         <div class="Page-Body m-auto">
                 <div class="Page-Membership-body">
                     <div class="row">
+                        <div class="Page-Membership-email-div col-12">
+                            <div>Your account is not yet verified. Verify your account now to maximize your TRU membership benefits. <a onclick="VerifyEmail()">Click here to proceed with verification.</a></div>
+                        </div>
                         <div class="Page-Membership-body-img-div col-3 d-flex">
                             <div class="Page-Membership-body-img-container m-auto">
                                 <img src="" alt="">
@@ -64,41 +62,6 @@
                                 <div class="user-tag-profile-orange">TRADE MASTER</div>
                             </div>
                         </div>
-                        <!-- <div class="col-3 user-card-profile">
-                            <div class="user-card-content">
-                                <img alt="">
-                                <div class="user-card-points">300</div>
-                                <div class="user-card-title">TRU Points</div>
-                                <button class="btn user-card-btn abled">Claim Rewards</button>
-                            </div>  
-                        </div>
-                        <div class="col-3 user-card-profile">
-                            <div class="user-card-content">
-                                <img src="{{ asset ('assets/images/user/Dashboard-membership/Briefcase.png') }}" alt="">
-                                <div class="user-card-points">0</div>
-                                <div class="user-card-title">Active Disputes</div>
-                                <button class="btn user-card-btn unabled">File a Case</button>
-                            </div>  
-                        </div>
-                        <div class="col-3 user-card-profile">
-                            <div class="user-card-content">
-                                <img src="{{ asset ('assets/images/user/Dashboard-membership/Danger.png') }}" alt="">
-                                <div class="user-card-points">2</div>
-                                <div class="user-card-title">Pending Ratings</div>
-                                <button class="btn user-card-btn abled">Rate Now</button>
-                            </div>  
-                        </div>
-                        <div class="col-3 user-card-profile">
-                            <div class="user-card-content">
-                                <img src="{{ asset ('assets/images/user/Dashboard-membership/Unity.png') }}" alt="">
-                                <div class="d-flex">
-                                    <div class="user-card-points">$</div>
-                                    <div class="user-card-points">0</div>
-                                </div>
-                                <div class="user-card-title">UnityGains</div>
-                                <button class="btn user-card-btn unabled">Maximize Gain</button>
-                            </div>  
-                        </div>    -->
                     </div>
                 </div>  
 
@@ -142,7 +105,7 @@
         for (var i = 0; i < pointsArray.length; i++) {
             // Create a new col-3 div element
             var colDiv = document.createElement('div');
-            colDiv.className = 'col-3 user-card-profile';
+            colDiv.className = 'col-6 user-card-profile';
 
             // Create the content for the card
             var cardContent = document.createElement('div');
@@ -231,10 +194,14 @@ function get_user_info_dashboard() {
         document.querySelector('.user-prime').innerText = 'Prime';
 
         // Check if email is verified
-        if (data.emailVerifiedAt == '-000001-11-30T00:00:00.000000Z') {
+        if (data.emailVerifiedAt == 0) {
             // If email is not verified
             document.querySelector('.user-verification-profile').classList.add('user-unverified');
             document.querySelector('.user-verification-profile').innerText = 'Unverified';
+
+
+            // If email is not verified, show the email verification message
+            document.querySelector('.Page-Membership-email-div').classList.add('show-email-div');
         } else {
             // If email is verified
             document.querySelector('.user-verification-profile').classList.add('user-verified');

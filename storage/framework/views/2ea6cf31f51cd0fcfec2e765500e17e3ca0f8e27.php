@@ -12,11 +12,12 @@
     <link rel="stylesheet" href="<?php echo e(asset ('assets/css/Homepage/navbar.css')); ?>">
     <link rel="stylesheet" href="<?php echo e(asset ('assets/css/Homepage/footer.css')); ?>">
 
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
     
+    <link rel="stylesheet" href="<?php echo e(asset ('assets/css/aos.css')); ?>">
+    <script src="<?php echo e(asset ('assets/js/typed.js')); ?>"></script>
+    <script src="<?php echo e(asset ('assets/js/scrollReveal.js')); ?>"></script>
 
+    <meta name="robots" content="noindex,follow" />
 </head>
 <body>
     
@@ -24,7 +25,7 @@
     <nav class="navbar navbar-expand-lg fixed-top">
 
         <!-- Navigation Bar LOGO -->
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="/" alt="TRU-logo" aria-label="TRU Logo">
             <svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 0 191 40" fill="none">
                 <path d="M33.9415 0H6.0585C2.71248 0 0 2.71248 0 6.0585V33.9415C0 37.2875 2.71248 40 6.0585 40H33.9415C37.2875 40 40 37.2875 40 33.9415V6.0585C40 2.71248 37.2875 0 33.9415 0Z" fill="#414141"/>
                 <path d="M4.34863 14.5328H11.3052V17.3707H4.34863V14.5328ZM6.74284 27.7469C6.16343 27.1182 5.87372 26.1883 5.87372 24.9572V10.4346H9.28073V24.5098C9.28073 24.8544 9.35218 25.119 9.49507 25.3036C9.56643 25.3968 9.66115 25.4714 9.77059 25.5208C9.88002 25.5701 10.0007 25.5926 10.1216 25.5862H11.3052V28.6954H9.48094C8.23496 28.6925 7.32226 28.3763 6.74284 27.7469Z" fill="#E6E7E7"/>
@@ -54,7 +55,7 @@
                 <input type="text" class="form-control nav-search" id="nav-search" aria-describedby="emailHelp" placeholder="Search on TradersUnited">
             </div>
     
-            <div class="nav-search-btn">    
+            <div class="nav-search-btn gcse-search">    
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
                     <path d="M20.0308 20.7901C20.4908 21.2501 21.2008 20.5401 20.7408 20.0901L16.9908 16.3301C18.3063 14.8746 19.0334 12.9819 19.0308 11.0201C19.0308 6.63006 15.4608 3.06006 11.0708 3.06006C6.68084 3.06006 3.11084 6.63006 3.11084 11.0201C3.11084 15.4101 6.68084 18.9801 11.0708 18.9801C13.0508 18.9801 14.8808 18.2501 16.2808 17.0401L20.0308 20.7901ZM4.10984 11.0201C4.10984 7.18006 7.23984 4.06006 11.0698 4.06006C14.9098 4.06006 18.0298 7.18006 18.0298 11.0201C18.0298 14.8601 14.9098 17.9801 11.0698 17.9801C7.23984 17.9801 4.10984 14.8601 4.10984 11.0201Z" fill="white" stroke="white"/>
                 </svg>
@@ -80,10 +81,10 @@
                     <a class="nav-h11 dropdown-toggle active" data-bs-toggle="dropdown" aria-expanded="false" href="#">Organization</a>
                     <ul class="dropdown-menu dropdown-menu-dark">
                         <li><a class="dropdown-item" href="/about">About TRU</a></li>
-                        <li><a class="dropdown-item" href="#">Help Center</a></li>
-                        <li><a class="dropdown-item" href="#">Partnership Program</a></li>
-                        <li><a class="dropdown-item" href="#">Documents</a></li>
-                        <li><a class="dropdown-item" href="#">Feedback Page</a></li>
+                        <li><a class="dropdown-item" href="/help_center">Help Center</a></li>
+                        <li><a class="dropdown-item" href="/partnership_program">Partnership Program</a></li>
+                        <li><a class="dropdown-item" href="/documents">Documents</a></li>
+                        <li><a class="dropdown-item" href="/feedback">Feedback</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
@@ -102,29 +103,6 @@
                         <li><a class="dropdown-item" href="/blog">Blog</a></li>
                     </ul>
                 </li>
-                <!-- <li class="nav-item">
-                    <a class="nav-h11" href="/risk-protection-program">Rating</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-h11" href="/communitrade">CommuniTrade</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-h11" href="/unity-gains">Resources</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-h11" href="#">Advantages</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-h11" href="#">TechHub</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-h11 dropdown-toggle active" data-bs-toggle="dropdown" aria-expanded="false" href="#">Organization</a>
-                    <ul class="dropdown-menu dropdown-menu-dark">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </li> -->
             </ul>
             <ul class="navbar-nav navbar-login ms-auto">
                 <a class="nav-signUp" href="/register">SignUp</a>
@@ -136,48 +114,12 @@
     </nav>
     
     <?php echo $__env->yieldContent('content'); ?>
-
-    <style>
-        .preloader-content-text {
-
-            color: #fff;
-            /* H1 */
-            /* font-family: "Articulat CF"; */
-            font-size: 160px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 180px; /* 112.5% */
-        }
-
-        .preloader-content-text span {
-            color: #1681C2;
-            /* H1 */
-            /* font-family: "Articulat CF"; */
-            font-size: 160px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 180px; /* 112.5% */
-        }
-        
-
-        .i {  
-            color: #E7AA2D !important;
-            font-weight: 700 !important;
-            position: relative;
-        }
-        .i:before {
-            content: "ı";
-            position: absolute; 
-            font-weight: 700 !important;
-            color: #fff;
-        }
-    </style>
     
     <!-- Footer Start -->
     <footer id="footer-section" class="footer-section">
         <div class="footer-section-container row">
             <div class="col-12 footer-nav row">
-                <div class=" col-12 col-md-4 my-2">
+                <div class=" col-12 col-xl-4 my-2">
                     <div class="footer-logo">
                         <svg xmlns="http://www.w3.org/2000/svg" width="200" height="42" viewBox="0 0 200 42" fill="none">
                             <path d="M35.6386 0H6.36142C2.84811 0 0 2.84811 0 6.36142V35.6386C0 39.1519 2.84811 42 6.36142 42H35.6386C39.1519 42 42 39.1519 42 35.6386V6.36142C42 2.84811 39.1519 0 35.6386 0Z" fill="#414141"/>
@@ -223,43 +165,39 @@
                             </svg>
                         </div>
                     </div>
-                    <!-- <div class="footer-credits">
-                        2023. TradersUnited. All rights reserved
-                    </div> -->
+
                 </div>
-                <div class="col-6 col-md-2 my-2">
+                <div class="col-6 col-md-3 col-xl-2 my-2">
                     <div class="footer-nav-title">Legal Documents</div>
-                    <a class="footer-nav-link">Cookie Policy</a>
-                    <a class="footer-nav-link">Privacy Policy</a>
-                    <a class="footer-nav-link">Terms of Use</a>
-                    <a class="footer-nav-link">Risk Disclosure</a>
-                    <a class="footer-nav-link">Dispute Resolution</a>
-                    <a class="footer-nav-link">CommuniTrade</a>
-                    <a class="footer-nav-link">UnityGains</a>
-                    <!-- <a class="footer-nav-link">Privacy Policy</a> -->
+                    <a class="footer-nav-link" href="/cookie_policy">Cookie Policy</a>
+                    <a class="footer-nav-link" href="/privacy_policy">Privacy Policy</a>
+                    <a class="footer-nav-link" href="/terms_of_use">Terms of Use</a>
+                    <a class="footer-nav-link" href="/risk_disclosure">Risk Disclosure</a>
+                    <a class="footer-nav-link" href="/dispute_resolution">Dispute Resolution</a>
+                    <a class="footer-nav-link" href="/communitrade">CommuniTrade</a>
+                    <a class="footer-nav-link" href="/unitygains">UnityGains</a>
                 </div>
-                <div class="col-6 col-md-2 my-2">
+                <div class="col-6 col-md-3 col-xl-2 my-2">
                     <div class="footer-nav-title">Organization</div>
-                    <a class="footer-nav-link">About TRU</a>
-                    <a class="footer-nav-link">Help Center</a>
-                    <a class="footer-nav-link">Partnership Program</a>
-                    <a class="footer-nav-link">Documentation</a>
-                    <a class="footer-nav-link">Feedback Page</a>
-                    <!-- <a class="footer-nav-link">Reports</a>     -->
+                    <a class="footer-nav-link" href="/about">About TRU</a>
+                    <a class="footer-nav-link" href="/help_center">Help Center</a>
+                    <a class="footer-nav-link" href="/partnership_program">Partnership Program</a>
+                    <a class="footer-nav-link" href="/documents">Documentation</a>
+                    <a class="footer-nav-link" href="/feedback">Feedback</a>
                 </div>
-                <div class="col-6 col-md-2 my-2">
+                <div class="col-6 col-md-3 col-xl-2 my-2">
                     <div class="footer-nav-title">Advantages</div>
-                    <a class="footer-nav-link">CommuniTrade</a>
-                    <a class="footer-nav-link">Dispute Resolution</a>
-                    <a class="footer-nav-link">UnityGains</a>
+                    <a class="footer-nav-link" href="/communitrade">CommuniTrade</a>
+                    <a class="footer-nav-link" href="/dispute_resolution">Dispute Resolution</a>
+                    <a class="footer-nav-link" href="/unitygains">UnityGains</a>
                 </div>
-                <div class="col-6 col-md-2 my-2">
+                <div class="col-6 col-md-3 col-xl-2 my-2">
                     <div class="footer-nav-title">Resources</div>
-                    <a class="footer-nav-link">Education</a>
-                    <a class="footer-nav-link">Blog</a>
+                    <a class="footer-nav-link" href="/education">Education</a>
+                    <a class="footer-nav-link" href="/blog">Blog</a>
                 </div>
             </div>
-            <div class="row col-12 small-screen my-5">
+            <div class="row col-12 small-screen">
                 <div class="d-flex justify-content-center footer-socials-1 my-3">
                     <div class="footer-socials-logo">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -282,9 +220,6 @@
                         </svg>
                     </div>
                 </div>
-                <!-- <div class="footer-credits-1 text-center">
-                    2023. TradersUnited. All rights reserved
-                </div> -->
             </div>
             <div class="col-12 disclaimer">
                 <div class="disclaimer-text">
@@ -322,8 +257,6 @@
             </div>
         </div>
 
-        
-
         <ul class="navbar-nav d-flex navbar-link ms-auto">
             <li class="nav-item">
                 <a class="nav-h11" href="/risk-protection-program">Rating</a>
@@ -350,14 +283,18 @@
 
     
     <script src="<?php echo e(asset ('assets/js/bootstrap.js')); ?>"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+    <!-- <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script> -->
+
+    <script src="<?php echo e(asset ('assets/js/aos.js')); ?>"></script>
+    <script src="<?php echo e(asset ('assets/js/scrollReveal.min.js')); ?>"></script>
 
     <script>
 
         document.getElementById("loginButton").addEventListener("click", function() {
-            // Redirect to the /login page
-            window.location.href = "/login";
+            /* window.location.href = "/login"; */
+            window.location.href = "https://login.circle.so/sign_in?request_host=communitrade.tradersunited.org";
+            
         });
 
     </script>
@@ -378,7 +315,9 @@
                 });
             });
         });
+
     </script>
+
 
 </body>
 

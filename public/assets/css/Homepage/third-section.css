@@ -14,7 +14,7 @@
 /* First Card */
 
 .third-section-first-div {
-    margin-top: -118px;
+    /* margin-top: -118px; */
 
     height: auto;
     padding: 92px;
@@ -131,7 +131,7 @@
 
 .third-section-ads-1 {
     position: absolute;
-    top: -50px;
+    top: 138px;
     left: 56px;
     width: 120px;
     height: 600px;
@@ -141,7 +141,7 @@
 
 .third-section-ads-2 {
     position: absolute;
-    top: -50px;
+    top: 138px;
     right: 56px;
     width: 120px;
     height: 600px;

@@ -1,7 +1,7 @@
     @extends('header.subpage')
     @section('content')
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/> -->
 
         <link rel="stylesheet" href="{{ asset ('assets/css/RPP/index.css') }}">
         <link rel="stylesheet" href="{{ asset ('assets/css/CT/landing-section.css') }}">
@@ -11,6 +11,8 @@
         <link rel="stylesheet" href="{{ asset ('assets/css/CT/fifth-section.css') }}">
         <link rel="stylesheet" href="{{ asset ('assets/css/CT/sixth-section.css') }}">
         <link rel="stylesheet" href="{{ asset ('assets/css/RPP/seventh-section.css') }}">
+
+        <link rel="stylesheet" href="{{ asset ('assets/css/CT/swiper.css') }}">
 
     <div class="main">
     <!-- Fourth Section Start -->
@@ -28,7 +30,7 @@
                     TRU Connections, Real Traders
                 </div>
                 <div class="ct-landing-section-Btn-div">
-                    <a class="Be-a-TRU-btn">Be a TRU member</a>
+                    <a class="Be-a-TRU-btn" href="/register">Be a TRU member</a>
                 </div>
                 
             </div>
@@ -83,7 +85,7 @@
                             Interact and grow with the rest of the online trading community. Experience genuine connections and gain valuable trading insights for success in the financial market.
                         </div>
                         <div>
-                            <a class="Be-a-TRU-btn">Be a TRU member</a>
+                            <a class="Be-a-TRU-btn" href="/register">Be part of the CommuniTrade</a>
                         </div>
                     </div>
                 </div>  
@@ -91,6 +93,14 @@
             </div>
         </div>
     </section>
+
+    <style>
+        .swiper-slide {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    </style>
 
     
     <section id="ct-third-section" class="ct-third-section">
@@ -170,11 +180,15 @@
             <div class="ct-third-section-first-content d-flex col-12 col-xl-6" data-aos="flip-right" data-aos-duration="1000">
             <div class="mx-auto">
                 <div class="ct-third-section-first-content-img">
-                <img
-                    src="{{ asset ('assets/images/CT-images/third-section/third-section-img.png') }}"
+                <!-- <img
+                    src="{{ asset ('assets/images/CT-images/third-section/third-section-img.gif') }}"
                     alt=""
                     style="width: 100%"
-                />
+                /> -->
+                <video autoplay loop muted style="width:100%">
+                    <source src="{{ asset ('assets/images/CT-images/third-section/third-section-img.mp4') }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
                 </div>
             </div>
             </div> 
@@ -192,14 +206,14 @@
                     <div class="swiper-slide">
                         <div class="swiper-slide-div">
                         <div class="spotlight-img-div">
-                            <img src="{{ asset ('assets/images/CT-images/fourth-section/Vector_sanny.png') }}" alt="" srcset="">
+                            <img src="https://img.icons8.com/fluency/48/name--v1.png" alt="" srcset="">
                         </div>
                         <div class="spotlight-text-div">
                             <div class="spotlight-name">
-                                <span>Zara Al-Farsi</span>, United States
+                                <span>Jonas Quintos</span>, Philippines
                             </div>
                             <div class="spotlight-comment">
-                            “Hey fellow TRU members! Just wanna say that I’m really stocked to be part of this! So TLDR: I got roped into some shady trading with a sketchy broker, ended up getting scammed. But you know what they say, once bitten, twice shy. So, I kept trading but of course with way more caution. I was literally hunting for a legit broker, spending sleepless nights, and dreading the fact that I can’t enter any trade to get back my losses. But cue TRU and their killer services! Signed up not expecting much, but wow!!! The knowledge I’ve got through CommuniTrade and their broker ratings has been a game-changer! Now, I’m trading with a broker I know won’t scam me and I managed to get back the money I’ve lost.
+                                "Betting everything to say that TRU and CommuniTrade helped me eliminate all the rookie mistakes I used to have in me. I was really itching to start trading back before I joined TRU. But I never dared to. It’s a real pain to look for reliable trading information, brokers, you name it... I don’t want to risk my money! <br><br> Thankfully, I came across TRU’s FB post and saw their CommuniTrade! So far, all the advice I’ve been given has proven helpful and helped me turn some would-be losses into profits. Big thanks to TRU and all the awesome folks here!” 
                             </div>
                         </div>
                         </div>
@@ -207,14 +221,14 @@
                     <div class="swiper-slide">
                         <div class="swiper-slide-div">
                         <div class="spotlight-img-div">
-                            <img src="{{ asset ('assets/images/CT-images/fourth-section/Vector_sanny.png') }}" alt="" srcset="">
+                            <img src="https://img.icons8.com/fluency/48/name--v1.png" alt="" srcset="">
                         </div>
                         <div class="spotlight-text-div">
                             <div class="spotlight-name">
-                                <span>Zara Al-Farsi</span>, United States
+                                <span>Kgosi Molefe</span>, Botswana
                             </div>
                             <div class="spotlight-comment">
-                            “Hey fellow TRU members! Just wanna say that I’m really stocked to be part of this! So TLDR: I got roped into some shady trading with a sketchy broker, ended up getting scammed. But you know what they say, once bitten, twice shy. So, I kept trading but of course with way more caution. I was literally hunting for a legit broker, spending sleepless nights, and dreading the fact that I can’t enter any trade to get back my losses. But cue TRU and their killer services! Signed up not expecting much, but wow!!! The knowledge I’ve got through CommuniTrade and their broker ratings has been a game-changer! Now, I’m trading with a broker I know won’t scam me and I managed to get back the money I’ve lost.
+                                “Eyes here ETH Traders!! <br>ETH continues to soar toward $5,000 despite SEC regulatory review and its plan to define it as a security. Was not expecting that! 🤯 Anyway, here’s what ETH market looks like now… It’s been up since yesterday!” 
                             </div>
                         </div>
                         </div>
@@ -222,14 +236,14 @@
                     <div class="swiper-slide">
                         <div class="swiper-slide-div">
                         <div class="spotlight-img-div">
-                            <img src="{{ asset ('assets/images/CT-images/fourth-section/Vector_sanny.png') }}" alt="" srcset="">
+                            <img src="https://img.icons8.com/fluency/48/name--v1.png" alt="" srcset="">
                         </div>
                         <div class="spotlight-text-div">
                             <div class="spotlight-name">
-                                <span>Zara Al-Farsi</span>, United States
+                                <span>Sofia Ramirez</span>, Costa Rica
                             </div>
                             <div class="spotlight-comment">
-                            “Hey fellow TRU members! Just wanna say that I’m really stocked to be part of this! So TLDR: I got roped into some shady trading with a sketchy broker, ended up getting scammed. But you know what they say, once bitten, twice shy. So, I kept trading but of course with way more caution. I was literally hunting for a legit broker, spending sleepless nights, and dreading the fact that I can’t enter any trade to get back my losses. But cue TRU and their killer services! Signed up not expecting much, but wow!!! The knowledge I’ve got through CommuniTrade and their broker ratings has been a game-changer! Now, I’m trading with a broker I know won’t scam me and I managed to get back the money I’ve lost.
+                                “I’m more of a crypto trader but I wanna dip into other markets like forex and stocks. Good thing CommuniTrade has a dedicated spaces for all instruments out there, so I got to learn from forex and stock traders themselves. Made learning more exciting and I’d say easier. <br>Now, I think I’m ready to add some EUR/USD and USD/JPY to my portfolio. So exciteeddd!!” 
                             </div>
                         </div>
                         </div>
@@ -237,14 +251,14 @@
                     <div class="swiper-slide">
                         <div class="swiper-slide-div">
                         <div class="spotlight-img-div">
-                            <img src="{{ asset ('assets/images/CT-images/fourth-section/Vector_sanny.png') }}" alt="" srcset="">
+                            <img src="https://img.icons8.com/fluency/48/name--v1.png" alt="" srcset="">
                         </div>
                         <div class="spotlight-text-div">
                             <div class="spotlight-name">
-                                <span>Zara Al-Farsi</span>, United States
+                                <span>Ayanda Mmeriemikwu</span>, South Africa
                             </div>
                             <div class="spotlight-comment">
-                            “Hey fellow TRU members! Just wanna say that I’m really stocked to be part of this! So TLDR: I got roped into some shady trading with a sketchy broker, ended up getting scammed. But you know what they say, once bitten, twice shy. So, I kept trading but of course with way more caution. I was literally hunting for a legit broker, spending sleepless nights, and dreading the fact that I can’t enter any trade to get back my losses. But cue TRU and their killer services! Signed up not expecting much, but wow!!! The knowledge I’ve got through CommuniTrade and their broker ratings has been a game-changer! Now, I’m trading with a broker I know won’t scam me and I managed to get back the money I’ve lost.
+                                “Loving this community so far! I like how I can share everything I have in my mind without getting jumped on by bullies 💀 Also, I loveee how TRU always post trading discussions and keep it always beginner friendly. Hope we got to maintain the lovely energy of this community “ 
                             </div>
                         </div>
                         </div>
@@ -252,14 +266,14 @@
                     <div class="swiper-slide">
                         <div class="swiper-slide-div">
                         <div class="spotlight-img-div">
-                            <img src="{{ asset ('assets/images/CT-images/fourth-section/Vector_sanny.png') }}" alt="" srcset="">
+                            <img src="https://img.icons8.com/fluency/48/name--v1.png" alt="" srcset="">
                         </div>
                         <div class="spotlight-text-div">
                             <div class="spotlight-name">
-                                <span>Zara Al-Farsi</span>, United States
+                                <span>Melaine Tobin</span>, Bolivia
                             </div>
                             <div class="spotlight-comment">
-                            “Hey fellow TRU members! Just wanna say that I’m really stocked to be part of this! So TLDR: I got roped into some shady trading with a sketchy broker, ended up getting scammed. But you know what they say, once bitten, twice shy. So, I kept trading but of course with way more caution. I was literally hunting for a legit broker, spending sleepless nights, and dreading the fact that I can’t enter any trade to get back my losses. But cue TRU and their killer services! Signed up not expecting much, but wow!!! The knowledge I’ve got through CommuniTrade and their broker ratings has been a game-changer! Now, I’m trading with a broker I know won’t scam me and I managed to get back the money I’ve lost.
+                                “TLDR: I got roped into some shady trading with a sketchy broker, ended up getting scammed. But you know what they say, once bitten, twice shy. I kept trading but of course with way more caution. I was literally hunting for a legit broker, spending sleepless nights, and dreading the fact that I can’t enter any trade to get back my losses. But cue TRU and their killer services! Signed up not expecting much, but wow!!! The knowledge I’ve got through CommuniTrade and their broker ratings has been a game-changer!
                             </div>
                         </div>
                         </div>
@@ -267,18 +281,163 @@
                     <div class="swiper-slide">
                         <div class="swiper-slide-div">
                         <div class="spotlight-img-div">
-                            <img src="{{ asset ('assets/images/CT-images/fourth-section/Vector_sanny.png') }}" alt="" srcset="">
+                            <img src="https://img.icons8.com/fluency/48/name--v1.png" alt="" srcset="">
                         </div>
                         <div class="spotlight-text-div">
                             <div class="spotlight-name">
-                                <span>Zara Al-Farsi</span>, United States
+                                <span>Youssef Ben Ali</span>, Tunisia
                             </div>
                             <div class="spotlight-comment">
-                            “Hey fellow TRU members! Just wanna say that I’m really stocked to be part of this! So TLDR: I got roped into some shady trading with a sketchy broker, ended up getting scammed. But you know what they say, once bitten, twice shy. So, I kept trading but of course with way more caution. I was literally hunting for a legit broker, spending sleepless nights, and dreading the fact that I can’t enter any trade to get back my losses. But cue TRU and their killer services! Signed up not expecting much, but wow!!! The knowledge I’ve got through CommuniTrade and their broker ratings has been a game-changer! Now, I’m trading with a broker I know won’t scam me and I managed to get back the money I’ve lost.
+                                “Here’s the best advice; if you’re a new trader, you may WANT to join communiTrade. All their available resources are essential to be familiar with trading, plus the network of traders who are always willing to help you with your setup and trading worries. This just make your trading so much easier.”
                             </div>
                         </div>
                         </div>
                     </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide-div">
+                        <div class="spotlight-img-div">
+                            <img src="https://img.icons8.com/fluency/48/name--v1.png" alt="" srcset="">
+                        </div>
+                        <div class="spotlight-text-div">
+                            <div class="spotlight-name">
+                                <span>Anya Ivanova</span>, Belarus
+                            </div>
+                            <div class="spotlight-comment">
+                            “Any traders who want to diversify their portfolio? <br> I’ve found this helpful and informative article about portfolio diversification. You guys might want to give it a read, it’s very easy to understand!” 
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="swiper-slide-div">
+                        <div class="spotlight-img-div">
+                            <img src="https://img.icons8.com/fluency/48/name--v1.png" alt="" srcset="">
+                        </div>
+                        <div class="spotlight-text-div">
+                            <div class="spotlight-name">
+                                <span>Diego Martinez</span>, Uruguay
+                            </div>
+                            <div class="spotlight-comment">
+                                “For the small price I pay, it multiplies the benefits I’ve gotten! Really incredible job TRU!”
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="swiper-slide-div">
+                        <div class="spotlight-img-div">
+                            <img src="https://img.icons8.com/fluency/48/name--v1.png" alt="" srcset="">
+                        </div>
+                        <div class="spotlight-text-div">
+                            <div class="spotlight-name">
+                                <span>Alina Khamzin</span>, Kazakhstan
+                            </div>
+                            <div class="spotlight-comment">
+                            “A community like CommuniTrade gives me confidence in the high-stake world of online trading. The folks here are not only friendly, they’re also always happy to help me resolve my trading worries and give me advice for my trades.” 
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="swiper-slide-div">
+                        <div class="spotlight-img-div">
+                            <img src="https://img.icons8.com/fluency/48/name--v1.png" alt="" srcset="">
+                        </div>
+                        <div class="spotlight-text-div">
+                            <div class="spotlight-name">
+                                <span>Marcus Campbell</span>, Jamaica
+                            </div>
+                            <div class="spotlight-comment">
+                                “Hey folks, Im Kgosi! Just your friendly resident crypto enthusiast who’s currently crossing fingers for Solana and Dogecoin to keep soaring to the moon!!! How's everyone else doing with their BTC trades? Still bagging in those sweet profits?” 
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="swiper-slide-div">
+                        <div class="spotlight-img-div">
+                            <img src="https://img.icons8.com/fluency/48/name--v1.png" alt="" srcset="">
+                        </div>
+                        <div class="spotlight-text-div">
+                            <div class="spotlight-name">
+                                <span>Fatima Al-Hassan</span>, Oman
+                            </div>
+                            <div class="spotlight-comment">
+                                “Super STOCKEDDD with CommuniTrade and the entire community! Everyone is just super friendly and very helpful whenever I ask for advice. There are also beginner-friendly discussions and trading resources that are soo different from the ones you’ll find on the internet. Really a great place for new traders like me!!!” 
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="swiper-slide-div">
+                        <div class="spotlight-img-div">
+                            <img src="https://img.icons8.com/fluency/48/name--v1.png" alt="" srcset="">
+                        </div>
+                        <div class="spotlight-text-div">
+                            <div class="spotlight-name">
+                                <span>Valentina Guzmán</span>, Argentina
+                            </div>
+                            <div class="spotlight-comment">
+                                “TRU and CommuniTrade really made trading so much easier! I've learned more from interacting with fellow traders in CommuniTrade than I ever did on my own.”    
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="swiper-slide-div">
+                        <div class="spotlight-img-div">
+                            <img src="https://img.icons8.com/fluency/48/name--v1.png" alt="" srcset="">
+                        </div>
+                        <div class="spotlight-text-div">
+                            <div class="spotlight-name">
+                                <span>Anahit Baghdasaryan</span>,  Armenia
+                            </div>
+                            <div class="spotlight-comment">
+                            “You know, I’ve been trading for a while now (not to brag but they call me expert already lol!). Although, I know that there’s more out there and this is not IT yet. I know I gotta tap into a bigger, reliable network to improve how I trade. <br>Then Bam! I saw a post from my favorite influencer (Shout out Nicolette!) about the bustling trading community in TRU, and I really got hooked. I checked out their services and really fell in love with it. It has the resources and tools I need to better myself. Plus, I got to help newbie traders!”
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="swiper-slide-div">
+                        <div class="spotlight-img-div">
+                            <img src="https://img.icons8.com/fluency/48/name--v1.png" alt="" srcset="">
+                        </div>
+                        <div class="spotlight-text-div">
+                            <div class="spotlight-name">
+                                <span>Devita Patel</span>, Mauritius
+                            </div>
+                            <div class="spotlight-comment">
+                                “Someone said that I’ll surely love CommuniTrade like how I love bagging high returns. And I say that it’s never been truer! Loved how TRU peeps valued collaborations over competitions &lt;3” 
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="swiper-slide-div">
+                        <div class="spotlight-img-div">
+                            <img src="https://img.icons8.com/fluency/48/name--v1.png" alt="" srcset="">
+                        </div>
+                        <div class="spotlight-text-div">
+                            <div class="spotlight-name">
+                                <span>Carlos Morales</span>, Bolivia
+                            </div>
+                            <div class="spotlight-comment">
+                            “ATTENTION!!!! I bought SOL based on yalls advice and I’m bagging sweet returns. Gahd! I’ve never experienced fast returns like this before!"
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+
                 </div>
 
             <div class="swiper-pagination"></div>
@@ -424,7 +583,8 @@
                 <div class="accordion accordion-flush mx-auto" id="accordionFlushExample">
                     <div class="accordion-item" data-aos="fade-right" data-aos-duration="1000">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-1" aria-expanded="false" aria-controls="flush-1">
-                            <img src="{{ asset ('assets/images/RPP-images/sixth-section/Vector.png') }}" alt=""/>
+                            <img src="https://img.icons8.com/fluency/48/000000/gender-neutral-user--v1.png" alt=""/>
+                            
                             <div class="faq-send">
                                 <div class="faq-name">
                                     <span>Bandile Ngubane</span>, Maun, Botswana
@@ -460,7 +620,7 @@
 
                     <div class="accordion-item" data-aos="fade-right" data-aos-duration="1000">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-2" aria-expanded="false" aria-controls="flush-1">
-                            <img src="{{ asset ('assets/images/RPP-images/sixth-section/Vector.png') }}" alt=""/>
+                            <img src="https://img.icons8.com/fluency/48/000000/gender-neutral-user--v1.png" alt=""/>
                             <div class="faq-send">
                                 <div class="faq-name">
                                     <span>Jackson Santos</span>, Salvador, Brazil
@@ -496,7 +656,7 @@
 
                     <div class="accordion-item" data-aos="fade-right" data-aos-duration="1000">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-3" aria-expanded="false" aria-controls="flush-1">
-                            <img src="{{ asset ('assets/images/RPP-images/sixth-section/Vector.png') }}" alt=""/>
+                            <img src="https://img.icons8.com/fluency/48/000000/gender-neutral-user--v1.png" alt=""/>
                             <div class="faq-send">
                                 <div class="faq-name">
                                     <span>Ava Patel</span>, Visakhapatnam, India
@@ -532,7 +692,7 @@
 
                     <div class="accordion-item faq-hidden" data-aos="fade-right" data-aos-duration="1000">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-4" aria-expanded="false" aria-controls="flush-1">
-                            <img src="{{ asset ('assets/images/RPP-images/sixth-section/Vector.png') }}" alt=""/>
+                            <img src="https://img.icons8.com/fluency/48/000000/gender-neutral-user--v1.png" alt=""/>
                             <div class="faq-send">
                                 <div class="faq-name">
                                     <span>Manny García</span>, Barcelona, Spain 
@@ -568,7 +728,7 @@
 
                     <div class="accordion-item faq-hidden" data-aos="fade-right" data-aos-duration="1000">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-5" aria-expanded="false" aria-controls="flush-1">
-                            <img src="{{ asset ('assets/images/RPP-images/sixth-section/Vector.png') }}" alt=""/>
+                            <img src="https://img.icons8.com/fluency/48/000000/gender-neutral-user--v1.png" alt=""/>
                             <div class="faq-send">
                                 <div class="faq-name">
                                     <span>Oliver Müller</span>, Stuttgart, Germany 
@@ -604,7 +764,7 @@
 
                     <div class="accordion-item faq-hidden" data-aos="fade-right" data-aos-duration="1000">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-6" aria-expanded="false" aria-controls="flush-1">
-                            <img src="{{ asset ('assets/images/RPP-images/sixth-section/Vector.png') }}" alt=""/>
+                            <img src="https://img.icons8.com/fluency/48/000000/gender-neutral-user--v1.png" alt=""/>
                             <div class="faq-send">
                                 <div class="faq-name">
                                     <span>Andile Mbeki</span>, Ekurhuleni, South Africa 
@@ -640,7 +800,7 @@
 
                     <div class="accordion-item faq-hidden" data-aos="fade-right" data-aos-duration="1000">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-7" aria-expanded="false" aria-controls="flush-1">
-                            <img src="{{ asset ('assets/images/RPP-images/sixth-section/Vector.png') }}" alt=""/>
+                            <img src="https://img.icons8.com/fluency/48/000000/gender-neutral-user--v1.png" alt=""/>
                             <div class="faq-send">
                                 <div class="faq-name">
                                     <span>Amani Kwame Nkrumah</span>, Ethekwini, South Africa 
@@ -703,7 +863,7 @@
                     Succeed. <br>
                 </div>
                 <div class="rpp-section-Btn-div">
-                    <a class="Be-a-TRU-btn">Be a TRU member</a>
+                    <a class="Be-a-TRU-btn" href="/register">Be part of the CommuniTrade</a>
                 </div>
                 
                 </div>
@@ -748,7 +908,10 @@
     },
     pagination: {
         el: ".swiper-pagination",
+        clickable: true, // Enable clickable pagination      
     },
+    speed: 2000 // Change the speed to your desired value in milliseconds
+
     });
     
     AOS.init();

@@ -17,8 +17,10 @@
     <script src="https://unpkg.com/scrollreveal"></script>
     
 
+    <meta name="robots" content="noindex,follow" />
+
 </head>
-<body>
+<body style="background: #131313">
     
     
     <nav class="navbar navbar-expand-lg fixed-top">
@@ -80,10 +82,10 @@
                     <a class="nav-h11 dropdown-toggle active" data-bs-toggle="dropdown" aria-expanded="false" href="#">Organization</a>
                     <ul class="dropdown-menu dropdown-menu-dark">
                         <li><a class="dropdown-item" href="/about">About TRU</a></li>
-                        <li><a class="dropdown-item" href="#">Help Center</a></li>
-                        <li><a class="dropdown-item" href="#">Partnership Program</a></li>
-                        <li><a class="dropdown-item" href="#">Documents</a></li>
-                        <li><a class="dropdown-item" href="#">Feedback Page</a></li>
+                        <li><a class="dropdown-item" href="/help_center">Help Center</a></li>
+                        <li><a class="dropdown-item" href="/partnership_program">Partnership Program</a></li>
+                        <li><a class="dropdown-item" href="/documents">Documents</a></li>
+                        <li><a class="dropdown-item" href="/feedback">Feedback Page</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
@@ -227,36 +229,36 @@
                         2023. TradersUnited. All rights reserved
                     </div> -->
                 </div>
-                <div class="col-6 col-md-2 my-2">
+                <div class="col-6 col-md-3 col-xl-2 my-2">
                     <div class="footer-nav-title">Legal Documents</div>
-                    <a class="footer-nav-link">Cookie Policy</a>
-                    <a class="footer-nav-link">Privacy Policy</a>
-                    <a class="footer-nav-link">Terms of Use</a>
-                    <a class="footer-nav-link">Risk Disclosure</a>
-                    <a class="footer-nav-link">Dispute Resolution</a>
-                    <a class="footer-nav-link">CommuniTrade</a>
-                    <a class="footer-nav-link">UnityGains</a>
+                    <a class="footer-nav-link" href="/cookie_policy">Cookie Policy</a>
+                    <a class="footer-nav-link" href="/privacy_policy">Privacy Policy</a>
+                    <a class="footer-nav-link" href="/terms_of_use">Terms of Use</a>
+                    <a class="footer-nav-link" href="/risk_disclosure">Risk Disclosure</a>
+                    <a class="footer-nav-link" href="/dispute_resolution">Dispute Resolution</a>
+                    <a class="footer-nav-link" href="/communitrade">CommuniTrade</a>
+                    <a class="footer-nav-link" href="/unitygains">UnityGains</a>
                     <!-- <a class="footer-nav-link">Privacy Policy</a> -->
                 </div>
-                <div class="col-6 col-md-2 my-2">
+                <div class="col-6 col-md-3 col-xl-2 my-2">
                     <div class="footer-nav-title">Organization</div>
-                    <a class="footer-nav-link">About TRU</a>
-                    <a class="footer-nav-link">Help Center</a>
-                    <a class="footer-nav-link">Partnership Program</a>
-                    <a class="footer-nav-link">Documentation</a>
-                    <a class="footer-nav-link">Feedback Page</a>
+                    <a class="footer-nav-link" href="/about">About TRU</a>
+                    <a class="footer-nav-link" href="/help_center">Help Center</a>
+                    <a class="footer-nav-link" href="/partnership_program">Partnership Program</a>
+                    <a class="footer-nav-link" href="/documents">Documentation</a>
+                    <a class="footer-nav-link" href="/feedback">Feedback</a>
                     <!-- <a class="footer-nav-link">Reports</a>     -->
                 </div>
-                <div class="col-6 col-md-2 my-2">
+                <div class="col-6 col-md-3 col-xl-2 my-2">
                     <div class="footer-nav-title">Advantages</div>
-                    <a class="footer-nav-link">CommuniTrade</a>
-                    <a class="footer-nav-link">Dispute Resolution</a>
-                    <a class="footer-nav-link">UnityGains</a>
+                    <a class="footer-nav-link" href="/communitrade">CommuniTrade</a>
+                    <a class="footer-nav-link" href="/dispute_resolution">Dispute Resolution</a>
+                    <a class="footer-nav-link" href="/unitygains">UnityGains</a>
                 </div>
-                <div class="col-6 col-md-2 my-2">
+                <div class="col-6 col-md-3 col-xl-2 my-2">
                     <div class="footer-nav-title">Resources</div>
-                    <a class="footer-nav-link">Education</a>
-                    <a class="footer-nav-link">Blog</a>
+                    <a class="footer-nav-link" href="/education">Education</a>
+                    <a class="footer-nav-link" href="/blog">Blog</a>
                 </div>
             </div>
             <div class="row col-12 small-screen my-5">
@@ -282,9 +284,6 @@
                         </svg>
                     </div>
                 </div>
-                <!-- <div class="footer-credits-1 text-center">
-                    2023. TradersUnited. All rights reserved
-                </div> -->
             </div>
             <div class="col-12 disclaimer">
                 <div class="disclaimer-text">
@@ -295,12 +294,10 @@
                 </div>
             </div>
 
-            <div class="footer-credits text-center">
-                        2023. TradersUnited. All rights reserved
-                    </div>
+            <div class="footer-credits text-center">2023. TradersUnited. All rights reserved</div>
         </div>
     </footer>
-        <!-- Footer End -->
+    <!-- Footer End -->
 
 
 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
@@ -356,9 +353,11 @@
     <script>
 
         document.getElementById("loginButton").addEventListener("click", function() {
-            // Redirect to the /login page
-            window.location.href = "/login";
+            /* window.location.href = "/login"; */
+            window.location.href = "https://login.circle.so/sign_in?request_host=communitrade.tradersunited.org";
+            
         });
+
 
     </script>
 

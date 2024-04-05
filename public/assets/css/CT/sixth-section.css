@@ -44,6 +44,7 @@
 }
 
 .faq-comment {
+    max-width: 720px;
     color: #131313;
     /* body-text-normal */
     /* font-family: Bahnschrift; */

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{ asset ('assets/css/bootstrap.css') }}">
     <link rel="stylesheet" href="{{ asset ('assets/css/auth/auth.css') }}">
 
+    <meta name="robots" content="noindex,follow" />
 </head>
 <body>
 

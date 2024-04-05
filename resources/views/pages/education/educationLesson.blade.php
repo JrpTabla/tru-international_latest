@@ -5,7 +5,6 @@
 <link rel="stylesheet" href="{{ asset ('assets/css/education/el-landing-section.css') }}">
 <link rel="stylesheet" href="{{ asset ('assets/css/education/el-second-section.css') }}">
 
-
 <style>
     .content-div li {
         line-height: 36px;

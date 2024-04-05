@@ -43,6 +43,7 @@
     left:50%;
     transform: translate(-50%,-50%);
     top: 250px;
+    overflow: visible !important;
 }
 
 
@@ -69,9 +70,8 @@
         linear-gradient(180deg, #1681c2 -20.18%, #9ad9ff 154.97%);
     padding: 24px;
     box-shadow: 0px 12px 24px 0px rgba(0, 0, 0, 0.1);
+    align-self: center;
 }
-
-
 
 .swiper-button-prev,
 .swiper-button-next {
@@ -118,6 +118,7 @@ right: 99px;
 
 .spotlight-img-div img {
     margin-bottom: 14px;
+    border-radius: 50%;
 }
 
 

@@ -13,7 +13,7 @@ class UserController extends Controller
         $firstName = $user->first_name; // Retrieve the first name
         $lastName = $user->last_name; // Retrieve the last name
         $userId = numhash($user->id); // Retrieve the user's ID
-        $emailVerifiedAt = $user->email_verified_at; // Retrieve the email verified at
+        $emailVerifiedAt = $user->email_verified; // Retrieve the email verified at
         $country = $user->country;
 
         return response()->json([

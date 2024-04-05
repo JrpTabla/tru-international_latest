@@ -44,11 +44,13 @@
 
     const url = window.location.href;
     const urlSegments = url.split("/");
-    const topic_Id = urlSegments[urlSegments.length - 1];
+    const topic_name = urlSegments[urlSegments.length - 1];
+    let topic_id;
 
     document.addEventListener("DOMContentLoaded", () => {
         handleDifficultyData();
-        selectedDifficultyValue(0);
+        // handleTopicData();
+            selectedDifficultyValue(0);
     });
 
     function handleDifficultyData() {
@@ -103,7 +105,30 @@
 
     function selectedDifficultyValue(difficulty_id) {
 
-        fetch(`/api/view-education-course/${topic_Id}/${difficulty_id}`)
+        fetch(`/api/retrieve-education-topic-id/${topic_name}`)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => {
+            const topic_id = data.hashed_id;
+            HandleDataCourseTable(topic_id, difficulty_id);
+        })
+        .catch(error => {
+            console.error('Error fetching education topics:', error);
+            alert('An error occurred while fetching education topics. Please try again later.');
+            window.location.href = "/tradegeek/Forex";
+        });
+
+
+
+    }
+
+
+    function HandleDataCourseTable(topic_id, difficulty_id) {
+        fetch(`/api/view-education-course/${topic_id}/${difficulty_id}`)
             .then(response => response.json())
             .then(data => {
                 /* console.log(data); */
@@ -146,7 +171,7 @@
                     });
                 }
             })
-        .catch(error => console.error('Error fetching education topics:', error));
+        .catch(error => console.error('Error fetching education topics:', error)); 
     }
 
     function GoToCourse(course_id) {

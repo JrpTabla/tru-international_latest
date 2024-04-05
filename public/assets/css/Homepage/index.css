@@ -73,7 +73,7 @@
 
 .main {
     background-color: #131313;
-    margin-bottom: 479px;
+    margin-bottom: 550px;
     transition: background-color 1s;
     border-radius: 0 0 48px 48px ;
     overflow: hidden;
@@ -131,29 +131,165 @@ body[data-aos-delay='7000'] [data-aos],
 }
 
 
+.preloader-content-text {
 
-@media (max-width: 1024px) {
+    color: #fff;
+    /* H1 */
+    /* font-family: "Articulat CF"; */
+    font-size: 160px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; /* 112.5% */
+}
 
-    .main {
-        margin-bottom: 525px;
+.preloader-content-text span {
+    color: #1681C2;
+    /* H1 */
+    /* font-family: "Articulat CF"; */
+    font-size: 160px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; /* 112.5% */
+}
+
+
+.i {  
+    color: #E7AA2D !important;
+    font-weight: 700 !important;
+    position: relative;
+}
+.i:before {
+    content: "ı";
+    position: absolute; 
+    font-weight: 700 !important;
+    color: #fff;
+}
+
+@media (max-width: 1500px) {
+
+    .preloader-content img {
+        width: 200px;
     }
+
+    .preloader-content-text {
+
+
+        font-size: 120px;
+
+    }
+    
+    .preloader-content-text span {
+
+        font-size: 120px;
+    }
+    
+    
+
 }
 
 
 
+@media (max-width: 1400px) {
+
+    .main {
+        margin-bottom: 525px;
+    }
 
 
-@media (max-width: 768px) {
+    .preloader-content img {
+        width: 150px;
+    }
+
+    .preloader-content-text {
+
+
+        font-size: 100px;
+
+    }
+    
+    .preloader-content-text span {
+
+        font-size: 100px;
+    }
+    
+}
+
+
+@media (max-width: 1200px) {
+
+    .main {
+        margin-bottom: 675px;
+    }
+
+    .preloader-content-text {
+
+
+        font-size: 72px;
+
+    }
+    
+    .preloader-content-text span {
+
+        font-size: 72px;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .main {
+        margin-bottom: 700px;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .main {
+        margin-bottom: 750px;
+    }
+}
+
+
+@media (max-width: 767px) {
 
     .main {
 
         margin-bottom: 50px;
     }
    
+    .footer-section {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .preloader-content {
+        flex-direction: column;
+    }
+
+    .preloader-content-text {
 
 
+        font-size: 42px;
 
+    }
+    
+    .preloader-content-text span {
+
+        font-size: 42px;
+    }
 }
+
+
+@media (max-width: 550px) {
+
+
+
+    .preloader-content {
+        flex-direction: column;
+    }
+}
+
+
+
 
 .typed-cursor {
     opacity: 0 !important;

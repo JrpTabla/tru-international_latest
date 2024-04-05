@@ -32,13 +32,31 @@ class EducationCourseController extends Controller
        
     }
 
+    public function RetrieveID($name)
+    {
+        // Find the education level by name_topic
+        $educationTopic = EducationTopic::where('name_topic', $name)->first();
+
+        // Check if a record was found
+        if ($educationTopic) {
+            // Hash the ID using numhash()
+            $hashedID = numhash($educationTopic->id);
+
+            // Return the hashed ID
+            return response()->json(['hashed_id' => $hashedID]);
+        } else {
+            // If no record was found, return an error response
+            return response()->json(['error' => 'Education topic not found.'], 404);
+        }
+    }
+
+
     public function index($topic_id, $difficulty_id)
     {
         $hashed_difficulty_id = numhash($difficulty_id);
         $hashed_topic_id = numhash($topic_id);
 
-        $educationCoursesQuery = EducationCourse::where('delete_flg', 0)
-                                                ->where('education_topic_id', $hashed_topic_id);
+        $educationCoursesQuery = EducationCourse::where('delete_flg', 0)->where('education_topic_id', $hashed_topic_id);
 
         if ($difficulty_id != 0) {
             $educationCoursesQuery->where('education_level_id', $hashed_difficulty_id);

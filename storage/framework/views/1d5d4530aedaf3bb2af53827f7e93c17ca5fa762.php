@@ -10,9 +10,12 @@
   <link rel="stylesheet" href="<?php echo e(asset ('assets/css/RPP/third-section.css')); ?>">
   <link rel="stylesheet" href="<?php echo e(asset ('assets/css/RPP/fourth-section.css')); ?>">
   <link rel="stylesheet" href="<?php echo e(asset ('assets/css/RPP/fifth-section.css')); ?>">
-
+  
   <link rel="stylesheet" href="<?php echo e(asset ('assets/css/CT/sixth-section.css')); ?>">
   <link rel="stylesheet" href="<?php echo e(asset ('assets/css/RPP/seventh-section.css')); ?>">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@20.0.5/build/css/intlTelInput.css">
+  <link rel="stylesheet" href="<?php echo e(asset ('assets/css/about/nineth-section.css')); ?>">
 
 <div class="main">
   <!-- Fourth Section Start -->
@@ -28,7 +31,7 @@
               Navigate the online trading scene with unshakable confidence
             </div>
             <div class="rpp-landing-section-Btn-div">
-                <a class="Be-a-TRU-btn">Be a TRU member</a>
+                <a class="Be-a-TRU-btn" href="/register">Be a TRU member</a>
             </div>
           </div>
         </div>
@@ -53,68 +56,64 @@
         <div class="rpp-second-section-first-content row col-12 col-xl-7">
           <div class="m-auto">
             <div class="rpp-second-section-first-content-title">
-              RPP <br />
-              Claims Stats
+              DRS <br>
+              Resolution Stats 
             </div>
             <div class="rpp-second-section-first-content-description">
-              Traders United dedicates a significant portion of the
-              organization’s net profit to support you and every member. We
-              aim to provide our community a lifeline to recover from an
-              unfortunate loss from unscrupulous brokers and service
-              providers.
+              Traders United dedicates 10% of its profit for continuous and effective operation of the Dispute Resolution Support. This dedicated trader-centric service aims to support and resolve disputes against unscrupulous brokers and service providers.
             </div>
           </div>
         </div>
 
         <div class="rpp-section-second-content d-flex col-12 col-xl-5">
           <div class="m-auto">
-            <div class="rpp-second-section-content-img">
-            <svg xmlns="http://www.w3.org/2000/svg" width="196" height="349" viewBox="0 0 196 349" fill="none" class="circle-blue">
-              <path d="M169.326 26.2806C82.9894 34.3071 19.5068 110.803 27.5333 197.14C32.6998 252.712 66.2336 298.815 112.5 322.475" stroke="url(#paint0_linear_570_2600)" stroke-width="52" stroke-linecap="round"/>
-              <defs>
-                <linearGradient id="paint0_linear_570_2600" x1="108.531" y1="4.31384" x2="48" y2="353" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#9AD9FF"/>
-                  <stop offset="1" stop-color="#1681C2"/>
-                </linearGradient>
-              </defs>
-            </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" width="337" height="254" viewBox="0 0 337 254" fill="none" class="circle-green">
-              <path d="M20.3213 103.679C60.9703 27.0886 156.011 -2.04743 232.602 38.6016C303.652 76.3104 333.865 160.827 305.413 234" stroke="url(#paint0_linear_570_2599)" stroke-width="40" stroke-linecap="round"/>
-              <defs>
-                <linearGradient id="paint0_linear_570_2599" x1="314.5" y1="221.5" x2="196" y2="29.0001" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#8ECB86"/>
-                  <stop offset="1" stop-color="#569E4C"/>
-                </linearGradient>
-              </defs>
-            </svg>
+            <div class="rpp-second-section-content-img" data-aos="flip-left" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000">
+              <svg xmlns="http://www.w3.org/2000/svg" width="196" height="349" viewBox="0 0 196 349" fill="none" class="circle-blue">
+                <path d="M169.326 26.2806C82.9894 34.3071 19.5068 110.803 27.5333 197.14C32.6998 252.712 66.2336 298.815 112.5 322.475" stroke="url(#paint0_linear_570_2600)" stroke-width="52" stroke-linecap="round"/>
+                <defs>
+                  <linearGradient id="paint0_linear_570_2600" x1="108.531" y1="4.31384" x2="48" y2="353" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#9AD9FF"/>
+                    <stop offset="1" stop-color="#1681C2"/>
+                  </linearGradient>
+                </defs>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="337" height="254" viewBox="0 0 337 254" fill="none" class="circle-green">
+                <path d="M20.3213 103.679C60.9703 27.0886 156.011 -2.04743 232.602 38.6016C303.652 76.3104 333.865 160.827 305.413 234" stroke="url(#paint0_linear_570_2599)" stroke-width="40" stroke-linecap="round"/>
+                <defs>
+                  <linearGradient id="paint0_linear_570_2599" x1="314.5" y1="221.5" x2="196" y2="29.0001" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#8ECB86"/>
+                    <stop offset="1" stop-color="#569E4C"/>
+                  </linearGradient>
+                </defs>
+              </svg>
 
-            <svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 314 314" fill="none" class="circle-yellow">
-              <defs>
-                <linearGradient id="paint0_linear_1_6105" x1="174.913" y1="270.165" x2="245.523" y2="163.17" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#FFC501"/>
-                  <stop offset="1" stop-color="#B17B0D"/>
-                </linearGradient>
-              </defs>
-              <path d="M157 2
-                      a 155 155 0 0 1 0 310
-                      a 155 155 0 0 1 0 -310"
-                    
-                    stroke="url(#paint0_linear_1_6105)"
-                    stroke-width="28" stroke-linecap="round"/>
-            </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 314 314" fill="none" class="circle-yellow">
+                <defs>
+                  <linearGradient id="paint0_linear_1_6105" x1="174.913" y1="270.165" x2="245.523" y2="163.17" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#FFC501"/>
+                    <stop offset="1" stop-color="#B17B0D"/>
+                  </linearGradient>
+                </defs>
+                <path d="M157 2
+                        a 155 155 0 0 1 0 310
+                        a 155 155 0 0 1 0 -310"
+                      
+                      stroke="url(#paint0_linear_1_6105)"
+                      stroke-width="28" stroke-linecap="round"/>
+              </svg>
 
-            <svg xmlns="http://www.w3.org/2000/svg" width="105" height="119" viewBox="0 0 105 119" fill="none" class="circle-logo">
-              <path d="M91.8545 96.9211C80.9885 106.983 67.9322 114.369 53.7262 118.502C52.6987 118.801 51.6072 118.801 50.5796 118.502C36.3736 114.369 23.3173 106.983 12.4513 96.9211C8.48262 93.0906 5.33284 88.4944 3.19272 83.411C1.05261 78.3276 -0.0332923 72.8627 0.000777539 67.3473L0.525799 20.0492C0.528627 19.5391 0.688539 19.0423 0.983781 18.6263C1.27902 18.2103 1.69526 17.8954 2.17587 17.7243L51.3029 0.150036C51.852 -0.0498493 52.454 -0.0498493 53.0031 0.150036L102.13 17.7243C102.611 17.8954 103.027 18.2103 103.322 18.6263C103.617 19.0423 103.777 19.5391 103.78 20.0492L104.305 67.4223C104.336 72.9262 103.249 78.379 101.109 83.4499C98.9684 88.5208 95.82 93.1039 91.8545 96.9211Z" fill="#131313"/>
-              <path d="M73.7568 48.1443C79.7769 48.1443 82.4633 51.3485 82.4633 56.0093C82.4633 60.6376 79.7769 63.8743 73.7568 63.8743H69.6139V70.8006H64.6619V48.1443H73.7568ZM73.692 59.6019C76.0224 59.6019 77.22 58.2102 77.22 56.0093C77.22 53.776 76.0224 52.4166 73.692 52.4166H69.6139V59.6019H73.692Z" fill="white"/>
-              <path d="M53.4018 48.1443C59.4219 48.1443 62.1083 51.3485 62.1083 56.0093C62.1083 60.6376 59.4219 63.8743 53.4018 63.8743H49.2589V70.8006H44.3069V48.1443H53.4018ZM53.3371 59.6019C55.6674 59.6019 56.865 58.2102 56.865 56.0093C56.865 53.776 55.6674 52.4166 53.3371 52.4166H49.2589V59.6019H53.3371Z" fill="white"/>
-              <path d="M41.1043 67.0138C41.1043 68.891 41.2014 69.8297 41.7516 70.8006H36.7996C36.2817 69.8297 36.1522 68.891 36.1522 67.0138V65.4926C36.1522 63.7124 34.9547 62.5796 33.0127 62.5796H27.6075V70.8006H22.6555V48.1443H32.4301C38.3531 48.1443 40.8777 51.122 40.8777 54.9736C40.8777 57.8218 39.3565 59.343 37.7382 60.3463C40.2304 61.5115 41.1043 63.0327 41.1043 65.3307V67.0138ZM32.2359 58.6957C34.8576 58.6957 35.7638 57.5952 35.7638 55.4267C35.7638 53.3876 34.5339 52.4166 32.333 52.4166H27.6075V58.6957H32.2359Z" fill="white"/>
-            </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="105" height="119" viewBox="0 0 105 119" fill="none" class="circle-logo">
+                <path d="M91.8545 96.9211C80.9885 106.983 67.9322 114.369 53.7262 118.502C52.6987 118.801 51.6072 118.801 50.5796 118.502C36.3736 114.369 23.3173 106.983 12.4513 96.9211C8.48262 93.0906 5.33284 88.4944 3.19272 83.411C1.05261 78.3276 -0.0332923 72.8627 0.000777539 67.3473L0.525799 20.0492C0.528627 19.5391 0.688539 19.0423 0.983781 18.6263C1.27902 18.2103 1.69526 17.8954 2.17587 17.7243L51.3029 0.150036C51.852 -0.0498493 52.454 -0.0498493 53.0031 0.150036L102.13 17.7243C102.611 17.8954 103.027 18.2103 103.322 18.6263C103.617 19.0423 103.777 19.5391 103.78 20.0492L104.305 67.4223C104.336 72.9262 103.249 78.379 101.109 83.4499C98.9684 88.5208 95.82 93.1039 91.8545 96.9211Z" fill="#131313"/>
+                <path d="M73.7568 48.1443C79.7769 48.1443 82.4633 51.3485 82.4633 56.0093C82.4633 60.6376 79.7769 63.8743 73.7568 63.8743H69.6139V70.8006H64.6619V48.1443H73.7568ZM73.692 59.6019C76.0224 59.6019 77.22 58.2102 77.22 56.0093C77.22 53.776 76.0224 52.4166 73.692 52.4166H69.6139V59.6019H73.692Z" fill="white"/>
+                <path d="M53.4018 48.1443C59.4219 48.1443 62.1083 51.3485 62.1083 56.0093C62.1083 60.6376 59.4219 63.8743 53.4018 63.8743H49.2589V70.8006H44.3069V48.1443H53.4018ZM53.3371 59.6019C55.6674 59.6019 56.865 58.2102 56.865 56.0093C56.865 53.776 55.6674 52.4166 53.3371 52.4166H49.2589V59.6019H53.3371Z" fill="white"/>
+                <path d="M41.1043 67.0138C41.1043 68.891 41.2014 69.8297 41.7516 70.8006H36.7996C36.2817 69.8297 36.1522 68.891 36.1522 67.0138V65.4926C36.1522 63.7124 34.9547 62.5796 33.0127 62.5796H27.6075V70.8006H22.6555V48.1443H32.4301C38.3531 48.1443 40.8777 51.122 40.8777 54.9736C40.8777 57.8218 39.3565 59.343 37.7382 60.3463C40.2304 61.5115 41.1043 63.0327 41.1043 65.3307V67.0138ZM32.2359 58.6957C34.8576 58.6957 35.7638 57.5952 35.7638 55.4267C35.7638 53.3876 34.5339 52.4166 32.333 52.4166H27.6075V58.6957H32.2359Z" fill="white"/>
+              </svg>
             </div>
           </div>
         </div>
 
         <div class="rpp-second-section-third-content row d-flex col-12">
-          <div class="col-12 col-md-3 rpp-second-section-graph-1" data-aos="flip-up" data-aos-duration="1000">
+          <div class="col-12 col-md-3 rpp-second-section-graph-1" data-aos-id="super-duper" data-aos="flip-up" data-aos-duration="2000" data-bs-placement="right" data-bs-custom-class="closed-case-popover" data-bs-toggle="popover" data-bs-title="Closed Cases" data-bs-content="Disputes tagged as “Closed Case” have been successfully accommodated and resolved">
             <svg xmlns="http://www.w3.org/2000/svg" width="31" height="36" viewBox="0 0 31 36" fill="none" >
               <path opacity="0.48" d="M25.2864 0.75H5.33483C2.39563 0.75 0.0129395 3.13269 0.0129395 6.07189V29.9281C0.0129395 32.8673 2.39563 35.25 5.33483 35.25H25.2864C28.2256 35.25 30.6083 32.8673 30.6083 29.9281V6.07189C30.6083 3.13269 28.2256 0.75 25.2864 0.75Z" fill="white"/>
               <path d="M11.5571 24.5105C11.5299 24.906 11.3536 25.2764 11.0638 25.5469C10.7741 25.8174 10.3924 25.9679 9.99598 25.9679C9.59956 25.9679 9.2179 25.8174 8.92813 25.5469C8.63835 25.2764 8.46205 24.906 8.43484 24.5105V18.48C8.42012 18.2659 8.44956 18.0512 8.52135 17.849C8.59313 17.6468 8.70573 17.4615 8.85214 17.3047C8.99854 17.1479 9.17563 17.0229 9.37241 16.9374C9.56918 16.8519 9.78144 16.8077 9.99598 16.8077C10.2105 16.8077 10.4228 16.8519 10.6196 16.9374C10.8163 17.0229 10.9934 17.1479 11.1398 17.3047C11.2862 17.4615 11.3988 17.6468 11.4706 17.849C11.5424 18.0512 11.5718 18.2659 11.5571 18.48V24.5105ZM16.8716 24.5105C16.8716 24.9235 16.7075 25.3197 16.4155 25.6117C16.1234 25.9038 15.7272 26.0679 15.3142 26.0679C14.9004 26.0679 14.5035 25.9041 14.2103 25.6122C13.917 25.3203 13.7513 24.9242 13.7493 24.5105V9.3346C13.7513 8.92018 13.9168 8.52329 14.2098 8.23025C14.5029 7.9372 14.8998 7.77172 15.3142 7.76978C15.7279 7.77173 16.124 7.93745 16.4159 8.2307C16.7078 8.52395 16.8716 8.92086 16.8716 9.3346V24.5105ZM22.1861 24.5105C22.1589 24.906 21.9826 25.2764 21.6928 25.5469C21.4031 25.8174 21.0214 25.9679 20.625 25.9679C20.2286 25.9679 19.8469 25.8174 19.5571 25.5469C19.2674 25.2764 19.0911 24.906 19.0639 24.5105V14.9148C19.0658 14.5011 19.2315 14.105 19.5248 13.8131C19.818 13.5212 20.2149 13.3574 20.6287 13.3574C21.0434 13.3594 21.4408 13.5237 21.7359 13.815C21.8796 13.9597 21.9933 14.1313 22.0706 14.3201C22.1478 14.5088 22.1871 14.7109 22.1861 14.9148V24.5105Z" fill="#1681C2"/>
@@ -125,23 +124,14 @@
             <div class="rpp-second-section-graph-percent ms-auto">
               43%
             </div>
-          </div>
-
-
-          <div class="col-12 col-md-3 rpp-second-section-graph-2" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000">
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="36" viewBox="0 0 32 36" fill="none">
-              <path opacity="0.48" d="M26.0234 0.75H6.07189C3.13269 0.75 0.75 3.13269 0.75 6.07189V29.9281C0.75 32.8673 3.13269 35.25 6.07189 35.25H26.0234C28.9626 35.25 31.3453 32.8673 31.3453 29.9281V6.07189C31.3453 3.13269 28.9626 0.75 26.0234 0.75Z" fill="white"/>
-              <path d="M12.2942 24.5105C12.267 24.906 12.0907 25.2764 11.8009 25.5469C11.5111 25.8174 11.1295 25.9679 10.733 25.9679C10.3366 25.9679 9.95497 25.8174 9.66519 25.5469C9.37541 25.2764 9.19911 24.906 9.1719 24.5105V18.48C9.15718 18.2659 9.18662 18.0512 9.25841 17.849C9.33019 17.6468 9.44279 17.4615 9.5892 17.3047C9.7356 17.1479 9.91269 17.0229 10.1095 16.9374C10.3062 16.8519 10.5185 16.8077 10.733 16.8077C10.9476 16.8077 11.1598 16.8519 11.3566 16.9374C11.5534 17.0229 11.7305 17.1479 11.8769 17.3047C12.0233 17.4615 12.1359 17.6468 12.2077 17.849C12.2795 18.0512 12.3089 18.2659 12.2942 18.48V24.5105ZM17.6087 24.5105C17.6087 24.9235 17.4446 25.3197 17.1525 25.6117C16.8604 25.9038 16.4643 26.0679 16.0512 26.0679C15.6375 26.0679 15.2406 25.9041 14.9473 25.6122C14.6541 25.3203 14.4884 24.9242 14.4864 24.5105V9.3346C14.4884 8.92018 14.6538 8.52329 14.9469 8.23025C15.2399 7.9372 15.6368 7.77172 16.0512 7.76978C16.465 7.77173 16.8611 7.93745 17.153 8.2307C17.4448 8.52395 17.6087 8.92086 17.6087 9.3346V24.5105ZM22.9232 24.5105C22.896 24.906 22.7197 25.2764 22.4299 25.5469C22.1401 25.8174 21.7585 25.9679 21.3621 25.9679C20.9656 25.9679 20.584 25.8174 20.2942 25.5469C20.0044 25.2764 19.8281 24.906 19.8009 24.5105V14.9148C19.8029 14.5011 19.9686 14.105 20.2618 13.8131C20.5551 13.5212 20.952 13.3574 21.3657 13.3574C21.7804 13.3594 22.1778 13.5237 22.4729 13.815C22.6166 13.9597 22.7304 14.1313 22.8076 14.3201C22.8849 14.5088 22.9242 14.7109 22.9232 14.9148V24.5105Z" fill="#569E4C"/>
+            <svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
+              <path d="M12.8365 10.8836C12.8365 10.4212 12.4617 10.0464 11.9993 10.0464C11.537 10.0464 11.1621 10.4212 11.1621 10.8836V17.5813C11.1621 18.0436 11.537 18.4185 11.9993 18.4185C12.4617 18.4185 12.8365 18.0436 12.8365 17.5813V10.8836Z" fill="#131313"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M12 0C5.37258 0 0 5.37258 0 12C0 18.6275 5.37258 24 12 24C18.6275 24 24 18.6275 24 12C24 5.37258 18.6275 0 12 0ZM1.67442 12C1.67442 6.29734 6.29734 1.67442 12 1.67442C17.7026 1.67442 22.3256 6.29734 22.3256 12C22.3256 17.7026 17.7026 22.3256 12 22.3256C6.29734 22.3256 1.67442 17.7026 1.67442 12Z" fill="#131313"/>
+              <path d="M13.1163 7.53474C13.1163 8.15123 12.6166 8.65102 12.0001 8.65102C11.3835 8.65102 10.8838 8.15123 10.8838 7.53474C10.8838 6.91824 11.3835 6.41846 12.0001 6.41846C12.6166 6.41846 13.1163 6.91824 13.1163 7.53474Z" fill="#131313"/>
             </svg>
-            <div class="rpp-second-section-graph-text">
-              RPP Released
-            </div>
-            <div class="rpp-second-section-graph-percent ms-auto">
-              33%
-            </div>
           </div>
 
-          <div class="col-12 col-md-3 rpp-second-section-graph-3" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="2000">
+          <div class="col-12 col-md-3 rpp-second-section-graph-3" data-aos="flip-up" data-aos-duration="2000" data-aos-delay="1000" data-bs-placement="right" data-bs-custom-class="open-case-popover"  data-bs-toggle="popover" data-bs-title="Open Cases" data-bs-content="Disputes marked as “Open Case” are currently in the process of resolution.">
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="36" viewBox="0 0 32 36" fill="none">
               <path opacity="0.48" d="M26.0234 0.75H6.07189C3.13269 0.75 0.75 3.13269 0.75 6.07189V29.9281C0.75 32.8673 3.13269 35.25 6.07189 35.25H26.0234C28.9626 35.25 31.3453 32.8673 31.3453 29.9281V6.07189C31.3453 3.13269 28.9626 0.75 26.0234 0.75Z" fill="white"/>
               <path d="M12.2942 24.5105C12.267 24.906 12.0907 25.2764 11.8009 25.5469C11.5111 25.8174 11.1295 25.9679 10.733 25.9679C10.3366 25.9679 9.95497 25.8174 9.66519 25.5469C9.37541 25.2764 9.19911 24.906 9.1719 24.5105V18.48C9.15718 18.2659 9.18662 18.0512 9.25841 17.849C9.33019 17.6468 9.44279 17.4615 9.5892 17.3047C9.7356 17.1479 9.91269 17.0229 10.1095 16.9374C10.3062 16.8519 10.5185 16.8077 10.733 16.8077C10.9476 16.8077 11.1598 16.8519 11.3566 16.9374C11.5534 17.0229 11.7305 17.1479 11.8769 17.3047C12.0233 17.4615 12.1359 17.6468 12.2077 17.849C12.2795 18.0512 12.3089 18.2659 12.2942 18.48V24.5105ZM17.6087 24.5105C17.6087 24.9235 17.4446 25.3197 17.1525 25.6117C16.8604 25.9038 16.4643 26.0679 16.0512 26.0679C15.6375 26.0679 15.2406 25.9041 14.9473 25.6122C14.6541 25.3203 14.4884 24.9242 14.4864 24.5105V9.3346C14.4884 8.92018 14.6538 8.52329 14.9469 8.23025C15.2399 7.9372 15.6368 7.77172 16.0512 7.76978C16.465 7.77173 16.8611 7.93745 17.153 8.2307C17.4448 8.52395 17.6087 8.92086 17.6087 9.3346V24.5105ZM22.9232 24.5105C22.896 24.906 22.7197 25.2764 22.4299 25.5469C22.1401 25.8174 21.7585 25.9679 21.3621 25.9679C20.9656 25.9679 20.584 25.8174 20.2942 25.5469C20.0044 25.2764 19.8281 24.906 19.8009 24.5105V14.9148C19.8029 14.5011 19.9686 14.105 20.2618 13.8131C20.5551 13.5212 20.952 13.3574 21.3657 13.3574C21.7804 13.3594 22.1778 13.5237 22.4729 13.815C22.6166 13.9597 22.7304 14.1313 22.8076 14.3201C22.8849 14.5088 22.9242 14.7109 22.9232 14.9148V24.5105Z" fill="#B17B0D"/>
@@ -152,8 +142,31 @@
             <div class="rpp-second-section-graph-percent ms-auto">
               24%
             </div>
+            <svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
+              <path d="M12.8365 10.8836C12.8365 10.4212 12.4617 10.0464 11.9993 10.0464C11.537 10.0464 11.1621 10.4212 11.1621 10.8836V17.5813C11.1621 18.0436 11.537 18.4185 11.9993 18.4185C12.4617 18.4185 12.8365 18.0436 12.8365 17.5813V10.8836Z" fill="#131313"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M12 0C5.37258 0 0 5.37258 0 12C0 18.6275 5.37258 24 12 24C18.6275 24 24 18.6275 24 12C24 5.37258 18.6275 0 12 0ZM1.67442 12C1.67442 6.29734 6.29734 1.67442 12 1.67442C17.7026 1.67442 22.3256 6.29734 22.3256 12C22.3256 17.7026 17.7026 22.3256 12 22.3256C6.29734 22.3256 1.67442 17.7026 1.67442 12Z" fill="#131313"/>
+              <path d="M13.1163 7.53474C13.1163 8.15123 12.6166 8.65102 12.0001 8.65102C11.3835 8.65102 10.8838 8.15123 10.8838 7.53474C10.8838 6.91824 11.3835 6.41846 12.0001 6.41846C12.6166 6.41846 13.1163 6.91824 13.1163 7.53474Z" fill="#131313"/>
+            </svg>
           </div>
-          
+
+
+          <div class="col-12 col-md-3 rpp-second-section-graph-2" data-aos="flip-up" data-aos-duration="2000" data-aos-delay="2000" data-bs-placement="right" data-bs-custom-class="Released-popover"  data-bs-toggle="popover" data-bs-title="Released" data-bs-content="Disputes labelled as “Released” have been closed and the claim funds have been covered by the involved broker or service provider.">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="36" viewBox="0 0 32 36" fill="none">
+              <path opacity="0.48" d="M26.0234 0.75H6.07189C3.13269 0.75 0.75 3.13269 0.75 6.07189V29.9281C0.75 32.8673 3.13269 35.25 6.07189 35.25H26.0234C28.9626 35.25 31.3453 32.8673 31.3453 29.9281V6.07189C31.3453 3.13269 28.9626 0.75 26.0234 0.75Z" fill="white"/>
+              <path d="M12.2942 24.5105C12.267 24.906 12.0907 25.2764 11.8009 25.5469C11.5111 25.8174 11.1295 25.9679 10.733 25.9679C10.3366 25.9679 9.95497 25.8174 9.66519 25.5469C9.37541 25.2764 9.19911 24.906 9.1719 24.5105V18.48C9.15718 18.2659 9.18662 18.0512 9.25841 17.849C9.33019 17.6468 9.44279 17.4615 9.5892 17.3047C9.7356 17.1479 9.91269 17.0229 10.1095 16.9374C10.3062 16.8519 10.5185 16.8077 10.733 16.8077C10.9476 16.8077 11.1598 16.8519 11.3566 16.9374C11.5534 17.0229 11.7305 17.1479 11.8769 17.3047C12.0233 17.4615 12.1359 17.6468 12.2077 17.849C12.2795 18.0512 12.3089 18.2659 12.2942 18.48V24.5105ZM17.6087 24.5105C17.6087 24.9235 17.4446 25.3197 17.1525 25.6117C16.8604 25.9038 16.4643 26.0679 16.0512 26.0679C15.6375 26.0679 15.2406 25.9041 14.9473 25.6122C14.6541 25.3203 14.4884 24.9242 14.4864 24.5105V9.3346C14.4884 8.92018 14.6538 8.52329 14.9469 8.23025C15.2399 7.9372 15.6368 7.77172 16.0512 7.76978C16.465 7.77173 16.8611 7.93745 17.153 8.2307C17.4448 8.52395 17.6087 8.92086 17.6087 9.3346V24.5105ZM22.9232 24.5105C22.896 24.906 22.7197 25.2764 22.4299 25.5469C22.1401 25.8174 21.7585 25.9679 21.3621 25.9679C20.9656 25.9679 20.584 25.8174 20.2942 25.5469C20.0044 25.2764 19.8281 24.906 19.8009 24.5105V14.9148C19.8029 14.5011 19.9686 14.105 20.2618 13.8131C20.5551 13.5212 20.952 13.3574 21.3657 13.3574C21.7804 13.3594 22.1778 13.5237 22.4729 13.815C22.6166 13.9597 22.7304 14.1313 22.8076 14.3201C22.8849 14.5088 22.9242 14.7109 22.9232 14.9148V24.5105Z" fill="#569E4C"/>
+            </svg>
+            <div class="rpp-second-section-graph-text">
+              RPP Released
+            </div>
+            <div class="rpp-second-section-graph-percent ms-auto">
+              33%
+            </div>
+            <svg class="ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
+              <path d="M12.8365 10.8836C12.8365 10.4212 12.4617 10.0464 11.9993 10.0464C11.537 10.0464 11.1621 10.4212 11.1621 10.8836V17.5813C11.1621 18.0436 11.537 18.4185 11.9993 18.4185C12.4617 18.4185 12.8365 18.0436 12.8365 17.5813V10.8836Z" fill="#131313"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M12 0C5.37258 0 0 5.37258 0 12C0 18.6275 5.37258 24 12 24C18.6275 24 24 18.6275 24 12C24 5.37258 18.6275 0 12 0ZM1.67442 12C1.67442 6.29734 6.29734 1.67442 12 1.67442C17.7026 1.67442 22.3256 6.29734 22.3256 12C22.3256 17.7026 17.7026 22.3256 12 22.3256C6.29734 22.3256 1.67442 17.7026 1.67442 12Z" fill="#131313"/>
+              <path d="M13.1163 7.53474C13.1163 8.15123 12.6166 8.65102 12.0001 8.65102C11.3835 8.65102 10.8838 8.15123 10.8838 7.53474C10.8838 6.91824 11.3835 6.41846 12.0001 6.41846C12.6166 6.41846 13.1163 6.91824 13.1163 7.53474Z" fill="#131313"/>
+            </svg>
+          </div>
         </div>
       </div>
     </div>
@@ -171,7 +184,7 @@
               Recover as much as 100% of your losses! The Dispute Resolution Support (DRS) is an online trader protection initiative of TRU for all its members that gives them safety against unfair and unethical activities of brokers or service providers. 
             </div>
             <div>
-                <a class="Be-a-TRU-btn">Be a TRU member</a>
+                <a class="Be-a-TRU-btn" href="/register">Be a TRU member</a>
             </div>
           </div>
         </div>
@@ -452,7 +465,7 @@
                 Do you have a dispute due to possible unscrupulous activities of
                 your broker or service provider?
               </div>
-              <a class="Be-a-TRU-btn">File an Dispute Now</a>
+              <a class="Be-a-TRU-btn" href="#about-nineth-section">File an Dispute Now</a>
               <div class="rpp-fifth-section-first-content-sub-description">
                 *All posted disputes were publicized with the consent of the
                 members who filed them. TRU updates these posts as soon as
@@ -804,7 +817,7 @@
                 your broker/service provider?
               </div>
               <div class="rpp-landing-section-Btn-div">
-                <a class="Be-a-TRU-btn">Be a TRU member</a>
+                <a class="Be-a-TRU-btn" href="/registrer">Be a TRU member</a>
               </div>
               <div class="rpp-fifth-section-first-content-sub-description">
                 *All posted claims were publicized with the consent of the
@@ -816,6 +829,54 @@
     </div>
   </section>
 
+  <style>
+      .faq-hidden {
+        display: none;
+      }
+      
+      .ct-sixth-section-show-more {
+        cursor: pointer;
+      }
+    </style>
+
+<section id="about-nineth-section" class="about-nineth-section">
+        <div class="about-nineth-section-container row mx-auto" data-aos="zoom-in-up" data-aos-duration="2000">
+            <div class="about-nineth-section-first-div row">
+                <div class="about-nineth-section-first-content col-12 d-flex">
+                    <div class="my-auto w-100">
+                        <div class="about-nineth-section-first-content-title text-center">Contact us</div>
+                        <form id="contactForm" class="row mx-auto">
+                            <div class="col-6 mb-3">
+                                <label for="First_name" class="form-label">First name</label>
+                                <input type="text" class="form-control contact-us" id="First_name" placeholder="First Name">
+                            </div>
+                            <div class="col-6 mb-3">
+                                <label for="Last_name" class="form-label">Last name</label>
+                                <input type="text" class="form-control contact-us" id="Last_name" placeholder="Last Name">
+                            </div>
+                            <div class="col-6 mb-3">
+                                <label for="Email_address" class="form-label">Email</label>
+                                <input type="email" class="form-control contact-us" id="Email_address" aria-describedby="emailHelp" placeholder="john_doe@mail.com">
+                            </div>
+                            <div class="col-6 mb-3">
+                                <label for="phone" class="form-label">Phone</label>
+                                <input type="tel" class="form-control contact-us" id="phone">
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label for="message" class="form-label">Your message</label>
+                                <textarea class="form-control contact-us" placeholder="Leave a Message here" id="message"></textarea>
+                            </div>
+                        
+                            <div class="about-section-Btn-div col-12 d-flex">
+                                <a class="Be-a-TRU-btn mx-auto" onclick="submitForm()">Send it now</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
   <section id="ct-sixth-section" class="ct-sixth-section">
         <div class="ct-sixth-section-title text-center mx-auto" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">You may also be asking…</div>
         <div class="ct-section-container row mx-auto">
@@ -823,10 +884,10 @@
                 <div class="accordion accordion-flush mx-auto" id="accordionFlushExample">
                     <div class="accordion-item" data-aos="fade-right" data-aos-duration="1000">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-1" aria-expanded="false" aria-controls="flush-1">
-                            <img src="<?php echo e(asset ('assets/images/RPP-images/sixth-section/Vector.png')); ?>" alt=""/>
+                            <img src="https://img.icons8.com/fluency/48/000000/gender-neutral-user--v1.png" alt=""/>
                             <div class="faq-send">
                                 <div class="faq-name">
-                                    <span>Zara Al-Farsi</span>, United States
+                                    <span>Zara Al-Farsi</span>, Windhoek, Namibia
                                 </div>
                                 <div class="faq-comment">
                                   Where do I send my disputes? Do I have to email them to you?
@@ -859,7 +920,7 @@
 
                     <div class="accordion-item" data-aos="fade-right" data-aos-duration="1000">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-2" aria-expanded="false" aria-controls="flush-1">
-                            <img src="<?php echo e(asset ('assets/images/RPP-images/sixth-section/Vector.png')); ?>" alt=""/>
+                            <img src="https://img.icons8.com/fluency/48/000000/gender-neutral-user--v1.png" alt=""/>
                             <div class="faq-send">
                                 <div class="faq-name">
                                     <span>Jabulani Khumalo</span>, Cape Town, South Africa
@@ -895,7 +956,7 @@
 
                     <div class="accordion-item" data-aos="fade-right" data-aos-duration="1000">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-3" aria-expanded="false" aria-controls="flush-1">
-                            <img src="<?php echo e(asset ('assets/images/RPP-images/sixth-section/Vector.png')); ?>" alt=""/>
+                            <img src="https://img.icons8.com/fluency/48/000000/gender-neutral-user--v1.png" alt=""/>
                             <div class="faq-send">
                                 <div class="faq-name">
                                     <span>Rajiv Kapoor</span>, Singapore, Singapore
@@ -931,7 +992,7 @@
 
                     <div class="accordion-item faq-hidden" data-aos="fade-right" data-aos-duration="1000">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-4" aria-expanded="false" aria-controls="flush-1">
-                            <img src="<?php echo e(asset ('assets/images/RPP-images/sixth-section/Vector.png')); ?>" alt=""/>
+                            <img src="https://img.icons8.com/fluency/48/000000/gender-neutral-user--v1.png" alt=""/>
                             <div class="faq-send">
                                 <div class="faq-name">
                                     <span>Santiago Vargas</span>, Santiago Vargas 
@@ -967,7 +1028,7 @@
 
                     <div class="accordion-item faq-hidden" data-aos="fade-right" data-aos-duration="1000">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-5" aria-expanded="false" aria-controls="flush-1">
-                            <img src="<?php echo e(asset ('assets/images/RPP-images/sixth-section/Vector.png')); ?>" alt=""/>
+                            <img src="https://img.icons8.com/fluency/48/000000/gender-neutral-user--v1.png" alt=""/>
                             <div class="faq-send">
                                 <div class="faq-name">
                                     <span>Edith Santiago</span>, Taguig, Philippines 
@@ -1003,7 +1064,7 @@
 
                     <div class="accordion-item faq-hidden" data-aos="fade-right" data-aos-duration="1000">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-6" aria-expanded="false" aria-controls="flush-1">
-                            <img src="<?php echo e(asset ('assets/images/RPP-images/sixth-section/Vector.png')); ?>" alt=""/>
+                            <img src="https://img.icons8.com/fluency/48/000000/gender-neutral-user--v1.png" alt=""/>
                             <div class="faq-send">
                                 <div class="faq-name">
                                     <span>Leila Souza</span>, Johannesburg, South Africa 
@@ -1039,7 +1100,7 @@
 
                     <div class="accordion-item faq-hidden" data-aos="fade-right" data-aos-duration="1000">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-7" aria-expanded="false" aria-controls="flush-1">
-                            <img src="<?php echo e(asset ('assets/images/RPP-images/sixth-section/Vector.png')); ?>" alt=""/>
+                            <img src="https://img.icons8.com/fluency/48/000000/gender-neutral-user--v1.png" alt=""/>
                             <div class="faq-send">
                                 <div class="faq-name">
                                     <span>Tariro Moyo</span>, Harare, Zimbabwe 
@@ -1078,16 +1139,6 @@
         </div>
     </section>
 
-    <style>
-      .faq-hidden {
-        display: none;
-      }
-      
-      .ct-sixth-section-show-more {
-        cursor: pointer;
-      }
-    </style>
-
     <section id="rpp-seventh-section" class="rpp-seventh-section">
       <div class="rpp-section-container row mx-auto" data-aos="zoom-in-up" data-aos-duration="2000">
         <div class="rpp-section-first-div row">
@@ -1101,7 +1152,7 @@
                 account.
               </div>
               <div class="rpp-section-Btn-div">
-                  <a class="Be-a-TRU-btn">Be a TRU member</a>
+                  <a class="Be-a-TRU-btn" href="/registrer">Be a TRU member</a>
               </div>
               
             </div>
@@ -1126,27 +1177,89 @@
 
 
 
-  <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script> -->
+  <script src="<?php echo e(asset ('assets/js/bootstrap.js')); ?>"></script>
+
+  
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
   <script src="<?php echo e(asset ('assets/js/Rpp-script.js')); ?>"></script>
 
-  <script>
-    function toggleFAQ() {
-      var hiddenElements = document.querySelectorAll('.faq-hidden');
-      var showMoreButton = document.querySelector('.ct-sixth-section-show-more');
+  
+<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@20.0.5/build/js/intlTelInput.min.js"></script>
 
-      hiddenElements.forEach(function(element) {
-          if (element.style.display === 'none') {
-              element.style.display = 'block';
-              showMoreButton.textContent = 'Show less';
-          } else {
-              element.style.display = 'none';
-              showMoreButton.textContent = 'Show more';
-          }
-      });
+<script>
+  const phoneInput = document.querySelector("#phone");
+  window.intlTelInput(phoneInput, {
+    utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@20.0.5/build/js/utils.js",
+    initialCountry: "UA", // Set the initial country to Philippines
+    formatAsYouType: true
+  });
+
+  phoneInput.addEventListener("input", function(event) {
+    // Remove any non-numeric characters
+    phoneInput.value = phoneInput.value.replace(/\D/g, "");
+  });
+</script>
+
+
+<script>
+    function submitForm() {
+        var firstName = document.getElementById('First_name').value;
+        var lastName = document.getElementById('Last_name').value;
+        var email = document.getElementById('Email_address').value;
+        var phone = document.getElementById('phone').value;
+        var message = document.getElementById('message').value;
+
+
+        fetch('/submit-form', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-CSRF-TOKEN': '<?php echo e(csrf_token()); ?>'
+                },
+                body: JSON.stringify({
+                    first_name: firstName,
+                    last_name: lastName,
+                    email: email,
+                    phone: phone,
+                    message: message
+                })
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                console.log(data);
+
+                // if (data == 0) {
+                //     // Hide line-1 and email-div
+                //     document.querySelector('.line-1').style.display = 'none';
+                //     document.querySelector('.email-div').style.display = 'none';
+                    
+                //     // Show all elements with class line-2
+                //     var line2Elements = document.querySelectorAll('.line-2');
+                //     line2Elements.forEach(element => {
+                //         element.style.display = 'block';
+                //     });
+                // } else {
+                //     // Re-enable the button if data is not 0
+                //     notifyButton.disabled = false;
+                // }
+            })
+            .catch(error => {
+                console.error('There was a problem with the fetch operation:', error);
+                alert('Failed to send this Request, Kindly try it again later.');
+                // Re-enable the button if an error occurs
+                notifyButton.disabled = false;
+            });
     }
-  </script>
+</script>
 
 
 <?php $__env->stopSection(); ?>

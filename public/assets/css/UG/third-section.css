@@ -14,6 +14,7 @@
     background-color: #E6E7E7;  
     border-radius: 48px;
     padding: 92px !important;
+    margin-top: -75px;
     
 }
 
@@ -47,24 +48,44 @@
     font-style: normal;
     font-weight: 600;
     line-height: 56px; /* 233.333% */
-    margin-left: 8px;
+    /* margin-left: 8px; */
 
+    color: #fff;
+    /* min-width: 100%; */
 }
 
 .ug-third-section-third-content-description-member {
-    color: #1681C2;
+    /* color: #1681C2; */
+    
+    background: #1681C2;
+    border-radius: 25px;
+    width: 90%;
 }
 
 .ug-third-section-third-content-description-affiliates {
-    color: #569E4C;
+    /* color: #569E4C; */
+    color: #fff;
+    background: #569E4C;
+    border-radius: 25px;
+
+    width: 90%;
 }
 
 .ug-third-section-third-content-description-others {
-    color: #F27927;
+    /* color: #F27927; */
+    color: #fff;
+    background: #F27927;
+    border-radius: 25px;
+    width: 90%;
 }
 
 .ug-third-section-third-content-description-advertising {
-    color: #B17B0D;
+    /* color: #B17B0D; */
+    color: #fff;
+    background: #B17B0D;
+    border-radius: 25px;
+    width: 90%;
+
 }
 
 

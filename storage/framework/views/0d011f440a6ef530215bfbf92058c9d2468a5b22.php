@@ -44,7 +44,7 @@
 
                 data.forEach(topic => {
                     const option = document.createElement('option');
-                    option.value = topic.id;
+                    option.value = topic.name_topic;
                     option.textContent = topic.name_topic;
                     selectElement.appendChild(option);
                 });
@@ -61,7 +61,7 @@
         if (selectedValue === "0") {
             alert("Kindly select a Topic!");
         } else {
-            window.location.href = `/education/${selectedValue}`;
+            window.location.href = `/tradegeek/${selectedValue}`;
         }
     }
 

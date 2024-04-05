@@ -16,6 +16,13 @@ window.addEventListener("load", function() {
     mainElement.style.display = 'block';
     AOS.init();
 
+
+    AOS.init({
+
+      once: true
+
+    });
+
   }, 3000); // Adjust the delay as needed
 
 
@@ -65,12 +72,14 @@ var sections = document.querySelectorAll('section');
 
 function changeBackgroundColor() {
   var mainElement = document.querySelector('.main');
+  const secondSectionDescriptions = document.querySelectorAll('.second-section-description');
   var scrollPosition = window.scrollY;
 
   sections.forEach(function(section) {
     var sectionTop = section.offsetTop;
     var sectionHeight = section.offsetHeight;
-    var triggerPoint = sectionTop - (sectionHeight * 0.50); // Adjusted trigger point
+    var triggerPoint = sectionTop - (sectionHeight * 0.25); 
+    // var triggerPoint = sectionTop; 
   
     if (scrollPosition >= triggerPoint && scrollPosition < sectionTop + sectionHeight) {
         var sectionId = section.id;
@@ -83,15 +92,24 @@ function changeBackgroundColor() {
             countingStarted = true; // Set the flag to true
           }
           mainElement.style.background = "#131313";
+          secondSectionDescriptions.forEach(function(description) {
+            description.style.color = "#fff"; // Change text color to #131313 for all descriptions
+          });
         break;
         case 'second-section':
           // Start the counter when scroll position is in the second-section
           mainElement.style.background = "#131313";
+          secondSectionDescriptions.forEach(function(description) {
+            description.style.color = "#fff"; // Change text color to #131313 for all descriptions
+          });
         break;
         case 'third-section':
           // Start the counter when scroll position is in the third-section
           // counter();
           mainElement.style.background = "#9AD9FF";
+          secondSectionDescriptions.forEach(function(description) {
+            description.style.color = "#131313"; // Change text color to #131313 for all descriptions
+          });
         break;
         case 'fourth-section':
           // Start the counter when scroll position is in the fourth-section
@@ -170,3 +188,133 @@ function counter() {
 
   })
 }
+
+
+const container = document.querySelector('.eigth-section-scroll-section');
+const Eigth_button = document.querySelector('.eigth-section-fourth-content-button');
+
+document.addEventListener('mousemove', (e) => {
+  let x = e.clientX;
+  let y = e.clientY;
+
+  Eigth_button.style.top = y + "px";
+  Eigth_button.style.left = x + "px";
+});
+
+container.addEventListener('mouseenter', () => {
+  Eigth_button.style.display = "block";
+});
+
+container.addEventListener('mouseleave', () => {
+  Eigth_button.style.display = "none";
+});
+
+const textElements = document.getElementsByClassName("landing-section-random-text");
+const texts = ['undeceivable', 'decisive', 'foolproof', 'smart', 'guarded'];
+let index = 0;
+
+function typeText(element, text, index, charIndex) {
+  if (index >= texts.length) {
+    index = 0;
+  }
+  if (charIndex < text.length) {
+      element.textContent += text.charAt(charIndex);
+      setTimeout(() => {
+        typeText(element, text, index, charIndex + 1);
+      }, 100);
+  } else {
+      setTimeout(() => {
+        eraseText(element, text, index, charIndex);
+      }, 1000);
+  }
+}
+
+function eraseText(element, text, index, charIndex) {
+  if (charIndex >= 0) {
+    element.textContent = text.substring(0, charIndex); 
+    setTimeout(() => {
+      eraseText(element, text, index, charIndex - 1);
+    }, 100);
+  } else {
+    setTimeout(() => {
+      typeNextText(element, index);
+    }, 500);
+  }
+}
+
+function typeNextText(element, index) {
+  element.textContent = '';
+  index = (index + 1) % texts.length;
+  typeText(element, texts[index], index, 0);
+}
+
+typeText(textElements[0], texts[index], index, 0);
+
+function Be_a_Communitrade() {
+  window.location.href = "/communitrade";
+}
+
+function Be_a_TRU() {
+  window.location.href = "/register";
+}
+
+function Go_to_Blog() {
+  window.location.href = "https://blog.tradersunited.org/";
+}
+
+
+var currentImageIndex = 1; // Initial index of the image
+
+// Function to shift to the next image
+function shiftToNextImage() {
+    var nextImageIndex = currentImageIndex % 6 + 1; // Calculate the next image index (1 to 6)
+    var nextImageElement = document.querySelector('.image-' + nextImageIndex); // Select the next image element
+    imageClickHandler(nextImageElement); // Call the imageClickHandler function with the next image element
+    currentImageIndex = nextImageIndex; // Update the current image index
+}
+
+// Function to handle image click
+function imageClickHandler(element) {
+  var profileImage = document.getElementById('profile-image');
+  profileImage.src = element.src;
+
+  // Example of changing other content
+  switch (currentImageIndex) {
+    case 1:
+      document.querySelector('.fifth-section-second-content-username').innerText = "@Bakari Ali";
+      document.querySelector('.fifth-section-second-content-platform').innerText = "Comment in Discussion Board";
+      document.querySelector('.fifth-section-second-content-comments').innerText = "Locked in some solid gains on my GBP/JPY trade today! 📈💰 The market's movements are keeping me on my toes, but that's where the opportunities lie!";
+    break;
+    case 2:
+      document.querySelector('.fifth-section-second-content-username').innerText = "@Prudencio Villanueva";
+      document.querySelector('.fifth-section-second-content-platform').innerText = "Comment in Discussion Board";
+      document.querySelector('.fifth-section-second-content-comments').innerText = "Trading in stocks is fairly new to me, but it’s not that far off from crypto trading so I’m not gonna have to make big adjustments.";
+    break;
+    case 3:
+      document.querySelector('.fifth-section-second-content-username').innerText = "@Maya Utami";
+      document.querySelector('.fifth-section-second-content-platform').innerText = "Comment in Discussion Board";
+      document.querySelector('.fifth-section-second-content-comments').innerText = "I’m trying to diversify my portfolio as suggested by my account manager, so this post is really helpful to me!";
+    break;
+    case 4:
+      document.querySelector('.fifth-section-second-content-username').innerText = "@Cristina Nuñez";
+      document.querySelector('.fifth-section-second-content-platform').innerText = "Comment in Community Forum";
+      document.querySelector('.fifth-section-second-content-comments').innerText = "Added some SOL on my portfolio today. Might as well jump into the crypto craze.";
+    break;
+    case 5:
+      document.querySelector('.fifth-section-second-content-username').innerText = "@Shahid Patel";
+      document.querySelector('.fifth-section-second-content-platform').innerText = "Comment in Community Forum";
+      document.querySelector('.fifth-section-second-content-comments').innerText = "I think you set your SL too tight. Try setting them a few more levels below the current position 😊";
+    break;
+    case 6:
+      document.querySelector('.fifth-section-second-content-username').innerText = "@Ranjeet Kapoor";
+      document.querySelector('.fifth-section-second-content-platform').innerText = "comment in Forex Space";
+      document.querySelector('.fifth-section-second-content-comments').innerText = "Wow, just closed my GBP/USD trade with a killer profit! 💰💹 Loving the volatility today!";
+    break;
+    
+    default:
+    break;
+  }
+}
+
+// Initial call to start the shifting after 3 seconds
+setInterval(shiftToNextImage, 3000);

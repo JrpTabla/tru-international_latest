@@ -133,6 +133,10 @@
     text-decoration-line: underline;
 }
 
+.Be-a-TRU-btn {
+    cursor: pointer;
+}
+
 
 .modal-body {
     padding: 34px !important;

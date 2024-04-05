@@ -4,6 +4,7 @@
 
 
 <link rel="stylesheet" href="<?php echo e(asset ('assets/css/auth/register.css')); ?>">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@20.0.5/build/css/intlTelInput.css">
 
 
 <div class="container-fluid div-content">
@@ -62,7 +63,8 @@
 
                 <div class="input-form my-3">
                     <label for="phone" class="form-label">Phone</label>
-                    <input type="number" class="form-control" id="phone" name="phone" aria-describedby="" required autofocus>
+                    <!-- <input type="number" class="form-control" id="phone" name="phone" aria-describedby="" required autofocus> -->
+                    <input type="tel" class="form-control" id="phone" name="phone" aria-describedby="" required autofocus>
                 </div>
 
                 <div class="terms my-3">
@@ -82,11 +84,39 @@
 </div>
 
 <script src="<?php echo e(asset ('assets/js/country.js')); ?>"></script>
+<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@20.0.5/build/js/intlTelInput.min.js"></script>
 
 <script>
 
+    const phoneInput = document.querySelector("#phone");
+    window.intlTelInput(phoneInput, {
+        utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@20.0.5/build/js/utils.js",
+        initialCountry: "UA", // Set the initial country to Philippines
+        formatAsYouType: true
+    });
+
+    phoneInput.addEventListener("input", function(event) {
+        // Remove any non-numeric characters
+        phoneInput.value = phoneInput.value.replace(/\D/g, "");
+    });
+
     document.getElementById('registrationForm').addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent the default form submission
+        event.preventDefault(); // Prevent the default form submission
+
+        // Get the password input value
+        const passwordInput = document.getElementById('password').value;
+
+        // Password validation regex pattern
+        const passwordPattern = /^(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{6,}$/;
+
+        // Check if password meets the criteria
+        if (!passwordPattern.test(passwordInput)) {
+            // Display error message and apply red border
+            alert('Password must contain at least 6 characters, 1 uppercase letter, 1 number, and 1 symbol (!, $, @, *, etc)');
+            document.getElementById('password').classList.add('error-border'); // Apply CSS class for red border
+            document.getElementById('password').focus(); // Focus on the password input
+            return; // Stop further execution
+        }
 
         // Get the date of birth input value
         const dobInput = document.getElementById('date_of_birth').value;
@@ -122,20 +152,15 @@
         .then(response => response.json())
         .then(data => {
 
-
+            document.getElementById('password').classList.remove('error-border'); // Apply CSS class for red border
             document.getElementById('date_of_birth').classList.remove('error-border'); // Apply CSS class for red border
             document.getElementById('email').classList.remove('error-border'); // Apply CSS class for red border
             document.getElementById('phone').classList.remove('error-border'); // Apply CSS class for red border
 
-            console.log(data);
+            // console.log(data);
             if (data == 0) {
 
-                // Clear the flag-img src
-                document.getElementById('flag-img').src = '';
-                // Clear all form inputs
-                document.getElementById('registrationForm').reset();
-                // Redirect to intended page on successful login
-                alert("Successfully Registered");
+                CircleRegistration();
             } else if(data == 1) {
                 // Handle login failure, e.g., display an error message
                 alert('Registration Failed. Email Address Already Exist.');
@@ -155,6 +180,55 @@
             console.error('Error:', error);
         });
     });
+
+
+    function CircleRegistration() {
+        var emailValue = document.getElementById("email").value;
+        var passwordValue = document.getElementById("password").value;
+        var firstNameValue = document.getElementById("first_name").value;
+        var lastNameValue = document.getElementById("last_name").value;
+
+        // Combine first name and last name with %20 in the middle
+        // var fullNameValue = firstNameValue + lastNameValue;
+
+        fetch('/api/circle_registration', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                email: emailValue,
+                password: passwordValue,
+                first_name: firstNameValue,
+                last_name: lastNameValue
+            })
+        })
+        .then(response => {
+            if (response.ok) {
+                return response.json();
+            }
+            throw new Error('Network response was not ok.');
+        })
+        .then(data => {
+            console.log(data);
+
+            if (data.message == "This user has been invited to the community.") {
+                // Clear the flag-img src
+                document.getElementById('flag-img').src = '';
+                // Clear all form inputs
+                document.getElementById('registrationForm').reset();
+                // Redirect to intended page on successful login
+                alert("Successfully Registered");
+            }
+            // Handle the retrieved data as needed
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    }
+
+
+    
 
 
 </script>

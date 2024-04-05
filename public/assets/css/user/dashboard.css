@@ -1,25 +1,22 @@
 .main {
-    width: 954px;   
+    min-width: 700px;  
+    max-width: 700px;
     max-height: 100vh;
     position: relative;
 }
 
 .Page-header {
-    padding-top: 56px;
-    padding-left: 34px;
-    width: 100%;
-    height: 196px;
-    background-color: #fff;
 
-    box-shadow: 0px 4px 0px 2px rgba(168,168,168,0.25);
-    -webkit-box-shadow: 0px 4px 4px 2px rgba(168,168,168,0.25);
-    -moz-box-shadow: 0px 4px 4px 2px rgba(168,168,168,0.25);
+    width: 100%;
+
+    background-color: #fff;
     display: flex;
     flex-direction: column;
+    border-bottom: 1px solid rgb(239, 243, 244);
 }
 
 .Page-title {
-    
+    padding: 20px 20px;
     color: #414141;
     /* font-family: "Articulat CF"; */
     font-size: 28px;
@@ -30,8 +27,10 @@
 }
 
 .Page-Nav {
-    padding: 11px 54px;
-    height: 71px;
+
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 
@@ -42,19 +41,19 @@
     text-align: center;
     color: #414141;
     /* font-family: "Articulat CF"; */
-    font-size: 20px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 600;
-    line-height: 24px; /* 120% */
+    line-height: 20px; /* 120% */
     letter-spacing: 0.4px;
-    
+    cursor: pointer;
 }
 
 
 .Page-link:hover {
     
-    background: #E7AA2E;
-    color: white;
+    background-color: rgba(15, 20, 25, 0.1);
+    /* color: white; */
 }
 
 .active-page-link {
@@ -62,14 +61,30 @@
     border-bottom: 5px solid #E7AA2E;
 }
 
-.Page-Body {
-    overflow-y: auto;
-    height: 757px;
-}
+
 
 .Page-Membership-body {
-    padding: 125px 48px ;
-    height: 100%;
+    padding: 20px 24px ;
+   /*  height: 100%; */
+   max-height: calc(100vh - 109.8px);
+    overflow-y: scroll;
+}
+
+.Page-Membership-email-div {
+    border-radius: 15px;
+    background: #FEC;
+    width:100%;
+    padding:10px 10px;
+    margin-bottom: 20px;  
+    display: none; 
+}
+
+.Page-Membership-email-div a {
+    text-decoration: underline !important;
+}
+
+.show-email-div {
+    display: flex !important;
 }
 
 .Page-Membership-body-img-container {
@@ -203,8 +218,8 @@
 }
 
 .user-card-content img {
-    width: 86px;
-    height: 86px;
+    width: 60px;
+    height: 60px;
     flex-shrink: 0;
 }
 
